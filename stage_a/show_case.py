@@ -46,7 +46,16 @@ def main(iid, mmsi):
     g = t.groupby("hour").agg(agg)
     g.columns = ["_".join(x) for x in g.columns]
     print("TRACK by hour (UTC): mean lat/lon, SOG min/max, n positions" + (", min km to ref" if "km" in t else ""))
-    print(g.round(3).to_string())
+    keys = set()
+    for col in ("near_report_time", "closest_time"):
+        if row[col]:
+            k = pd.Timestamp(row[col]).floor("h")
+            keys |= {k + pd.Timedelta(hours=h) for h in range(-4, 5)}
+    if r.time_utc:
+        k = pd.Timestamp(r.time_utc).floor("h")
+        keys |= {k + pd.Timedelta(hours=h) for h in range(-4, 5)}
+    show = [h for n, h in enumerate(g.index) if h in keys or n % 4 == 0 or n == len(g) - 1]
+    print(g.loc[show].round(3).to_string())
     print("first", t.time.min(), "last", t.time.max(), "status", t.status.value_counts().head(3).to_dict())
 
 
