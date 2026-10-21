@@ -880,7 +880,14 @@
   "2020-08-17",
   "2020-08-18",
   "2020-08-19",
-  "2020-08-20"
+  "2020-08-20",
+  "2020-08-21",
+  "2020-08-25",
+  "2020-08-26",
+  "2020-08-27",
+  "2020-08-28",
+  "2020-08-30",
+  "2020-08-31"
  ],
  "days_failed": {},
  "names_scanned": {
@@ -3883,6 +3890,37 @@
   "2020-08-20": [
    "ISLANDDUCHESS",
    "PHUONGMAI"
+  ],
+  "2020-08-21": [
+   "PHUONGMAI"
+  ],
+  "2020-08-25": [
+   "CHILLFACTOR"
+  ],
+  "2020-08-26": [
+   "CHILLFACTOR",
+   "CLEAROCEANMARIA",
+   "GINNYO",
+   "GSFORWARD",
+   "LADYASHLEY"
+  ],
+  "2020-08-27": [
+   "ALGOMABUFFALO",
+   "CLEAROCEANMARIA",
+   "GINNYO",
+   "GSFORWARD",
+   "LADYASHLEY"
+  ],
+  "2020-08-28": [
+   "ALGOMABUFFALO"
+  ],
+  "2020-08-30": [
+   "OCEANLADY",
+   "SAAMI"
+  ],
+  "2020-08-31": [
+   "OCEANLADY",
+   "SAAMI"
   ]
  }
 }
