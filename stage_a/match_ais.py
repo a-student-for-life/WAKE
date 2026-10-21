@@ -1,10 +1,11 @@
 """Experiment 2: AIS matching (STAGE_A_SPEC.md).
 
 usage:
-  python3 -I stage_a/match_ais.py scan [--max-days N] [--max-minutes M]
+  python3 -I stage_a/match_ais.py scan [--max-days N] [--max-minutes M] [--years 2015,2017]
       download the needed AIS days one at a time (next day prefetched), keep rows whose
       normalised VesselName matches a needed name, write data/ais_hits/<day>.csv.gz,
-      record the day in data/stage_a_state.json, delete the raw file.
+      record the day and the names searched in data/stage_a_state.json, delete the raw
+      file. A day is scanned again only for names added to it later.
   python3 -I stage_a/match_ais.py candidates
       for every incident whose two days are scanned, write tracks to data/tracks/ and
       one row per (incident, MMSI) to data/candidates.csv; data/match_status.csv lists
@@ -51,12 +52,15 @@ def raw_path(d):
 
 def load_state():
     if os.path.exists(STATE):
-        return json.load(open(STATE))
-    return {"days_done": [], "days_failed": {}}
+        st = json.load(open(STATE))
+        st.setdefault("names_scanned", {})
+        return st
+    return {"days_done": [], "days_failed": {}, "names_scanned": {}}
 
 
 def save_state(st):
     st["days_done"] = sorted(set(st["days_done"]))
+    st["names_scanned"] = {k: sorted(v) for k, v in sorted(st["names_scanned"].items())}
     json.dump(st, open(STATE, "w"), indent=1)
 
 
@@ -121,7 +125,11 @@ def scan_day(d, names):
     out = out.reindex(columns=COLS)
     out["time"] = out["time"].str.replace("T", " ")
     os.makedirs(HITS, exist_ok=True)
-    out.to_csv(os.path.join(HITS, f"{d}.csv.gz"), index=False, compression="gzip")
+    f = os.path.join(HITS, f"{d}.csv.gz")
+    if os.path.exists(f):  # re-scan for names added later: merge with the earlier hits
+        old = pd.read_csv(f, dtype=str, keep_default_na=False)
+        out = pd.concat([old, out.fillna("")]).drop_duplicates()
+    out.to_csv(f, index=False, compression="gzip")
     return nrows, len(out), out.mmsi.nunique()
 
 
@@ -133,14 +141,19 @@ def git_commit(msg):
         subprocess.run(["git", "push", "-q", "origin", "main"], check=False)
 
 
-def scan(max_days, max_minutes):
+def scan(max_days, max_minutes, years=None):
     t0 = time.time()
     inc = incidents()
     need = needed_by_day(inc)
     st = load_state()
     done = set(st["days_done"])
-    todo = [d for d in sorted(need) if str(d) not in done]
-    print(f"needed days {len(need)}, done {len(done & set(map(str, need)))}, todo {len(todo)}", flush=True)
+
+    def missing(d):
+        return need[d] - set(st["names_scanned"].get(str(d), []))
+
+    todo = [d for d in sorted(need) if missing(d) and (years is None or d.year in years)]
+    print(f"needed days {len(need)}, fully scanned {sum(1 for d in need if not missing(d))}, todo {len(todo)}",
+          flush=True)
     todo = todo[:max_days]
     procs = {}
     if todo:
@@ -157,7 +170,8 @@ def scan(max_days, max_minutes):
             save_state(st)
             continue
         try:
-            n, k, nm = scan_day(d, need[d])
+            names = missing(d)
+            n, k, nm = scan_day(d, names)
         except Exception as e:  # corrupt download: drop it, retry another session
             st["days_failed"][str(d)] = st["days_failed"].get(str(d), 0) + 1
             print(d, "read failed", repr(e)[:200], flush=True)
@@ -166,10 +180,11 @@ def scan(max_days, max_minutes):
             continue
         os.remove(raw_path(d))
         st["days_done"].append(str(d))
+        st["names_scanned"][str(d)] = set(st["names_scanned"].get(str(d), [])) | names
         st["days_failed"].pop(str(d), None)
         save_state(st)
         since_commit += 1
-        print(f"{d} rows {n} kept {k} mmsi {nm} names {len(need[d])} [{(time.time() - t0) / 60:.1f} min]", flush=True)
+        print(f"{d} rows {n} kept {k} mmsi {nm} names {len(names)} [{(time.time() - t0) / 60:.1f} min]", flush=True)
         if since_commit >= 10:
             git_commit(f"Stage A exp. 2: AIS scan, {len(st['days_done'])} days done")
             since_commit = 0
@@ -208,7 +223,7 @@ def mode(series):
 def candidates():
     inc = incidents()
     st = load_state()
-    done = set(st["days_done"])
+    scanned = st["names_scanned"]
     os.makedirs(TRACKS, exist_ok=True)
     hits_cache = {}
 
@@ -224,7 +239,7 @@ def candidates():
     for _, r in inc.iterrows():
         days = [r.day0 - timedelta(days=1), r.day0]
         days = [d for d in days if date(2015, 1, 1) <= d <= date(2025, 12, 31)]
-        scanned = all(str(d) in done for d in days)
+        scanned = all(r.name_norm in scanned.get(str(d), []) for d in days)
         if not scanned:
             status.append(dict(incident_id=r.incident_id, scanned=False, n_candidates=""))
             continue
@@ -291,7 +306,8 @@ if __name__ == "__main__":
     if a and a[0] == "scan":
         md = int(a[a.index("--max-days") + 1]) if "--max-days" in a else 10 ** 6
         mm = float(a[a.index("--max-minutes") + 1]) if "--max-minutes" in a else 150
-        scan(md, mm)
+        yrs = {int(y) for y in a[a.index("--years") + 1].split(",")} if "--years" in a else None
+        scan(md, mm, yrs)
     elif a and a[0] == "candidates":
         candidates()
     else:
