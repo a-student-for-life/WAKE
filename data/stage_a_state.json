@@ -110,7 +110,17 @@
   "2015-08-13",
   "2015-08-18",
   "2015-08-19",
-  "2015-08-27"
+  "2015-08-27",
+  "2015-08-28",
+  "2015-08-30",
+  "2015-08-31",
+  "2015-09-01",
+  "2015-09-02",
+  "2015-09-03",
+  "2015-09-04",
+  "2015-09-05",
+  "2015-09-06",
+  "2015-09-08"
  ],
  "days_failed": {},
  "names_scanned": {
@@ -502,6 +512,48 @@
   ],
   "2015-08-27": [
    "ELJEFFE"
+  ],
+  "2015-08-28": [
+   "ELJEFFE"
+  ],
+  "2015-08-30": [
+   "CAPTAINRICHIERICH",
+   "ILLINOIS",
+   "RICHIERICH"
+  ],
+  "2015-08-31": [
+   "CAPTAINRICHIERICH",
+   "ILLINOIS",
+   "IRONEAGLE",
+   "RICHIERICH"
+  ],
+  "2015-09-01": [
+   "IRONEAGLE",
+   "PACIFICVENTURE"
+  ],
+  "2015-09-02": [
+   "DEWEYR",
+   "PACIFICVENTURE",
+   "PBSHAW"
+  ],
+  "2015-09-03": [
+   "BARNACLEBILL",
+   "DEWEYR",
+   "PBSHAW",
+   "SIERRAALLENE"
+  ],
+  "2015-09-04": [
+   "BARNACLEBILL",
+   "SIERRAALLENE"
+  ],
+  "2015-09-05": [
+   "STARFIRE"
+  ],
+  "2015-09-06": [
+   "STARFIRE"
+  ],
+  "2015-09-08": [
+   "PRAIRIELAND"
   ]
  }
 }
