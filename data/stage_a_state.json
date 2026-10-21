@@ -90,7 +90,17 @@
   "2015-07-09",
   "2015-07-10",
   "2015-07-13",
-  "2015-07-14"
+  "2015-07-14",
+  "2015-07-15",
+  "2015-07-16",
+  "2015-07-17",
+  "2015-07-19",
+  "2015-07-20",
+  "2015-07-21",
+  "2015-07-25",
+  "2015-07-26",
+  "2015-08-01",
+  "2015-08-02"
  ],
  "days_failed": {},
  "names_scanned": {
@@ -403,6 +413,44 @@
    "COPPERSTAR",
    "ELISABETHF",
    "ELIZABETHF"
+  ],
+  "2015-07-15": [
+   "MRSBAYE",
+   "NORTHSTAR"
+  ],
+  "2015-07-16": [
+   "MRSBAYE",
+   "NORTHSTAR",
+   "REVELATION"
+  ],
+  "2015-07-17": [
+   "REVELATION"
+  ],
+  "2015-07-19": [
+   "SILVERLINING"
+  ],
+  "2015-07-20": [
+   "ELIZABETHTAYLOR",
+   "FLYINGFISH",
+   "JAMIEK",
+   "SILVERLINING"
+  ],
+  "2015-07-21": [
+   "ELIZABETHTAYLOR",
+   "FLYINGFISH",
+   "JAMIEK"
+  ],
+  "2015-07-25": [
+   "BILLG"
+  ],
+  "2015-07-26": [
+   "BILLG"
+  ],
+  "2015-08-01": [
+   "ICELANDER"
+  ],
+  "2015-08-02": [
+   "ICELANDER"
   ]
  }
 }
