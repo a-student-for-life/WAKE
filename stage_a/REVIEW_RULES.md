@@ -20,6 +20,10 @@ The question for each case: **is this MMSI the vessel named in the incident repo
    tanker 80–89; cargo/freight/container/bulk 70–79; passenger/ferry/cruise 60–69;
    offshore supply 90–99 or 52/0. A clear contradiction (report fishing vessel,
    AIS cargo ship; report tanker, AIS pleasure craft 37) counts against.
+   Marine Cadastre files before 2018 often carry the older 1001–1025 codes. Only
+   the clear ones are used: 1001 commercial fishing, 1004 freight ship, 1019
+   recreational. 1025 appears on tugs and fishing vessels alike and is treated as
+   unknown (neutral); other 10xx codes are treated as weak evidence only.
 3. **Size.** AIS length within about 15% of the reported length (feet converted to
    metres). Missing length on either side is neutral. A difference over 30% counts
    against; 15–30% is weak evidence against.
