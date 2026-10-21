@@ -249,7 +249,7 @@ def mode(series):
 def candidates():
     inc = incidents()
     st = load_state()
-    scanned = st["names_scanned"]
+    names_scanned = st["names_scanned"]
     os.makedirs(TRACKS, exist_ok=True)
     hits_cache = {}
 
@@ -265,14 +265,14 @@ def candidates():
     for _, r in inc.iterrows():
         days = [r.day0 - timedelta(days=1), r.day0]
         days = [d for d in days if date(2015, 1, 1) <= d <= date(2025, 12, 31)]
-        scanned = all(r.name_norm in scanned.get(str(d), []) for d in days)
+        scanned = all(r.name_norm in names_scanned.get(str(d), []) for d in days)
         if not scanned:
             status.append(dict(incident_id=r.incident_id, scanned=False, n_candidates=""))
             continue
         h = pd.concat([hits(d) for d in days], ignore_index=True)
         nn = r.name_norm
         exact = h[h.nn == nn]
-        loose = h[h.nn.map(lambda a: loose_match(nn, a))]
+        loose = h[h.nn.map(lambda a: loose_match(nn, a)).astype(bool)]
         lat0, lon0 = num(r.ref_lat), num(r.ref_lon)
         t_rep = pd.to_datetime(r.time_utc, errors="coerce") if r.time_utc else pd.NaT
         per = []
