@@ -1553,7 +1553,17 @@
   "2024-12-07",
   "2024-12-08",
   "2024-12-12",
-  "2024-12-13"
+  "2024-12-13",
+  "2024-12-17",
+  "2024-12-18",
+  "2024-12-19",
+  "2024-12-30",
+  "2024-12-31",
+  "2025-01-02",
+  "2025-01-03",
+  "2025-01-04",
+  "2025-01-07",
+  "2025-01-08"
  ],
  "days_failed": {},
  "names_scanned": {
@@ -6844,6 +6854,44 @@
   ],
   "2024-12-13": [
    "NETEFFECT"
+  ],
+  "2024-12-17": [
+   "DALMA",
+   "DALMAMARINEGAS"
+  ],
+  "2024-12-18": [
+   "DALMA",
+   "DALMAMARINEGAS",
+   "GALILEAN"
+  ],
+  "2024-12-19": [
+   "GALILEAN"
+  ],
+  "2024-12-30": [
+   "AMOOREA",
+   "PATRICKJSTUDDERT",
+   "SWEETWILLIAMIII"
+  ],
+  "2024-12-31": [
+   "AMOOREA",
+   "PATRICKJSTUDDERT",
+   "SWEETWILLIAMIII"
+  ],
+  "2025-01-02": [
+   "GUARDIAN"
+  ],
+  "2025-01-03": [
+   "GREENATTITUDE",
+   "GUARDIAN"
+  ],
+  "2025-01-04": [
+   "GREENATTITUDE"
+  ],
+  "2025-01-07": [
+   "AMERICANPHOENIX"
+  ],
+  "2025-01-08": [
+   "AMERICANPHOENIX"
   ]
  }
 }
