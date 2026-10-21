@@ -980,7 +980,17 @@
   "2021-02-13",
   "2021-02-17",
   "2021-02-18",
-  "2021-02-20"
+  "2021-02-20",
+  "2021-02-21",
+  "2021-02-24",
+  "2021-02-25",
+  "2021-02-26",
+  "2021-02-28",
+  "2021-03-01",
+  "2021-03-03",
+  "2021-03-04",
+  "2021-03-05",
+  "2021-03-06"
  ],
  "days_failed": {},
  "names_scanned": {
@@ -4324,6 +4334,45 @@
   ],
   "2021-02-20": [
    "COASTALREIGN"
+  ],
+  "2021-02-21": [
+   "COASTALREIGN"
+  ],
+  "2021-02-24": [
+   "PLANB"
+  ],
+  "2021-02-25": [
+   "HAIDALADY",
+   "MARTYBASKERVILLE",
+   "PLANB"
+  ],
+  "2021-02-26": [
+   "HAIDALADY",
+   "MARTYBASKERVILLE"
+  ],
+  "2021-02-28": [
+   "SANDDUNE2"
+  ],
+  "2021-03-01": [
+   "SANDDUNE2"
+  ],
+  "2021-03-03": [
+   "MCKENZIEM"
+  ],
+  "2021-03-04": [
+   "HUNTER",
+   "MCKENZIEM",
+   "NOEXCUSE"
+  ],
+  "2021-03-05": [
+   "AMERICANCHALLENGER",
+   "HUNTER",
+   "NOEXCUSE",
+   "OPPORTUNATY"
+  ],
+  "2021-03-06": [
+   "AMERICANCHALLENGER",
+   "OPPORTUNATY"
   ]
  }
 }
