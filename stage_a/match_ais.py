@@ -101,36 +101,62 @@ def open_text(path):
                             encoding="utf-8", errors="replace")
 
 
+AWK = r"""
+BEGIN { while ((getline l < NAMES) > 0) if (l != "") need[l] = 1 }
+NR == 1 { print; next }
+{
+  raw = $8
+  if (!(raw in c)) {
+    n = toupper(raw); gsub(/[^A-Z0-9]/, "", n); hit = 0
+    for (k in need) if (index(n, k) > 0) { hit = 1; break }
+    c[raw] = hit
+  }
+  if (c[raw]) print
+}
+"""
+
+
+def decompress_cmd(path):
+    if path.endswith(".zip"):
+        return ["unzip", "-p", path]
+    return [sys.executable, "-I", "-c",
+            "import sys,zstandard; zstandard.ZstdDecompressor().copy_stream(open(sys.argv[1],'rb'), sys.stdout.buffer)",
+            path]
+
+
 def scan_day(d, names):
+    """Pre-filter with mawk (normalised name contains a needed name: a superset of exact and
+    loose matches), then apply the exact / loose rule in Python on the few rows left."""
     path = raw_path(d)
-    cache = {}
     names = set(names)
-    kept, nrows = [], 0
-    with open_text(path) as fh:
-        for ch in pd.read_csv(fh, dtype=str, keep_default_na=False, chunksize=1_000_000, on_bad_lines="skip"):
-            if "vessel_name" in ch.columns:
-                ch = ch[[c for c in NEW if c in ch.columns]].rename(columns=dict(zip(NEW, COLS)))
-            else:
-                ch = ch[[c for c in OLD if c in ch.columns]].rename(columns=dict(zip(OLD, COLS)))
-            nrows += len(ch)
-            for u in ch["name"].unique():
-                if u not in cache:
-                    n = norm_name(u)
-                    hit = n in names or (n and any(loose_match(x, n) for x in names))
-                    cache[u] = hit
-            m = ch["name"].map(cache).astype(bool)
-            if m.any():
-                kept.append(ch[m])
-    out = pd.concat(kept) if kept else pd.DataFrame(columns=COLS)
+    os.makedirs(HITS, exist_ok=True)
+    nf = os.path.join(RAWDIR, f"{d}.names")
+    open(nf, "w").write("\n".join(sorted(names)) + "\n")
+    p1 = subprocess.Popen(decompress_cmd(path), stdout=subprocess.PIPE)
+    p2 = subprocess.Popen(["mawk", "-F,", "-v", f"NAMES={nf}", AWK], stdin=p1.stdout, stdout=subprocess.PIPE)
+    p1.stdout.close()
+    data = p2.communicate()[0]
+    if p1.wait() != 0 or p2.returncode != 0:
+        raise RuntimeError("decompress/filter failed")
+    os.remove(nf)
+    ch = pd.read_csv(io.BytesIO(data), dtype=str, keep_default_na=False, on_bad_lines="skip")
+    if "vessel_name" in ch.columns:
+        ch = ch[[c for c in NEW if c in ch.columns]].rename(columns=dict(zip(NEW, COLS)))
+    else:
+        ch = ch[[c for c in OLD if c in ch.columns]].rename(columns=dict(zip(OLD, COLS)))
+    cache = {}
+    for u in ch["name"].unique():
+        n = norm_name(u)
+        cache[u] = bool(n) and (n in names or any(loose_match(x, n) for x in names))
+    out = ch[ch["name"].map(cache).astype(bool)] if len(ch) else ch
     out = out.reindex(columns=COLS)
     out["time"] = out["time"].str.replace("T", " ")
-    os.makedirs(HITS, exist_ok=True)
     f = os.path.join(HITS, f"{d}.csv.gz")
     if os.path.exists(f):  # re-scan for names added later: merge with the earlier hits
         old = pd.read_csv(f, dtype=str, keep_default_na=False)
         out = pd.concat([old, out.fillna("")]).drop_duplicates()
     out.to_csv(f, index=False, compression="gzip")
-    return nrows, len(out), out.mmsi.nunique()
+    return len(ch), len(out), out.mmsi.nunique()
 
 
 def git_commit(msg):
@@ -184,7 +210,7 @@ def scan(max_days, max_minutes, years=None):
         st["days_failed"].pop(str(d), None)
         save_state(st)
         since_commit += 1
-        print(f"{d} rows {n} kept {k} mmsi {nm} names {len(names)} [{(time.time() - t0) / 60:.1f} min]", flush=True)
+        print(f"{d} prefiltered {n} kept {k} mmsi {nm} names {len(names)} [{(time.time() - t0) / 60:.1f} min]", flush=True)
         if since_commit >= 10:
             git_commit(f"Stage A exp. 2: AIS scan, {len(st['days_done'])} days done")
             since_commit = 0
