@@ -155,7 +155,7 @@ def scan_day(d, names):
     if os.path.exists(f):  # re-scan for names added later: merge with the earlier hits
         old = pd.read_csv(f, dtype=str, keep_default_na=False)
         out = pd.concat([old, out.fillna("")]).drop_duplicates()
-    out.to_csv(f, index=False, compression="gzip")
+    out.to_csv(f, index=False, compression={"method": "gzip", "mtime": 0})
     return len(ch), len(out), out.mmsi.nunique()
 
 
@@ -284,7 +284,7 @@ def candidates():
                 if g.empty:
                     continue
                 tr = g[["mmsi", "time", "lat", "lon", "sog", "cog", "heading", "name", "type", "length", "status"]]
-                tr.to_csv(os.path.join(TRACKS, f"{r.incident_id}_{mmsi}.csv.gz"), index=False, compression="gzip")
+                tr.to_csv(os.path.join(TRACKS, f"{r.incident_id}_{mmsi}.csv.gz"), index=False, compression={"method": "gzip", "mtime": 0})
                 c = dict(incident_id=r.incident_id, mmsi=mmsi, match=kind, ais_name=mode(g["name"]),
                          n_positions=len(g), first_time=g.time.iloc[0], last_time=g.time.iloc[-1],
                          ais_type=mode(g["type"]), ais_length_m=mode(g["length"]), ais_imo=mode(g["imo"]))
