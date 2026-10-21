@@ -163,7 +163,7 @@ def git_commit(msg):
     subprocess.run(["git", "add", STATE, HITS], check=False)
     r = subprocess.run(["git", "commit", "-q", "-m", msg], capture_output=True, text=True)
     if r.returncode == 0:
-        subprocess.run(["git", "pull", "-q", "--rebase", "origin", "main"], check=False)
+        subprocess.run(["git", "pull", "-q", "--rebase", "--autostash", "origin", "main"], check=False)
         subprocess.run(["git", "push", "-q", "origin", "main"], check=False)
 
 
