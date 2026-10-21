@@ -34,3 +34,11 @@ cases in `data/claude_review.csv` or `data/incidents.csv` where it showed.
    be.
 8. **`SLIP` in the berth rule** also matches SLIPPED / SLIPPING in descriptions
    (spec rule 5), which may drop some moving-vessel incidents.
+9. **2024 AIS source.** Since October 2026 the 2024 daily zips on coast.noaa.gov return
+   404 although the directory still lists them. The same days are on NOAA's blob host
+   (`noaaocm.blob.core.windows.net/ais/csv2/csv2024/ais-2024-MM-DD.csv.zst`, the 2025
+   format), so `match_ais.py` reads 2024 from there.
+10. **One ship, two MMSIs.** MASCO ENDEAVOR (N1352613 / N1352623) appears under two
+    MMSIs with the same IMO (8987905), one replacing the other the day before the
+    incident. Claude marked the MMSI transmitting at the report time yes and the other
+    unsure; the analysis should treat them as one vessel.

@@ -41,7 +41,9 @@ NEW = ["mmsi", "base_date_time", "latitude", "longitude", "sog", "cog", "heading
 
 
 def url(d):
-    if d.year <= 2024:
+    # The 2024 zips on coast.noaa.gov return 404 since Oct 2026 although they are still
+    # listed; the same days are on NOAA's blob host in the 2025 format, so 2024 uses that.
+    if d.year <= 2023:
         return f"https://coast.noaa.gov/htdata/CMSP/AISDataHandler/{d.year}/AIS_{d:%Y_%m_%d}.zip"
     return f"https://noaaocm.blob.core.windows.net/ais/csv2/csv{d.year}/ais-{d:%Y-%m-%d}.csv.zst"
 
