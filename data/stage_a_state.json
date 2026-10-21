@@ -1140,7 +1140,17 @@
   "2022-03-06",
   "2022-03-07",
   "2022-03-17",
-  "2022-03-18"
+  "2022-03-18",
+  "2022-03-19",
+  "2022-03-20",
+  "2022-03-21",
+  "2022-03-22",
+  "2022-03-23",
+  "2022-03-25",
+  "2022-03-26",
+  "2022-04-04",
+  "2022-04-05",
+  "2022-04-06"
  ],
  "days_failed": {},
  "names_scanned": {
@@ -5049,6 +5059,42 @@
   ],
   "2022-03-18": [
    "OVERSEASLOSANGELES"
+  ],
+  "2022-03-19": [
+   "THEROBIN"
+  ],
+  "2022-03-20": [
+   "THEROBIN",
+   "THEWESTERNMARINER",
+   "WESTERNMARINER"
+  ],
+  "2022-03-21": [
+   "THEWESTERNMARINER",
+   "WESTERNMARINER"
+  ],
+  "2022-03-22": [
+   "CHARMAINE"
+  ],
+  "2022-03-23": [
+   "CHARMAINE"
+  ],
+  "2022-03-25": [
+   "BENSTRASUSS",
+   "MISSAMANDAM"
+  ],
+  "2022-03-26": [
+   "BENSTRASUSS",
+   "MISSAMANDAM"
+  ],
+  "2022-04-04": [
+   "THERITTERBROS"
+  ],
+  "2022-04-05": [
+   "SHESALLWET",
+   "THERITTERBROS"
+  ],
+  "2022-04-06": [
+   "SHESALLWET"
   ]
  }
 }
