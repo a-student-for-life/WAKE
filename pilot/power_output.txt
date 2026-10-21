@@ -1,0 +1,30 @@
+SE(logOR) at n=55: 0.346
+  alpha .05: OR 1.5: n for 80% power ~ 315
+  alpha .05: OR 1.58: n for 80% power ~ 248
+  alpha .05: OR 2: n for 80% power ~ 108
+  alpha .05: OR 2.5: n for 80% power ~ 62
+  alpha .05: OR 3: n for 80% power ~ 43
+  alpha .01 (5 detectors): OR 1.5: n for 80% power ~ 469
+  alpha .01 (5 detectors): OR 1.58: n for 80% power ~ 368
+  alpha .01 (5 detectors): OR 2: n for 80% power ~ 160
+  alpha .01 (5 detectors): OR 2.5: n for 80% power ~ 92
+  alpha .01 (5 detectors): OR 3: n for 80% power ~ 64
+rank test (k=10 matched controls), power:
+ AUC 0.55 n=55:0.22 n=90:0.34 n=120:0.41 n=200:0.60 n=300:0.78
+ AUC 0.6 n=55:0.67 n=90:0.86 n=120:0.95 n=200:0.99 n=300:1.00
+ AUC 0.65 n=55:0.94 n=90:1.00 n=120:1.00 n=200:1.00 n=300:1.00
+ AUC 0.7 n=55:1.00 n=90:1.00 n=120:1.00 n=200:1.00 n=300:1.00
+same, alpha .01:
+ AUC 0.55 n=90:0.14 n=120:0.20 n=200:0.36 n=300:0.55
+ AUC 0.6 n=90:0.67 n=120:0.82 n=200:0.98 n=300:1.00
+ AUC 0.65 n=90:0.98 n=120:1.00 n=200:1.00 n=300:1.00
+binary flag at budget, power (two-sided .05, exact binomial vs known base):
+ budget 1% RR 2: n=90:0.11 n=120:0.09 n=200:0.21 n=300:0.25
+ budget 1% RR 3: n=90:0.28 n=120:0.29 n=200:0.56 n=300:0.68
+ budget 1% RR 5: n=90:0.66 n=120:0.72 n=200:0.94 n=300:0.98
+ budget 5% RR 2: n=90:0.41 n=120:0.54 n=200:0.79 n=300:0.90
+ budget 5% RR 3: n=90:0.88 n=120:0.96 n=200:1.00 n=300:1.00
+ budget 5% RR 5: n=90:1.00 n=120:1.00 n=200:1.00 n=300:1.00
+ budget 10% RR 2: n=90:0.74 n=120:0.85 n=200:0.97 n=300:1.00
+ budget 10% RR 3: n=90:1.00 n=120:1.00 n=200:1.00 n=300:1.00
+ budget 10% RR 5: n=90:1.00 n=120:1.00 n=200:1.00 n=300:1.00
