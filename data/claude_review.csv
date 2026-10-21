@@ -23,3 +23,12 @@ I8886_1,219269000,yes,"Ship with the tanker code (1024, 183 m) that left its ber
 I8886_2,636092092,yes,"Freight ship (1004, 190 m) inbound from the Galveston anchorage on 9 Mar that stopped at 17:31 UTC 1.3 km from the reported collision point, beside CARLA MAERSK, and stayed there."
 I8880,367492820,yes,"Fishing vessel (1001), 24.9 m against 81 ft (24.7 m), that stopped dead at the reported Chiniak Bay position on 16 Feb and never moved again, a hard grounding."
 I8871,355163000,unsure,"Exact name and a 32 m tug 4 km from the Barbers Point reference, but it sat in the harbour transmitting until 23:59 UTC on 22 Jan (13:59 local), so the offshore sinking could only be later that local day, outside the scanned UTC window."
+N1125112,367079220,yes,The only one of 15 PATRIOTs anywhere near: a 14.5 m working boat shuttling on the Hudson off Nyack that passed within 0.2 km of the reported position in the hour of the report; the next PATRIOT was 136 km away.
+N1125478,367409260,yes,"Exact name, a 38 m tug that lay at Calcite harbour (3 km from the Rogers City reference) and got underway at 22:00 UTC, just before the 22:15 report of a sheen found after departure."
+N1127978,367502520,yes,"A 15 m boat named PRAIRIELAND working at the Vermilion River entrance, stopped 0.65 km from the reference at the report time and for the next two hours; the other PRAIRIE LAND was 612 km away."
+N1132984,338075091,no,"Loose name (RUMRUNNER II), and it was off Ventura, California, while the report is a boat sunk at its moorings in Shalimar, Florida."
+N1137319,367190910,yes,"Exact name, 14.1 m against 46 ft (14.0 m), that reached 0.26 km of the reported Main Pass 54 position at 20:07 UTC and whose AIS ends at 20:34, minutes before the 20:40 report of it sinking."
+N1189614,367633160,no,"The report describes a grounding about two years earlier, and this IRON EAGLE sat motionless near Morehead City, 68 km from the reference, on both days."
+I9183,373889000,yes,"Freight ship (1004, 172 m) that came in over the Columbia bar early on 2 Oct and stopped at the Astoria waterfront, matching the place text; the NOAA coordinate sits 38 km upriver of Astoria and looks misplaced."
+I9166,366796250,yes,"Industrial-coded vessel (1005, 67 m), fitting a dredge, that worked within 10-200 m of the reported position off Sea Isle on 30-31 Aug before leaving."
+I9156,338898000,yes,"Fishing-coded tender (1001), 29 m against 86 ft (26 m), stationary at the exact reported Olsen Island position for most of 11 Aug, as a grounding after dragging anchor would be."
