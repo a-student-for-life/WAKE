@@ -196,3 +196,8 @@ N1283756,636014189,yes,"Tanker (80, 249 m) inbound from the Gulf that was 1.2 km
 N1284872,367315790,yes,"Towing vessel (31, 17 m) on the Columbia near Longview, 3.9-5.3 km from the town reference around the 20:00 UTC report and moving slowly, consistent with striking a log there."
 I10108_2,477454500,yes,"AIS IMO 9692258 is the IMO given in the report; a 183 m tanker (80) at anchor in the lower Mississippi 15.7 km from the mile-98 reference on 21-22 Jun, the days after the 20 Jun discharge."
 I10100,316002238,yes,"Tug (31, 40 m) motionless within 0.1-0.2 km of the reported Sweets Point position from 10 Jun onward, consistent with its barge aground there."
+N1287369,366999431,yes,"Towing vessel (31) working around the Old River / Atchafalaya junction near Simmesport, 13-15 km from the town reference, and moving at about 1 kn at the 03:00 UTC report of it running aground."
+N1288224,319176200,no,"The report is a 30 ft fishing boat sinking in St. Catherines Sound, Georgia; this is a 17 m pleasure-coded M/V RHINO moored 80 km away near Beaufort, South Carolina."
+N1288780,538002570,yes,"Freight ship (70), 189 m against 608 ft (185 m), stopped at 46.266 N, 123.465 W, by Welch Island on the Columbia (the reference is Astoria, 29.5 km west) at the 07:50 UTC report of it aground there."
+N1289306,229131000,yes,"Freight ship (70), 189 m against 600 ft (183 m), 0.1 km from the exact reported position west of Longview at the 20:40 UTC report, nearly stopped, as when aground after losing propulsion."
+I10168,538005614,yes,"Tanker (80), 226 m against 750 ft (229 m), drifting north at 1.3-1.8 kn off the Upper Keys on 9 Sep and passing 22 km from the reported position, exactly the disabled propane carrier adrift described."
