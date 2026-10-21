@@ -3,6 +3,19 @@
 Every working session follows this file. Read `PROGRESS.md` first, do the next
 unfinished step, log it, commit, push. Never skip ahead to Stage B.
 
+## One session at a time
+
+Two sessions working at once duplicate work and fight over commits. So:
+
+1. At the start, after cloning, check for `RUNNING.md`. If it exists and its start
+   time is less than 4 hours ago, another session is working: stop immediately,
+   change nothing.
+2. Otherwise write `RUNNING.md` with the current UTC time, commit it
+   ("Session lock") and push. If the push is rejected because someone else pushed
+   first, pull, and go back to step 1.
+3. Before ending, delete `RUNNING.md` in the final commit. A lock older than
+   4 hours belongs to a session that died, and may be replaced.
+
 ## Ground rules
 
 - Commit as `Janice Miranda <38janice10b@gmail.com>`. **No `Co-Authored-By` or other
