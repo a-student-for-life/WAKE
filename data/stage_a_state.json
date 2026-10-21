@@ -1350,7 +1350,17 @@
   "2023-09-05",
   "2023-09-06",
   "2023-09-14",
-  "2023-09-15"
+  "2023-09-15",
+  "2023-09-16",
+  "2023-09-17",
+  "2023-09-18",
+  "2023-09-25",
+  "2023-09-26",
+  "2023-09-27",
+  "2023-09-28",
+  "2023-10-01",
+  "2023-10-02",
+  "2023-10-03"
  ],
  "days_failed": {},
  "names_scanned": {
@@ -5949,6 +5959,45 @@
    "51",
    "EDENSTAR",
    "INDEPENDENCE"
+  ],
+  "2023-09-16": [
+   "EDENSTAR",
+   "INDEPENDENCE"
+  ],
+  "2023-09-17": [
+   "JUDY",
+   "WORLDHARMONY"
+  ],
+  "2023-09-18": [
+   "JUDY",
+   "WORLDHARMONY"
+  ],
+  "2023-09-25": [
+   "CHRISTINE",
+   "MAZAPETA"
+  ],
+  "2023-09-26": [
+   "CHRISTINE",
+   "MAZAPETA"
+  ],
+  "2023-09-27": [
+   "AMERICANQUEEN",
+   "THELADYDIANNE"
+  ],
+  "2023-09-28": [
+   "AMERICANQUEEN",
+   "THELADYDIANNE"
+  ],
+  "2023-10-01": [
+   "THELADYCANDICE"
+  ],
+  "2023-10-02": [
+   "THELADYCANDICE"
+  ],
+  "2023-10-03": [
+   "BLUEDOLPHIN",
+   "BONNIEG",
+   "LADYGRACE"
   ]
  }
 }
