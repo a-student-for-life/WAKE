@@ -1040,6 +1040,14 @@
    "fleet_day": "2017-09-05",
    "code_version": "6706d05"
   },
+  "242_real": {
+   "file": "data/stage_b/windows/242_real.csv.gz",
+   "box_vessels": 421,
+   "rows": 2105,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-11-04",
+   "code_version": "6706d05"
+  },
   "245_placebo30": {
    "file": "data/stage_b/windows/245_placebo30.csv.gz",
    "box_vessels": 129,
