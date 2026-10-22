@@ -23,7 +23,8 @@ in `DEVIATIONS.md` with its date and reason.
   (one event-scenario's window file, or one analysis step), so a cut-off session loses
   little.
 - Stop after about 3 hours of work, at a clean commit, with a row added to
-  `PROGRESS.md` (date, stage, what was done with counts from files, what is next).
+  `PROGRESS.md` (date, stage, what was done with counts from files, what is next), including
+  the measured minutes per AIS day this session and the estimated hours of work left).
 - Raw AIS goes in `data/raw/` (git-ignored) and is deleted when no longer needed. Commit
   only code and derived tables. Keep every committed file under 50 MB.
 - Never look at, print or summarise an AUC, odds ratio, p-value or any comparison of
