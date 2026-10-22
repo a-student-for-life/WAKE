@@ -1,0 +1,254 @@
+<title>WAKE Match Review</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: chart-table tool. Status bar on top, report + facts left, chart right, decision bar below. */
+:root{
+  --bg:#f3f5f6; --panel:#ffffff; --ink:#18232b; --muted:#5b6b75; --rule:#d9e0e4;
+  --sea:#dfeaf0; --land:#e9e4d8; --landedge:#c9c0ab; --river:#b9d1de;
+  --accent:#1f5f7a; --incident:#c8462b; --alt:#7a4fa0;
+  --yes:#2f7d4f; --no:#b23a2a; --unsure:#a77a12;
+  --yesbg:#e4f2e9; --nobg:#f8e6e2; --unsurebg:#f7efd9; --warnbg:#fbf1dc;
+  --sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#11181d; --panel:#172129; --ink:#e3eaee; --muted:#93a4ae; --rule:#2a3740;
+  --sea:#13232d; --land:#2a2a25; --landedge:#45433a; --river:#24414f;
+  --accent:#6fb3cf; --incident:#ef7a5c; --alt:#b994dd;
+  --yes:#6cc28e; --no:#ef8a78; --unsure:#e2b84d;
+  --yesbg:#16301f; --nobg:#3a1d18; --unsurebg:#352b12; --warnbg:#33290f; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#11181d; --panel:#172129; --ink:#e3eaee; --muted:#93a4ae; --rule:#2a3740;
+  --sea:#13232d; --land:#2a2a25; --landedge:#45433a; --river:#24414f;
+  --accent:#6fb3cf; --incident:#ef7a5c; --alt:#b994dd;
+  --yes:#6cc28e; --no:#ef8a78; --unsure:#e2b84d;
+  --yesbg:#16301f; --nobg:#3a1d18; --unsurebg:#352b12; --warnbg:#33290f; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 40px}
+.wrap{max-width:1180px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
+header{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px}
+h1{font-size:22px;font-weight:600;margin:0;text-wrap:balance}
+.sub{color:var(--muted);margin:2px 0 0;font-size:14px}
+.status{display:flex;flex-wrap:wrap;align-items:center;gap:10px;font-family:var(--mono);font-size:13px;color:var(--muted)}
+.bar{width:180px;height:8px;border-radius:4px;background:var(--rule);overflow:hidden}
+.bar span{display:block;height:100%;background:var(--accent);width:0}
+.jump{display:flex;gap:6px;align-items:center}
+.jump input{width:64px;font:13px var(--mono);padding:5px 6px;border:1px solid var(--rule);border-radius:5px;background:var(--panel);color:var(--ink)}
+.small{font:500 13px var(--sans);padding:6px 11px;border-radius:6px;border:1px solid var(--rule);background:var(--panel);color:var(--ink);cursor:pointer}
+.warn{background:var(--warnbg);border:1px solid var(--unsure);border-radius:6px;padding:10px 14px;font-size:14px}
+details.rules{background:var(--panel);border:1px solid var(--rule);border-radius:6px;padding:10px 14px}
+details.rules summary{cursor:pointer;font-weight:600}
+details.rules ol{margin:8px 0 4px;padding-left:20px;display:grid;gap:6px;max-width:80ch}
+.grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:14px;align-items:start}
+@media (max-width:860px){.grid{grid-template-columns:minmax(0,1fr)}}
+.card{background:var(--panel);border:1px solid var(--rule);border-radius:6px;padding:16px;min-width:0}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
+.report h2{font-size:19px;margin:0 0 6px;font-weight:600}
+.report .text{margin:6px 0 10px;max-width:64ch}
+.kv{display:grid;grid-template-columns:max-content 1fr;gap:3px 12px;font-size:14px}
+.kv dt{color:var(--muted)} .kv dd{margin:0;min-width:0;overflow-wrap:anywhere}
+.tablewrap{overflow-x:auto;margin-top:14px}
+table{border-collapse:collapse;width:100%;font-size:14px;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--rule);vertical-align:top}
+th{font-weight:500;color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.05em}
+td.lbl{color:var(--muted);white-space:nowrap}
+td.mono{font-family:var(--mono);font-size:13px}
+.code{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.mapcard{padding:0;overflow:hidden}
+.maphead{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px;padding:10px 14px;border-bottom:1px solid var(--rule)}
+svg.map{display:block;width:100%;height:auto;background:var(--sea);touch-action:manipulation}
+.legend{display:flex;flex-wrap:wrap;gap:14px;align-items:center;padding:10px 14px;font-size:12.5px;color:var(--muted);border-top:1px solid var(--rule)}
+.ramp{display:inline-block;width:110px;height:8px;border-radius:4px;vertical-align:middle;margin:0 6px}
+.tip{font-family:var(--mono);font-size:12px;color:var(--ink);min-height:1.5em;padding:6px 14px 0}
+.decide{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.decide .q{font-weight:600;font-size:16px;flex-basis:100%}
+.btn{font:600 15px var(--sans);padding:11px 22px;border-radius:6px;border:1.5px solid;cursor:pointer;background:var(--panel);min-width:110px}
+.btn kbd{font:500 11px var(--mono);opacity:.7;margin-left:6px}
+.btn.yes{color:var(--yes);border-color:var(--yes)} .btn.yes.on{background:var(--yes);color:var(--panel)}
+.btn.no{color:var(--no);border-color:var(--no)} .btn.no.on{background:var(--no);color:var(--panel)}
+.btn.unsure{color:var(--unsure);border-color:var(--unsure)} .btn.unsure.on{background:var(--unsure);color:var(--panel)}
+.btn:focus-visible,.small:focus-visible,summary:focus-visible,.nav button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+textarea{width:100%;min-height:44px;font:14px var(--sans);color:var(--ink);background:var(--bg);border:1px solid var(--rule);border-radius:6px;padding:8px}
+.saved{font-family:var(--mono);font-size:12px;color:var(--muted);margin-left:auto}
+.nav{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.nav button{font:500 14px var(--sans);padding:9px 16px;border-radius:6px;border:1px solid var(--rule);background:var(--panel);color:var(--ink);cursor:pointer}
+.nav button:disabled{opacity:.4;cursor:default}
+.loading{color:var(--muted);padding:30px 0;text-align:center}
+</style>
+
+<div class="wrap">
+  <header>
+    <div>
+      <h1>WAKE Match Review</h1>
+      <p class="sub">Is the vessel in the spill report the same one found in AIS? Answer from the facts on screen.</p>
+    </div>
+    <div class="status">
+      <span id="pos">Case – of –</span>
+      <span class="bar" aria-hidden="true"><span id="barfill"></span></span>
+      <span id="done">– answered</span>
+      <button type="button" class="small" id="nextun">Next unanswered <span class="code">J</span></button>
+      <form class="jump" id="jumpf"><label for="jumpn" class="code">Go to</label><input id="jumpn" inputmode="numeric" autocomplete="off"></form>
+    </div>
+  </header>
+
+  <div class="warn" id="nodb" hidden>Answers can't be saved in this view. Open this page on claude.ai while signed in; answers you give here will be lost when you close it.</div>
+
+  <details class="rules" id="rules">
+    <summary>How to decide</summary>
+    <ol>
+      <li><b>Name.</b> The AIS name should match the report. Spacing, punctuation and prefixes (M/V, F/V, TUG, THE) don't matter. A "loose" match means the report's name sits inside a longer AIS name; accept it only if the extra part looks like a suffix (a number, "II") and nothing else disagrees.</li>
+      <li><b>Type.</b> The AIS type should fit the report. Small US work boats often broadcast no type; that is neutral. A clear clash (a fishing boat in the report, a cargo ship or pleasure craft in AIS) counts against.</li>
+      <li><b>Size.</b> Lengths within about 15% support; over 30% apart counts against. A missing length is neutral.</li>
+      <li><b>Place and time.</b> With an exact reported position, within about 5 km (3 km on a river) supports and beyond 25 km counts against, unless the track heads for the spot and AIS ends first. With only a town, within about 15 km supports and beyond 40 km counts against, unless the report puts the incident offshore of that town.</li>
+      <li><b>Behaviour.</b> A grounding or sinking should stop or end near the spot; a collision should show a stop or sudden change; a reported discharge underway should show the vessel moving there.</li>
+    </ol>
+    <p class="sub">Missing AIS near the report time is common on rivers, offshore and for small boats, and AIS often stops when a vessel sinks; a gap is not a no by itself. Report times are assumed to be local time and can be off by an hour or be filed late. When the facts point both ways, or are too thin, choose <b>Unsure</b>. Cases 1–50 are a random sample used for an early check, so please do those first.</p>
+  </details>
+
+  <div id="main"><p class="loading">Loading cases…</p></div>
+</div>
+
+<script>
+const TYPE_KEYS = {y:"yes", n:"no", u:"unsure"};
+let INDEX=null, cur=0, answers={}, db=null, chunks={}, saving={};
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function rampColor(f){const a=[94,190,180],b=[58,52,160];const m=a.map((x,i)=>Math.round(x+(b[i]-x)*f));return `rgb(${m[0]},${m[1]},${m[2]})`}
+function km(v){return v==null?"–":(v<10?v.toFixed(1):Math.round(v).toLocaleString())+" km"}
+
+async function loadChunk(n){
+  if(!chunks[n]) chunks[n]=fetch(`cases_${String(n).padStart(2,"0")}.json`).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()});
+  return chunks[n];
+}
+async function getCase(i){const n=Math.floor(i/INDEX.chunk);const arr=await loadChunk(n);if(n+1<Math.ceil(INDEX.n/INDEX.chunk))loadChunk(n+1);return arr[i%INDEX.chunk]}
+
+function nAnswered(){return INDEX.keys.filter(k=>answers[k]&&answers[k].v).length}
+function renderStatus(){
+  const n=nAnswered();
+  $("pos").textContent=`Case ${cur+1} of ${INDEX.n}`;
+  $("done").textContent=`${n} answered`;
+  $("barfill").style.width=(100*n/INDEX.n).toFixed(1)+"%";
+}
+
+function renderCase(c){
+  const r=c.report,a=c.ais,ans=answers[c.key]||{};
+  const exactRef=c.ref.method==="exact";
+  const refLabel={exact:"Reported position",town:"Reported town","town+offset":"Reported town plus stated distance",none:"No position in the report"}[c.ref.method]||"Reported place";
+  const others=c.others.length?c.others.map(o=>`${esc(o.name)}${o.km!=null?`, closest ${km(o.km)} from the reported place`:""}`).join("<br>"):"None on these days";
+  $("main").innerHTML=`
+  <div class="grid">
+    <section class="card report">
+      <p class="eyebrow">${esc(r.source)}</p>
+      <h2>${esc(r.name)}</h2>
+      <p class="text">${esc(r.text)}</p>
+      <dl class="kv">
+        <dt>Reported</dt><dd>${esc(r.when)}${r.date_only?" (date only)":" "+esc(r.tz)}</dd>
+        <dt>Where</dt><dd>${esc(r.place||"Not given")}${r.state?", "+esc(r.state):""}</dd>
+        <dt>Material</dt><dd>${esc(r.material||"Not given")}</dd>
+        <dt>Aground</dt><dd>${esc(r.aground)}</dd>
+      </dl>
+      <div class="tablewrap"><table>
+        <thead><tr><th></th><th>Report says</th><th>AIS shows</th></tr></thead>
+        <tbody>
+          <tr><td class="lbl">Name</td><td class="mono">${esc(r.name)}</td><td class="mono">${esc(a.name)}${a.match==="loose"?' <span class="code">(loose)</span>':""}</td></tr>
+          <tr><td class="lbl">Type</td><td>${esc(r.type)}</td><td>${esc(a.type)} <span class="code">(${esc(a.code)})</span></td></tr>
+          <tr><td class="lbl">Length</td><td>${esc(r.length)}</td><td>${esc(a.length)}</td></tr>
+          <tr><td class="lbl">Flag</td><td>${esc(r.flag)}</td><td><span class="code">MMSI ${esc(a.mmsi)}</span></td></tr>
+          <tr><td class="lbl">AIS heard</td><td></td><td>${esc(a.first)} to ${esc(a.last)} ${esc(r.tz)} · ${a.n.toLocaleString()} positions</td></tr>
+          <tr><td class="lbl">Report time</td><td></td><td>${esc(a.timenote)}</td></tr>
+          <tr><td class="lbl">Distance</td><td></td><td>${c.ref.method==="none"?"No reported position to measure from":`Closest ${km(a.dmin)} from the ${exactRef?"reported position":"reported place"}${a.dist_at!=null?`; ${km(a.dist_at)} at the report time`:""}`}${a.dmin_alt!=null?`<br>Closest ${km(a.dmin_alt)} from the place named in the text`:""}</td></tr>
+          <tr><td class="lbl">Same name elsewhere</td><td></td><td>${others}</td></tr>
+        </tbody></table></div>
+    </section>
+    <section class="card mapcard">
+      <div class="maphead"><span class="eyebrow" style="margin:0">AIS track</span><span class="eyebrow" style="margin:0">Times in ${esc(r.tz||"local time")}</span></div>
+      <svg class="map" id="map" role="img" aria-label="Map of the vessel's AIS track and the reported place"></svg>
+      <div class="tip" id="tip">Tap or hover the track for time and speed.</div>
+      <div class="legend" id="legend"></div>
+    </section>
+  </div>
+  <section class="card">
+    <div class="decide">
+      <span class="q">Is this the same vessel?</span>
+      <button type="button" class="btn yes ${ans.v==="yes"?"on":""}" data-v="yes">Yes<kbd>Y</kbd></button>
+      <button type="button" class="btn no ${ans.v==="no"?"on":""}" data-v="no">No<kbd>N</kbd></button>
+      <button type="button" class="btn unsure ${ans.v==="unsure"?"on":""}" data-v="unsure">Unsure<kbd>U</kbd></button>
+      <span class="saved" id="saved">${ans.v?"Saved":""}</span>
+    </div>
+    <label for="note" class="eyebrow" style="display:block;margin:12px 0 4px">Note (optional)</label>
+    <textarea id="note" placeholder="Anything that made you hesitate">${esc(ans.note||"")}</textarea>
+  </section>
+  <div class="nav"><button type="button" id="prev">&larr; Previous</button><button type="button" id="next">Next &rarr;</button></div>`;
+  renderMap(c,refLabel);
+  $("main").querySelectorAll(".btn").forEach(b=>b.onclick=()=>answer(b.dataset.v));
+  $("note").addEventListener("change",e=>saveNote(e.target.value));
+  $("prev").disabled=cur===0; $("next").disabled=cur===INDEX.n-1;
+  $("prev").onclick=()=>go(cur-1); $("next").onclick=()=>go(cur+1);
+}
+
+function renderMap(c,refLabel){
+  const m=c.map,svg=$("map"),t=c.track;svg.setAttribute("viewBox",`0 0 ${m.w} ${m.h}`);
+  const h0=t[0].h,h1=t[t.length-1].h,span=Math.max(h1-h0,0.01);
+  let segs="";for(let i=1;i<t.length;i++){const f=(t[i].h-h0)/span,gap=t[i].h-t[i-1].h>1.5;
+    segs+=`<line x1="${t[i-1].x}" y1="${t[i-1].y}" x2="${t[i].x}" y2="${t[i].y}" stroke="${rampColor(f)}" stroke-width="2.6" stroke-linecap="round" ${gap?'stroke-dasharray="3 4"':""}/>`}
+  const pts=t.map(p=>`<circle cx="${p.x}" cy="${p.y}" r="${t.length<120?3:2}" fill="${rampColor((p.h-h0)/span)}"/>`).join("");
+  const hit=t.map((p,i)=>`<circle cx="${p.x}" cy="${p.y}" r="9" fill="transparent" data-i="${i}" class="hit"/>`).join("");
+  function cross(xy,color,dashed){return `<g stroke="${color}" stroke-width="2.2" fill="none"><circle cx="${xy[0]}" cy="${xy[1]}" r="7" ${dashed?'stroke-dasharray="3 2.5"':""}/><line x1="${xy[0]-12}" y1="${xy[1]}" x2="${xy[0]-4}" y2="${xy[1]}"/><line x1="${xy[0]+4}" y1="${xy[1]}" x2="${xy[0]+12}" y2="${xy[1]}"/><line x1="${xy[0]}" y1="${xy[1]-12}" x2="${xy[0]}" y2="${xy[1]-4}"/><line x1="${xy[0]}" y1="${xy[1]+4}" x2="${xy[0]}" y2="${xy[1]+12}"/></g>`}
+  svg.innerHTML=`<rect width="${m.w}" height="${m.h}" fill="var(--sea)"/>
+    <path d="${m.land}" fill="var(--land)" stroke="var(--landedge)" stroke-width="0.8" fill-rule="evenodd"/>
+    <path d="${m.lake}" fill="var(--sea)" stroke="var(--landedge)" stroke-width="0.5"/>
+    <path d="${m.river}" fill="none" stroke="var(--river)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <g>${segs}${pts}</g>
+    ${c.at?`<circle cx="${c.at[0]}" cy="${c.at[1]}" r="9" fill="none" stroke="var(--ink)" stroke-width="1.6"/>`:""}
+    ${c.ref.alt?cross(c.ref.alt,"var(--alt)",true):""}
+    ${c.ref.xy?cross(c.ref.xy,"var(--incident)",c.ref.method!=="exact"):""}
+    <g transform="translate(${m.w-20-m.sb_px},${m.h-18})" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--muted)">
+      <rect x="0" y="0" width="${m.sb_px}" height="4" fill="var(--ink)"/><text x="${m.sb_px/2}" y="-5" text-anchor="middle">${m.sb_km.toLocaleString()} km</text></g>
+    <g>${hit}</g>`;
+  $("legend").innerHTML=`<span>Track: ${esc(t[0].dl)} ${esc(t[0].tl)}<span class="ramp" style="background:linear-gradient(90deg,${rampColor(0)},${rampColor(1)})"></span>${esc(t[t.length-1].dl)} ${esc(t[t.length-1].tl)}</span>
+    ${c.ref.xy?`<span><svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><circle cx="9" cy="9" r="6" fill="none" stroke="var(--incident)" stroke-width="2" ${c.ref.method!=="exact"?'stroke-dasharray="3 2.5"':""}/></svg> ${esc(refLabel)}</span>`:`<span>${esc(refLabel)}</span>`}
+    ${c.ref.alt?`<span><svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><circle cx="9" cy="9" r="6" fill="none" stroke="var(--alt)" stroke-width="2" stroke-dasharray="3 2.5"/></svg> Place named in the text</span>`:""}
+    ${c.at?`<span><svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><circle cx="9" cy="9" r="7" fill="none" stroke="var(--ink)" stroke-width="1.6"/></svg> Vessel nearest the report time</span>`:""}
+    <span>Dashed track = gap over 1.5 h</span>`;
+  svg.querySelectorAll(".hit").forEach(el=>{const show=()=>{const p=t[+el.dataset.i];$("tip").textContent=`${p.dl} ${p.tl} · ${p.sog} kn`};el.addEventListener("mouseenter",show);el.addEventListener("click",show)});
+}
+
+async function write(key){
+  const a=answers[key]; if(!db) return;
+  try{ await db.collection("answers").doc(key).set({v:a.v||"",note:a.note||"",at:new Date().toISOString(),order:INDEX.keys.indexOf(key)+1});
+       if(INDEX.keys[cur]===key&&$("saved"))$("saved").textContent="Saved"; }
+  catch(e){ if($("saved"))$("saved").textContent="Not saved: "+(e&&e.code||"error"); }
+}
+function answer(v){const key=INDEX.keys[cur];answers[key]=Object.assign({},answers[key],{v});
+  $("main").querySelectorAll(".btn").forEach(b=>b.classList.toggle("on",b.dataset.v===v));
+  if($("saved"))$("saved").textContent=db?"Saving…":"Not saved (no storage here)";renderStatus();write(key)}
+function saveNote(text){const key=INDEX.keys[cur];answers[key]=Object.assign({},answers[key],{note:text});write(key)}
+
+async function go(i){
+  if(i<0||i>=INDEX.n)return; cur=i; renderStatus();
+  const c=await getCase(i); if(cur!==i)return; renderCase(c); window.scrollTo({top:0});
+}
+function nextUnanswered(){for(let k=1;k<=INDEX.n;k++){const i=(cur+k)%INDEX.n;if(!(answers[INDEX.keys[i]]&&answers[INDEX.keys[i]].v))return go(i)}}
+
+document.addEventListener("keydown",e=>{if(!INDEX||e.target.tagName==="TEXTAREA"||e.target.tagName==="INPUT"||e.metaKey||e.ctrlKey||e.altKey)return;
+  const k=e.key.toLowerCase(); if(TYPE_KEYS[k])answer(TYPE_KEYS[k]); else if(k==="j")nextUnanswered();
+  else if(e.key==="ArrowRight")go(cur+1); else if(e.key==="ArrowLeft")go(cur-1)});
+
+(async function start(){
+  try{INDEX=await (await fetch("index.json")).json()}catch(e){$("main").innerHTML='<p class="loading">The case list could not be loaded. Reload the page to try again.</p>';return}
+  $("nextun").onclick=nextUnanswered;
+  $("jumpf").addEventListener("submit",e=>{e.preventDefault();const n=parseInt($("jumpn").value,10);if(n>=1&&n<=INDEX.n)go(n-1)});
+  renderStatus(); await go(0);
+  let started=false;
+  const firstUnanswered=()=>{if(started)return;started=true;const i=INDEX.keys.findIndex(k=>!(answers[k]&&answers[k].v));if(i>0)go(i)};
+  db=window.claude?await window.claude.use("db"):null;
+  if(!db){$("nodb").hidden=false;return}
+  db.collection("answers").onSnapshot(snap=>{
+    snap.docChanges().forEach(ch=>{const d=ch.doc.data()||{};if(ch.type==="removed")delete answers[ch.doc.id];else answers[ch.doc.id]={v:d.v,note:d.note}});
+    renderStatus(); if(!snap.metadata.fromCache)firstUnanswered();
+  },()=>{$("nodb").hidden=false;$("nodb").textContent="Saved answers could not be loaded. Reload the page; if this keeps happening, tell Claude."});
+})();
+</script>

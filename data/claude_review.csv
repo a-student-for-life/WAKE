@@ -403,3 +403,9 @@ I11052_1,636023364,yes,"Bulk carrier W-SAPPHIRE (70, 229 m) that left the Baltim
 I11052_2,636023364,yes,The MV SAPPHIRE of the record is this W-SAPPHIRE (loose only because of the W- prefix): a coal-laden bulk carrier at the reported Patapsco River position the evening of the explosion; same vessel as I11052_1.
 I11052_2,338354157,no,"A 16 m pleasure-coded SAPPHIRE heard briefly near Annapolis 29 km away on 19 Aug, not the bulk carrier in the explosion."
 I11052_2,367402370,no,"A 21 m pleasure-coded SAPPHIRE heard briefly near Annapolis 29 km away on 19 Aug, not the bulk carrier in the explosion."
+N1218602,367136020,yes,"Towing vessel in AIS (31), and it was 80 m from the reported position at the report time, then moving off the jetty area, as a grounding at Barnegat Inlet would show."
+N1394025,319468000,yes,"The report's coordinates are inland Pennsylvania, but this tanker (type 82, matching the reported tanker) was stopped 1.7 km from Stapleton, Staten Island, the place named in the report, at the report time."
+N1409590,367046140,yes,"At the reported offshore position (0.6 km) and AIS ends at the report time, as for a sinking; it broadcasts passenger type 60, common for sport-fishing boats, which does not contradict the fishing vessel in the report."
+N1443121,367457060,unsure,"Fishing vessel moored all day in Salmon Bay, 6.6 km from Seattle, but AIS ends 32 h before the report and the report gives no length, so name, type and place fit without a time match."
+I10371_2,368039710,yes,"Fishing vessel, 31 m against 88 ft (27 m), sitting still 50 m from the reported grounding position in Ocracoke Inlet on the following UTC day, consistent with still being aground."
+I9598,357644000,yes,"AIS status 2 (not under command) and moving west at 3-4 knots from 28 km of the reported position the next day, as a disabled tanker adrift or under tow in the Florida Straits would; old type code 1024 is neutral."
