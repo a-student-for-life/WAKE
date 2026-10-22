@@ -123,6 +123,7 @@
   "2015-08-19",
   "2015-08-27",
   "2015-08-28",
+  "2015-08-29",
   "2015-08-30",
   "2015-08-31",
   "2015-09-01",
@@ -136,14 +137,17 @@
   "2015-09-11",
   "2015-09-12",
   "2015-09-13",
+  "2015-09-14",
   "2015-09-15",
   "2015-09-16",
+  "2015-09-17",
   "2015-09-21",
   "2015-09-22",
   "2015-09-24",
   "2015-09-25",
   "2015-09-27",
   "2015-09-28",
+  "2015-09-29",
   "2015-09-30",
   "2015-10-01",
   "2015-10-02",
@@ -2190,12 +2194,15 @@
    "EGEGIKSPIRIT"
   ],
   "2015-08-11": [
+   "CHALLENGER",
+   "CHALLENGERBARGE",
    "DOROTHYANN",
    "EGEGIKSPIRIT",
    "NICOLEDANIEL"
   ],
   "2015-08-12": [
    "DOROTHYANN",
+   "EGEGIKSPIRIT",
    "NICOLEDANIEL",
    "SHERYLANN"
   ],
@@ -2214,6 +2221,9 @@
   "2015-08-28": [
    "ELJEFFE"
   ],
+  "2015-08-29": [
+   "ELJEFFE"
+  ],
   "2015-08-30": [
    "CAPTAINRICHIERICH",
    "ILLINOIS",
@@ -2226,8 +2236,10 @@
    "RICHIERICH"
   ],
   "2015-09-01": [
+   "ILLINOIS",
    "IRONEAGLE",
-   "PACIFICVENTURE"
+   "PACIFICVENTURE",
+   "RICHIERICH"
   ],
   "2015-09-02": [
    "DEWEYR",
@@ -2237,6 +2249,7 @@
   "2015-09-03": [
    "BARNACLEBILL",
    "DEWEYR",
+   "PACIFICVENTURE",
    "PBSHAW",
    "SIERRAALLENE"
   ],
@@ -2245,6 +2258,8 @@
    "SIERRAALLENE"
   ],
   "2015-09-05": [
+   "BARNACLEBILL",
+   "SIERRAALLENE",
    "STARFIRE"
   ],
   "2015-09-06": [
@@ -2266,10 +2281,16 @@
   "2015-09-13": [
    "LADYK"
   ],
+  "2015-09-14": [
+   "LADYK"
+  ],
   "2015-09-15": [
    "ARGO"
   ],
   "2015-09-16": [
+   "ARGO"
+  ],
+  "2015-09-17": [
    "ARGO"
   ],
   "2015-09-21": [
@@ -2294,6 +2315,9 @@
   "2015-09-28": [
    "HARKEN10"
   ],
+  "2015-09-29": [
+   "HARKEN10"
+  ],
   "2015-09-30": [
    "ALEUTIANSPRIBILOFNO2",
    "BLACKHAWK"
@@ -2304,6 +2328,7 @@
    "GLOBALGOLD"
   ],
   "2015-10-02": [
+   "ALEUTIANSPRIBILOFNO2",
    "GLOBALGOLD"
   ],
   "2015-10-03": [
