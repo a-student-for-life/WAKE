@@ -1332,6 +1332,7 @@
   "2022-05-08",
   "2022-05-09",
   "2022-05-10",
+  "2022-05-11",
   "2022-05-16",
   "2022-05-17",
   "2022-05-18",
@@ -1344,6 +1345,7 @@
   "2022-06-04",
   "2022-06-07",
   "2022-06-08",
+  "2022-06-09",
   "2022-06-12",
   "2022-06-13",
   "2022-06-14",
@@ -6536,9 +6538,11 @@
    "OVERSEASLOSANGELES"
   ],
   "2022-03-19": [
+   "ROBIN",
    "THEROBIN"
   ],
   "2022-03-20": [
+   "ROBIN",
    "THEROBIN",
    "THEWESTERNMARINER",
    "WESTERNMARINER"
@@ -6562,9 +6566,11 @@
    "MISSAMANDAM"
   ],
   "2022-04-04": [
+   "RITTERBROS",
    "THERITTERBROS"
   ],
   "2022-04-05": [
+   "RITTERBROS",
    "SHESALLWET",
    "THERITTERBROS"
   ],
@@ -6621,6 +6627,9 @@
    "OLIVIAFAITH",
    "OVERSEASKEYWEST"
   ],
+  "2022-05-11": [
+   "OVERSEASKEYWEST"
+  ],
   "2022-05-16": [
    "MISSSANDRAGAIL"
   ],
@@ -6636,9 +6645,11 @@
    "NONAME"
   ],
   "2022-05-24": [
+   "KAYDENPAUL",
    "THEKAYDENPAUL"
   ],
   "2022-05-25": [
+   "KAYDENPAUL",
    "THEKAYDENPAUL"
   ],
   "2022-06-01": [
@@ -6653,7 +6664,8 @@
    "CETUS"
   ],
   "2022-06-04": [
-   "CATHERINE"
+   "CATHERINE",
+   "CETUS"
   ],
   "2022-06-07": [
    "ROSSPRIDE"
@@ -6661,11 +6673,15 @@
   "2022-06-08": [
    "ROSSPRIDE"
   ],
+  "2022-06-09": [
+   "ROSSPRIDE"
+  ],
   "2022-06-12": [
    "BILLIE"
   ],
   "2022-06-13": [
    "BILLIE",
+   "CAPEOZO",
    "THECAPEOZO"
   ],
   "2022-06-14": [
