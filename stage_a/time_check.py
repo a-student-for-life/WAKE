@@ -85,17 +85,30 @@ def main(confirmed=None):
             s = d[f"diff_h_{k}"]
             lines.append(f"| {k} | {s.median():.2f} | {s.quantile(.25):.2f} | {s.quantile(.75):.2f} | "
                          f"{(s.abs() <= 2).sum()} of {len(s)} |")
-        best = min(("local", "eastern", "utc"), key=lambda k: abs(d[f"diff_h_{k}"].median()))
-        med = d[f"diff_h_{best}"].median()
-        lines += ["", "## Decision (rule fixed in the plan)", ""]
-        if len(d) < MIN_CASES:
-            lines.append(f"Fewer than {MIN_CASES} usable cases: keep local time; the check is inconclusive.")
+        lines += ["", "Old rule (plan section 3a, replaced by DEVIATIONS.md #1): reading with the median closest to zero "
+                  f"over all cases = {min(('local', 'eastern', 'utc'), key=lambda k: abs(d[f'diff_h_{k}'].median()))}.", ""]
+        # DEVIATIONS.md #1: only cases that can tell local from Eastern, stop within 6 h
+        w = d[(d.diff_h_local - d.diff_h_eastern).abs() > 0.01]
+        w = w[w[["diff_h_local", "diff_h_eastern", "diff_h_utc"]].abs().min(axis=1) <= 6]
+        lines += [f"Cases that can tell local from Eastern time, with the stop within 6 h of the report: **{len(w)}**.", "",
+                  "| Reading | Median | Median absolute | Reports before the stop (< -0.5 h) |", "| --- | --- | --- | --- |"]
+        for k in ("local", "eastern", "utc"):
+            s = w[f"diff_h_{k}"]
+            lines.append(f"| {k} | {s.median():.2f} | {s.abs().median():.2f} | {(s < -0.5).sum()} of {len(s)} |")
+        lines += ["", "## Decision (rule in DEVIATIONS.md #1)", ""]
+        if len(w) < MIN_CASES:
+            lines.append(f"Fewer than {MIN_CASES} cases that can discriminate: keep local time; the check is inconclusive "
+                         "on its own terms.")
+            best = "local"
         else:
-            lines.append(f"The reading closest to zero is **{best}** (median {med:+.2f} h).")
-            if med > 2:
-                lines.append(f"Its median is more than 2 h after the stop, so T = reported time minus {med:.2f} h.")
-            else:
-                lines.append(f"Its median is within 2 h, so T = the reported time read as {best} time, with no shift.")
+            best = min(("local", "eastern", "utc"), key=lambda k: w[f"diff_h_{k}"].abs().median())
+        med = w[f"diff_h_{best}"].median() if len(w) else 0.0
+        if len(w) >= MIN_CASES:
+            lines.append(f"The reading with the smallest median absolute difference is **{best}** (median {med:+.2f} h).")
+        if med > 2:
+            lines.append(f"Its median is more than 2 h after the stop, so T = reported time minus {med:.2f} h.")
+        else:
+            lines.append(f"Its median is within 2 h, so T = the reported time read as {best} time, with no shift.")
     open("results/time_check.md", "w").write("\n".join(lines) + "\n")
     print("\n".join(lines))
 

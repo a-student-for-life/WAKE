@@ -12,7 +12,17 @@ Reported time minus AIS stop time, in hours (positive = report after the stop):
 | eastern | 0.74 | -1.18 | 6.92 | 16 of 33 |
 | utc | -3.93 | -5.72 | 2.92 | 2 of 33 |
 
-## Decision (rule fixed in the plan)
+Old rule (plan section 3a, replaced by DEVIATIONS.md #1): reading with the median closest to zero over all cases = eastern.
 
-The reading closest to zero is **eastern** (median +0.74 h).
-Its median is within 2 h, so T = the reported time read as eastern time, with no shift.
+Cases that can tell local from Eastern time, with the stop within 6 h of the report: **14**.
+
+| Reading | Median | Median absolute | Reports before the stop (< -0.5 h) |
+| --- | --- | --- | --- |
+| local | 0.32 | 0.45 | 1 of 14 |
+| eastern | -1.09 | 1.54 | 11 of 14 |
+| utc | -5.71 | 5.71 | 13 of 14 |
+
+## Decision (rule in DEVIATIONS.md #1)
+
+Fewer than 15 cases that can discriminate: keep local time; the check is inconclusive on its own terms.
+Its median is within 2 h, so T = the reported time read as local time, with no shift.
