@@ -648,6 +648,14 @@
    "fleet_day": "2018-05-26",
    "code_version": "6706d05"
   },
+  "188_real": {
+   "file": "data/stage_b/windows/188_real.csv.gz",
+   "box_vessels": 146,
+   "rows": 730,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-07-25",
+   "code_version": "6706d05"
+  },
   "18_placebo30": {
    "file": "data/stage_b/windows/18_placebo30.csv.gz",
    "box_vessels": 174,
