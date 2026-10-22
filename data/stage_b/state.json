@@ -904,6 +904,14 @@
    "fleet_day": "2020-03-06",
    "code_version": "6706d05"
   },
+  "190_real": {
+   "file": "data/stage_b/windows/190_real.csv.gz",
+   "box_vessels": 555,
+   "rows": 2775,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-05-05",
+   "code_version": "6706d05"
+  },
   "192_placebo30": {
    "file": "data/stage_b/windows/192_placebo30.csv.gz",
    "box_vessels": 854,
