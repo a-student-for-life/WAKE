@@ -1183,10 +1183,12 @@
   "2021-05-27",
   "2021-06-01",
   "2021-06-02",
+  "2021-06-03",
   "2021-06-06",
   "2021-06-07",
   "2021-06-15",
   "2021-06-16",
+  "2021-06-17",
   "2021-06-22",
   "2021-06-23",
   "2021-06-29",
@@ -6044,7 +6046,10 @@
    "TOYO"
   ],
   "2021-05-15": [
-   "SHARONMARIE"
+   "NYKDELPHINUS",
+   "SHARONMARIE",
+   "TOYA",
+   "TOYO"
   ],
   "2021-05-24": [
    "KITEBAY"
@@ -6053,6 +6058,7 @@
    "KITEBAY"
   ],
   "2021-05-26": [
+   "KITEBAY",
    "MISSKIM"
   ],
   "2021-05-27": [
@@ -6063,6 +6069,10 @@
    "XPRESSPEARL"
   ],
   "2021-06-02": [
+   "DELIVERANCE",
+   "XPRESSPEARL"
+  ],
+  "2021-06-03": [
    "DELIVERANCE",
    "XPRESSPEARL"
   ],
@@ -6080,6 +6090,9 @@
   "2021-06-16": [
    "ZORBA"
   ],
+  "2021-06-17": [
+   "ZORBA"
+  ],
   "2021-06-22": [
    "CALDWELLBELL"
   ],
@@ -6091,11 +6104,13 @@
    "PUFFIN"
   ],
   "2021-06-30": [
+   "BENSEA",
    "MUGSC",
    "PUFFIN",
    "THEBENSEA"
   ],
   "2021-07-01": [
+   "BENSEA",
    "THEBENSEA"
   ],
   "2021-07-02": [
@@ -6148,7 +6163,8 @@
    "PAVLOF"
   ],
   "2021-07-19": [
-   "BESTCATCH"
+   "BESTCATCH",
+   "PAVLOF"
   ],
   "2021-07-21": [
    "TYRANT"
@@ -6157,7 +6173,8 @@
    "TYRANT"
   ],
   "2021-07-23": [
-   "TENACIOUS"
+   "TENACIOUS",
+   "TYRANT"
   ],
   "2021-07-24": [
    "TENACIOUS"
@@ -6166,10 +6183,12 @@
    "GOLDENRAY"
   ],
   "2021-08-02": [
+   "CAPTLENNY",
    "GOLDENRAY",
    "THECAPTLENNY"
   ],
   "2021-08-03": [
+   "CAPTLENNY",
    "THECAPTLENNY"
   ],
   "2021-08-05": [
