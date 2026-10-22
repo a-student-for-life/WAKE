@@ -264,6 +264,14 @@
    "fleet_day": "2017-09-21",
    "code_version": "6706d05"
   },
+  "121_placebo60": {
+   "file": "data/stage_b/windows/121_placebo60.csv.gz",
+   "box_vessels": 397,
+   "rows": 1985,
+   "centre_source": "reference_point",
+   "fleet_day": "2020-04-04",
+   "code_version": "6706d05"
+  },
   "122_placebo30": {
    "file": "data/stage_b/windows/122_placebo30.csv.gz",
    "box_vessels": 1370,
