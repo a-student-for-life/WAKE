@@ -152,7 +152,7 @@ at alpha 0.01, and roughly 70% for AUC 0.55 at alpha 0.05.
 ## 8. Robustness checks
 
 Sea versus inland incidents; incident type; NRC only and IncidentNews only; unsure
-cases added back; berth and storm events added back; 5 and 20 controls instead of 10;
+cases added back; berth and storm events added back; only matches both raters marked yes in the blind review (DEVIATIONS.md #2); 5 and 20 controls instead of 10;
 a minimum of 30 positions instead of 10; MMSI-only events (no IMO merging); the main window ending 3 hours before T instead of at T, so that behaviour just after an incident cannot drive the result if T is slightly late.
 
 ## 8a. Known limitation

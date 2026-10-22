@@ -31,3 +31,16 @@ short of the 15-case minimum, so by the rule local time is kept and the check co
 inconclusive; the cases there are point the same way. Either way T stays the reported
 time read as local time, with no shift, which is the assumption Stage A already used. The official run repeats this on the confirmed
 matches after the blind review.
+
+## 2. Added robustness check: independent agreement only, 22 Oct 2026
+
+Agreed by Janice on 22 Oct 2026, before any detector had been run or any incident-vessel
+result seen.
+
+**Addition.** The main test is repeated on the matches that both raters marked yes
+independently in the blind review (264 matches in `data/janice_review.csv` and
+`data/claude_review.csv`), leaving out the 33 added at the second look.
+
+**Reason.** At the second look (`data/second_look.csv`) the final answer matched Claude's
+first answer in 49 of 52 cases, so the 33 added matches rest mainly on one rater, an LLM.
+This check shows whether the result depends on them.
