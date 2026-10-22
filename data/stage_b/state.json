@@ -904,6 +904,14 @@
    "fleet_day": "2016-01-24",
    "code_version": "afe3010"
   },
+  "29_placebo30": {
+   "file": "data/stage_b/windows/29_placebo30.csv.gz",
+   "box_vessels": 134,
+   "rows": 670,
+   "centre_source": "reference_point",
+   "fleet_day": "2017-01-13",
+   "code_version": "afe3010"
+  },
   "29_placebo60": {
    "file": "data/stage_b/windows/29_placebo60.csv.gz",
    "box_vessels": 64,
