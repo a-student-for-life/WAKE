@@ -24,6 +24,14 @@
    "fleet_day": "2015-01-29",
    "code_version": "0ed14fa"
   },
+  "157_placebo60": {
+   "file": "data/stage_b/windows/157_placebo60.csv.gz",
+   "box_vessels": 1876,
+   "rows": 9380,
+   "centre_source": "reference_point",
+   "fleet_day": "2015-02-05",
+   "code_version": "0ed14fa"
+  },
   "203_placebo60": {
    "file": "data/stage_b/windows/203_placebo60.csv.gz",
    "box_vessels": 476,
