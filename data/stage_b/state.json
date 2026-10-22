@@ -1280,6 +1280,14 @@
    "fleet_day": "2016-11-17",
    "code_version": "afe3010"
   },
+  "84_real": {
+   "file": "data/stage_b/windows/84_real.csv.gz",
+   "box_vessels": 204,
+   "rows": 1020,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-01-16",
+   "code_version": "afe3010"
+  },
   "87_placebo30": {
    "file": "data/stage_b/windows/87_placebo30.csv.gz",
    "box_vessels": 1132,
