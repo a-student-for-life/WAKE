@@ -3319,6 +3319,14 @@
    "centre_source": "incident_main_window",
    "fleet_day": "2020-04-11",
    "code_version": "6706d05"
+  },
+  "9_real": {
+   "file": "data/stage_b/windows/9_real.csv.gz",
+   "box_vessels": 137,
+   "rows": 685,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-06-10",
+   "code_version": "7321282"
   }
  },
  "impossible": {
