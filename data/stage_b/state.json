@@ -2000,6 +2000,14 @@
    "fleet_day": "2020-03-13",
    "code_version": "6706d05"
   },
+  "264_real": {
+   "file": "data/stage_b/windows/264_real.csv.gz",
+   "box_vessels": 108,
+   "rows": 540,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-05-12",
+   "code_version": "6706d05"
+  },
   "265_placebo30": {
    "file": "data/stage_b/windows/265_placebo30.csv.gz",
    "box_vessels": 103,
