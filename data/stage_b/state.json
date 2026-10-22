@@ -576,6 +576,14 @@
    "fleet_day": "2018-12-17",
    "code_version": "6706d05"
   },
+  "162_real": {
+   "file": "data/stage_b/windows/162_real.csv.gz",
+   "box_vessels": 1393,
+   "rows": 6965,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-02-15",
+   "code_version": "6706d05"
+  },
   "16_placebo30": {
    "file": "data/stage_b/windows/16_placebo30.csv.gz",
    "box_vessels": 54,
