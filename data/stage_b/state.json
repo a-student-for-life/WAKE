@@ -1952,6 +1952,14 @@
    "fleet_day": "2015-07-15",
    "code_version": "afe3010"
   },
+  "264_placebo30": {
+   "file": "data/stage_b/windows/264_placebo30.csv.gz",
+   "box_vessels": 109,
+   "rows": 545,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-04-12",
+   "code_version": "6706d05"
+  },
   "264_placebo60": {
    "file": "data/stage_b/windows/264_placebo60.csv.gz",
    "box_vessels": 111,
