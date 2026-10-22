@@ -704,6 +704,14 @@
    "fleet_day": "2019-12-14",
    "code_version": "6706d05"
   },
+  "165_placebo60": {
+   "file": "data/stage_b/windows/165_placebo60.csv.gz",
+   "box_vessels": 1814,
+   "rows": 9070,
+   "centre_source": "reference_point",
+   "fleet_day": "2020-04-22",
+   "code_version": "6706d05"
+  },
   "16_placebo30": {
    "file": "data/stage_b/windows/16_placebo30.csv.gz",
    "box_vessels": 54,
