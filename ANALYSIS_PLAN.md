@@ -5,7 +5,7 @@ The git history of this file is the record of what was decided before results ex
 Any later change goes in `DEVIATIONS.md` with its date and reason; results are reported
 whatever they show.
 
-Status: **draft, awaiting Janice's approval.**
+Status: **approved by Janice on 22 Oct 2026**, with the two additions she agreed that day (section 3a and the last robustness check in section 8).
 
 ## 1. Question
 
@@ -53,6 +53,23 @@ date-only rule is deliberately early, so no after-the-event behaviour leaks in.
 **Main window: the 24 hours before T.** Secondary windows: 6 and 48 hours before T.
 The 12 hours after T are described, never counted as detection: a grounded ship
 stopping afterwards is a consequence, not a warning.
+
+## 3a. Check of the report-time convention (before Stage B)
+
+NRC times are assumed to be local time at the incident, and to mark the incident rather
+than the call. This is checked before any detector is run:
+
+- **Cases:** confirmed groundings and allisions with an exact reported position whose AIS
+  track shows the vessel stopping (speed under 1 knot for at least 30 minutes) within
+  2 km of that position.
+- **Measure:** reported time minus the AIS stop time, under three readings of the
+  reported time: local time, US Eastern time, and UTC.
+- **Decision rule:** keep the reading whose median difference is closest to zero. If the
+  median under that reading is still more than 2 hours after the stop (the time a call
+  was made, not the incident), T becomes the reported time minus that median delay.
+  With fewer than 15 usable cases, keep local time and report the check as inconclusive.
+
+The result and the rule applied are written to `results/time_check.md` before Stage B.
 
 ## 4. Exposure and matched controls
 
@@ -136,7 +153,13 @@ at alpha 0.01, and roughly 70% for AUC 0.55 at alpha 0.05.
 
 Sea versus inland incidents; incident type; NRC only and IncidentNews only; unsure
 cases added back; berth and storm events added back; 5 and 20 controls instead of 10;
-a minimum of 30 positions instead of 10; MMSI-only events (no IMO merging).
+a minimum of 30 positions instead of 10; MMSI-only events (no IMO merging); the main window ending 3 hours before T instead of at T, so that behaviour just after an incident cannot drive the result if T is slightly late.
+
+## 8a. Known limitation
+
+The five detectors follow standard ideas, but their exact definitions and thresholds are
+set here rather than copied from a published system. They are fixed before any results
+exist; the paper states that a differently tuned detector could behave differently.
 
 ## 9. Data decisions from Stage A (ISSUES.md)
 
