@@ -144,6 +144,14 @@
    "fleet_day": "2015-01-07",
    "code_version": "0ed14fa"
   },
+  "87_real": {
+   "file": "data/stage_b/windows/87_real.csv.gz",
+   "box_vessels": 1162,
+   "rows": 5810,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2015-03-08",
+   "code_version": "0ed14fa"
+  },
   "88_placebo30": {
    "file": "data/stage_b/windows/88_placebo30.csv.gz",
    "box_vessels": 447,
