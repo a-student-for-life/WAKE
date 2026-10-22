@@ -44,3 +44,23 @@ independently in the blind review (264 matches in `data/janice_review.csv` and
 **Reason.** At the second look (`data/second_look.csv`) the final answer matched Claude's
 first answer in 49 of 52 cases, so the 33 added matches rest mainly on one rater, an LLM.
 This check shows whether the result depends on them.
+
+## 3. Event-table gaps not covered by the Stage B spec, 22 Oct 2026
+
+Implementation detail filled in at step B1, before any detector had been run.
+
+**Gap.** 14 vessel events have an earliest report with no reference point, and one of
+them (N1414867, SEASPAN KESTREL, Haro Strait, Canada) is an NRC record with a local time
+but no time zone and no `time_utc`, so the spec's rules give it no T.
+
+**Rule used.** A missing reference point is replaced by the vessel's median AIS position
+on the report's local date, from its Stage A track in `data/tracks/` (`ref_source =
+ais_track_median` in `data/stage_b/events.csv`). For N1414867 the zone is taken from that
+point with the spec's longitude rule (America/Los_Angeles) and T is the reported local
+time in that zone (`T_rule = nrc_local_tz_from_ais`). The reference point only matters
+for the time zone and as the last fallback for the window centre.
+
+**Event-level exclusion.** One event (211) has two reports coded differently (berth in
+the IncidentNews text, no flag in the NRC record). The spec's count of 257 events in the
+main analysis means an event is excluded only when all its matches are flagged, so event
+211 stays in the main analysis; `main_exclude_any` marks it so a robustness run can drop it.
