@@ -1,5 +1,14 @@
 {
- "done": {},
+ "done": {
+  "126_placebo60": {
+   "file": "data/stage_b/windows/126_placebo60.csv.gz",
+   "box_vessels": 1121,
+   "rows": 5605,
+   "centre_source": "reference_point",
+   "fleet_day": "2015-01-07",
+   "code_version": "0ed14fa"
+  }
+ },
  "impossible": {
   "128_placebo60": "AIS day(s) not available: 2014-12-21;2014-12-22;2014-12-23",
   "54_placebo60": "AIS day(s) not available: 2014-12-16;2014-12-17;2014-12-18"
