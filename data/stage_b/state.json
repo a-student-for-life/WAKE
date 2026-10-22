@@ -2664,6 +2664,14 @@
    "fleet_day": "2019-11-14",
    "code_version": "6706d05"
   },
+  "72_real": {
+   "file": "data/stage_b/windows/72_real.csv.gz",
+   "box_vessels": 1311,
+   "rows": 6555,
+   "centre_source": "reference_point",
+   "fleet_day": "2020-01-13",
+   "code_version": "6706d05"
+  },
   "74_placebo30": {
    "file": "data/stage_b/windows/74_placebo30.csv.gz",
    "box_vessels": 142,
