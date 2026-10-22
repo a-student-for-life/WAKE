@@ -320,6 +320,14 @@
    "fleet_day": "2015-05-16",
    "code_version": "afe3010"
   },
+  "74_placebo60": {
+   "file": "data/stage_b/windows/74_placebo60.csv.gz",
+   "box_vessels": 72,
+   "rows": 360,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2015-06-13",
+   "code_version": "afe3010"
+  },
   "7_placebo30": {
    "file": "data/stage_b/windows/7_placebo30.csv.gz",
    "box_vessels": 17,
