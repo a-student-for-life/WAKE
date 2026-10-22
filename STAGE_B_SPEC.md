@@ -103,6 +103,14 @@ For each event-scenario:
    and window with every field above, plus the centre, the fleet thresholds and the code
    version (git commit). Record progress in `data/stage_b/state.json`.
 
+## Model rule (agreed with Janice, 22 Oct 2026)
+
+Steps B3 and B4 are run only by a session on a Claude Opus model. A session on any
+other model that finds B2 complete does not start B3: it writes "B2 complete; waiting
+for an Opus session for B3" in its `PROGRESS.md` row and stops. B2 runs on any model,
+but its code (`stage_b/windows.py`) is changed only by an Opus session; another model
+that hits a bug stops, logs it in `PROGRESS.md` and leaves the fix for an Opus session.
+
 ## B3. Matching (`stage_b/match.py` -> `data/stage_b/matched/`)
 
 Per event-scenario and window `main`, following plan section 4: control pool within
