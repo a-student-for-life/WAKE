@@ -1679,6 +1679,7 @@
   "2024-07-17",
   "2024-07-18",
   "2024-07-19",
+  "2024-07-20",
   "2024-07-21",
   "2024-07-22",
   "2024-07-23",
@@ -1698,6 +1699,7 @@
   "2024-08-13",
   "2024-08-14",
   "2024-08-15",
+  "2024-08-16",
   "2024-08-24",
   "2024-08-25",
   "2024-08-30",
@@ -7826,6 +7828,7 @@
    "AHI"
   ],
   "2024-07-12": [
+   "AHI",
    "EAGLESANANTONIO"
   ],
   "2024-07-13": [
@@ -7842,6 +7845,9 @@
   "2024-07-19": [
    "BILGE",
    "MISSPEGGY"
+  ],
+  "2024-07-20": [
+   "BILGE"
   ],
   "2024-07-21": [
    "VICKYRAY"
@@ -7866,7 +7872,10 @@
    "VICKIRAE"
   ],
   "2024-07-26": [
-   "OVERSEASMYKONOS"
+   "ALLSTAR",
+   "OVERSEASMYKONOS",
+   "VICKIERAE",
+   "VICKIRAE"
   ],
   "2024-07-27": [
    "OVERSEASMYKONOS",
@@ -7877,10 +7886,12 @@
    "TWOSSTHREELS"
   ],
   "2024-07-29": [
-   "TERRANOVA"
+   "TERRANOVA",
+   "TWOSSTHREELS"
   ],
   "2024-07-30": [
-   "ACHILLES"
+   "ACHILLES",
+   "TERRANOVA"
   ],
   "2024-07-31": [
    "ACHILLES"
@@ -7894,13 +7905,17 @@
    "ALASKAN"
   ],
   "2024-08-10": [
-   "THEWESTERLY"
+   "ALASKA",
+   "ALASKAN",
+   "THEWESTERLY",
+   "WESTERLY"
   ],
   "2024-08-11": [
    "MRSGALE",
    "SKY",
    "THEWESTERLY",
-   "THREEGIRLS"
+   "THREEGIRLS",
+   "WESTERLY"
   ],
   "2024-08-12": [
    "MRSGALE",
@@ -7909,6 +7924,7 @@
   ],
   "2024-08-13": [
    "HOVIC1",
+   "SKY",
    "THREEGIRLS"
   ],
   "2024-08-14": [
@@ -7919,6 +7935,9 @@
   "2024-08-15": [
    "HAVOC"
   ],
+  "2024-08-16": [
+   "HAVOC"
+  ],
   "2024-08-24": [
    "CAPTALEX"
   ],
@@ -7927,6 +7946,7 @@
   ],
   "2024-08-30": [
    "JIG",
+   "JIGSTRIKE",
    "THEJIGSTRIKE"
   ],
   "2024-08-31": [
