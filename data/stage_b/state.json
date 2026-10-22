@@ -7,6 +7,14 @@
    "centre_source": "reference_point",
    "fleet_day": "2015-01-07",
    "code_version": "0ed14fa"
+  },
+  "87_placebo60": {
+   "file": "data/stage_b/windows/87_placebo60.csv.gz",
+   "box_vessels": 1121,
+   "rows": 5605,
+   "centre_source": "reference_point",
+   "fleet_day": "2015-01-07",
+   "code_version": "0ed14fa"
   }
  },
  "impossible": {
