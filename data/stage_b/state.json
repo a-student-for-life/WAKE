@@ -1208,6 +1208,14 @@
    "fleet_day": "2020-07-16",
    "code_version": "7321282"
   },
+  "202_real": {
+   "file": "data/stage_b/windows/202_real.csv.gz",
+   "box_vessels": 755,
+   "rows": 3775,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-09-14",
+   "code_version": "7321282"
+  },
   "203_placebo30": {
    "file": "data/stage_b/windows/203_placebo30.csv.gz",
    "box_vessels": 506,
