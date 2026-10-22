@@ -1882,6 +1882,7 @@
   "2025-08-14",
   "2025-08-18",
   "2025-08-19",
+  "2025-08-20",
   "2025-08-21",
   "2025-08-22",
   "2025-08-28",
@@ -1890,6 +1891,7 @@
   "2025-09-01",
   "2025-09-04",
   "2025-09-05",
+  "2025-09-06",
   "2025-09-08",
   "2025-09-09",
   "2025-09-10",
@@ -1898,6 +1900,7 @@
   "2025-09-16",
   "2025-09-17",
   "2025-09-18",
+  "2025-09-19",
   "2025-09-22",
   "2025-09-23",
   "2025-09-24",
@@ -8450,6 +8453,7 @@
    "KUMA"
   ],
   "2025-06-10": [
+   "KUMA",
    "SEAHORSE"
   ],
   "2025-06-11": [
@@ -8471,11 +8475,14 @@
    "TRIPLETHREAT"
   ],
   "2025-06-18": [
+   "FLYINGDUTCHMAN",
    "THEFLYINGDUTCHMAN",
    "TRIPLETHREAT"
   ],
   "2025-06-19": [
-   "THEFLYINGDUTCHMAN"
+   "FLYINGDUTCHMAN",
+   "THEFLYINGDUTCHMAN",
+   "TRIPLETHREAT"
   ],
   "2025-06-29": [
    "HAPPYHOOKER",
@@ -8486,6 +8493,7 @@
    "SUSIEPEARL"
   ],
   "2025-07-01": [
+   "HAPPYHOOKER",
    "NA2",
    "SALTWALKER"
   ],
@@ -8534,7 +8542,8 @@
   ],
   "2025-08-03": [
    "ISLANDECLAN",
-   "LEEWARD"
+   "LEEWARD",
+   "SEARANGER"
   ],
   "2025-08-04": [
    "ISLANDECLAN"
@@ -8573,6 +8582,12 @@
    "SAPPHIRE",
    "WSAPPHIRE"
   ],
+  "2025-08-20": [
+   "BAILEY",
+   "DASBUG",
+   "SAPPHIRE",
+   "WSAPPHIRE"
+  ],
   "2025-08-21": [
    "PRETZELLOGIC"
   ],
@@ -8601,6 +8616,9 @@
    "ALOSA",
    "MSCVANCOUVER"
   ],
+  "2025-09-06": [
+   "MSCVANCOUVER"
+  ],
   "2025-09-08": [
    "NONAME"
   ],
@@ -8625,11 +8643,16 @@
   "2025-09-17": [
    "BULLYDOG",
    "DOMINION",
+   "MARENE",
    "THEMARENE"
   ],
   "2025-09-18": [
    "DOMINION",
+   "MARENE",
    "THEMARENE"
+  ],
+  "2025-09-19": [
+   "DOMINION"
   ],
   "2025-09-22": [
    "RIVERCLEANUP"
