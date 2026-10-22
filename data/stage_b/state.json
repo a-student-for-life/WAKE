@@ -751,11 +751,13 @@
   "234_placebo60": "AIS day(s) not available or nearly empty: 2015-11-25",
   "251_placebo60": "AIS day(s) not available or nearly empty: 2015-11-16",
   "283_placebo60": "AIS day(s) not available or nearly empty: 2015-11-25",
-  "54_placebo60": "AIS day(s) not available: 2014-12-16;2014-12-17;2014-12-18"
+  "54_placebo60": "AIS day(s) not available: 2014-12-16;2014-12-17;2014-12-18",
+  "58_placebo30": "AIS day(s) not available or nearly empty: 2016-01-31"
  },
  "short_days": {
   "2015-03-15": 5049,
   "2015-11-16": 111382,
-  "2015-11-25": 11753
+  "2015-11-25": 11753,
+  "2016-01-31": 132640
  }
 }
