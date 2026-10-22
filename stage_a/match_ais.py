@@ -74,12 +74,19 @@ def incidents():
     return d[d.day0.notna()]
 
 
+def window(d0, has_time):
+    """UTC days searched for one incident: the day before and the day of. A record with a
+    date but no time (IncidentNews) also gets the following UTC day, because a US local
+    evening falls on the next UTC day (ISSUES.md #1)."""
+    days = [d0 - timedelta(days=1), d0] + ([] if has_time else [d0 + timedelta(days=1)])
+    return [d for d in days if date(2015, 1, 1) <= d <= date(2025, 12, 31)]
+
+
 def needed_by_day(inc):
     need = {}
-    for nn, d0 in zip(inc.name_norm, inc.day0):
-        for d in (d0 - timedelta(days=1), d0):
-            if date(2015, 1, 1) <= d <= date(2025, 12, 31):
-                need.setdefault(d, set()).add(nn)
+    for nn, d0, tu in zip(inc.name_norm, inc.day0, inc.time_utc):
+        for d in window(d0, bool(tu)):
+            need.setdefault(d, set()).add(nn)
     return need
 
 
@@ -265,8 +272,7 @@ def candidates():
 
     rows, status = [], []
     for _, r in inc.iterrows():
-        days = [r.day0 - timedelta(days=1), r.day0]
-        days = [d for d in days if date(2015, 1, 1) <= d <= date(2025, 12, 31)]
+        days = window(r.day0, bool(r.time_utc))
         scanned = all(r.name_norm in names_scanned.get(str(d), []) for d in days)
         if not scanned:
             status.append(dict(incident_id=r.incident_id, scanned=False, n_candidates=""))
@@ -276,6 +282,7 @@ def candidates():
         exact = h[h.nn == nn]
         loose = h[h.nn.map(lambda a: loose_match(nn, a)).astype(bool)]
         lat0, lon0 = num(r.ref_lat), num(r.ref_lon)
+        alat, alon = num(r.get("alt_lat")), num(r.get("alt_lon"))
         t_rep = pd.to_datetime(r.time_utc, errors="coerce") if r.time_utc else pd.NaT
         per = []
         for kind, sub in (("exact", exact), ("loose", loose)):
@@ -296,6 +303,8 @@ def candidates():
                     c.update(closest_km=round(dist[i], 2), closest_time=g.time.iloc[i])
                 else:
                     c.update(closest_km=None, closest_time="")
+                if alat is not None:
+                    c["closest_alt_km"] = round(min(hav(alat, alon, a, b) for a, b in zip(g.la, g.lo)), 2)
                 if pd.notna(t_rep):
                     tt = pd.to_datetime(g.time, errors="coerce")
                     gap = (tt - t_rep).abs()
@@ -314,8 +323,11 @@ def candidates():
                      vessel_type_reported=r.vessel_type_reported,
                      length_reported_m=round(L * 0.3048, 1) if L else None,
                      n_other_same_name=len(others), others_min_closest_km=min(od) if od else None)
+            # auto-reject only if far from the reference point AND from the place named in the
+            # text, so a wrong coordinate cannot reject the right vessel (ISSUES.md #7)
+            alt_far = c.get("closest_alt_km") is None or c["closest_alt_km"] > AUTO_REJECT_KM
             rej = (r.ref_method in ("exact", "town", "town+offset") and c.get("closest_km") is not None
-                   and c["closest_km"] > AUTO_REJECT_KM)
+                   and c["closest_km"] > AUTO_REJECT_KM and alt_far)
             c["auto_reject"] = "closest distance > 100 km" if rej else ""
             rows.append(c)
         status.append(dict(incident_id=r.incident_id, scanned=True, n_candidates=len(per)))

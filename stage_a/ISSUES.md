@@ -42,3 +42,13 @@ cases in `data/claude_review.csv` or `data/incidents.csv` where it showed.
     MMSIs with the same IMO (8987905), one replacing the other the day before the
     incident. Claude marked the MMSI transmitting at the report time yes and the other
     unsure; the analysis should treat them as one vessel.
+
+## Decisions (22 Oct 2026)
+
+All ten are settled; the decisions and their effect are in section 9 of
+`ANALYSIS_PLAN.md`. Code changes: `stage_a/names.py` (prefixes, #2),
+`stage_a/build_incidents.py` (SLIP rule #8; `berth_flag`, `storm_flag`, and an
+`alt_lat/alt_lon` point from the place text, #5–7), `stage_a/match_ais.py` (three UTC
+days for date-only records #1; auto-reject needs both points over 100 km #7).
+Duplicates, non-source vessels, berth and storm events and two-MMSI ships are handled
+at analysis (#3–6, #10). #9 needed no change beyond what is already in `match_ais.py`.

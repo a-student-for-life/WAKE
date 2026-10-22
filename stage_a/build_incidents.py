@@ -61,7 +61,10 @@ BAD_NAMES = {"NAN", "UNKNOWN", "UNK", "N/A", "NA", "NONE", "", "UNKNOWN VESSEL",
 BAD_TYPES = {"PLEASURE CRAFT", "MILITARY", "UNKNOWN", "OTHER", "BARGE", "MODU"}
 OIL = re.compile(r"OIL|DIESEL|FUEL|GASOLINE|HYDRAULIC|LUBE|BUNKER|PETROLEUM|CRUDE")
 MOVING = re.compile(r"AGROUND|GROUND|COLLI|ALLISION|UNDERWAY|UNDER WAY|TRANSIT|STRUCK|SANK|SINK|CAPSIZ")
-BERTH = re.compile(r"MOORED|PIER|DOCK|BERTH|MARINA|SHIPYARD|REFUEL|FUELING|DRYDOCK|SLIP")
+BERTH = re.compile(r"MOORED|PIER|DOCK|BERTH|MARINA|SHIPYARD|REFUEL|FUELING|DRYDOCK|\bSLIPS?\b")  # ISSUES #8: not SLIPPED
+# Flags only (nothing is removed by these): ISSUES #5 and #6
+BERTH_FLAG = re.compile(r"\b(MOORED|PIER|DOCK(ED|SIDE)?|BERTH(ED)?|MARINA|SHIPYARD|DRY ?DOCK|ALONGSIDE|REFUEL(ING)?|FUELING|SLIPS?|WHARF|TERMINAL)\b")
+STORM = re.compile(r"\b(HURRICANE|TROPICAL STORM|TYPHOON)\b")
 INLAND = re.compile(r"\b(RIVERS?|BAYOUS?|CANALS?|LOCKS?|LAKES?)\b")
 TYPES = [  # first match wins, in the spec's order
     ("grounding", re.compile(r"AGROUND|\bGROUND(ED|ING)\b|RAN ONTO|\bGROUNDING")),
@@ -179,6 +182,24 @@ def nrc_position(r, gaz):
     return round(lat, 5), round(lon, 5), "town"
 
 
+def flag(rx, *texts):
+    m = [rx.search(t.upper()) for t in texts if t]
+    m = [x.group(0) for x in m if x]
+    return m[0] if m else ""
+
+
+def town_position(st, place, gaz):
+    """Gazetteer point for the place text alone (no offset). Second reference used only
+    to guard the 100 km auto-reject against wrong coordinates (ISSUES #7)."""
+    raw = s(place).upper()
+    for c in [raw] + re.split(r"[/&,]| AND ", raw):
+        c = place_key(c)
+        if c and (st, c) in gaz:
+            la, lo = gaz[(st, c)]
+            return round(la, 5), round(lo, 5)
+    return None, None
+
+
 # ---------------------------------------------------------------- NRC
 def read_nrc(path):
     x = pd.read_excel(path, sheet_name=["CALLS", "INCIDENT_COMMONS", "VESSELS_DETAIL", "MATERIAL_INVOLVED"])
@@ -240,6 +261,7 @@ def build_nrc(gaz):
             st = s(r.get("LOCATION_STATE")).upper()
             tutc, tz = to_utc(ldt, st)
             lat, lon, meth = nrc_position(r, gaz)
+            alat, alon = town_position(st, s(r.get("LOCATION_NEAREST_CITY")), gaz)
             m = mats.get_group(q)
             d = s(r.get("DESCRIPTION_OF_INCIDENT"))
             out.append(dict(
@@ -252,7 +274,9 @@ def build_nrc(gaz):
                 time_assumed_local="true", state=st,
                 place_text="; ".join(x for x in (s(r.get("INCIDENT_LOCATION")), s(r.get("LOCATION_NEAREST_CITY")),
                                                  s(r.get("LOCATION_COUNTY"))) if x),
-                ref_lat=lat, ref_lon=lon, ref_method=meth,
+                ref_lat=lat, ref_lon=lon, ref_method=meth, alt_lat=alat, alt_lon=alon,
+                berth_flag=flag(BERTH_FLAG, d, s(r.get("INCIDENT_LOCATION"))),
+                storm_flag=flag(STORM, d, s(r.get("INCIDENT_CAUSE"))),
                 incident_type=classify(s(r.get("TYPE_OF_INCIDENT")) + " " + d),
                 setting=setting(s(r.get("INCIDENT_LOCATION")), d),
                 material="; ".join(m.mat), amount="; ".join(m.AMOUNT_OF_MATERIAL.map(s)),
@@ -318,7 +342,7 @@ def in_state(loc, lat, lon):
     return ""
 
 
-def build_in():
+def build_in(gaz):
     r = pd.read_csv(f"{RAW}/in/incidents.csv", dtype=str, keep_default_na=False, encoding_errors="replace")
     r = r[r.open_date.str[:4].isin([str(y) for y in YEARS])]
     tags = r.tags.str.split(r"[|,]")
@@ -337,6 +361,7 @@ def build_in():
         lat, lon = pd.to_numeric(x.lat, errors="coerce"), pd.to_numeric(x.lon, errors="coerce")
         ok = pd.notna(lat) and pd.notna(lon) and in_us(float(lat), float(lon))
         st = in_state(x.location, lat, lon)
+        alt = town_position(st, x.location.split(",")[0], gaz)
         d = re.sub(r"\s+", " ", x.description)
         for k, (nm, nn) in enumerate(names):
             out.append(dict(
@@ -347,6 +372,8 @@ def build_in():
                 time_assumed_local="", state=st, place_text=x.location,
                 ref_lat=round(float(lat), 5) if ok else None, ref_lon=round(float(lon), 5) if ok else None,
                 ref_method="exact" if ok else "none",
+                alt_lat=alt[0], alt_lon=alt[1],
+                berth_flag=flag(BERTH_FLAG, d, x["name"]), storm_flag=flag(STORM, d, x["name"]),
                 incident_type=classify(x.tags + " " + x["name"] + " " + d), setting=setting(x.location, x["name"], d),
                 material=x.commodity, amount=x.max_ptl_release_gallons,
                 units="gallons (max potential)" if x.max_ptl_release_gallons else "",
@@ -385,7 +412,7 @@ def main():
     gaz = load_gazetteer()
     print("gazetteer keys", len(gaz), flush=True)
     nrc, excl = build_nrc(gaz)
-    inc, in_stats = build_in()
+    inc, in_stats = build_in(gaz)
     nrc, inc, ndup = dedupe(nrc, inc)
     allx = pd.concat([nrc, inc], ignore_index=True)
     allx["year"] = allx.date_local.str[:4]
