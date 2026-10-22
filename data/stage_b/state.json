@@ -1848,6 +1848,14 @@
    "fleet_day": "2015-03-10",
    "code_version": "0ed14fa"
   },
+  "92_placebo30": {
+   "file": "data/stage_b/windows/92_placebo30.csv.gz",
+   "box_vessels": 1568,
+   "rows": 7840,
+   "centre_source": "reference_point",
+   "fleet_day": "2018-02-20",
+   "code_version": "6706d05"
+  },
   "92_placebo60": {
    "file": "data/stage_b/windows/92_placebo60.csv.gz",
    "box_vessels": 1539,
