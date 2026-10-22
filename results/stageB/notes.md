@@ -41,3 +41,5 @@ Written before any window file was produced; also in the docstring of
   matched on MMSI or on the vessel's most common AIS IMO.
 - Box vessels with no positions in a window still get a row (n_pos 0, no scores); the
   incident vessel always gets rows, even with no AIS.
+- A national day file with fewer than 1,000,000 positions is treated as missing
+  (DEVIATIONS.md #4; first case 2015-03-15 with 5,049 positions).

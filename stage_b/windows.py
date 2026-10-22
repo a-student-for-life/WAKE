@@ -14,8 +14,9 @@ window file unless --no-git.
 
 Implementation details the plan and spec leave open (also in results/stageB/notes.md):
 - Windows are half-open: pre-T windows [start, end), after12 [T, T+12 h).
-- Days covering T-48 h..T are required; if one does not exist on the AIS hosts (404) the
-  event-scenario is recorded as impossible. Days that only cover (T, T+12 h] are
+- Days covering T-48 h..T are required; if one does not exist on the AIS hosts (404) or
+  its national file has fewer than 1,000,000 positions (an outage; normal days have
+  6-10 million), the event-scenario is recorded as impossible (DEVIATIONS.md #4). Days that only cover (T, T+12 h] are
   optional; if missing, after12 is computed on what exists and the file says so.
 - Consecutive positions: hours observed sum gaps <= 1 h; distance sailed sums all
   consecutive great-circle steps; speed-drop and turn-rate pairs need 0 < gap <= 10 min.
@@ -60,6 +61,7 @@ WINDOWS = {"main": (-24, 0), "w6": (-6, 0), "w48": (-48, 0), "early3": (-27, -3)
 SPAN = (-48, 12)
 BOX_KM = 150.0
 MIN_POS = 10
+MIN_DAY_POS = 1_000_000  # a national day file below this is an outage (DEVIATIONS.md #4)
 SEED = 20261022
 R = 6371.0088
 DET = ["d1_speed_drop", "d2_loiter_h", "d3_gap_ratio", "d4_off_lane", "d5_iforest"]
@@ -533,9 +535,15 @@ def main():
         if rc != 0 or not os.path.exists(path):
             raise RuntimeError(f"download failed {d}")
         t = time.time()
-        buf[d] = aisday.read_day(path)
+        day = aisday.read_day(path)
         os.remove(path)
-        print(f"  read {d}: {len(buf[d]['mmsi'])} positions in {time.time() - t:.0f}s", flush=True)
+        print(f"  read {d}: {len(day['mmsi'])} positions in {time.time() - t:.0f}s", flush=True)
+        if len(day["mmsi"]) < MIN_DAY_POS:  # national file nearly empty (data outage)
+            missing.add(d)
+            st.setdefault("short_days", {})[str(d)] = int(len(day["mmsi"]))
+            print(d, "treated as missing: national file has too few positions", flush=True)
+            return
+        buf[d] = day
 
     n_done = 0
     for wstart, key, e, scen, T in todo:
@@ -555,7 +563,7 @@ def main():
             continue
         miss_req = [str(d) for d in req if d in missing]
         if miss_req:
-            st["impossible"][key] = f"AIS day(s) not available: {';'.join(miss_req)}"
+            st["impossible"][key] = f"AIS day(s) not available or nearly empty: {';'.join(miss_req)}"
             save_state(st)
             if not args.no_git:
                 commit([STATE], f"B2: {key} impossible (no AIS)")

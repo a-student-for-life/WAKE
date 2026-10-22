@@ -64,3 +64,19 @@ for the time zone and as the last fallback for the window centre.
 the IncidentNews text, no flag in the NRC record). The spec's count of 257 events in the
 main analysis means an event is excluded only when all its matches are flagged, so event
 211 stays in the main analysis; `main_exclude_any` marks it so a robustness run can drop it.
+
+## 4. Nearly empty AIS days, 22 Oct 2026
+
+Implementation detail added during step B2, before any incident-versus-control
+comparison had been looked at.
+
+**Gap.** Some national Marine Cadastre day files are almost empty: the file for
+2015-03-15 holds 5,049 positions (normal days hold 6–10 million), nearly all from the
+first hour. A fleet reference cannot be built from it and windows covering it would be
+mostly blank, which the spec does not anticipate.
+
+**Rule used.** A national day file with fewer than 1,000,000 positions is treated like a
+missing day: an event-scenario whose required days (T-48 h to T) include it is recorded
+as impossible in `data/stage_b/state.json`; a day that only covers the 12 hours after T
+is left out of after12. The days concerned and their position counts are listed under
+`short_days` in the state file.
