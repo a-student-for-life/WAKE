@@ -399,6 +399,14 @@
    "centre_source": "incident_main_window",
    "fleet_day": "2015-04-10",
    "code_version": "afe3010"
+  },
+  "99_real": {
+   "file": "data/stage_b/windows/99_real.csv.gz",
+   "box_vessels": 1973,
+   "rows": 9865,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2015-06-09",
+   "code_version": "afe3010"
   }
  },
  "impossible": {
