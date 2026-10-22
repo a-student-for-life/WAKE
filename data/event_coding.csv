@@ -1,0 +1,298 @@
+incident_id,mmsi,role,context,storm,coded_by,note,main_exclude
+I9344_1,367470260,source,moving_or_anchored,no,"Claude, read",,False
+N1394232_2,636020834,source,moving_or_anchored,no,"Claude, read",,False
+N1423967_1,366921740,source,moving_or_anchored,no,"Claude, read",,False
+N1121805,366197000,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9480,219219000,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I10019,367493650,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1363588,367610590,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1168751,311315000,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1333535,368130610,source,moving_or_anchored,no,"Claude, read",,False
+N1422260,258005000,source,moving_or_anchored,no,"Claude, read",,False
+I9227,710000658,source,moving_or_anchored,no,"Claude, read",,False
+I9241,366983290,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1406048,366846000,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1353057,538009561,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I10794,538003817,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1125112,367079220,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1395444,368338580,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9739,366930730,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1430692,367155110,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9580,538003886,source,berth,no,"Claude, read",containers lost while docked,True
+I9280_1,564259000,source,moving_or_anchored,no,"Claude, read",,False
+N1261693_1,366984440,tug_of_source,moving_or_anchored,no,"Claude, read",towboat pushing a barge in the collision,False
+N1325002,367014420,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9491,367399170,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1171487_1,367003780,source,moving_or_anchored,no,"Claude, read",,False
+I9925_2,367090310,source,berth,no,"Claude, read",galley fire while moored at pier,True
+N1364882,366772780,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1310317,368135920,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1295075,367773350,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1225698,367710270,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9429,367722480,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I10609,368251670,source,moving_or_anchored,no,"Claude, read",,False
+N1244377,367462360,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I8932,316018616,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I8886_1,219269000,source,moving_or_anchored,no,"Claude, read",,False
+I10384,367362680,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1416681,367696380,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I10764_2,366938710,source,moving_or_anchored,no,"Claude, read",,False
+I10799_1,316002501,source,moving_or_anchored,no,"Claude, read",,False
+I10877_2,538010727,not_source,berth,no,"Claude, read",vessel coated by a shore-facility spill,True
+I9542,372367000,source,berth,no,"Claude, read",moored at pier,True
+N1309620_2,367003210,source,moving_or_anchored,no,"Claude, read",,False
+N1314755,367034830,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1409590,367046140,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1237817,319093800,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1430224,367715380,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1431426_2,636022458,source,moving_or_anchored,no,"Claude, read",,False
+I9156,338898000,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I10097,259025000,source,berth,no,"Claude, read",fire at pier,True
+I10043,367468960,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1127978,367502520,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1181542,367020520,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1323458,477430300,source,moving_or_anchored,no,"Claude, read",,False
+N1334817,255806090,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1385566,366934770,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1428244,256664000,source,moving_or_anchored,no,"Claude, read",,False
+N1218602,367136020,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9166,366796250,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1448775,316001940,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I10916,367534690,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1164433,367594260,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9183,373889000,source,moving_or_anchored,no,"Claude, read",,False
+N1119276,369139000,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I8900,366936810,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9963,367637310,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9359,373722000,source,moving_or_anchored,no,"Claude, read",,False
+N1380836,577380000,source,moving_or_anchored,yes,"Claude, read",tropical storm Philippe,True
+N1288780,538002570,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1141860,338140000,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1315384,566167000,source,moving_or_anchored,yes,"Claude, read",hurricane Ida,True
+N1420347,367393670,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1183539,367334310,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I11087,370587000,source,berth,no,"Claude, read",fire while docked at terminal,True
+N1343794,368043490,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1394232_1,538004577,source,moving_or_anchored,no,"Claude, read",,False
+N1404620,566453000,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9360,367463820,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9759,367610590,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1442391,367063960,source,moving_or_anchored,no,"Claude, read",,False
+N1162471,367158980,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I10281,636018222,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1170943,368565000,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1218604,367136020,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1442438,303829046,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1140536,367535610,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1240427,367405070,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I10888_2,538005321,source,moving_or_anchored,no,"Claude, read",,False
+I10234,367395640,source,berth,no,"Claude, read",fire while moored,True
+I10771,367529420,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1421909,255805750,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1324216,564348000,source,moving_or_anchored,no,"Claude, read",,False
+I9931_2,366963860,source,moving_or_anchored,no,"Claude, read",,False
+N1113156,367559040,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I8916,316004940,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9740,366904940,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1425311,367613550,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9286,366972030,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9229,367388370,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1443936,367004580,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9964,367121110,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1333264,354215000,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1138104,367529150,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I10740,303352000,source,moving_or_anchored,no,"Claude, read",,False
+N1423967_2,636017839,source,moving_or_anchored,no,"Claude, read",,False
+N1317809,367469020,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9859,368555000,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9309,353772000,source,moving_or_anchored,no,"Claude, read",,False
+N1137319,367190910,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I10100,316002238,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9417,538004411,source,berth,no,"Claude, read",spill while refuelling from a barge,True
+I8948,367023460,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1313317,367475440,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9553,367008680,source,berth,no,"Claude, read",sank while taking fuel at a marina,True
+I10269,677062300,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1332003_1,368124380,source,moving_or_anchored,no,"Claude, read",,False
+N1375316,367706440,source,moving_or_anchored,no,"Claude, read",,False
+N1144120,367138310,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1281028,367589310,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1399133,367331770,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1325528,338533000,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I10799_2,366971370,not_source,moving_or_anchored,no,"Claude, read",escort vessel,True
+N1157864,367113130,source,moving_or_anchored,no,"Claude, read",,False
+N1387426,316031354,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1139709,319419000,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9713,636092827,source,berth,no,"Claude, read",refuelling at terminal,True
+I9400,538006917,source,moving_or_anchored,no,"Claude, read",,False
+I8922,209188000,source,moving_or_anchored,no,"Claude, read",,False
+N1112736_1,229026000,source,berth,no,"Claude, read",broke away while loading at berth,True
+N1287369,366999431,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1157482,367026350,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9275,367008020,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9397,229612000,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1108707,367307850,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9548,367545050,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1327250,367062040,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1338163,338080611,source,moving_or_anchored,no,"Claude, read",,False
+I9808,367320340,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I10857,636024273,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I10785,367307370,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1242747,366992060,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9996,565525000,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I10827,367724820,source,moving_or_anchored,no,"Claude, read",,False
+N1237204,367685580,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1341722,367514590,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I10479_2,368073320,tug_of_source,moving_or_anchored,no,"Claude, read",tug towing the barge that hit the jetty,False
+N1195201,367471940,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I10270,259895000,source,moving_or_anchored,no,"Claude, read",,False
+I9915,368043180,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I10693,368084350,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I11052_1,636023364,source,moving_or_anchored,no,"Claude, read",,False
+I9411,338396000,source,moving_or_anchored,no,"Claude, read",,False
+I10023,316021177,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I10168,538005614,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9599,367663880,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1122951,367653140,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9794,368008590,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I8888,355694000,source,berth,no,"Claude, read",fuelling operation,True
+N1248061,368043180,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1314882,367528110,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I8972,367578320,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I10244,367092230,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1283756,636014189,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1294947,367555530,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I10022,538006048,source,moving_or_anchored,no,"Claude, read",,False
+I10917_2,367653970,source,moving_or_anchored,no,"Claude, read",,False
+I10086,367662490,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1171487_2,367007550,source,moving_or_anchored,no,"Claude, read",,False
+N1415096,563027400,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1427033,367458770,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9344_2,367470260,source,moving_or_anchored,no,"Claude, read",,False
+I9734,477144300,source,moving_or_anchored,no,"Claude, read",,False
+I10286,235111684,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1420406,636018579,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9637,305535000,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1316728,367789330,source,moving_or_anchored,yes,"Claude, read",hurricane Nicholas,True
+I11052_2,636023364,source,moving_or_anchored,no,"Claude, read",,False
+I9914,371535000,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9454,367154920,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1261696,366993020,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9671,338574000,source,moving_or_anchored,yes,"Claude, read",hurricane Maria,True
+I10569,357764000,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1347538,366948850,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I8886_2,636092092,source,moving_or_anchored,no,"Claude, read",,False
+N1213267,636014307,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9688,636090916,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I11063,636020499,source,berth,no,"Claude, read","moored, bunkering",True
+N1299586,367641640,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1423450,367653970,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1339561,367587010,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I8880,367492820,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I10278,367589320,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1430140,304071000,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I10690,367121040,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1378290,338434672,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1278573,367589350,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9234,366118480,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1289306,229131000,source,moving_or_anchored,no,"Claude, read",,False
+I10413,367544720,source,berth,no,"Claude, read",aground at the pier,True
+N1253971,338234529,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1219915,303667000,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1180500,636015382,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9970,368004340,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1410334,368485000,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1309620_1,367003770,source,moving_or_anchored,no,"Claude, read",,False
+N1424603_2,368112350,source,moving_or_anchored,no,"Claude, read",,False
+I9918,369970147,not_source,moving_or_anchored,no,"Claude, read",research ship that observed a sheen,True
+I10574,370229000,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1422589,235116731,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I8890,367000890,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1435964,538011012,source,moving_or_anchored,no,"Claude, read",,False
+N1369980,368171990,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9919,244909000,source,moving_or_anchored,no,"Claude, read",,False
+I10083,338242268,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I10604,367082220,source,moving_or_anchored,no,"Claude, read",,False
+N1188130,367008680,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1172271,367573820,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1157868,367113130,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1417172,316001696,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1237781,366771550,source,moving_or_anchored,no,"Claude, read",,False
+N1162795,367082530,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1431426_1,311000255,source,moving_or_anchored,no,"Claude, read",,False
+N1443791,636022366,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I10021,316002238,source,moving_or_anchored,no,"Claude, read",,False
+I9761,338198055,source,moving_or_anchored,no,"Claude, read",,False
+N1428339,316206000,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1430689,367155110,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1254014,367583160,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I10248_1,366770250,tug_of_source,moving_or_anchored,no,"Claude, read",tug towing a fishing vessel,False
+N1431434,636022458,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1420631,367518920,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9282,366425240,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1267275,367001820,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9726,538003696,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9706,244999000,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1213882,636017351,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I10372,367340990,source,moving_or_anchored,no,"Claude, read",,False
+I9659,367732670,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1341581,366984970,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1253146,357865000,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I10762_1,367121040,source,berth,no,"Claude, read",bottomed while loading alongside pier,True
+N1384591,244224000,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I10079,563235000,source,moving_or_anchored,no,"Claude, read",,False
+I9401_1,367427120,source,moving_or_anchored,no,"Claude, read",,False
+N1444790,367185330,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1381786,367518290,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9546,367132630,source,moving_or_anchored,no,"Claude, read",,False
+N1171180,303496000,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I10029,367092780,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1304975,338355976,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1125478,367409260,source,moving_or_anchored,no,"Claude, read",,False
+N1261693_2,366993020,tug_of_source,moving_or_anchored,no,"Claude, read",towboat pushing a barge in the collision,False
+I10371_2,368039710,source,moving_or_anchored,no,"Claude, read",,False
+I9362,367187140,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I10874,367006330,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1405300,366935050,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1215847,367644590,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1303874,257288000,unclear,moving_or_anchored,no,"Claude, read",caller discovered a sinking vessel; unclear if this vessel is the one sinking,True
+N1207315,367122290,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1378035,636022008,source,moving_or_anchored,no,"Claude, read",,False
+N1290976,367416070,source,moving_or_anchored,yes,"Claude, read",hurricane Zeta,True
+N1409867,368059850,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1284872,367315790,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9801,367519340,source,moving_or_anchored,no,"Claude, read",,False
+I9233_1,367535610,source,moving_or_anchored,no,"Claude, read",,False
+I8963,367330860,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I10598,368038000,source,berth,no,"Claude, read","fire in waterway; AIS stationary two days, moored",True
+N1394025,319468000,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1170822,303430000,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1295738,367680570,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1417283,316001696,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1423551,319194000,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1375732,367299940,source,moving_or_anchored,no,"Claude, read",,False
+N1227487,366914830,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I10226,367018620,source,berth,no,"Claude, read",internal fuel transfer in harbour,True
+I10757,316004910,source,berth,no,"Claude, read",fire in winter layup,True
+N1352623,365683530,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1118083,367129720,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1331411,367134000,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1428300,368114720,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1431207,368188280,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1197044,319002500,tug_of_source,moving_or_anchored,no,"Claude, read",tug whose tow sank,False
+I10259,367478790,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1413740,367714490,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9598,357644000,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1329811,366773040,not_source,berth,no,"Claude, read",gasoline from a vehicle at the ferry ramp,True
+I9855,367509670,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1380898,369552000,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9685,367773720,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1227019,367502630,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I9326,368382000,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1414298,367399880,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I8930,211554020,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+I10108_2,477454500,source,moving_or_anchored,no,"Claude, read",,False
+N1430681,367155110,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1379284,368077830,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1414867,316020869,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False
+N1352613,365683530,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False

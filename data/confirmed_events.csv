@@ -1,0 +1,298 @@
+incident_id,mmsi,route,role,context,storm,coded_by,note,main_exclude,ais_imo,date_local,time_utc,source,setting,incident_type,imo,vkey,d,event_id
+N1424603_2,368112350,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO0000301,2025-02-23,2025-02-23 13:45,NRC,sea,collision_allision,0000301,0000301,2025-02-23,1
+I9234,366118480,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO0506261,2016-02-16,,IncidentNews,sea,grounding,0506261,0506261,2016-02-16,2
+N1310317,368135920,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO1295690,2021-07-07,2021-07-07 18:00,NRC,inland,grounding,1295690,1295690,2021-07-07,3
+N1332003_1,368124380,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO1299362,2022-03-26,2022-03-26 08:45,NRC,sea,collision_allision,1299362,1299362,2022-03-26,4
+I9548,367545050,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO5007510,2017-08-13,,IncidentNews,sea,other,5007510,5007510,2017-08-13,5
+I10799_1,316002501,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO5102865,2024-06-08,,IncidentNews,inland,other,5102865,5102865,2024-06-08,6
+I8916,316004940,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO5128467,2015-04-22,,IncidentNews,inland,grounding,5128467,5128467,2015-04-22,7
+I10021,316002238,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO5141483,2019-12-10,,IncidentNews,inland,grounding,5141483,5141483,2019-12-10,8
+I10100,316002238,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO5141483,2020-06-11,,IncidentNews,sea,grounding,5141483,5141483,2020-06-11,9
+I10757,316004910,second look,source,berth,no,"Claude, read",fire in winter layup,True,IMO5166392,2024-03-15,,IncidentNews,sea,fire_explosion,5166392,5166392,2024-03-15,10
+I10604,367082220,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO5389554,2023-05-03,,IncidentNews,inland,collision_allision,5389554,5389554,2023-05-03,11
+I8900,366936810,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO6511374,2015-03-31,,IncidentNews,inland,collision_allision,6511374,6511374,2015-03-31,12
+I10384,367362680,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO6728082,2021-11-19,,IncidentNews,sea,sinking_capsize,6728082,6728082,2021-11-19,13
+N1417172,316001696,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO6800919,2024-11-23,2024-11-23 20:00,NRC,inland,grounding,6800919,6800919,2024-11-23,14
+N1417283,316001696,second look,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO6800919,2024-11-25,2024-11-25 12:00,NRC,inland,grounding,6800919,6800919,2024-11-25,14
+I9275,367008020,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO7035315,2016-05-08,,IncidentNews,sea,other,7035315,7035315,2016-05-08,15
+N1171180,303496000,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO7042851,2017-02-15,2017-02-16 04:00,NRC,sea,grounding,7042851,7042851,2017-02-15,16
+N1172271,367573820,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO7047239,2017-03-01,2017-03-02 06:00,NRC,sea,grounding,7047239,7047239,2017-03-01,17
+N1157864,367113130,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO7049990,2016-09-01,2016-09-01 15:10,NRC,sea,grounding,7049990,7049990,2016-09-01,18
+N1157868,367113130,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO7049990,2016-09-01,2016-09-01 14:19,NRC,sea,grounding,7049990,7049990,2016-09-01,18
+I9344_1,367470260,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO7100201,2016-08-17,,IncidentNews,sea,sinking_capsize,7100201,7100201,2016-08-17,19
+I9344_2,367470260,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO7100201,2016-08-17,,IncidentNews,sea,sinking_capsize,7100201,7100201,2016-08-17,19
+N1314755,367034830,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO7119551,2021-08-26,2021-08-26 12:30,NRC,inland,discharge,7119551,7119551,2021-08-26,20
+N1162795,367082530,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO7121762,2016-10-28,2016-10-28 19:15,NRC,inland,sinking_capsize,7121762,7121762,2016-10-28,21
+I8963,367330860,second look,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO7201184,2015-07-14,,IncidentNews,sea,grounding,7201184,7201184,2015-07-14,22
+N1325528,338533000,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO7207748,2021-12-30,2021-12-30 08:15,NRC,sea,discharge,7207748,7207748,2021-12-30,23
+I9286,366972030,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO7222138,2016-05-27,,IncidentNews,inland,grounding,7222138,7222138,2016-05-27,24
+I10023,316021177,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO7225855,2019-12-15,,IncidentNews,sea,fire_explosion,7225855,7225855,2019-12-15,25
+N1364882,366772780,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO7233151,2023-04-15,2023-04-16 01:00,NRC,sea,grounding,7233151,7233151,2023-04-15,26
+I9546,367132630,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO7329314,2017-08-10,,IncidentNews,inland,grounding,7329314,7329314,2017-08-10,27
+I10372,367340990,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO7329314,2021-10-22,,IncidentNews,inland,grounding,7329314,7329314,2021-10-22,28
+N1170943,368565000,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO7398406,2017-02-13,2017-02-13 10:00,NRC,sea,grounding,7398406,7398406,2017-02-13,29
+I9739,366930730,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO7423392,2018-06-17,,IncidentNews,sea,grounding,7423392,7423392,2018-06-17,30
+I9599,367663880,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO7513032,2017-10-11,,IncidentNews,sea,grounding,7513032,7513032,2017-10-11,31
+I9326,368382000,second look,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO7514854,2016-07-26,,IncidentNews,sea,sinking_capsize,7514854,7514854,2016-07-26,32
+I9156,338898000,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO7515054,2015-08-11,,IncidentNews,sea,grounding,7515054,7515054,2015-08-11,33
+I10598,368038000,second look,source,berth,no,"Claude, read","fire in waterway; AIS stationary two days, moored",True,IMO7517703,2023-04-08,,IncidentNews,sea,fire_explosion,7517703,7517703,2023-04-08,34
+I10799_2,366971370,"both yes, first pass",not_source,moving_or_anchored,no,"Claude, read",escort vessel,True,IMO7606061,2024-06-08,,IncidentNews,inland,other,7606061,7606061,2024-06-08,35
+I9671,338574000,"both yes, first pass",source,moving_or_anchored,yes,"Claude, read",hurricane Maria,True,IMO7629960,2017-09-20,,IncidentNews,sea,sinking_capsize,7629960,7629960,2017-09-20,36
+I8948,367023460,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO7632149,2015-06-10,,IncidentNews,sea,sinking_capsize,7632149,7632149,2015-06-10,37
+I10690,367121040,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO7634226,2023-11-07,,IncidentNews,inland,grounding,7634226,7634226,2023-11-07,38
+I10762_1,367121040,"both yes, first pass",source,berth,no,"Claude, read",bottomed while loading alongside pier,True,IMO7634226,2024-03-27,,IncidentNews,inland,grounding,7634226,7634226,2024-03-27,39
+I8972,367578320,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO7634941,2015-08-02,,IncidentNews,sea,grounding,7634941,7634941,2015-08-02,40
+I10248_1,366770250,"both yes, first pass",tug_of_source,moving_or_anchored,no,"Claude, read",tug towing a fishing vessel,False,IMO7726495,2021-03-05,,IncidentNews,sea,grounding,7726495,7726495,2021-03-05,41
+I9740,366904940,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO7729057,2018-06-18,,IncidentNews,sea,fire_explosion,7729057,7729057,2018-06-18,42
+I10771,367529420,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO7730525,2024-04-17,,IncidentNews,sea,grounding,7730525,7730525,2024-04-17,43
+N1329811,366773040,second look,not_source,berth,no,"Claude, read",gasoline from a vehicle at the ferry ramp,True,IMO7808102,2022-02-26,2022-02-27 01:30,NRC,sea,discharge,7808102,7808102,2022-02-26,44
+I10764_2,366938710,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO7812567,2024-03-28,,IncidentNews,inland,collision_allision,7812567,7812567,2024-03-28,45
+I10226,367018620,second look,source,berth,no,"Claude, read",internal fuel transfer in harbour,True,IMO7908237,2021-02-04,,IncidentNews,sea,discharge,7908237,7908237,2021-02-04,46
+N1430692,367155110,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO7937575,2025-05-09,2025-05-09 19:30,NRC,sea,sinking_capsize,7937575,7937575,2025-05-09,47
+N1430689,367155110,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO7937575,2025-05-09,2025-05-09 15:30,NRC,sea,sinking_capsize,7937575,7937575,2025-05-09,47
+N1430681,367155110,second look,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO7937575,2025-05-09,2025-05-09 15:30,NRC,sea,sinking_capsize,7937575,7937575,2025-05-09,47
+N1219915,303667000,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO7939535,2018-07-30,2018-07-30 16:02,NRC,sea,discharge,7939535,7939535,2018-07-30,48
+I9685,367773720,second look,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO7943495,2018-03-18,,IncidentNews,sea,fire_explosion,7943495,7943495,2018-03-18,49
+N1295738,367680570,second look,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO7948627,2021-01-08,2021-01-09 00:00,NRC,sea,grounding,7948627,7948627,2021-01-08,50
+I10234,367395640,"both yes, first pass",source,berth,no,"Claude, read",fire while moored,True,IMO8016330,2021-02-18,,IncidentNews,sea,fire_explosion,8016330,8016330,2021-02-18,51
+N1380836,577380000,"both yes, first pass",source,moving_or_anchored,yes,"Claude, read",tropical storm Philippe,True,IMO8023864,2023-10-04,2023-10-04 07:41,NRC,sea,grounding,8023864,8023864,2023-10-04,52
+N1428339,316206000,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO8025680,2025-04-11,2025-04-11 17:47,NRC,inland,equipment_failure,8025680,8025680,2025-04-11,53
+I8880,367492820,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO8124199,2015-02-16,,IncidentNews,sea,grounding,8124199,8124199,2015-02-16,54
+N1139709,319419000,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO8309555,2016-02-03,2016-02-04 00:00,NRC,sea,discharge,8309555,8309555,2016-02-03,55
+I10413,367544720,"both yes, first pass",source,berth,no,"Claude, read",aground at the pier,True,IMO8331716,2022-02-04,,IncidentNews,sea,grounding,8331716,8331716,2022-02-04,56
+I8932,316018616,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO8504882,2015-05-17,,IncidentNews,inland,grounding,8504882,8504882,2015-05-17,57
+N1141860,338140000,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO8519679,2016-03-02,2016-03-03 00:20,NRC,sea,discharge,8519679,8519679,2016-03-02,58
+N1237781,366771550,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO8643004,2019-02-15,2019-02-15 18:20,NRC,sea,discharge,8643004,8643004,2019-02-15,59
+N1294947,367555530,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO8644395,2020-12-24,2020-12-24 21:42,NRC,sea,sinking_capsize,8644395,8644395,2020-12-24,60
+N1261693_1,366984440,"both yes, first pass",tug_of_source,moving_or_anchored,no,"Claude, read",towboat pushing a barge in the collision,False,IMO8716631,2019-10-20,2019-10-21 01:50,NRC,inland,collision_allision,8716631,8716631,2019-10-20,61
+N1420347,367393670,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO8719499,2025-01-03,2025-01-03 14:00,NRC,sea,grounding,8719499,8719499,2025-01-03,62
+I9859,368555000,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO8720113,2019-02-27,,IncidentNews,sea,equipment_failure,8720113,8720113,2019-02-27,63
+N1416681,367696380,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO8800509,2024-11-18,2024-11-18 05:21,NRC,sea,grounding,8800509,8800509,2024-11-18,64
+I9282,366425240,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO8807296,2016-05-23,,IncidentNews,sea,grounding,8807296,8807296,2016-05-23,65
+I9794,368008590,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO8851003,2018-09-12,,IncidentNews,inland,fire_explosion,8851003,8851003,2018-09-12,66
+N1218602,367136020,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO8851156,2018-07-17,2018-07-17 13:05,NRC,sea,grounding,8851156,8851156,2018-07-17,67
+N1218604,367136020,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO8851156,2018-07-17,2018-07-17 12:11,NRC,sea,grounding,8851156,8851156,2018-07-17,67
+N1170822,303430000,second look,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO8853116,2017-02-11,2017-02-11 21:00,NRC,sea,other,8853116,8853116,2017-02-11,68
+I9401_1,367427120,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO8887143,2016-11-20,,IncidentNews,sea,other,8887143,8887143,2016-11-20,69
+N1385566,366934770,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO8938954,2023-11-30,2023-12-01 03:00,NRC,sea,grounding,8938954,8938954,2023-11-30,70
+N1423450,367653970,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO8939960,2025-02-09,2025-02-09 09:48,NRC,sea,grounding,8939960,8939960,2025-02-09,71
+I10917_2,367653970,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO8939960,2025-02-12,,IncidentNews,sea,grounding,8939960,8939960,2025-02-12,71
+I10029,367092780,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO8940048,2020-01-14,,IncidentNews,sea,collision_allision,8940048,8940048,2020-01-14,72
+N1444790,367185330,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO8941432,2025-10-03,2025-10-03 20:00,NRC,sea,sinking_capsize,8941432,8941432,2025-10-03,73
+N1125478,367409260,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO8955732,2015-08-12,2015-08-12 22:15,NRC,sea,equipment_failure,8955732,8955732,2015-08-12,74
+N1281028,367589310,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO8968181,2020-07-03,2020-07-03 21:30,NRC,sea,other,8968181,8968181,2020-07-03,75
+N1197044,319002500,second look,tug_of_source,moving_or_anchored,no,"Claude, read",tug whose tow sank,False,IMO8979843,2017-11-10,2017-11-11 01:50,NRC,sea,other,8979843,8979843,2017-11-10,76
+N1352623,365683530,second look,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO8987905,2022-11-15,2022-11-15 15:51,NRC,sea,discharge,8987905,8987905,2022-11-15,77
+N1352613,365683530,second look,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO8987905,2022-11-15,2022-11-15 15:51,NRC,sea,discharge,8987905,8987905,2022-11-15,77
+N1164433,367594260,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO8989927,2016-11-18,2016-11-18 13:50,NRC,sea,collision_allision,8989927,8989927,2016-11-18,78
+I9931_2,366963860,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO8992596,2019-07-01,,IncidentNews,sea,other,8992596,8992596,2019-07-01,79
+N1227487,366914830,second look,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9026485,2018-10-15,2018-10-15 06:45,NRC,inland,grounding,9026485,9026485,2018-10-15,80
+I9429,367722480,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9095008,2017-02-02,,IncidentNews,sea,other,9095008,9095008,2017-02-02,81
+I10019,367493650,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9097525,2019-12-09,,IncidentNews,sea,grounding,9097525,9097525,2019-12-09,82
+N1394025,319468000,second look,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9102071,2024-03-16,2024-03-16 05:05,NRC,inland,collision_allision,9102071,9102071,2024-03-16,83
+N1168751,311315000,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9102978,2017-01-16,2017-01-16 18:25,NRC,sea,sinking_capsize,9102978,9102978,2017-01-16,84
+I9914,371535000,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9115523,2019-05-25,,IncidentNews,inland,collision_allision,9115523,9115523,2019-05-25,85
+N1423967_1,366921740,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO9132143,2025-02-19,2025-02-19 23:48,NRC,sea,discharge,9132143,9132143,2025-02-19,86
+I8886_1,219269000,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO9171503,2015-03-09,,IncidentNews,sea,collision_allision,9171503,9171503,2015-03-09,87
+I8888,355694000,"both yes, first pass",source,berth,no,"Claude, read",fuelling operation,True,IMO9181132,2015-03-11,,IncidentNews,inland,discharge,9181132,9181132,2015-03-11,88
+I10269,677062300,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9196228,2021-04-25,,IncidentNews,sea,other,9196228,9196228,2021-04-25,89
+N1423551,319194000,second look,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9199323,2025-02-14,2025-02-14 18:47,NRC,inland,grounding,9199323,9199323,2025-02-14,90
+I9706,244999000,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9207728,2018-04-23,,IncidentNews,inland,discharge,9207728,9207728,2018-04-23,91
+I9688,636090916,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9216999,2018-03-23,,IncidentNews,sea,discharge,9216999,9216999,2018-03-23,92
+I9996,565525000,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9220421,2019-10-22,,IncidentNews,sea,fire_explosion,9220421,9220421,2019-10-22,93
+N1333264,354215000,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9223954,2022-04-11,2022-04-11 05:00,NRC,sea,discharge,9223954,9223954,2022-04-11,94
+I9480,219219000,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9235579,2017-04-27,,IncidentNews,sea,discharge,9235579,9235579,2017-04-27,95
+N1428244,256664000,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO9236418,2025-04-10,2025-04-10 09:48,NRC,sea,grounding,9236418,9236418,2025-04-10,96
+I9359,373722000,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO9259173,2016-09-06,,IncidentNews,inland,fire_explosion,9259173,9259173,2016-09-06,97
+I10079,563235000,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO9262974,2020-04-29,,IncidentNews,inland,collision_allision,9262974,9262974,2020-04-29,98
+N1119276,369139000,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9271016,2015-06-10,2015-06-10 11:55,NRC,sea,equipment_failure,9271016,9271016,2015-06-10,99
+I11063,636020499,"both yes, first pass",source,berth,no,"Claude, read","moored, bunkering",True,IMO9285691,2025-09-05,,IncidentNews,sea,discharge,9285691,9285691,2025-09-05,100
+N1213267,636014307,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9291250,2018-05-25,2018-05-25 20:27,NRC,inland,grounding,9291250,9291250,2018-05-25,101
+I10740,303352000,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO9295220,2024-02-07,,IncidentNews,sea,other,9295220,9295220,2024-02-07,102
+I10877_2,538010727,"both yes, first pass",not_source,berth,no,"Claude, read",vessel coated by a shore-facility spill,True,IMO9298674,2024-11-30,,IncidentNews,sea,other,9298674,9298674,2024-11-30,103
+I9542,372367000,"both yes, first pass",source,berth,no,"Claude, read",moored at pier,True,IMO9302152,2017-08-06,,IncidentNews,sea,fire_explosion,9302152,9302152,2017-08-06,104
+I11087,370587000,"both yes, first pass",source,berth,no,"Claude, read",fire while docked at terminal,True,IMO9302176,2025-11-21,,IncidentNews,sea,fire_explosion,9302176,9302176,2025-11-21,105
+I9400,538006917,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO9304289,2016-11-19,,IncidentNews,inland,grounding,9304289,9304289,2016-11-19,106
+N1448775,316001940,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9314600,2025-11-24,2025-11-24 17:44,NRC,inland,equipment_failure,9314600,9314600,2025-11-24,107
+I9309,353772000,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO9324215,2016-06-30,,IncidentNews,inland,grounding,9324215,9324215,2016-06-30,108
+I10281,636018222,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9337652,2021-05-14,,IncidentNews,sea,fire_explosion,9337652,9337652,2021-05-14,109
+I9918,369970147,"both yes, first pass",not_source,moving_or_anchored,no,"Claude, read",research ship that observed a sheen,True,IMO9349069,2019-06-22,,IncidentNews,sea,other,9349069,9349069,2019-06-22,110
+N1331411,367134000,second look,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9353539,2022-03-18,2022-03-18 09:15,NRC,inland,discharge,9353539,9353539,2022-03-18,111
+I9598,357644000,second look,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9359923,2017-10-10,,IncidentNews,sea,other,9359923,9359923,2017-10-10,112
+N1253146,357865000,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9371775,2019-07-25,2019-07-25 16:00,NRC,sea,discharge,9371775,9371775,2019-07-25,113
+N1421909,255805750,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9376012,2025-01-26,2025-01-26 14:20,NRC,sea,collision_allision,9376012,9376012,2025-01-26,114
+I10270,259895000,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO9377523,2021-04-27,,IncidentNews,sea,grounding,9377523,9377523,2021-04-27,115
+N1213882,636017351,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9399765,2018-06-01,2018-06-01 11:30,NRC,sea,collision_allision,9399765,9399765,2018-06-01,116
+I9734,477144300,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO9408762,2018-06-09,,IncidentNews,sea,grounding,9408762,9408762,2018-06-09,117
+I9713,636092827,"both yes, first pass",source,berth,no,"Claude, read",refuelling at terminal,True,IMO9410296,2018-04-30,,IncidentNews,inland,discharge,9410296,9410296,2018-04-30,118
+N1283756,636014189,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9413547,2020-08-05,2020-08-05 15:30,NRC,inland,grounding,9413547,9413547,2020-08-05,119
+I9580,538003886,"both yes, first pass",source,berth,no,"Claude, read",containers lost while docked,True,IMO9424936,2017-09-22,,IncidentNews,sea,discharge,9424936,9424936,2017-09-22,120
+I10097,259025000,"both yes, first pass",source,berth,no,"Claude, read",fire at pier,True,IMO9431848,2020-06-04,,IncidentNews,sea,fire_explosion,9431848,9431848,2020-06-04,121
+I8922,209188000,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO9432115,2015-05-05,,IncidentNews,sea,fire_explosion,9432115,9432115,2015-05-05,122
+N1406048,366846000,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9435894,2024-07-26,2024-07-27 00:59,NRC,sea,discharge,9435894,9435894,2024-07-26,123
+I10888_2,538005321,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO9439773,2024-12-18,,IncidentNews,inland,discharge,9439773,9439773,2024-12-18,124
+I10794,538003817,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9441283,2024-06-01,,IncidentNews,sea,discharge,9441283,9441283,2024-06-01,125
+I8886_2,636092092,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO9452634,2015-03-09,,IncidentNews,sea,collision_allision,9452634,9452634,2015-03-09,126
+N1183539,367334310,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9472347,2017-07-09,2017-07-09 12:40,NRC,sea,discharge,9472347,9472347,2017-07-09,127
+N1108707,367307850,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9484065,2015-02-21,2015-02-21 21:05,NRC,sea,discharge,9484065,9484065,2015-02-21,128
+I9726,538003696,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9486192,2018-05-29,,IncidentNews,sea,grounding,9486192,9486192,2018-05-29,129
+N1394232_1,538004577,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO9500730,2024-03-19,2024-03-19 12:28,NRC,sea,collision_allision,9500730,9500730,2024-03-19,130
+I9491,367399170,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9502489,2017-05-15,,IncidentNews,inland,grounding,9502489,9502489,2017-05-15,131
+I10574,370229000,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9504023,2023-02-21,,IncidentNews,sea,other,9504023,9504023,2023-02-21,132
+N1384591,244224000,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9505546,2023-11-17,2023-11-17 21:00,NRC,sea,fire_explosion,9505546,9505546,2023-11-17,133
+N1324216,564348000,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO9510682,2021-12-10,2021-12-10 12:00,NRC,sea,discharge,9510682,9510682,2021-12-10,134
+N1395444,368338580,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9515852,2024-04-02,2024-04-02 19:56,NRC,sea,other,9515852,9515852,2024-04-02,135
+N1380898,369552000,second look,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9529724,2023-10-04,2023-10-04 20:00,NRC,sea,other,9529724,9529724,2023-10-04,136
+N1410334,368485000,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9529889,2024-09-09,2024-09-09 23:08,NRC,inland,equipment_failure,9529889,9529889,2024-09-09,137
+I9919,244909000,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO9532824,2019-06-24,,IncidentNews,inland,grounding,9532824,9532824,2019-06-24,138
+N1290976,367416070,"both yes, first pass",source,moving_or_anchored,yes,"Claude, read",hurricane Zeta,True,IMO9536222,2020-10-28,2020-10-28 20:30,NRC,inland,grounding,9536222,9536222,2020-10-28,139
+I9417,538004411,"both yes, first pass",source,berth,no,"Claude, read",spill while refuelling from a barge,True,IMO9543756,2017-01-06,,IncidentNews,inland,discharge,9543756,9543756,2017-01-06,140
+I9637,305535000,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9546796,2017-12-28,,IncidentNews,inland,grounding,9546796,9546796,2017-12-28,141
+N1378035,636022008,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO9552329,2023-09-03,2023-09-03 12:20,NRC,sea,grounding,9552329,9552329,2023-09-03,142
+N1288780,538002570,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9557123,2020-10-01,2020-10-01 07:50,NRC,inland,grounding,9557123,9557123,2020-10-01,143
+N1420631,367518920,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9564578,2025-01-08,2025-01-08 12:15,NRC,sea,discharge,9564578,9564578,2025-01-08,144
+N1442438,303829046,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9578969,2025-09-11,2025-09-11 13:30,NRC,inland,other,9578969,9578969,2025-09-11,145
+N1289306,229131000,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO9594418,2020-10-07,2020-10-07 20:40,NRC,inland,grounding,9594418,9594418,2020-10-07,146
+N1404620,566453000,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9594822,2024-07-13,2024-07-13 10:26,NRC,sea,collision_allision,9594822,9594822,2024-07-13,147
+I10857,636024273,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9603116,2024-09-27,,IncidentNews,sea,discharge,9603116,9603116,2024-09-27,148
+N1334817,255806090,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9604809,2022-04-30,2022-04-30 06:47,NRC,inland,collision_allision,9604809,9604809,2022-04-30,149
+I11052_1,636023364,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO9605645,2025-08-19,,IncidentNews,inland,fire_explosion,9605645,9605645,2025-08-19,150
+I11052_2,636023364,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO9605645,2025-08-19,,IncidentNews,inland,fire_explosion,9605645,9605645,2025-08-19,150
+I9183,373889000,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO9614359,2015-10-02,,IncidentNews,inland,grounding,9614359,9614359,2015-10-02,151
+N1422260,258005000,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO9616840,2025-01-30,2025-01-30 07:05,NRC,sea,grounding,9616840,9616840,2025-01-30,152
+N1423967_2,636017839,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO9617650,2025-02-19,2025-02-19 23:48,NRC,sea,discharge,9617650,9617650,2025-02-19,153
+N1180500,636015382,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9618915,2017-06-07,2017-06-07 07:00,NRC,sea,discharge,9618915,9618915,2017-06-07,154
+N1387426,316031354,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9619294,2023-12-23,2023-12-23 21:27,NRC,inland,grounding,9619294,9619294,2023-12-23,155
+N1414867,316020869,second look,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9623130,2024-10-26,,NRC,sea,grounding,9623130,9623130,2024-10-26,156
+N1112736_1,229026000,"both yes, first pass",source,berth,no,"Claude, read",broke away while loading at berth,True,IMO9628087,2015-04-06,2015-04-06 21:00,NRC,inland,collision_allision,9628087,9628087,2015-04-06,157
+I9855,367509670,second look,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9653719,2019-02-23,,IncidentNews,sea,grounding,9653719,9653719,2019-02-23,158
+I10168,538005614,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9667564,2020-09-10,,IncidentNews,sea,other,9667564,9667564,2020-09-10,159
+I9397,229612000,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9674397,2016-11-17,,IncidentNews,sea,grounding,9674397,9674397,2016-11-17,160
+N1430140,304071000,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9675834,2025-05-04,2025-05-04 06:24,NRC,sea,collision_allision,9675834,9675834,2025-05-04,161
+N1237817,319093800,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9680073,2019-02-15,2019-02-15 22:47,NRC,inland,grounding,9680073,9680073,2019-02-15,162
+N1278573,367589350,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9681778,2020-06-01,2020-06-01 21:45,NRC,sea,collision_allision,9681778,9681778,2020-06-01,163
+I10022,538006048,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO9686388,2019-12-15,,IncidentNews,sea,collision_allision,9686388,9686388,2019-12-15,164
+I10108_2,477454500,second look,source,moving_or_anchored,no,"Claude, read",,False,IMO9692258,2020-06-22,,IncidentNews,inland,discharge,9692258,9692258,2020-06-22,165
+I10278,367589320,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9695303,2021-05-12,,IncidentNews,inland,discharge,9695303,9695303,2021-05-12,166
+N1431426_1,311000255,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO9703837,2025-05-18,2025-05-18 08:50,NRC,sea,collision_allision,9703837,9703837,2025-05-18,167
+N1323458,477430300,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO9708497,2021-12-02,2021-12-02 19:15,NRC,sea,discharge,9708497,9708497,2021-12-02,168
+N1422589,235116731,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9713208,2025-02-01,2025-02-01 07:00,NRC,inland,grounding,9713208,9713208,2025-02-01,169
+N1315384,566167000,"both yes, first pass",source,moving_or_anchored,yes,"Claude, read",hurricane Ida,True,IMO9722027,2021-08-31,2021-08-31 17:00,NRC,sea,grounding,9722027,9722027,2021-08-31,170
+I9280_1,564259000,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO9727089,2016-05-20,,IncidentNews,sea,grounding,9727089,9727089,2016-05-20,171
+I10286,235111684,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9741736,2021-05-25,,IncidentNews,sea,grounding,9741736,9741736,2021-05-25,172
+N1415096,563027400,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9744520,2024-10-29,2024-10-29 16:25,NRC,inland,grounding,9744520,9744520,2024-10-29,173
+I10569,357764000,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9768045,2023-02-12,,IncidentNews,inland,discharge,9768045,9768045,2023-02-12,174
+N1303874,257288000,"both yes, first pass",unclear,moving_or_anchored,no,"Claude, read",caller discovered a sinking vessel; unclear if this vessel is the one sinking,True,IMO9777383,2021-04-30,2021-04-30 15:50,NRC,sea,sinking_capsize,9777383,9777383,2021-04-30,175
+N1431426_2,636022458,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO9779991,2025-05-18,2025-05-18 08:50,NRC,sea,collision_allision,9779991,9779991,2025-05-18,176
+N1431434,636022458,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9779991,2025-05-18,2025-05-18 11:12,NRC,sea,collision_allision,9779991,9779991,2025-05-18,176
+N1420406,636018579,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9808156,2025-01-04,2025-01-04 17:15,NRC,sea,grounding,9808156,9808156,2025-01-04,177
+N1343794,368043490,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9824112,2022-08-07,2022-08-07 22:00,NRC,sea,grounding,9824112,9824112,2022-08-07,178
+N1353057,538009561,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9869679,2022-11-20,2022-11-20 18:26,NRC,sea,grounding,9869679,9869679,2022-11-20,179
+I10479_2,368073320,"both yes, first pass",tug_of_source,moving_or_anchored,no,"Claude, read",tug towing the barge that hit the jetty,False,IMO9888376,2022-06-20,,IncidentNews,sea,discharge,9888376,9888376,2022-06-20,180
+N1333535,368130610,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO9905095,2022-04-14,2022-04-14 08:59,NRC,sea,collision_allision,9905095,9905095,2022-04-14,181
+N1394232_2,636020834,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO9927201,2024-03-19,2024-03-19 12:28,NRC,sea,collision_allision,9927201,9927201,2024-03-19,182
+N1443791,636022366,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO9932660,2025-09-25,2025-09-25 17:44,NRC,sea,grounding,9932660,9932660,2025-09-25,183
+I10609,368251670,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO9962445,2023-05-17,,IncidentNews,inland,grounding,9962445,9962445,2023-05-17,184
+N1435964,538011012,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO9965863,2025-07-03,2025-07-04 03:05,NRC,sea,collision_allision,9965863,9965863,2025-07-03,185
+I8930,211554020,second look,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2015-05-15,,IncidentNews,sea,grounding,,M211554020,2015-05-15,186
+N1338163,338080611,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,,2022-06-03,2022-06-04 00:00,NRC,sea,grounding,,M338080611,2022-06-03,187
+I9761,338198055,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO0000000,2018-07-26,,IncidentNews,sea,sinking_capsize,,M338198055,2018-07-26,188
+N1253971,338234529,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO0000000,2019-08-02,2019-08-02 06:40,NRC,sea,grounding,,M338234529,2019-08-02,189
+I10083,338242268,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO0000000,2020-05-06,,IncidentNews,sea,grounding,,M338242268,2020-05-06,190
+N1304975,338355976,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO0000000,2021-05-13,2021-05-13 18:10,NRC,sea,grounding,,M338355976,2021-05-13,191
+I9411,338396000,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,,2016-12-07,,IncidentNews,sea,grounding,,M338396000,2016-12-07,192
+N1378290,338434672,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO0000000,2023-09-06,2023-09-06 12:30,NRC,sea,grounding,,M338434672,2023-09-06,193
+N1121805,366197000,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2015-07-03,2015-07-04 06:30,NRC,sea,collision_allision,,M366197000,2015-07-03,194
+I9166,366796250,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2015-08-31,,IncidentNews,sea,discharge,,M366796250,2015-08-31,195
+N1405300,366935050,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2024-07-19,2024-07-19 19:20,NRC,sea,sinking_capsize,,M366935050,2024-07-19,196
+N1347538,366948850,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2022-09-17,2022-09-17 13:00,NRC,sea,grounding,,M366948850,2022-09-17,197
+I9241,366983290,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2016-03-03,,IncidentNews,inland,collision_allision,,M366983290,2016-03-03,198
+N1341581,366984970,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2022-07-15,2022-07-15 15:38,NRC,inland,grounding,,M366984970,2022-07-15,199
+N1242747,366992060,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2019-04-15,2019-04-15 07:00,NRC,sea,collision_allision,,M366992060,2019-04-15,200
+N1261696,366993020,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2019-10-20,2019-10-21 02:40,NRC,inland,collision_allision,,M366993020,2019-10-20,201
+N1261693_2,366993020,"both yes, first pass",tug_of_source,moving_or_anchored,no,"Claude, read",towboat pushing a barge in the collision,False,,2019-10-20,2019-10-21 01:50,NRC,inland,collision_allision,,M366993020,2019-10-20,201
+N1287369,366999431,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2020-09-14,2020-09-15 03:00,NRC,inland,grounding,,M366999431,2020-09-14,202
+I8890,367000890,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2015-03-15,,IncidentNews,sea,sinking_capsize,,M367000890,2015-03-15,203
+N1267275,367001820,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2019-12-25,2019-12-25 21:00,NRC,inland,sinking_capsize,,M367001820,2019-12-25,204
+N1309620_2,367003210,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,,2021-07-03,2021-07-03 15:00,NRC,sea,collision_allision,,M367003210,2021-07-03,205
+N1309620_1,367003770,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,,2021-07-03,2021-07-03 15:00,NRC,sea,collision_allision,,M367003770,2021-07-03,206
+N1171487_1,367003780,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,,2017-02-20,2017-02-20 15:45,NRC,sea,collision_allision,,M367003780,2017-02-20,207
+N1443936,367004580,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2025-09-27,2025-09-27 13:00,NRC,inland,grounding,,M367004580,2025-09-27,208
+I10874,367006330,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2024-11-21,,IncidentNews,sea,collision_allision,,M367006330,2024-11-21,209
+N1171487_2,367007550,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,,2017-02-20,2017-02-20 15:45,NRC,sea,collision_allision,,M367007550,2017-02-20,210
+I9553,367008680,"both yes, first pass",source,berth,no,"Claude, read",sank while taking fuel at a marina,True,,2017-08-23,,IncidentNews,sea,sinking_capsize,,M367008680,2017-08-23,211
+N1188130,367008680,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2017-08-23,2017-08-23 13:00,NRC,sea,sinking_capsize,,M367008680,2017-08-23,211
+N1325002,367014420,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2021-12-21,2021-12-21 13:15,NRC,inland,sinking_capsize,,M367014420,2021-12-21,212
+N1181542,367020520,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2017-06-19,2017-06-19 11:10,NRC,inland,other,,M367020520,2017-06-19,213
+N1157482,367026350,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2016-08-27,2016-08-27 16:37,NRC,sea,grounding,,M367026350,2016-08-27,214
+N1409590,367046140,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2024-08-31,2024-08-31 17:56,NRC,sea,sinking_capsize,,M367046140,2024-08-31,215
+N1327250,367062040,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2022-01-05,2022-01-05 17:00,NRC,sea,grounding,,M367062040,2022-01-05,216
+N1442391,367063960,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,,2025-09-10,2025-09-11 00:45,NRC,sea,sinking_capsize,,M367063960,2025-09-10,217
+N1125112,367079220,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2015-08-08,2015-08-08 19:30,NRC,sea,collision_allision,,M367079220,2015-08-08,218
+I9925_2,367090310,"both yes, first pass",source,berth,no,"Claude, read",galley fire while moored at pier,True,,2019-06-04,,IncidentNews,sea,fire_explosion,,M367090310,2019-06-04,219
+I10244,367092230,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2021-02-26,,IncidentNews,inland,collision_allision,,M367092230,2021-02-26,220
+I9964,367121110,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2019-09-08,,IncidentNews,sea,discharge,,M367121110,2019-09-08,221
+N1207315,367122290,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2018-03-20,2018-03-20 22:45,NRC,inland,collision_allision,,M367122290,2018-03-20,222
+N1118083,367129720,second look,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2015-05-30,2015-05-30 13:00,NRC,inland,sinking_capsize,,M367129720,2015-05-30,223
+N1144120,367138310,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2016-03-23,2016-03-23 15:10,NRC,sea,sinking_capsize,,M367138310,2016-03-23,224
+I9454,367154920,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2017-03-08,,IncidentNews,inland,grounding,,M367154920,2017-03-08,225
+N1162471,367158980,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2016-10-25,2016-10-25 15:00,NRC,sea,grounding,,M367158980,2016-10-25,226
+I9362,367187140,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2016-09-14,,IncidentNews,sea,collision_allision,,M367187140,2016-09-14,227
+N1137319,367190910,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2016-01-05,2016-01-05 20:40,NRC,sea,sinking_capsize,,M367190910,2016-01-05,228
+N1375732,367299940,second look,source,moving_or_anchored,no,"Claude, read",,False,,2023-08-09,2023-08-09 20:26,NRC,sea,sinking_capsize,,M367299940,2023-08-09,229
+I10785,367307370,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2024-05-14,,IncidentNews,inland,sinking_capsize,,M367307370,2024-05-14,230
+N1284872,367315790,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2020-08-18,2020-08-18 20:00,NRC,inland,collision_allision,,M367315790,2020-08-18,231
+I9808,367320340,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2018-10-09,,IncidentNews,sea,fire_explosion,,M367320340,2018-10-09,232
+N1399133,367331770,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2024-05-16,2024-05-16 17:00,NRC,sea,grounding,,M367331770,2024-05-16,233
+I9229,367388370,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2016-01-26,,IncidentNews,inland,grounding,,M367388370,2016-01-26,234
+N1414298,367399880,second look,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2024-10-21,2024-10-21 15:45,NRC,inland,collision_allision,,M367399880,2024-10-21,235
+N1240427,367405070,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2019-03-18,2019-03-19 00:45,NRC,inland,sinking_capsize,,M367405070,2019-03-18,236
+N1427033,367458770,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2025-03-27,2025-03-27 19:00,NRC,inland,sinking_capsize,,M367458770,2025-03-27,237
+N1244377,367462360,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2019-05-02,2019-05-02 11:30,NRC,sea,sinking_capsize,,M367462360,2019-05-02,238
+I9360,367463820,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2016-09-08,,IncidentNews,inland,grounding,,M367463820,2016-09-08,239
+I10043,367468960,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2020-02-07,,IncidentNews,sea,other,,M367468960,2020-02-07,240
+N1317809,367469020,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2021-09-24,2021-09-24 19:00,NRC,inland,collision_allision,,M367469020,2021-09-24,241
+N1195201,367471940,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2017-11-04,2017-11-04 16:45,NRC,inland,discharge,,M367471940,2017-11-04,242
+N1313317,367475440,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2021-08-10,2021-08-10 19:15,NRC,inland,sinking_capsize,,M367475440,2021-08-10,243
+I10259,367478790,second look,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2021-03-27,,IncidentNews,inland,grounding,,M367478790,2021-03-27,244
+N1127978,367502520,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2015-09-09,2015-09-09 16:48,NRC,inland,grounding,,M367502520,2015-09-09,245
+N1227019,367502630,second look,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2018-10-09,2018-10-09 17:15,NRC,sea,other,,M367502630,2018-10-09,246
+N1341722,367514590,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2022-07-16,2022-07-17 01:15,NRC,inland,grounding,,M367514590,2022-07-16,247
+N1381786,367518290,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2023-10-14,2023-10-14 21:38,NRC,inland,collision_allision,,M367518290,2023-10-14,248
+I9801,367519340,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,,2018-09-28,,IncidentNews,inland,sinking_capsize,,M367519340,2018-09-28,249
+N1314882,367528110,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2021-08-27,2021-08-27 15:00,NRC,sea,discharge,,M367528110,2021-08-27,250
+N1138104,367529150,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2016-01-15,2016-01-15 08:30,NRC,sea,collision_allision,,M367529150,2016-01-15,251
+I10916,367534690,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2024-12-31,,IncidentNews,inland,collision_allision,,M367534690,2024-12-31,252
+N1140536,367535610,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2016-02-16,2016-02-16 11:02,NRC,sea,sinking_capsize,,M367535610,2016-02-16,253
+I9233_1,367535610,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,,2016-02-16,,IncidentNews,sea,sinking_capsize,,M367535610,2016-02-16,253
+N1113156,367559040,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2015-04-09,2015-04-10 04:45,NRC,sea,sinking_capsize,,M367559040,2015-04-09,254
+N1254014,367583160,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2019-08-02,2019-08-02 09:00,NRC,sea,grounding,,M367583160,2019-08-02,255
+N1339561,367587010,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2022-06-23,2022-06-23 12:20,NRC,inland,sinking_capsize,,M367587010,2022-06-23,256
+I9759,367610590,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2018-07-24,,IncidentNews,sea,grounding,,M367610590,2018-07-24,257
+N1363588,367610590,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2023-03-31,2023-03-31 11:00,NRC,sea,sinking_capsize,,M367610590,2023-03-31,258
+N1425311,367613550,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2025-03-06,2025-03-06 16:50,NRC,inland,grounding,,M367613550,2025-03-06,259
+I9963,367637310,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2019-09-08,,IncidentNews,inland,discharge,,M367637310,2019-09-08,260
+N1299586,367641640,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2021-03-04,2021-03-04 12:30,NRC,inland,grounding,,M367641640,2021-03-04,261
+N1215847,367644590,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2018-06-20,2018-06-20 11:30,NRC,inland,sinking_capsize,,M367644590,2018-06-20,262
+N1122951,367653140,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2015-07-16,2015-07-16 10:30,NRC,sea,sinking_capsize,,M367653140,2015-07-16,263
+I10086,367662490,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2020-05-13,,IncidentNews,inland,discharge,,M367662490,2020-05-13,264
+N1237204,367685580,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2019-02-08,2019-02-08 18:45,NRC,inland,sinking_capsize,,M367685580,2019-02-08,265
+N1375316,367706440,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,,2023-08-05,2023-08-05 17:00,NRC,sea,sinking_capsize,,M367706440,2023-08-05,266
+N1225698,367710270,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2018-09-25,2018-09-25 22:00,NRC,inland,discharge,,M367710270,2018-09-25,267
+N1413740,367714490,second look,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2024-10-15,2024-10-15 10:15,NRC,inland,sinking_capsize,,M367714490,2024-10-15,268
+N1430224,367715380,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2025-05-04,2025-05-05 02:00,NRC,inland,other,,M367715380,2025-05-04,269
+I10827,367724820,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,,2024-07-28,,IncidentNews,sea,sinking_capsize,,M367724820,2024-07-28,270
+I9659,367732670,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2018-01-31,,IncidentNews,sea,sinking_capsize,,M367732670,2018-01-31,271
+N1295075,367773350,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2020-12-27,2020-12-28 02:40,NRC,inland,sinking_capsize,,M367773350,2020-12-27,272
+N1316728,367789330,"both yes, first pass",source,moving_or_anchored,yes,"Claude, read",hurricane Nicholas,True,,2021-09-14,2021-09-14 09:00,NRC,inland,sinking_capsize,,M367789330,2021-09-14,273
+I9970,368004340,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2019-09-19,,IncidentNews,inland,sinking_capsize,,M368004340,2019-09-19,274
+I10371_2,368039710,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,IMO0000000,2021-10-21,,IncidentNews,sea,grounding,,M368039710,2021-10-21,275
+N1248061,368043180,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO0000000,2019-06-05,2019-06-06 01:30,NRC,sea,sinking_capsize,,M368043180,2019-06-05,276
+I9915,368043180,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO0000000,2019-06-06,,IncidentNews,sea,discharge,,M368043180,2019-06-06,276
+N1409867,368059850,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2024-09-04,2024-09-04 11:10,NRC,sea,grounding,,M368059850,2024-09-04,277
+N1379284,368077830,second look,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2023-09-16,2023-09-16 09:00,NRC,sea,discharge,,M368077830,2023-09-16,278
+I10693,368084350,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,IMO0000000,2023-11-17,,IncidentNews,sea,grounding,,M368084350,2023-11-17,279
+N1428300,368114720,second look,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2025-04-11,2025-04-11 10:30,NRC,sea,grounding,,M368114720,2025-04-11,280
+N1369980,368171990,"both yes, first pass",source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2023-06-13,2023-06-13 22:03,NRC,sea,discharge,,M368171990,2023-06-13,281
+N1431207,368188280,second look,source,moving_or_anchored,no,"Claude, default (no flag fired)",,False,,2025-05-15,2025-05-16 00:30,NRC,sea,sinking_capsize,,M368188280,2025-05-15,282
+I9227,710000658,"both yes, first pass",source,moving_or_anchored,no,"Claude, read",,False,,2016-01-25,,IncidentNews,sea,sinking_capsize,,M710000658,2016-01-25,283
