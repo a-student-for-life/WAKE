@@ -1200,6 +1200,14 @@
    "fleet_day": "2016-02-15",
    "code_version": "afe3010"
   },
+  "31_placebo60": {
+   "file": "data/stage_b/windows/31_placebo60.csv.gz",
+   "box_vessels": 133,
+   "rows": 665,
+   "centre_source": "reference_point",
+   "fleet_day": "2017-08-11",
+   "code_version": "6706d05"
+  },
   "32_placebo30": {
    "file": "data/stage_b/windows/32_placebo30.csv.gz",
    "box_vessels": 11,
