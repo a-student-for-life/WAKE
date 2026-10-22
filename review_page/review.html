@@ -146,7 +146,7 @@ function renderCase(c){
       <p class="text">${esc(r.text)}</p>
       <dl class="kv">
         <dt>Reported</dt><dd>${esc(r.when)}${r.date_only?" (date only)":" "+esc(r.tz)}</dd>
-        <dt>Where</dt><dd>${esc(r.place||"Not given")}${r.state?", "+esc(r.state):""}</dd>
+        <dt>Where</dt><dd>${esc(r.place||"Not given")}${r.state&&!new RegExp("\\b"+r.state+"\\b").test((r.place||"").toUpperCase())?", "+esc(r.state):""}</dd>
         <dt>Material</dt><dd>${esc(r.material||"Not given")}</dd>
         <dt>Aground</dt><dd>${esc(r.aground)}</dd>
       </dl>
