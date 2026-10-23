@@ -2696,6 +2696,14 @@
    "fleet_day": "2024-03-14",
    "code_version": "de861e5"
   },
+  "230_real": {
+   "file": "data/stage_b/windows/230_real.csv.gz",
+   "box_vessels": 2870,
+   "rows": 14350,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2024-05-13",
+   "code_version": "de861e5"
+  },
   "231_placebo30": {
    "file": "data/stage_b/windows/231_placebo30.csv.gz",
    "box_vessels": 205,
