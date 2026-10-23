@@ -4160,6 +4160,14 @@
    "fleet_day": "2022-09-16",
    "code_version": "de861e5"
   },
+  "77_real": {
+   "file": "data/stage_b/windows/77_real.csv.gz",
+   "box_vessels": 321,
+   "rows": 1605,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2022-11-15",
+   "code_version": "de861e5"
+  },
   "78_placebo30": {
    "file": "data/stage_b/windows/78_placebo30.csv.gz",
    "box_vessels": 678,
