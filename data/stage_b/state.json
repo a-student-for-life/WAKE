@@ -520,6 +520,14 @@
    "fleet_day": "2017-05-14",
    "code_version": "afe3010"
   },
+  "134_placebo60": {
+   "file": "data/stage_b/windows/134_placebo60.csv.gz",
+   "box_vessels": 780,
+   "rows": 3900,
+   "centre_source": "reference_point",
+   "fleet_day": "2021-10-11",
+   "code_version": "de861e5"
+  },
   "138_placebo30": {
    "file": "data/stage_b/windows/138_placebo30.csv.gz",
    "box_vessels": 1761,
