@@ -119,3 +119,11 @@ Added after the Stage B results had been seen, at Janice's request. Results in
 4. **Independent recheck** of the main test, early3 and placebo AUCs by a separate agent
    that wrote its own code (`results/gap_checks/recheck/`). It is a verification, not
    an analysis.
+
+## 7. Learned detector added (GeoTrackNet); TARS layers dropped, 23 Oct 2026
+
+Decided after the Stage B results were seen. Planned detector 6 (TARS layers) is dropped at
+Janice's decision and is not tested. GeoTrackNet (Nguyen et al. 2021) is added as a learned
+detector, specified in full in `ANALYSIS_PLAN_ADDENDUM_1.md` (approved 23 Oct 2026) before
+any GeoTrackNet model is trained or any vessel is scored, and registered on OSF before
+incident vessels are scored. Its results are reported whatever they show.

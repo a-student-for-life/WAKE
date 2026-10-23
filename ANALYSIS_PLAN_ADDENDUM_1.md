@@ -1,7 +1,7 @@
 # Analysis plan addendum 1: GeoTrackNet as a learned detector
 
-Status: **draft, awaiting Janice's approval** (written 23 Oct 2026). Nothing in this addendum
-is run on incident vessels or their controls until this line says approved. Results of the
+Status: **approved by Janice on 23 Oct 2026**, with two changes agreed that day (the
+training stop rule below, and scoring only after the OSF registration). Written 23 Oct 2026. Results of the
 main plan already exist (`results/stageB/`); this addendum is logged as DEVIATIONS.md #7 and
 everything it produces is reported, whatever it shows.
 
@@ -46,10 +46,13 @@ each event's 150 km box lies inside it. The cell list is fixed from
 ## Model and training
 
 Paper settings: latent size 100, batch 32, 16 samples, learning rate 0.0003, ELBO bound,
-one-hot resolution 0.01 degree, 1 kn, 5 degrees. Training stops at **30,000 steps** (the
-code default is 80,000; at 3.8 steps a second that is about 6 hours per region on this
-machine). The validation ELBO is recorded every 1,000 steps and reported; it is not used
-to tune anything. If a region's training fails twice, that region is dropped and counted.
+one-hot resolution 0.01 degree, 1 kn, 5 degrees. The validation ELBO (per time step) is
+computed every 1,000 steps. **Stop rule:** training stops at the first check, at or after
+20,000 steps, where the validation ELBO has improved by less than 0.5% of its absolute
+value over the last 5,000 steps; it stops at 60,000 steps in any case (the code default is
+80,000). The checkpoint at the stopping step is used. The rule is applied mechanically and
+the curves are reported; nothing else is tuned. If a region's training fails twice, that
+region is dropped and counted.
 
 ## Scoring
 
@@ -80,11 +83,17 @@ placebo30, placebo60.
 - Supporting, as plan section 7: flag rate (the 1e-9 decision) by conditional logistic
   regression; early3 and w6 windows; placebo30 and placebo60 on the sets that exist.
 
+## Order of work
+
+Training uses only normal-traffic days and may start at once. Scoring of incident vessels
+and their controls starts only after this addendum, `ANALYSIS_PLAN.md` and `DEVIATIONS.md`
+are registered on OSF; the registration link is added here when it exists.
+
 ## Compute and schedule
 
 Scheduled cloud sessions with the Stage B session lock (`RUNNING.md`), committing after
 every finished region or event: (1) training-data extraction, one pass over the 44 drawn
-national days, about 1 hour; (2) training, 16 regions x about 2.2 hours; (3) scoring, one
+national days, about 1 hour; (2) training, 16 regions x about 2-4 hours; (3) scoring, one
 pass over the AIS days of the scored event-scenarios, about 6 hours; (4) analysis. Commits
 as Janice Miranda, no attribution lines. Raw AIS deleted after use.
 
