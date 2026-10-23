@@ -69,12 +69,17 @@ below 2 kn) are not applied at scoring, so that slow vessels are scored rather t
 Each sequence is scored, and a vessel's score in a window is that of its most anomalous
 sequence:
 
-- per position, the model's log-probability, converted to a local p-value with the
-  per-cell kernel density of training log-probabilities (`local_logprob` and the
-  a-contrario code, cell 0.1 degree, p threshold 0.1 as in the paper);
-- **score (primary)** = -log10 of the smallest number of false alarms (NFA) over all
-  segments of the track, as in the a-contrario detection; higher = more anomalous;
-- **flag** = the paper's decision, NFA below epsilon = 1e-9.
+- per position, the model's log-probability (mean over the 16 particles), compared with
+  the kernel density of log-probabilities of the held-out normal-traffic tracks in the same
+  0.1 degree cell (`local_logprob` mode, outliers removed with `utils.remove_gaussian_outlier`);
+  a position is abnormal if its value is below the 10th percentile of that density, or if its
+  cell holds fewer than 2 values (both as in the authors' `contrario_detection` mode); the
+  first 12 time steps of a sequence are skipped as in the authors' code;
+- the authors' a-contrario test over sliding windows of 24 time steps
+  (`contrario_utils.NFA`, with p = 0.1 and the factor 300);
+- **score (primary)** = -log10 of the smallest number of false alarms (NFA) over all windows
+  and sub-segments of the vessel's sequences; higher = more anomalous;
+- **flag** = the paper's decision, smallest NFA below epsilon = 1e-9 (the code default).
 
 A vessel with no sequence of at least 4 hours inside the region in that window gets no score,
 as for detectors 1-5 with fewer than 10 positions. Windows: main, early3, w6; dates: true,
