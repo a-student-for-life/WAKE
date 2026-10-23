@@ -2296,6 +2296,14 @@
    "fleet_day": "2016-08-16",
    "code_version": "afe3010"
   },
+  "1_placebo60": {
+   "file": "data/stage_b/windows/1_placebo60.csv.gz",
+   "box_vessels": 455,
+   "rows": 2275,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2024-12-25",
+   "code_version": "2212a20"
+  },
   "200_placebo30": {
    "file": "data/stage_b/windows/200_placebo30.csv.gz",
    "box_vessels": 1554,
