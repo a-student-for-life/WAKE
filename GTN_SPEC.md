@@ -87,6 +87,5 @@ false), and send Janice a short push notification without results.
 
 ## Back-to-back
 
-If this session held the lock, did work, pushed successfully, and the study is not complete
-and not waiting for the OSF link, its very last action is fire_trigger on
+If this session held the lock, did work, pushed successfully, and the study is not complete, its very last action is fire_trigger on
 `trig_01DfQ7iyHFSrQhVEGoNVnd2R` (once). The 4-hourly schedule is only a fallback.
