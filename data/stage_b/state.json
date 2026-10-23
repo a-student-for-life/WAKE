@@ -5120,6 +5120,14 @@
    "fleet_day": "2019-10-20",
    "code_version": "6706d05"
   },
+  "62_placebo30": {
+   "file": "data/stage_b/windows/62_placebo30.csv.gz",
+   "box_vessels": 702,
+   "rows": 3510,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2024-12-04",
+   "code_version": "2212a20"
+  },
   "62_placebo60": {
    "file": "data/stage_b/windows/62_placebo60.csv.gz",
    "box_vessels": 1067,
