@@ -5000,6 +5000,14 @@
    "fleet_day": "2019-02-26",
    "code_version": "6706d05"
   },
+  "64_placebo30": {
+   "file": "data/stage_b/windows/64_placebo30.csv.gz",
+   "box_vessels": 1887,
+   "rows": 9435,
+   "centre_source": "reference_point",
+   "fleet_day": "2024-10-18",
+   "code_version": "2212a20"
+  },
   "64_placebo60": {
    "file": "data/stage_b/windows/64_placebo60.csv.gz",
    "box_vessels": 2430,
