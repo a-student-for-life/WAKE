@@ -125,5 +125,5 @@ Added after the Stage B results had been seen, at Janice's request. Results in
 Decided after the Stage B results were seen. Planned detector 6 (TARS layers) is dropped at
 Janice's decision and is not tested. GeoTrackNet (Nguyen et al. 2021) is added as a learned
 detector, specified in full in `ANALYSIS_PLAN_ADDENDUM_1.md` (approved 23 Oct 2026) before
-any GeoTrackNet model is trained or any vessel is scored, and registered on OSF before
-incident vessels are scored. Its results are reported whatever they show.
+any GeoTrackNet model is trained or any vessel is scored, and no incident vessel is scored before
+all training is finished. Its results are reported whatever they show.

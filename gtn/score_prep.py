@@ -2,8 +2,7 @@
 
 usage: python3 -I gtn/score_prep.py --gpy <GeoTrackNet python> --gdir <GeoTrackNet dir> [--max-minutes M]
        [--only-test]
-Runs ONLY after the OSF registration (ANALYSIS_PLAN_ADDENDUM_1.md, Order of work): refuses
-to run while the addendum has no OSF link.
+Runs ONLY after every region's training is finished (addendum, Order of work).
 
 For every event of a region (data/gtn/regions.csv) and every scenario with an M4 set
 (data/stage_b/matched/M4.csv.gz), collects the positions of the set's members inside the
@@ -31,8 +30,10 @@ STATE = "data/gtn/score_state.json"
 RAW = "data/raw/gtn_score"
 
 
-def osf_registered():
-    return "osf.io/" in open("ANALYSIS_PLAN_ADDENDUM_1.md").read()
+def training_finished():
+    reg = pd.read_csv("data/gtn/regions.csv")
+    failed = json.load(open("data/gtn/failed.json")) if os.path.exists("data/gtn/failed.json") else {}
+    return all(os.path.exists(f"data/gtn/models/{r}/DONE.json") or r in failed for r in reg.region)
 
 
 def jobs():
@@ -59,8 +60,8 @@ def main():
     A.add_argument("--gdir", required=True)
     A.add_argument("--max-minutes", type=float, default=150)
     a = A.parse_args()
-    if not osf_registered():
-        sys.exit("refusing: ANALYSIS_PLAN_ADDENDUM_1.md has no OSF registration link yet")
+    if not training_finished():
+        sys.exit("refusing: training of every region must be finished first (addendum, Order of work)")
     start = time.time()
     st = json.load(open(STATE)) if os.path.exists(STATE) else {"done": {}}
     todo = [j for j in jobs() if f"{j['region']}/{j['event_id']}_{j['scenario']}" not in st["done"]]

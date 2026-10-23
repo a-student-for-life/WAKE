@@ -54,12 +54,9 @@ met, `DONE.json`. On DONE: prune, commit the region's model directory, continue 
 region in the same session if more than 40 minutes remain. A region whose training fails
 twice is recorded in `data/gtn/failed.json` with the error and skipped (addendum).
 
-## Phase 2: scoring inputs (only after OSF registration)
+## Phase 2: scoring inputs
 
-Starts when phase 1 is complete AND `ANALYSIS_PLAN_ADDENDUM_1.md` contains an `osf.io/`
-link (Janice adds it). Without the link, a session that finds phase 1 complete writes
-"waiting for the OSF link" in `PROGRESS.md`, sends Janice one push notification asking for
-the link (only if the previous row does not already say so), and stops.
+Starts when phase 1 is complete (every region has DONE.json or is in failed.json).
 
     python3 -I gtn/score_prep.py --gpy /tmp/gtn/env/bin/python --gdir /tmp/gtn/GeoTrackNet --max-minutes <left>
 

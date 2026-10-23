@@ -1,7 +1,7 @@
 # Analysis plan addendum 1: GeoTrackNet as a learned detector
 
 Status: **approved by Janice on 23 Oct 2026**, with two changes agreed that day (the
-training stop rule below, and scoring only after the OSF registration). Written 23 Oct 2026. Results of the
+training stop rule below, and scoring only after all training is complete). Written 23 Oct 2026. Results of the
 main plan already exist (`results/stageB/`); this addendum is logged as DEVIATIONS.md #7 and
 everything it produces is reported, whatever it shows.
 
@@ -103,9 +103,10 @@ placebo30, placebo60.
 
 ## Order of work
 
-Training uses only normal-traffic days and may start at once. Scoring of incident vessels
-and their controls starts only after this addendum, `ANALYSIS_PLAN.md` and `DEVIATIONS.md`
-are registered on OSF; the registration link is added here when it exists.
+Training uses only normal-traffic days. Scoring of incident vessels and their controls
+starts only after every region's training has finished (or failed twice), so no model or
+setting can be changed after any incident vessel is scored. (An OSF registration was
+considered and dropped by Janice on 23 Oct 2026; this file's git history is the record.)
 
 ## Compute and schedule
 
