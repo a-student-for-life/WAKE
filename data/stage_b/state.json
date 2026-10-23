@@ -3520,6 +3520,14 @@
    "fleet_day": "2023-09-15",
    "code_version": "de861e5"
   },
+  "279_placebo30": {
+   "file": "data/stage_b/windows/279_placebo30.csv.gz",
+   "box_vessels": 1084,
+   "rows": 5420,
+   "centre_source": "incident_span",
+   "fleet_day": "2023-10-17",
+   "code_version": "de861e5"
+  },
   "279_placebo60": {
    "file": "data/stage_b/windows/279_placebo60.csv.gz",
    "box_vessels": 2299,
