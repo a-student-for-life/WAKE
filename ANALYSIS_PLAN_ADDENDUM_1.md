@@ -37,10 +37,15 @@ each event's 150 km box lies inside it. The cell list is fixed from
   point lies in that region. The same drawn days serve all regions where allowed.
 - Vessels: all types (the original paper used cargo and tankers only; our incident vessels
   are mostly tugs, fishing and cargo vessels, so a cargo-only model would not describe them).
-- Tracks: the paper's preprocessing (`dataset_preprocessing.py`): positions inside the
-  region, speed 0-30 kn, tracks split at gaps over 2 hours, resampled to 10 minutes, at least
-  4 hours long, at most 24 hours per sequence. Mean four-hot vector from
-  `calculate_AIS_mean.py`.
+- Tracks: the authors' preprocessing (`data/dataset_preprocessing.py`), in its order:
+  positions inside the region and at most 30 kn; tracks split at gaps over 2 hours; tracks
+  with fewer than 20 messages or shorter than 4 hours removed; outlier messages removed
+  (`utils.detectOutlier`); interpolated every 5 minutes; split into sequences of at most
+  24 hours, keeping those of at least 4 hours; sequences more than 70% moored or at anchor
+  (navigational status 5 or 1), with top speed under 1 kn, or more than 80% below 2 kn
+  removed; latitude, longitude, speed and course normalised to the region. Navigational
+  status comes from the Marine Cadastre status field (text values mapped to the AIS codes).
+  Mean four-hot vector from `data/calculate_AIS_mean.py`.
 - 90% of tracks for training, 10% held out for the validation ELBO, split by MMSI.
 
 ## Model and training
@@ -57,7 +62,12 @@ region is dropped and counted.
 ## Scoring
 
 For every vessel in a matched set (M4, the sets already built; no new matching), the part
-of its track inside the model's region in the window is preprocessed as above and scored:
+of its track inside the model's region in the window is preprocessed with the same cleaning
+steps (region, speed, 2-hour gap split, outlier removal, 5-minute interpolation, sequences
+of at least 4 hours). The three track-removal filters (moored, top speed under 1 kn, mostly
+below 2 kn) are not applied at scoring, so that slow vessels are scored rather than dropped.
+Each sequence is scored, and a vessel's score in a window is that of its most anomalous
+sequence:
 
 - per position, the model's log-probability, converted to a local p-value with the
   per-cell kernel density of training log-probabilities (`local_logprob` and the
@@ -66,7 +76,7 @@ of its track inside the model's region in the window is preprocessed as above an
   segments of the track, as in the a-contrario detection; higher = more anomalous;
 - **flag** = the paper's decision, NFA below epsilon = 1e-9.
 
-A vessel with less than 4 hours of track inside the region in that window gets no score,
+A vessel with no sequence of at least 4 hours inside the region in that window gets no score,
 as for detectors 1-5 with fewer than 10 positions. Windows: main, early3, w6; dates: true,
 placebo30, placebo60.
 
