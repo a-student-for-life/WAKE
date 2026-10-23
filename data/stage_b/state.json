@@ -3928,6 +3928,14 @@
    "fleet_day": "2024-07-05",
    "code_version": "de861e5"
   },
+  "277_real": {
+   "file": "data/stage_b/windows/277_real.csv.gz",
+   "box_vessels": 959,
+   "rows": 4795,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2024-09-03",
+   "code_version": "2212a20"
+  },
   "278_placebo30": {
    "file": "data/stage_b/windows/278_placebo30.csv.gz",
    "box_vessels": 1814,
