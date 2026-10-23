@@ -2840,6 +2840,14 @@
    "fleet_day": "2022-07-16",
    "code_version": "de861e5"
   },
+  "248_placebo30": {
+   "file": "data/stage_b/windows/248_placebo30.csv.gz",
+   "box_vessels": 389,
+   "rows": 1945,
+   "centre_source": "incident_span",
+   "fleet_day": "2023-09-14",
+   "code_version": "de861e5"
+  },
   "248_placebo60": {
    "file": "data/stage_b/windows/248_placebo60.csv.gz",
    "box_vessels": 471,
