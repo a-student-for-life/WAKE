@@ -992,6 +992,14 @@
    "fleet_day": "2021-07-02",
    "code_version": "7321282"
   },
+  "170_real": {
+   "file": "data/stage_b/windows/170_real.csv.gz",
+   "box_vessels": 1157,
+   "rows": 5785,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2021-08-31",
+   "code_version": "7321282"
+  },
   "171_placebo30": {
    "file": "data/stage_b/windows/171_placebo30.csv.gz",
    "box_vessels": 372,
