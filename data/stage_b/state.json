@@ -800,6 +800,14 @@
    "fleet_day": "2023-10-04",
    "code_version": "de861e5"
   },
+  "137_placebo60": {
+   "file": "data/stage_b/windows/137_placebo60.csv.gz",
+   "box_vessels": 348,
+   "rows": 1740,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2024-07-11",
+   "code_version": "de861e5"
+  },
   "138_placebo30": {
    "file": "data/stage_b/windows/138_placebo30.csv.gz",
    "box_vessels": 1761,
