@@ -4136,6 +4136,14 @@
    "fleet_day": "2017-11-10",
    "code_version": "6706d05"
   },
+  "77_placebo30": {
+   "file": "data/stage_b/windows/77_placebo30.csv.gz",
+   "box_vessels": 354,
+   "rows": 1770,
+   "centre_source": "reference_point",
+   "fleet_day": "2022-10-16",
+   "code_version": "de861e5"
+  },
   "77_placebo60": {
    "file": "data/stage_b/windows/77_placebo60.csv.gz",
    "box_vessels": 322,
