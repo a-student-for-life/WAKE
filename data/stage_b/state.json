@@ -3840,6 +3840,14 @@
    "fleet_day": "2023-03-30",
    "code_version": "de861e5"
   },
+  "259_placebo30": {
+   "file": "data/stage_b/windows/259_placebo30.csv.gz",
+   "box_vessels": 97,
+   "rows": 485,
+   "centre_source": "reference_point",
+   "fleet_day": "2025-02-04",
+   "code_version": "2212a20"
+  },
   "259_placebo60": {
    "file": "data/stage_b/windows/259_placebo60.csv.gz",
    "box_vessels": 113,
