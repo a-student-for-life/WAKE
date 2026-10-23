@@ -4328,6 +4328,14 @@
    "fleet_day": "2022-02-09",
    "code_version": "de861e5"
   },
+  "94_real": {
+   "file": "data/stage_b/windows/94_real.csv.gz",
+   "box_vessels": 595,
+   "rows": 2975,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2022-04-10",
+   "code_version": "de861e5"
+  },
   "95_placebo30": {
    "file": "data/stage_b/windows/95_placebo30.csv.gz",
    "box_vessels": 634,
