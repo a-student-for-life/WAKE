@@ -1,5 +1,13 @@
 {
  "done": {
+  "100_placebo30": {
+   "file": "data/stage_b/windows/100_placebo30.csv.gz",
+   "box_vessels": 1517,
+   "rows": 7585,
+   "centre_source": "reference_point",
+   "fleet_day": "2025-08-05",
+   "code_version": "2212a20"
+  },
   "100_placebo60": {
    "file": "data/stage_b/windows/100_placebo60.csv.gz",
    "box_vessels": 17,
