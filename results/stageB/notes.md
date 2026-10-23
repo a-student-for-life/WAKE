@@ -43,3 +43,19 @@ Written before any window file was produced; also in the docstring of
   incident vessel always gets rows, even with no AIS.
 - A national day file with fewer than 1,000,000 positions is treated as missing
   (DEVIATIONS.md #4; first case 2015-03-15 with 5,049 positions).
+
+## Implementation choices in B3 (matching)
+
+Written before any detector score was loaded; also in the docstring of `stage_b/match.py`.
+
+- Window `main` only; the same matched sets are used for the other windows in B4.
+- Pool for every definition: box vessels, not the incident vessel, not candidate-excluded,
+  at least 10 positions (30 in `M4_min30`), positions within 25% of the incident vessel's.
+- M1: whole box, log positions. M2: + log(1 + hours). M3: + exact type group and log
+  length. M4 (main): M3 within 50 km (median main-window position), widened to the whole
+  box (150 km) when fewer than 10 qualify. `M4_k5`, `M4_k20`, `M4_min30` for the checks.
+- Mahalanobis covariance from the qualifying pool (pseudo-inverse). Length left out when
+  the incident vessel has none; a control without length is compared on the other
+  variables. Ties in distance broken by MMSI.
+- Fewer than 5 controls, or an incident vessel below the position minimum: the set is
+  dropped and its reason written to `data/stage_b/matched/sets.csv`.

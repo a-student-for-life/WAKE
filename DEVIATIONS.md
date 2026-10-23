@@ -80,3 +80,21 @@ missing day: an event-scenario whose required days (T-48 h to T) include it is r
 as impossible in `data/stage_b/state.json`; a day that only covers the 12 hours after T
 is left out of after12. The days concerned and their position counts are listed under
 `short_days` in the state file.
+
+## 5. Matching details not fixed by the plan or spec, 23 Oct 2026
+
+Implementation detail filled in at step B3, before any detector score had been loaded or
+any incident-versus-control comparison looked at (`stage_b/match.py` reads only the
+exposure columns of the window files).
+
+**Gap.** The plan's control pool is vessels with at least one position within 50 km of
+the centre in the window; the window files keep each vessel's median window position,
+not every position. The plan does not say what M1–M3 use as their area, or whether a
+control needs enough positions to be scored.
+
+**Rule used.** The 50 km pool of M4 uses the distance of the vessel's median main-window
+position from the centre (widened to the whole 150 km box below 10 qualifying vessels).
+M1–M3 draw from the whole 150 km box; M4 adds the 50 km area. Every definition keeps
+the 25% positions caliper and requires controls to have at least 10 positions (30 in
+the 30-position check), since a vessel with fewer has no score. Full list of choices in
+`results/stageB/notes.md`.
