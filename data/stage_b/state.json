@@ -1216,6 +1216,14 @@
    "fleet_day": "2024-11-23",
    "code_version": "2212a20"
   },
+  "150_placebo60": {
+   "file": "data/stage_b/windows/150_placebo60.csv.gz",
+   "box_vessels": 947,
+   "rows": 4735,
+   "centre_source": "incident_span",
+   "fleet_day": "2025-06-19",
+   "code_version": "2212a20"
+  },
   "151_placebo30": {
    "file": "data/stage_b/windows/151_placebo30.csv.gz",
    "box_vessels": 370,
