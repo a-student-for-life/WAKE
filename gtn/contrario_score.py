@@ -12,7 +12,10 @@ Output: one row per vessel and window (most anomalous sequence), plus sequence c
 import csv
 import math
 import pickle
+import os
 import sys
+
+sys.path.insert(0, os.getcwd())  # the GeoTrackNet directory (run from there)
 
 import numpy as np
 from scipy import stats

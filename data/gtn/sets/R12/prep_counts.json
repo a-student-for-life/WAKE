@@ -1,0 +1,14 @@
+{
+ "day_files": 37,
+ "vessels": 4328,
+ "voyages_4h": 13392,
+ "after_outliers": 13392,
+ "outlier_errors": 0,
+ "sequences": 13390,
+ "after_moored": 6285,
+ "after_low_speed": 4334,
+ "train_sequences": 3871,
+ "valid_sequences": 463,
+ "train_mmsi": 1656,
+ "valid_mmsi": 184
+}

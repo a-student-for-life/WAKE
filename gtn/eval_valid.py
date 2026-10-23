@@ -5,7 +5,10 @@ Uses the authors' graph: runners.create_dataset_and_model (no shuffle, no repeat
 runners.create_eval_graph (bound 'elbo', config.num_samples particles); prints
 'VALID <global step> <mean ll per time step over all validation sequences>'.
 """
+import os
 import sys
+
+sys.path.insert(0, os.getcwd())  # the GeoTrackNet directory (run from there)
 
 import numpy as np
 import tensorflow as tf
