@@ -3496,6 +3496,14 @@
    "fleet_day": "2021-12-05",
    "code_version": "de861e5"
   },
+  "56_real": {
+   "file": "data/stage_b/windows/56_real.csv.gz",
+   "box_vessels": 1952,
+   "rows": 9760,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2022-02-03",
+   "code_version": "de861e5"
+  },
   "57_placebo30": {
    "file": "data/stage_b/windows/57_placebo30.csv.gz",
    "box_vessels": 35,
