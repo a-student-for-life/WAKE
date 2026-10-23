@@ -5904,6 +5904,14 @@
    "fleet_day": "2024-12-21",
    "code_version": "2212a20"
   },
+  "86_real": {
+   "file": "data/stage_b/windows/86_real.csv.gz",
+   "box_vessels": 1384,
+   "rows": 6920,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2025-02-19",
+   "code_version": "2212a20"
+  },
   "87_placebo30": {
    "file": "data/stage_b/windows/87_placebo30.csv.gz",
    "box_vessels": 1132,
