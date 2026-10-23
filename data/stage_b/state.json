@@ -640,6 +640,14 @@
    "fleet_day": "2023-08-05",
    "code_version": "de861e5"
   },
+  "136_real": {
+   "file": "data/stage_b/windows/136_real.csv.gz",
+   "box_vessels": 209,
+   "rows": 1045,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2023-10-04",
+   "code_version": "de861e5"
+  },
   "138_placebo30": {
    "file": "data/stage_b/windows/138_placebo30.csv.gz",
    "box_vessels": 1761,
