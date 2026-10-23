@@ -81,7 +81,10 @@ sequence:
   and sub-segments of the vessel's sequences; higher = more anomalous;
 - **flag** = the paper's decision, smallest NFA below epsilon = 1e-9 (the code default).
 
-A vessel with no sequence of at least 4 hours inside the region in that window gets no score,
+The authors' test skips the first 12 time steps (2 hours at the 10-minute steps the model
+reads) and then needs a full 24-step window, so a sequence shorter than 6 hours cannot be
+tested and counts as not scored. A vessel with no sequence of at least 6 hours inside the
+region in that window gets no score,
 as for detectors 1-5 with fewer than 10 positions. Windows: main, early3, w6; dates: true,
 placebo30, placebo60.
 
