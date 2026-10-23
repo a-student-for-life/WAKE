@@ -1,0 +1,9 @@
+incident_id,mmsi,role,context,storm,coded_by,note,main_exclude
+I10529,367788830,source,moving_or_anchored,no,"Claude, read",fishing vessel sank 55 NM offshore,False
+I8871,355163000,source,moving_or_anchored,no,"Claude, read",tug sank offshore,False
+I9574_1,338119693,source,moving_or_anchored,no,"Claude, read",collision of two fishing vessels,False
+I9608,367156540,source,moving_or_anchored,no,"Claude, read",tug dragged anchor in heavy waves and grounded; no named storm,False
+I9785,367736160,source,moving_or_anchored,no,"Claude, read",fire aboard fishing vessel 38 NM offshore,False
+N1407744,368140980,source,moving_or_anchored,no,"Claude, read",fishing vessel sank 100 NM offshore,False
+N1410714,636014610,source,moving_or_anchored,yes,"Claude, read",bulk carrier aground in Hurricane Francine,True
+N1443121,367457060,source,berth,no,"Claude, read","sank at its moorage (last AIS stationary in Salmon Bay, Seattle, 32 h before); discharge while being raised",True

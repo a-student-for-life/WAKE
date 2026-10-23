@@ -98,3 +98,24 @@ M1–M3 draw from the whole 150 km box; M4 adds the 50 km area. Every definition
 the 25% positions caliper and requires controls to have at least 10 positions (30 in
 the 30-position check), since a vessel with fewer has no score. Full list of choices in
 `results/stageB/notes.md`.
+
+## 6. Gap-closing checks after Stage B, 23 Oct 2026
+
+Added after the Stage B results had been seen, at Janice's request. Results in
+`results/gap_checks/summary.md`; code in `gap_checks/`. Stage B files are unchanged.
+
+1. **Unsure cases added back** (pre-registered in plan section 8, not run in B4 because
+   B1 builds events only from `data/confirmed_events.csv`). The 8 unsure matches were
+   made into events and coded for exclusions 1–3 by Claude from the report text and AIS
+   track. This coding was done after the main results existed, but before any detector
+   was run on these 8 vessels. Windows and M4 sets use the Stage B code unchanged, real
+   date only.
+2. **Placebo dates on the same events** (exploratory, not pre-registered): real-date
+   AUCs restricted to events that also have a placebo set, and the paired difference
+   real minus placebo with a bootstrap of events (5,000 resamples, seed 20261022).
+3. **Timing of the largest speed drop** (exploratory, descriptive): share of incident
+   vessels and controls whose largest main-window speed drop falls in the last 3 or 6
+   hours before T, from the existing window scores.
+4. **Independent recheck** of the main test, early3 and placebo AUCs by a separate agent
+   that wrote its own code (`results/gap_checks/recheck/`). It is a verification, not
+   an analysis.

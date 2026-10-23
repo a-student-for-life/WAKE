@@ -1,0 +1,9 @@
+event_id,status,n_controls,incident_id,main_exclude
+1001,incident_fewer_than_10_positions,0,I10529,False
+1002,matched,10,I8871,False
+1003,matched,10,I9574_1,False
+1004,fewer_than_5_controls,0,I9608,False
+1005,fewer_than_5_controls,0,I9785,False
+1006,matched,8,N1407744,False
+1007,matched,10,N1410714,True
+1008,incident_fewer_than_10_positions,0,N1443121,True

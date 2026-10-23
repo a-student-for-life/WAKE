@@ -1,0 +1,69 @@
+{
+ "done": {
+  "1001_real": {
+   "file": "data/gap_checks/windows/1001_real.csv.gz",
+   "box_vessels": 726,
+   "rows": 3630,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2022-10-27",
+   "code_version": "dbfffae0"
+  },
+  "1002_real": {
+   "file": "data/gap_checks/windows/1002_real.csv.gz",
+   "box_vessels": 72,
+   "rows": 360,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2015-01-21",
+   "code_version": "dbfffae0"
+  },
+  "1003_real": {
+   "file": "data/gap_checks/windows/1003_real.csv.gz",
+   "box_vessels": 325,
+   "rows": 1625,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-09-18",
+   "code_version": "dbfffae0"
+  },
+  "1004_real": {
+   "file": "data/gap_checks/windows/1004_real.csv.gz",
+   "box_vessels": 452,
+   "rows": 2260,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-10-24",
+   "code_version": "dbfffae0"
+  },
+  "1005_real": {
+   "file": "data/gap_checks/windows/1005_real.csv.gz",
+   "box_vessels": 260,
+   "rows": 1300,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-08-30",
+   "code_version": "dbfffae0"
+  },
+  "1006_real": {
+   "file": "data/gap_checks/windows/1006_real.csv.gz",
+   "box_vessels": 708,
+   "rows": 3540,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2024-08-12",
+   "code_version": "dbfffae0"
+  },
+  "1007_real": {
+   "file": "data/gap_checks/windows/1007_real.csv.gz",
+   "box_vessels": 1693,
+   "rows": 8465,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2024-09-11",
+   "code_version": "dbfffae0"
+  },
+  "1008_real": {
+   "file": "data/gap_checks/windows/1008_real.csv.gz",
+   "box_vessels": 3133,
+   "rows": 15665,
+   "centre_source": "incident_span",
+   "fleet_day": "2025-09-18",
+   "code_version": "dbfffae0"
+  }
+ },
+ "impossible": {}
+}

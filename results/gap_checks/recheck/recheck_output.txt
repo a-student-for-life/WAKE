@@ -1,0 +1,38 @@
+main-sample events: 257 (total events: 283 )
+duplicate (event,scenario,mmsi,window) rows in windows: 0
+duplicate (event,scenario,mmsi) rows in M4 (main sample): 0
+[real] sets in main sample: 197; sets with !=1 incident: 0; controls per set min/max: 5/10
+[placebo30] sets in main sample: 120; sets with !=1 incident: 0; controls per set min/max: 5/10
+[placebo60] sets in main sample: 119; sets with !=1 incident: 0; controls per set min/max: 6/10
+[real] M4 incident rows missing from windows(main): 0; is_incident False: 0; windows incident mmsi != M4 incident mmsi: 0; events with >1 is_incident in windows: 0
+[real] M4 members (any role) missing from windows(main): 0
+[placebo30] M4 incident rows missing from windows(main): 0; is_incident False: 0; windows incident mmsi != M4 incident mmsi: 0; events with >1 is_incident in windows: 0
+[placebo30] M4 members (any role) missing from windows(main): 0
+[placebo60] M4 incident rows missing from windows(main): 0; is_incident False: 0; windows incident mmsi != M4 incident mmsi: 0; events with >1 is_incident in windows: 0
+[placebo60] M4 members (any role) missing from windows(main): 0
+
+MAIN (real, main window)
+ scenario window      detector  n_sets  n_pairs    auc  p_perm  ci_lo  ci_hi  p_holm
+    real   main d1_speed_drop     197     1854 0.6098  0.0001 0.5653 0.6515  0.0005
+    real   main   d2_loiter_h     197     1854 0.4933  0.7659 0.4505 0.5352  0.7659
+    real   main  d3_gap_ratio     197     1854 0.5863  0.0002 0.5463 0.6283  0.0008
+    real   main   d4_off_lane     197     1854 0.5874  0.0003 0.5458 0.6294  0.0009
+    real   main    d5_iforest     197     1854 0.5744  0.0009 0.5318 0.6169  0.0018
+
+OTHER
+  scenario window      detector  n_sets  n_pairs    auc  ci_lo  ci_hi
+     real early3 d1_speed_drop     197     1847 0.5615 0.5184 0.6047
+placebo30   main d1_speed_drop     120     1172 0.5183 0.4635 0.5708
+placebo60   main d1_speed_drop     119     1174 0.5162 0.4628 0.5702
+     real early3   d2_loiter_h     197     1847 0.5095 0.4683 0.5519
+placebo30   main   d2_loiter_h     120     1172 0.5371 0.4813 0.5934
+placebo60   main   d2_loiter_h     119     1174 0.5038 0.4525 0.5541
+     real early3  d3_gap_ratio     197     1847 0.5433 0.4989 0.5871
+placebo30   main  d3_gap_ratio     120     1172 0.5235 0.4738 0.5734
+placebo60   main  d3_gap_ratio     119     1174 0.5315 0.4800 0.5823
+     real early3   d4_off_lane     197     1847 0.5950 0.5537 0.6357
+placebo30   main   d4_off_lane     120     1172 0.5098 0.4521 0.5655
+placebo60   main   d4_off_lane     119     1174 0.5460 0.4910 0.6013
+     real early3    d5_iforest     197     1847 0.5544 0.5099 0.5987
+placebo30   main    d5_iforest     120     1172 0.5533 0.5004 0.6052
+placebo60   main    d5_iforest     119     1174 0.4855 0.4311 0.5399
