@@ -1,0 +1,6 @@
+{
+ "region": "R02",
+ "stop_step": 60000,
+ "valid_ll_per_t": -7.884456304414773,
+ "reason": "max 60,000 steps"
+}
