@@ -2114,3 +2114,1756 @@ Saving checkpoints for 22563 into /home/janice/wake/data/gtn/models/R05/elbo-R05
 Saving checkpoints for 22752 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
 Saving checkpoints for 22932 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
 Saving checkpoints for 23000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:312: The name tf.train.replica_device_setter is deprecated. Please use tf.compat.v1.train.replica_device_setter instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:314: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:305: The name tf.train.get_or_create_global_step is deprecated. Please use tf.compat.v1.train.get_or_create_global_step instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:87: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/data/util/random_seed.py:58: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:110: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:124: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:125: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:146: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:211: The name tf.log is deprecated. Please use tf.math.log instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:346: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:958: Layer.add_variable (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.add_weight` method instead.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:962: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:401: Normal.__init__ (from tensorflow.python.ops.distributions.normal) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/distributions/normal.py:160: Distribution.__init__ (from tensorflow.python.ops.distributions.distribution) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:196: kl_divergence (from tensorflow.python.ops.distributions.kullback_leibler) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:446: Bernoulli.__init__ (from tensorflow.python.ops.distributions.bernoulli) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:295: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:307: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:308: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:261: The name tf.train.LoggingTensorHook is deprecated. Please use tf.estimator.LoggingTensorHook instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:319: The name tf.train.MonitoredTrainingSession is deprecated. Please use tf.compat.v1.train.MonitoredTrainingSession instead.
+
+Create CheckpointSaverHook.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/training_util.py:236: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+Graph was finalized.
+Restoring parameters from /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt-23000
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:1069: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+Running local_init_op.
+Done running local_init_op.
+Saving checkpoints for 23000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Step 23001, elbo bound per timestep: -9.099951
+Saving checkpoints for 23167 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 23362 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+global_step/sec: 1.50375
+Step 23501, elbo bound per timestep: -8.894766
+Saving checkpoints for 23537 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:312: The name tf.train.replica_device_setter is deprecated. Please use tf.compat.v1.train.replica_device_setter instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:314: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:305: The name tf.train.get_or_create_global_step is deprecated. Please use tf.compat.v1.train.get_or_create_global_step instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:87: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/data/util/random_seed.py:58: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:110: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:124: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:125: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:146: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:211: The name tf.log is deprecated. Please use tf.math.log instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:346: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:958: Layer.add_variable (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.add_weight` method instead.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:962: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:401: Normal.__init__ (from tensorflow.python.ops.distributions.normal) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/distributions/normal.py:160: Distribution.__init__ (from tensorflow.python.ops.distributions.distribution) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:196: kl_divergence (from tensorflow.python.ops.distributions.kullback_leibler) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:446: Bernoulli.__init__ (from tensorflow.python.ops.distributions.bernoulli) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:295: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:307: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:308: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:261: The name tf.train.LoggingTensorHook is deprecated. Please use tf.estimator.LoggingTensorHook instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:319: The name tf.train.MonitoredTrainingSession is deprecated. Please use tf.compat.v1.train.MonitoredTrainingSession instead.
+
+Create CheckpointSaverHook.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/training_util.py:236: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+Graph was finalized.
+Restoring parameters from /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt-23537
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:1069: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+Running local_init_op.
+Done running local_init_op.
+Saving checkpoints for 23537 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Step 23538, elbo bound per timestep: -9.091787
+Saving checkpoints for 23788 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 24000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:963: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:312: The name tf.train.replica_device_setter is deprecated. Please use tf.compat.v1.train.replica_device_setter instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:314: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:305: The name tf.train.get_or_create_global_step is deprecated. Please use tf.compat.v1.train.get_or_create_global_step instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:87: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/data/util/random_seed.py:58: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:110: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:124: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:125: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:146: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:211: The name tf.log is deprecated. Please use tf.math.log instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:346: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:958: Layer.add_variable (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.add_weight` method instead.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:962: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:401: Normal.__init__ (from tensorflow.python.ops.distributions.normal) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/distributions/normal.py:160: Distribution.__init__ (from tensorflow.python.ops.distributions.distribution) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:196: kl_divergence (from tensorflow.python.ops.distributions.kullback_leibler) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:446: Bernoulli.__init__ (from tensorflow.python.ops.distributions.bernoulli) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:295: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:307: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:308: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:261: The name tf.train.LoggingTensorHook is deprecated. Please use tf.estimator.LoggingTensorHook instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:319: The name tf.train.MonitoredTrainingSession is deprecated. Please use tf.compat.v1.train.MonitoredTrainingSession instead.
+
+Create CheckpointSaverHook.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/training_util.py:236: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+Graph was finalized.
+Restoring parameters from /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt-24000
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:1069: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+Running local_init_op.
+Done running local_init_op.
+Saving checkpoints for 24000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Step 24001, elbo bound per timestep: -9.063347
+Saving checkpoints for 24250 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:963: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+global_step/sec: 2.17649
+Step 24501, elbo bound per timestep: -8.852788
+Saving checkpoints for 24516 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 24774 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 25000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:312: The name tf.train.replica_device_setter is deprecated. Please use tf.compat.v1.train.replica_device_setter instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:314: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:305: The name tf.train.get_or_create_global_step is deprecated. Please use tf.compat.v1.train.get_or_create_global_step instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:87: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/data/util/random_seed.py:58: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:110: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:124: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:125: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:146: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:211: The name tf.log is deprecated. Please use tf.math.log instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:346: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:958: Layer.add_variable (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.add_weight` method instead.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:962: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:401: Normal.__init__ (from tensorflow.python.ops.distributions.normal) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/distributions/normal.py:160: Distribution.__init__ (from tensorflow.python.ops.distributions.distribution) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:196: kl_divergence (from tensorflow.python.ops.distributions.kullback_leibler) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:446: Bernoulli.__init__ (from tensorflow.python.ops.distributions.bernoulli) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:295: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:307: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:308: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:261: The name tf.train.LoggingTensorHook is deprecated. Please use tf.estimator.LoggingTensorHook instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:319: The name tf.train.MonitoredTrainingSession is deprecated. Please use tf.compat.v1.train.MonitoredTrainingSession instead.
+
+Create CheckpointSaverHook.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/training_util.py:236: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+Graph was finalized.
+Restoring parameters from /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt-25000
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:1069: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+Running local_init_op.
+Done running local_init_op.
+Saving checkpoints for 25000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Step 25001, elbo bound per timestep: -9.001053
+Saving checkpoints for 25265 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:963: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+global_step/sec: 2.23126
+Step 25501, elbo bound per timestep: -8.800271
+Saving checkpoints for 25532 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 25800 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 26000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:312: The name tf.train.replica_device_setter is deprecated. Please use tf.compat.v1.train.replica_device_setter instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:314: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:305: The name tf.train.get_or_create_global_step is deprecated. Please use tf.compat.v1.train.get_or_create_global_step instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:87: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/data/util/random_seed.py:58: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:110: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:124: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:125: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:146: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:211: The name tf.log is deprecated. Please use tf.math.log instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:346: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:958: Layer.add_variable (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.add_weight` method instead.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:962: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:401: Normal.__init__ (from tensorflow.python.ops.distributions.normal) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/distributions/normal.py:160: Distribution.__init__ (from tensorflow.python.ops.distributions.distribution) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:196: kl_divergence (from tensorflow.python.ops.distributions.kullback_leibler) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:446: Bernoulli.__init__ (from tensorflow.python.ops.distributions.bernoulli) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:295: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:307: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:308: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:261: The name tf.train.LoggingTensorHook is deprecated. Please use tf.estimator.LoggingTensorHook instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:319: The name tf.train.MonitoredTrainingSession is deprecated. Please use tf.compat.v1.train.MonitoredTrainingSession instead.
+
+Create CheckpointSaverHook.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/training_util.py:236: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+Graph was finalized.
+Restoring parameters from /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt-26000
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:1069: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+Running local_init_op.
+Done running local_init_op.
+Saving checkpoints for 26000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Step 26001, elbo bound per timestep: -8.958623
+Saving checkpoints for 26274 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:963: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+global_step/sec: 2.26096
+Step 26501, elbo bound per timestep: -8.754809
+Saving checkpoints for 26538 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 26812 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 27000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:312: The name tf.train.replica_device_setter is deprecated. Please use tf.compat.v1.train.replica_device_setter instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:314: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:305: The name tf.train.get_or_create_global_step is deprecated. Please use tf.compat.v1.train.get_or_create_global_step instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:87: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/data/util/random_seed.py:58: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:110: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:124: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:125: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:146: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:211: The name tf.log is deprecated. Please use tf.math.log instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:346: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:958: Layer.add_variable (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.add_weight` method instead.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:962: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:401: Normal.__init__ (from tensorflow.python.ops.distributions.normal) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/distributions/normal.py:160: Distribution.__init__ (from tensorflow.python.ops.distributions.distribution) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:196: kl_divergence (from tensorflow.python.ops.distributions.kullback_leibler) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:446: Bernoulli.__init__ (from tensorflow.python.ops.distributions.bernoulli) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:295: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:307: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:308: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:261: The name tf.train.LoggingTensorHook is deprecated. Please use tf.estimator.LoggingTensorHook instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:319: The name tf.train.MonitoredTrainingSession is deprecated. Please use tf.compat.v1.train.MonitoredTrainingSession instead.
+
+Create CheckpointSaverHook.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/training_util.py:236: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+Graph was finalized.
+Restoring parameters from /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt-27000
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:1069: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+Running local_init_op.
+Done running local_init_op.
+Saving checkpoints for 27000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Step 27001, elbo bound per timestep: -8.920015
+Saving checkpoints for 27270 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:963: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+global_step/sec: 2.2802
+Step 27501, elbo bound per timestep: -8.712911
+Saving checkpoints for 27543 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 27814 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 28000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:312: The name tf.train.replica_device_setter is deprecated. Please use tf.compat.v1.train.replica_device_setter instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:314: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:305: The name tf.train.get_or_create_global_step is deprecated. Please use tf.compat.v1.train.get_or_create_global_step instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:87: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/data/util/random_seed.py:58: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:110: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:124: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:125: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:146: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:211: The name tf.log is deprecated. Please use tf.math.log instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:346: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:958: Layer.add_variable (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.add_weight` method instead.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:962: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:401: Normal.__init__ (from tensorflow.python.ops.distributions.normal) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/distributions/normal.py:160: Distribution.__init__ (from tensorflow.python.ops.distributions.distribution) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:196: kl_divergence (from tensorflow.python.ops.distributions.kullback_leibler) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:446: Bernoulli.__init__ (from tensorflow.python.ops.distributions.bernoulli) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:295: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:307: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:308: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:261: The name tf.train.LoggingTensorHook is deprecated. Please use tf.estimator.LoggingTensorHook instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:319: The name tf.train.MonitoredTrainingSession is deprecated. Please use tf.compat.v1.train.MonitoredTrainingSession instead.
+
+Create CheckpointSaverHook.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/training_util.py:236: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+Graph was finalized.
+Restoring parameters from /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt-28000
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:1069: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+Running local_init_op.
+Done running local_init_op.
+Saving checkpoints for 28000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Step 28001, elbo bound per timestep: -8.881264
+Saving checkpoints for 28258 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:963: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+global_step/sec: 2.2376
+Step 28501, elbo bound per timestep: -8.673050
+Saving checkpoints for 28527 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 28782 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 29000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:312: The name tf.train.replica_device_setter is deprecated. Please use tf.compat.v1.train.replica_device_setter instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:314: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:305: The name tf.train.get_or_create_global_step is deprecated. Please use tf.compat.v1.train.get_or_create_global_step instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:87: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/data/util/random_seed.py:58: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:110: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:124: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:125: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:146: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:211: The name tf.log is deprecated. Please use tf.math.log instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:346: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:958: Layer.add_variable (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.add_weight` method instead.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:962: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:401: Normal.__init__ (from tensorflow.python.ops.distributions.normal) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/distributions/normal.py:160: Distribution.__init__ (from tensorflow.python.ops.distributions.distribution) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:196: kl_divergence (from tensorflow.python.ops.distributions.kullback_leibler) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:446: Bernoulli.__init__ (from tensorflow.python.ops.distributions.bernoulli) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:295: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:307: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:308: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:261: The name tf.train.LoggingTensorHook is deprecated. Please use tf.estimator.LoggingTensorHook instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:319: The name tf.train.MonitoredTrainingSession is deprecated. Please use tf.compat.v1.train.MonitoredTrainingSession instead.
+
+Create CheckpointSaverHook.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/training_util.py:236: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+Graph was finalized.
+Restoring parameters from /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt-29000
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:1069: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+Running local_init_op.
+Done running local_init_op.
+Saving checkpoints for 29000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Step 29001, elbo bound per timestep: -8.844654
+Saving checkpoints for 29249 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:963: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+global_step/sec: 2.11784
+Step 29501, elbo bound per timestep: -8.636379
+Saving checkpoints for 29504 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 29751 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 30000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:312: The name tf.train.replica_device_setter is deprecated. Please use tf.compat.v1.train.replica_device_setter instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:314: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:305: The name tf.train.get_or_create_global_step is deprecated. Please use tf.compat.v1.train.get_or_create_global_step instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:87: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/data/util/random_seed.py:58: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:110: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:124: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:125: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:146: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:211: The name tf.log is deprecated. Please use tf.math.log instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:346: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:958: Layer.add_variable (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.add_weight` method instead.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:962: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:401: Normal.__init__ (from tensorflow.python.ops.distributions.normal) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/distributions/normal.py:160: Distribution.__init__ (from tensorflow.python.ops.distributions.distribution) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:196: kl_divergence (from tensorflow.python.ops.distributions.kullback_leibler) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:446: Bernoulli.__init__ (from tensorflow.python.ops.distributions.bernoulli) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:295: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:307: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:308: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:261: The name tf.train.LoggingTensorHook is deprecated. Please use tf.estimator.LoggingTensorHook instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:319: The name tf.train.MonitoredTrainingSession is deprecated. Please use tf.compat.v1.train.MonitoredTrainingSession instead.
+
+Create CheckpointSaverHook.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/training_util.py:236: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+Graph was finalized.
+Restoring parameters from /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt-30000
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:1069: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+Running local_init_op.
+Done running local_init_op.
+Saving checkpoints for 30000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Step 30001, elbo bound per timestep: -8.811199
+Saving checkpoints for 30255 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:963: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+global_step/sec: 2.20095
+Step 30501, elbo bound per timestep: -8.601339
+Saving checkpoints for 30524 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 30791 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 31000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:312: The name tf.train.replica_device_setter is deprecated. Please use tf.compat.v1.train.replica_device_setter instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:314: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:305: The name tf.train.get_or_create_global_step is deprecated. Please use tf.compat.v1.train.get_or_create_global_step instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:87: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/data/util/random_seed.py:58: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:110: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:124: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:125: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:146: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:211: The name tf.log is deprecated. Please use tf.math.log instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:346: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:958: Layer.add_variable (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.add_weight` method instead.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:962: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:401: Normal.__init__ (from tensorflow.python.ops.distributions.normal) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/distributions/normal.py:160: Distribution.__init__ (from tensorflow.python.ops.distributions.distribution) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:196: kl_divergence (from tensorflow.python.ops.distributions.kullback_leibler) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:446: Bernoulli.__init__ (from tensorflow.python.ops.distributions.bernoulli) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:295: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:307: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:308: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:261: The name tf.train.LoggingTensorHook is deprecated. Please use tf.estimator.LoggingTensorHook instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:319: The name tf.train.MonitoredTrainingSession is deprecated. Please use tf.compat.v1.train.MonitoredTrainingSession instead.
+
+Create CheckpointSaverHook.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/training_util.py:236: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+Graph was finalized.
+Restoring parameters from /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt-31000
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:1069: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+Running local_init_op.
+Done running local_init_op.
+Saving checkpoints for 31000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Step 31001, elbo bound per timestep: -8.777563
+Saving checkpoints for 31260 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:963: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+global_step/sec: 2.19081
+Step 31501, elbo bound per timestep: -8.567715
+Saving checkpoints for 31522 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 31774 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 32000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:312: The name tf.train.replica_device_setter is deprecated. Please use tf.compat.v1.train.replica_device_setter instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:314: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:305: The name tf.train.get_or_create_global_step is deprecated. Please use tf.compat.v1.train.get_or_create_global_step instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:87: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/data/util/random_seed.py:58: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:110: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:124: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:125: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:146: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:211: The name tf.log is deprecated. Please use tf.math.log instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:346: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:958: Layer.add_variable (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.add_weight` method instead.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:962: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:401: Normal.__init__ (from tensorflow.python.ops.distributions.normal) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/distributions/normal.py:160: Distribution.__init__ (from tensorflow.python.ops.distributions.distribution) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:196: kl_divergence (from tensorflow.python.ops.distributions.kullback_leibler) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:446: Bernoulli.__init__ (from tensorflow.python.ops.distributions.bernoulli) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:295: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:307: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:308: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:261: The name tf.train.LoggingTensorHook is deprecated. Please use tf.estimator.LoggingTensorHook instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:319: The name tf.train.MonitoredTrainingSession is deprecated. Please use tf.compat.v1.train.MonitoredTrainingSession instead.
+
+Create CheckpointSaverHook.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/training_util.py:236: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+Graph was finalized.
+Restoring parameters from /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt-32000
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:1069: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+Running local_init_op.
+Done running local_init_op.
+Saving checkpoints for 32000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Step 32001, elbo bound per timestep: -8.747238
+Saving checkpoints for 32246 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:963: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+Saving checkpoints for 32496 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+global_step/sec: 2.08266
+Step 32501, elbo bound per timestep: -8.535444
+Saving checkpoints for 32750 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 33000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:312: The name tf.train.replica_device_setter is deprecated. Please use tf.compat.v1.train.replica_device_setter instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:314: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:305: The name tf.train.get_or_create_global_step is deprecated. Please use tf.compat.v1.train.get_or_create_global_step instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:87: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/data/util/random_seed.py:58: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:110: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:124: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:125: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:146: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:211: The name tf.log is deprecated. Please use tf.math.log instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:346: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:958: Layer.add_variable (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.add_weight` method instead.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:962: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:401: Normal.__init__ (from tensorflow.python.ops.distributions.normal) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/distributions/normal.py:160: Distribution.__init__ (from tensorflow.python.ops.distributions.distribution) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:196: kl_divergence (from tensorflow.python.ops.distributions.kullback_leibler) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:446: Bernoulli.__init__ (from tensorflow.python.ops.distributions.bernoulli) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:295: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:307: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:308: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:261: The name tf.train.LoggingTensorHook is deprecated. Please use tf.estimator.LoggingTensorHook instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:319: The name tf.train.MonitoredTrainingSession is deprecated. Please use tf.compat.v1.train.MonitoredTrainingSession instead.
+
+Create CheckpointSaverHook.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/training_util.py:236: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+Graph was finalized.
+Restoring parameters from /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt-33000
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:1069: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+Running local_init_op.
+Done running local_init_op.
+Saving checkpoints for 33000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Step 33001, elbo bound per timestep: -8.719337
+Saving checkpoints for 33247 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:963: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+Saving checkpoints for 33490 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+global_step/sec: 2.06039
+Step 33501, elbo bound per timestep: -8.506166
+Saving checkpoints for 33739 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 33991 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 34000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:312: The name tf.train.replica_device_setter is deprecated. Please use tf.compat.v1.train.replica_device_setter instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:314: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:305: The name tf.train.get_or_create_global_step is deprecated. Please use tf.compat.v1.train.get_or_create_global_step instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:87: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/data/util/random_seed.py:58: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:110: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:124: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:125: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:146: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:211: The name tf.log is deprecated. Please use tf.math.log instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:346: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:958: Layer.add_variable (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.add_weight` method instead.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:962: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:401: Normal.__init__ (from tensorflow.python.ops.distributions.normal) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/distributions/normal.py:160: Distribution.__init__ (from tensorflow.python.ops.distributions.distribution) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:196: kl_divergence (from tensorflow.python.ops.distributions.kullback_leibler) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:446: Bernoulli.__init__ (from tensorflow.python.ops.distributions.bernoulli) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:295: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:307: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:308: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:261: The name tf.train.LoggingTensorHook is deprecated. Please use tf.estimator.LoggingTensorHook instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:319: The name tf.train.MonitoredTrainingSession is deprecated. Please use tf.compat.v1.train.MonitoredTrainingSession instead.
+
+Create CheckpointSaverHook.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/training_util.py:236: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+Graph was finalized.
+Restoring parameters from /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt-34000
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:1069: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+Running local_init_op.
+Done running local_init_op.
+Saving checkpoints for 34000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Step 34001, elbo bound per timestep: -8.692280
+Saving checkpoints for 34257 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:963: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+global_step/sec: 2.2398
+Step 34501, elbo bound per timestep: -8.473995
+Saving checkpoints for 34532 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 34805 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 35000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:312: The name tf.train.replica_device_setter is deprecated. Please use tf.compat.v1.train.replica_device_setter instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:314: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:305: The name tf.train.get_or_create_global_step is deprecated. Please use tf.compat.v1.train.get_or_create_global_step instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:87: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/data/util/random_seed.py:58: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:110: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:124: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:125: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:146: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:211: The name tf.log is deprecated. Please use tf.math.log instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:346: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:958: Layer.add_variable (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.add_weight` method instead.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:962: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:401: Normal.__init__ (from tensorflow.python.ops.distributions.normal) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/distributions/normal.py:160: Distribution.__init__ (from tensorflow.python.ops.distributions.distribution) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:196: kl_divergence (from tensorflow.python.ops.distributions.kullback_leibler) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:446: Bernoulli.__init__ (from tensorflow.python.ops.distributions.bernoulli) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:295: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:307: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:308: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:261: The name tf.train.LoggingTensorHook is deprecated. Please use tf.estimator.LoggingTensorHook instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:319: The name tf.train.MonitoredTrainingSession is deprecated. Please use tf.compat.v1.train.MonitoredTrainingSession instead.
+
+Create CheckpointSaverHook.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/training_util.py:236: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+Graph was finalized.
+Restoring parameters from /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt-35000
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:1069: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+Running local_init_op.
+Done running local_init_op.
+Saving checkpoints for 35000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Step 35001, elbo bound per timestep: -8.666603
+Saving checkpoints for 35259 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:963: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+global_step/sec: 2.21359
+Step 35501, elbo bound per timestep: -8.444181
+Saving checkpoints for 35526 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 35795 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 36000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:312: The name tf.train.replica_device_setter is deprecated. Please use tf.compat.v1.train.replica_device_setter instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:314: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:305: The name tf.train.get_or_create_global_step is deprecated. Please use tf.compat.v1.train.get_or_create_global_step instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:87: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/data/util/random_seed.py:58: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:110: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:124: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:125: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:146: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:211: The name tf.log is deprecated. Please use tf.math.log instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:346: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:958: Layer.add_variable (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.add_weight` method instead.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:962: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:401: Normal.__init__ (from tensorflow.python.ops.distributions.normal) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/distributions/normal.py:160: Distribution.__init__ (from tensorflow.python.ops.distributions.distribution) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:196: kl_divergence (from tensorflow.python.ops.distributions.kullback_leibler) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:446: Bernoulli.__init__ (from tensorflow.python.ops.distributions.bernoulli) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:295: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:307: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:308: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:261: The name tf.train.LoggingTensorHook is deprecated. Please use tf.estimator.LoggingTensorHook instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:319: The name tf.train.MonitoredTrainingSession is deprecated. Please use tf.compat.v1.train.MonitoredTrainingSession instead.
+
+Create CheckpointSaverHook.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/training_util.py:236: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+Graph was finalized.
+Restoring parameters from /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt-36000
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:1069: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+Running local_init_op.
+Done running local_init_op.
+Saving checkpoints for 36000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Step 36001, elbo bound per timestep: -8.639118
+Saving checkpoints for 36260 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:963: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+global_step/sec: 2.21798
+Step 36501, elbo bound per timestep: -8.414444
+Saving checkpoints for 36527 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 36796 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 37000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:312: The name tf.train.replica_device_setter is deprecated. Please use tf.compat.v1.train.replica_device_setter instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:314: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:305: The name tf.train.get_or_create_global_step is deprecated. Please use tf.compat.v1.train.get_or_create_global_step instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:87: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/data/util/random_seed.py:58: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:110: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:124: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:125: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:146: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:211: The name tf.log is deprecated. Please use tf.math.log instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:346: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:958: Layer.add_variable (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.add_weight` method instead.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:962: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:401: Normal.__init__ (from tensorflow.python.ops.distributions.normal) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/distributions/normal.py:160: Distribution.__init__ (from tensorflow.python.ops.distributions.distribution) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:196: kl_divergence (from tensorflow.python.ops.distributions.kullback_leibler) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:446: Bernoulli.__init__ (from tensorflow.python.ops.distributions.bernoulli) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:295: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:307: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:308: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:261: The name tf.train.LoggingTensorHook is deprecated. Please use tf.estimator.LoggingTensorHook instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:319: The name tf.train.MonitoredTrainingSession is deprecated. Please use tf.compat.v1.train.MonitoredTrainingSession instead.
+
+Create CheckpointSaverHook.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/training_util.py:236: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+Graph was finalized.
+Restoring parameters from /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt-37000
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:1069: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+Running local_init_op.
+Done running local_init_op.
+Saving checkpoints for 37000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Step 37001, elbo bound per timestep: -8.614724
+Saving checkpoints for 37256 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:963: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+global_step/sec: 2.20032
+Step 37501, elbo bound per timestep: -8.386950
+Saving checkpoints for 37522 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 37774 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 38000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:312: The name tf.train.replica_device_setter is deprecated. Please use tf.compat.v1.train.replica_device_setter instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:314: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:305: The name tf.train.get_or_create_global_step is deprecated. Please use tf.compat.v1.train.get_or_create_global_step instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:87: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/data/util/random_seed.py:58: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:110: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:124: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:125: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:146: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:211: The name tf.log is deprecated. Please use tf.math.log instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:346: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:958: Layer.add_variable (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.add_weight` method instead.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:962: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:401: Normal.__init__ (from tensorflow.python.ops.distributions.normal) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/distributions/normal.py:160: Distribution.__init__ (from tensorflow.python.ops.distributions.distribution) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:196: kl_divergence (from tensorflow.python.ops.distributions.kullback_leibler) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:446: Bernoulli.__init__ (from tensorflow.python.ops.distributions.bernoulli) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:295: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:307: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:308: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:261: The name tf.train.LoggingTensorHook is deprecated. Please use tf.estimator.LoggingTensorHook instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:319: The name tf.train.MonitoredTrainingSession is deprecated. Please use tf.compat.v1.train.MonitoredTrainingSession instead.
+
+Create CheckpointSaverHook.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/training_util.py:236: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+Graph was finalized.
+Restoring parameters from /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt-38000
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:1069: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+Running local_init_op.
+Done running local_init_op.
+Saving checkpoints for 38000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Step 38001, elbo bound per timestep: -8.592094
+Saving checkpoints for 38255 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:963: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+global_step/sec: 2.15985
+Step 38501, elbo bound per timestep: -8.361223
+Saving checkpoints for 38515 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 38774 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 39000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:312: The name tf.train.replica_device_setter is deprecated. Please use tf.compat.v1.train.replica_device_setter instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:314: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:305: The name tf.train.get_or_create_global_step is deprecated. Please use tf.compat.v1.train.get_or_create_global_step instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:87: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/data/util/random_seed.py:58: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:110: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:124: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:125: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:146: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:211: The name tf.log is deprecated. Please use tf.math.log instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:346: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:958: Layer.add_variable (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.add_weight` method instead.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:962: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:401: Normal.__init__ (from tensorflow.python.ops.distributions.normal) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/distributions/normal.py:160: Distribution.__init__ (from tensorflow.python.ops.distributions.distribution) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:196: kl_divergence (from tensorflow.python.ops.distributions.kullback_leibler) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:446: Bernoulli.__init__ (from tensorflow.python.ops.distributions.bernoulli) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:295: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:307: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:308: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:261: The name tf.train.LoggingTensorHook is deprecated. Please use tf.estimator.LoggingTensorHook instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:319: The name tf.train.MonitoredTrainingSession is deprecated. Please use tf.compat.v1.train.MonitoredTrainingSession instead.
+
+Create CheckpointSaverHook.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/training_util.py:236: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+Graph was finalized.
+Restoring parameters from /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt-39000
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:1069: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+Running local_init_op.
+Done running local_init_op.
+Saving checkpoints for 39000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Step 39001, elbo bound per timestep: -8.567646
+Saving checkpoints for 39266 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:963: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+global_step/sec: 2.22577
+Step 39501, elbo bound per timestep: -8.334905
+Saving checkpoints for 39528 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 39801 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 40000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:312: The name tf.train.replica_device_setter is deprecated. Please use tf.compat.v1.train.replica_device_setter instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:314: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:305: The name tf.train.get_or_create_global_step is deprecated. Please use tf.compat.v1.train.get_or_create_global_step instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:87: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/data/util/random_seed.py:58: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:110: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:124: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:125: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:146: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:211: The name tf.log is deprecated. Please use tf.math.log instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:346: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:958: Layer.add_variable (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.add_weight` method instead.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:962: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:401: Normal.__init__ (from tensorflow.python.ops.distributions.normal) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/distributions/normal.py:160: Distribution.__init__ (from tensorflow.python.ops.distributions.distribution) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:196: kl_divergence (from tensorflow.python.ops.distributions.kullback_leibler) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:446: Bernoulli.__init__ (from tensorflow.python.ops.distributions.bernoulli) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:295: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:307: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:308: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:261: The name tf.train.LoggingTensorHook is deprecated. Please use tf.estimator.LoggingTensorHook instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:319: The name tf.train.MonitoredTrainingSession is deprecated. Please use tf.compat.v1.train.MonitoredTrainingSession instead.
+
+Create CheckpointSaverHook.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/training_util.py:236: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+Graph was finalized.
+Restoring parameters from /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt-40000
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:1069: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+Running local_init_op.
+Done running local_init_op.
+Saving checkpoints for 40000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Step 40001, elbo bound per timestep: -8.545732
+Saving checkpoints for 40260 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:963: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+global_step/sec: 2.21051
+Step 40501, elbo bound per timestep: -8.308887
+Saving checkpoints for 40526 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 40794 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 41000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:312: The name tf.train.replica_device_setter is deprecated. Please use tf.compat.v1.train.replica_device_setter instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:314: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:305: The name tf.train.get_or_create_global_step is deprecated. Please use tf.compat.v1.train.get_or_create_global_step instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:87: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/data/util/random_seed.py:58: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:110: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:124: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:125: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+From /home/janice/gtn-laptop/GeoTrackNet/data/datasets.py:146: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:211: The name tf.log is deprecated. Please use tf.math.log instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:346: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:958: Layer.add_variable (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.add_weight` method instead.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:962: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:401: Normal.__init__ (from tensorflow.python.ops.distributions.normal) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/ops/distributions/normal.py:160: Distribution.__init__ (from tensorflow.python.ops.distributions.distribution) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:196: kl_divergence (from tensorflow.python.ops.distributions.kullback_leibler) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/models/vrnn.py:446: Bernoulli.__init__ (from tensorflow.python.ops.distributions.bernoulli) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:295: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:307: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:308: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:261: The name tf.train.LoggingTensorHook is deprecated. Please use tf.estimator.LoggingTensorHook instead.
+
+From /home/janice/gtn-laptop/GeoTrackNet/runners.py:319: The name tf.train.MonitoredTrainingSession is deprecated. Please use tf.compat.v1.train.MonitoredTrainingSession instead.
+
+Create CheckpointSaverHook.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/training_util.py:236: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+Graph was finalized.
+Restoring parameters from /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt-41000
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:1069: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+Running local_init_op.
+Done running local_init_op.
+Saving checkpoints for 41000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Step 41001, elbo bound per timestep: -8.524206
+Saving checkpoints for 41253 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+From /tmp/gtn/env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:963: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+global_step/sec: 2.13199
+Step 41501, elbo bound per timestep: -8.287050
+Saving checkpoints for 41508 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 41767 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
+Saving checkpoints for 42000 into /home/janice/wake/data/gtn/models/R05/elbo-R05_train.pkl-data_dim-802-latent_size-100-batch_size-32/model.ckpt.
