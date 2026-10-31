@@ -1,0 +1,6 @@
+{
+ "region": "R07",
+ "stop_step": 48000,
+ "valid_ll_per_t": -8.360719287593062,
+ "reason": "improvement 0.0371 < 0.5% of |-8.3607| over 5,000 steps"
+}
