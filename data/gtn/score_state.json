@@ -1,0 +1,34 @@
+{
+ "done": {
+  "R01/128_placebo30": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R11/254_placebo60": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R08/203_placebo30": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R01/128_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R01/87_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R01/126_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R11/254_placebo30": {
+   "members": 7,
+   "missing_days": [
+    "2015-03-11"
+   ]
+  }
+ }
+}
