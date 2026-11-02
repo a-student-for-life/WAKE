@@ -525,6 +525,14 @@
    "missing_days": [
     "2020-05-03"
    ]
+  },
+  "R07/190_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R10/75_placebo30": {
+   "members": 11,
+   "missing_days": []
   }
  }
 }
