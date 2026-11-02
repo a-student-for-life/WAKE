@@ -597,6 +597,110 @@
   "R07/166_placebo30": {
    "members": 11,
    "missing_days": []
+  },
+  "R07/166_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R09/191_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R06/243_placebo60": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R11/250_placebo60": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R06/243_placebo30": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R11/250_placebo30": {
+   "members": 10,
+   "missing_days": []
+  },
+  "R06/243_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R14/28_placebo60": {
+   "members": 9,
+   "missing_days": []
+  },
+  "R08/20_real": {
+   "members": 7,
+   "missing_days": []
+  },
+  "R11/250_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R07/13_placebo60": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R14/28_placebo30": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R07/13_placebo30": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R14/28_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R09/23_placebo60": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R07/13_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R09/23_placebo30": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R09/23_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R01/4_placebo60": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R01/181_placebo60": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R01/4_placebo30": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R01/181_placebo30": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R01/4_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R01/181_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R03/256_placebo60": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R04/149_real": {
+   "members": 11,
+   "missing_days": []
   }
  }
 }
