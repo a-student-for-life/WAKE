@@ -983,6 +983,28 @@
   "R02/73_real": {
    "members": 11,
    "missing_days": []
+  },
+  "R11/254_placebo30": {
+   "members": 7,
+   "missing_days": []
+  },
+  "R08/203_real": {
+   "members": 11,
+   "missing_days": [
+    "2015-03-15"
+   ]
+  },
+  "R10/75_placebo60": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R04/278_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R16/43_placebo60": {
+   "members": 11,
+   "missing_days": []
   }
  }
 }
