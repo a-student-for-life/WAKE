@@ -785,6 +785,42 @@
   "R14/38_placebo60": {
    "members": 11,
    "missing_days": []
+  },
+  "R04/278_real": {
+   "members": 11,
+   "missing_days": [
+    "2023-09-16"
+   ]
+  },
+  "R07/279_placebo60": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R11/248_real": {
+   "members": 7,
+   "missing_days": []
+  },
+  "R14/38_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R07/279_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R01/133_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R15/155_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R16/43_placebo60": {
+   "members": 11,
+   "missing_days": [
+    "2024-02-17"
+   ]
   }
  }
 }
