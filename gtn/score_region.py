@@ -66,9 +66,9 @@ run("save_logprob", reg + "_score.pkl")
 mp = glob.glob(os.path.join(a.gdir, "results", reg, "local_logprob-*%s_valid*" % reg, "Map_logprob-0.1-0.1.pkl"))
 lp = glob.glob(os.path.join(a.gdir, "results", reg, "logprob-%s_train.pkl-%s_score.pkl-*.pkl" % (reg, reg)))
 assert len(mp) == 1 and len(lp) == 1, (mp, lp)
-out = "data/gtn/scores/%s.csv" % reg
+out = os.path.abspath("data/gtn/scores/%s.csv" % reg)
 os.makedirs(os.path.dirname(out), exist_ok=True)
-keyf = "data/gtn/scores/%s_key.pkl" % reg
+keyf = os.path.abspath("data/gtn/scores/%s_key.pkl" % reg)
 pickle.dump(key, open(keyf, "wb"))
 subprocess.run([a.py, os.path.abspath("gtn/contrario_score.py"), mp[0], lp[0], keyf, out, R["lat_min"], R["lat_max"],
                 R["lon_min"], R["lon_max"]], cwd=a.gdir, check=True)
