@@ -1,0 +1,29 @@
+{
+ "when": "2026-11-03T11:31:14.393973+00:00",
+ "reason": "national AIS day(s) failed to download during the first pass",
+ "days_reachable_now": {
+  "2015-03-11": true,
+  "2015-03-15": true,
+  "2020-05-03": true,
+  "2023-09-16": true,
+  "2024-02-17": true
+ },
+ "rerun": {
+  "R11/254_placebo30": [
+   "2015-03-11"
+  ],
+  "R08/203_real": [
+   "2015-03-15"
+  ],
+  "R10/75_placebo60": [
+   "2020-05-03"
+  ],
+  "R04/278_real": [
+   "2023-09-16"
+  ],
+  "R16/43_placebo60": [
+   "2024-02-17"
+  ]
+ },
+ "not_rerun": {}
+}

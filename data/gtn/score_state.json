@@ -24,18 +24,6 @@
    "members": 11,
    "missing_days": []
   },
-  "R11/254_placebo30": {
-   "members": 7,
-   "missing_days": [
-    "2015-03-11"
-   ]
-  },
-  "R08/203_real": {
-   "members": 11,
-   "missing_days": [
-    "2015-03-15"
-   ]
-  },
   "R03/223_placebo60": {
    "members": 11,
    "missing_days": []
@@ -520,12 +508,6 @@
    "members": 11,
    "missing_days": []
   },
-  "R10/75_placebo60": {
-   "members": 11,
-   "missing_days": [
-    "2020-05-03"
-   ]
-  },
   "R07/190_real": {
    "members": 11,
    "missing_days": []
@@ -786,12 +768,6 @@
    "members": 11,
    "missing_days": []
   },
-  "R04/278_real": {
-   "members": 11,
-   "missing_days": [
-    "2023-09-16"
-   ]
-  },
   "R07/279_placebo60": {
    "members": 11,
    "missing_days": []
@@ -816,11 +792,197 @@
    "members": 11,
    "missing_days": []
   },
-  "R16/43_placebo60": {
+  "R16/43_placebo30": {
    "members": 11,
-   "missing_days": [
-    "2024-02-17"
-   ]
+   "missing_days": []
+  },
+  "R01/130_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R01/182_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R16/43_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R16/230_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R01/196_placebo60": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R08/125_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R01/196_placebo30": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R01/196_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R06/268_placebo60": {
+   "members": 7,
+   "missing_days": []
+  },
+  "R01/209_placebo60": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R06/268_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R01/209_placebo30": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R02/173_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R13/64_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R01/209_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R09/62_placebo30": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R01/86_placebo60": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R09/62_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R01/177_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R01/86_placebo30": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R11/237_placebo60": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R03/169_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R01/90_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R01/86_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R01/153_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R11/237_placebo30": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R03/269_placebo60": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R05/47_placebo60": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R11/237_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R10/161_placebo30": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R03/269_placebo30": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R05/47_placebo30": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R01/96_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R09/280_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R15/53_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R10/161_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R03/269_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R05/47_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R13/282_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R01/167_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R01/176_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R02/73_placebo60": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R03/208_placebo30": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R02/73_placebo30": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R05/183_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R03/208_real": {
+   "members": 11,
+   "missing_days": []
+  },
+  "R02/73_real": {
+   "members": 11,
+   "missing_days": []
   }
  }
 }
