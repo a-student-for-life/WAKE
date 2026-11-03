@@ -1,0 +1,2 @@
+n_sets,n_pairs,auc,p,lo,hi,detector,reading_rule
+117,1002,0.6302395209580839,9.999000099990002e-05,0.5791044047341418,0.6800727210922272,d7_gtn,useful signal (p < 0.05 and AUC >= 0.60).
