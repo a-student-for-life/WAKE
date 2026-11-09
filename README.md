@@ -14,7 +14,7 @@ Forest) and the learned detector GeoTrackNet in 16 regions.
 The analysis plan (`ANALYSIS_PLAN.md`, approved 22 Oct 2026) was fixed before any detector was run
 on an incident vessel, and the GeoTrackNet addendum (`ANALYSIS_PLAN_ADDENDUM_1.md`, approved
 23 Oct 2026) before any GeoTrackNet model was trained. Neither was lodged with an external
-registry; their dates rest on the repository history (`git_history.txt` in the archived release).
+registry; their dates rest on the repository's commit history.
 Every departure from them is listed with its date in `DEVIATIONS.md`.
 
 ## Layout
