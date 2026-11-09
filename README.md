@@ -1,7 +1,7 @@
 # WAKE: Were Anomalies Known Early?
 
 Data and code for the paper *WAKE (Were Anomalies Known Early?): An Exposure-Matched Evaluation
-of AIS Anomaly Detectors Against Confirmed Oil-Incident Vessels* (Janice Miranda, Department of
+of AIS Anomaly Detectors Against Confirmed Oil-Incident Vessels* (Janice Miranda, ORCID 0009-0000-3700-7300, Department of
 Computer Engineering, Don Bosco Institute of Technology, Mumbai; manuscript under review).
 
 The study asks whether AIS anomaly detectors single out vessels involved in oil incidents once
@@ -73,11 +73,11 @@ day); they can be downloaded again from the addresses above.
 
 The order of work and every run are recorded in `PROGRESS.md`.
 
-## Use of a language model
+## Use of generative AI
 
-A large language model (Claude, Anthropic) acted as the second rater in the blind review, under the
-same written rules as the author (`stage_a/REVIEW_RULES.md`), and assisted with code. Its answers are
-in `data/claude_review.csv`.
+A generative AI model acted as the second rater in the blind review, under the same written rules as
+the author (`stage_a/REVIEW_RULES.md`), and assisted with code. Its answers are in
+`data/claude_review.csv`.
 
 ## Licence
 
