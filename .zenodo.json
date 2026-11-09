@@ -1,0 +1,16 @@
+{
+  "title": "WAKE (Were Anomalies Known Early?): data and code for an exposure-matched evaluation of AIS anomaly detectors against confirmed oil-incident vessels",
+  "upload_type": "dataset",
+  "creators": [
+    {
+      "name": "Miranda, Janice",
+      "affiliation": "Department of Computer Engineering, Don Bosco Institute of Technology, Mumbai, India"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "keywords": ["Automatic Identification System", "anomaly detection", "oil spills", "maritime incidents", "GeoTrackNet", "matched controls"],
+  "related_identifiers": [
+    {"identifier": "https://github.com/a-student-for-life/WAKE", "relation": "isSupplementTo", "scheme": "url"}
+  ],
+  "version": "1.0.0"
+}

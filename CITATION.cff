@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use these data or code, please cite them as below."
+title: "WAKE (Were Anomalies Known Early?): data and code for an exposure-matched evaluation of AIS anomaly detectors against confirmed oil-incident vessels"
+type: dataset
+authors:
+  - family-names: Miranda
+    given-names: Janice
+    affiliation: "Department of Computer Engineering, Don Bosco Institute of Technology, Mumbai, India"
+version: "1.0.0"
+date-released: "2026-11-09"
+repository-code: "https://github.com/a-student-for-life/WAKE"
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - Automatic Identification System
+  - anomaly detection
+  - oil spills
+  - maritime incidents
+  - GeoTrackNet
+  - matched controls

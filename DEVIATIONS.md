@@ -123,7 +123,30 @@ Added after the Stage B results had been seen, at Janice's request. Results in
 ## 7. Learned detector added (GeoTrackNet); TARS layers dropped, 23 Oct 2026
 
 Decided after the Stage B results were seen. Planned detector 6 (TARS layers) is dropped at
-Janice's decision and is not tested. GeoTrackNet (Nguyen et al. 2021) is added as a learned
+Janice's decision and is not tested. GeoTrackNet (Nguyen et al. 2022) is added as a learned
 detector, specified in full in `ANALYSIS_PLAN_ADDENDUM_1.md` (approved 23 Oct 2026) before
 any GeoTrackNet model is trained or any vessel is scored, and no incident vessel is scored before
 all training is finished. Its results are reported whatever they show.
+
+## 8. Problems found after GeoTrackNet training and scoring, 3 Nov 2026
+
+Recorded in `GTN_PRE_PHASE4_NOTES.md` after training and scoring had finished and before any
+GeoTrackNet score was opened. Two regions (R14, R15) stopped under the rule with their held-out
+bound falling, and one event-scenario (R08/203_real) was scored with one national AIS day
+(2015-03-15) missing. Both stay in the main test exactly as the addendum specifies; the main
+pooled AUC without them is reported as a descriptive sensitivity result only
+(`results/gtn/tables/sensitivity_descriptive.csv`).
+
+## 9. Exploratory analyses after all results, 3 and 9 Nov 2026
+
+Added after the results for all six detectors were known; labelled exploratory in the paper and
+not used by the reading rules.
+
+1. **All detectors in the main and early3 windows on identical vessels** (3 Nov 2026):
+   `gap_checks/gtn_early3_same_vessels.py`, results in
+   `results/gap_checks/gtn_early3_same_vessels.csv`.
+2. **Approximate national alarm burden** (9 Nov 2026): `gap_checks/alarm_burden.py`, results in
+   `results/gap_checks/alarm_burden.csv`. National fleet per day = median `fleet_n` over the 265
+   real-date fleet reference days (15,507 vessels with at least 10 positions); incidents per
+   year = 1,247 / 11; the matched-set incident flag rates are assumed to apply to all incidents;
+   GeoTrackNet's control flag rate stands in for its fleet-wide flag rate.
