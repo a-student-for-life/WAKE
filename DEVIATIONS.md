@@ -203,3 +203,11 @@ Added after all results were known, at Janice's request ("go ahead and try them"
    published scores exactly (6,238 vessel rows). Primary: off-lane AUC in [T-24 h, T-18 h) 0.560
    (0.502-0.618), permutation p 0.064, 102 sets: inconclusive; reproduced independently. The
    conditional placebo30 run is not triggered (primary not "useful"). Results in `results/stage_b3/`.
+5. **Human third rater**: Jordan Miranda (co-author, second-year student, same department) reviewed the
+   100-case sample in `stage_a/second_rater_sample.csv` on 15 Nov 2026 on the claude.ai copy of the
+   review page, blind to both earlier answers and the second look, under `stage_a/REVIEW_RULES.md`.
+   Answers in `data/second_rater_review.csv`, agreement from the unchanged
+   `gap_checks/second_rater_agreement.py` in `results/agreement/second_rater_agreement.csv`: yes vs
+   not-yes kappa 0.73 (0.57-0.87) with Janice, 0.66 with the model; Janice-model on the same sample 0.68.
+   Descriptive, not a test; it does not change the confirmed set.
+

@@ -1,8 +1,8 @@
 # WAKE: Were Anomalies Known Early?
 
 Data and code for the paper *WAKE: Exposure-Matched Evaluation of AIS-Based Anomaly Detectors for
-Identifying Vessels Involved in Oil-Related Incidents* (Janice Miranda, ORCID 0009-0000-3700-7300, and Amiya
-Tripathy, Department of Computer Engineering, Don Bosco Institute of Technology, Mumbai; manuscript in preparation).
+Identifying Vessels Involved in Oil-Related Incidents* (Janice Miranda, ORCID 0009-0000-3700-7300, Jordan
+Miranda and Amiya Tripathy, Department of Computer Engineering, Don Bosco Institute of Technology, Mumbai; manuscript in preparation).
 
 The study asks whether AIS anomaly detectors single out vessels involved in oil incidents once
 each incident vessel is compared with vessels of the same type and similar AIS exposure, in the
