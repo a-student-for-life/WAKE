@@ -1,7 +1,7 @@
 # WAKE: Were Anomalies Known Early?
 
-Data and code for the paper *WAKE (Were Anomalies Known Early?): An Exposure-Matched Evaluation
-of AIS Anomaly Detectors Against Confirmed Oil-Incident Vessels* (Janice Miranda, ORCID 0009-0000-3700-7300, Department of
+Data and code for the paper *WAKE: Exposure-Matched Evaluation of AIS-Based Anomaly Detectors for
+Identifying Vessels Involved in Oil-Related Incidents* (Janice Miranda, ORCID 0009-0000-3700-7300, Department of
 Computer Engineering, Don Bosco Institute of Technology, Mumbai; manuscript under review).
 
 The study asks whether AIS anomaly detectors single out vessels involved in oil incidents once
@@ -75,7 +75,7 @@ The order of work and every run are recorded in `PROGRESS.md`.
 
 ## Use of generative AI
 
-A generative AI model acted as the second rater in the blind review, under the same written rules as
+A generative AI model, Claude Opus 5.5 (Anthropic), acted as the second rater in the blind review, under the same written rules as
 the author (`stage_a/REVIEW_RULES.md`), and assisted with code. Its answers are in
 `data/claude_review.csv`.
 
