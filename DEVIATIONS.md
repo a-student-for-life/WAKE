@@ -185,6 +185,10 @@ Added after all results were known, at Janice's request ("go ahead and try them"
 1. **Addendum 2 (prior24)**: `ANALYSIS_PLAN_ADDENDUM_2.md`, drafted 3 Nov 2026 and approved 15 Nov
    2026, committed (59bbbaa) before any code for it was written. Code in `stage_b2/`. The
    GeoTrackNet secondary test is not run (environment not available in this container).
+   Primary result (true date): off-lane AUC 0.520 (0.470-0.566), permutation p 0.443, 173 sets,
+   1,345 pairs: no useful signal by the plan's reading rule; reproduced independently. The
+   placebo30/placebo60 runs named in the addendum were not run: with a null primary result they
+   have nothing to check. Results in `results/stage_b2/`.
 2. **NTSB-timed incidents**: the 197 matched events searched in the NTSB Safer Seas Digests
    2015-2025 and the marine accident reports they cite; 16 events found with a stated accident
    time (`data/gap_checks/ntsb_times.csv`, with report numbers). `gap_checks/ntsb_time.py`
