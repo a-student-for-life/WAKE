@@ -2,8 +2,8 @@
 
 Drafted 15 Nov 2026, after all results for detectors 1-5, GeoTrackNet, the NTSB comparison, the
 Hawaii check and addendum 2 (prior24) were known.
-**Status: draft, awaiting Janice's approval.** It is committed before any code for it is written
-or run, and its results are reported whatever they show.
+**Status: approved by Janice on 15 Nov 2026**, unchanged from the draft committed in b3b2fd9e,
+before any code for it was written or run; and its results are reported whatever they show.
 
 ## Why
 
