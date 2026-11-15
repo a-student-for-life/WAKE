@@ -1,0 +1,17 @@
+event_id,vessel,ntsb_date_local,ntsb_time_local,tz,ntsb_report,ntsb_id,note
+21,ATLANTIC RAIDER,2016-10-28,15:30,America/New_York,MAR-18/02,DCA17FM002,time from Safer Seas Digest 2018 summary
+37,KUPREANOF,2015-06-10,05:40,America/Anchorage,MAB-16/23,,report header time (began taking on water about 0300)
+49,OLE BETTS SEA,2018-03-18,06:15,America/New_York,MAB-19/05,DCA18FM018,report header time
+66,JACOB KYLE RUSTHOVEN,2018-09-12,10:05,America/Chicago,MAB-19/28,DCA18FM038,report header time
+87,CARLA MAERSK,2015-03-09,12:30,America/Chicago,MAR-16/01,DCA15LM012,collision with Conti Peridot
+97,AFRAMAX RIVER,2016-09-06,00:05,America/Chicago,MAB-18/06,,report header time
+102,PRESIDENT EISENHOWER,2024-02-06,21:35,America/Los_Angeles,MIR-25-06,DCA24FM023,report header time
+106,NENITA,2016-11-19,02:46,America/Los_Angeles,MAB-18/01,DCA17FM003,report header time
+126,CONTI PERIDOT,2015-03-09,12:30,America/Chicago,MAR-16/01,DCA15LM012,collision with Carla Maersk
+178,CC PORTLAND,2022-08-07,16:25,America/Chicago,MIR-23-19,DCA22FM035,time from Safer Seas Digest 2023 summary
+181,GEORGE M,2022-04-14,03:46,America/Chicago,MIR-23-15,DCA22FM015,time from Safer Seas Digest 2023 summary
+196,MISS PEGGY,2024-07-19,14:03,America/Chicago,MIR-26-24,DCA24FM051,collision; last AIS position 14:03:55 (report figure 15)
+200,DEJEANNE MARIA,2019-04-15,00:44,America/Chicago,MAB-20/17,,report header time
+211,GRACIE CLAIRE,2017-08-23,07:56,America/Chicago,MAB-18/19,,report header time
+221,KRISTIN FAYE,2019-09-08,10:15,America/Chicago,MAB-20/36,DCA19FM050,time from Safer Seas Digest 2020 summary
+223,MISS NATALIE,2015-05-30,07:55,America/Chicago,MAB-16/17,DCA15LM023,report header time
