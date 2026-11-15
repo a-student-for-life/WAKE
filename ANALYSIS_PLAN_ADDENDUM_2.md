@@ -1,9 +1,15 @@
-# Analysis plan addendum 2 (DRAFT, not approved): where incident vessels were the day before
+# Analysis plan addendum 2: where incident vessels were the day before
 
 Drafted 3 Nov 2026, after all results for detectors 1-5 and GeoTrackNet were known.
-**Status: a draft for Janice's approval. Nothing below has been run.** Once approved, this
-file is renamed `ANALYSIS_PLAN_ADDENDUM_2.md` and committed before any code for it runs, and the
-results are reported whatever they show.
+**Status: approved by Janice on 15 Nov 2026** ("go ahead and try them"), committed before any code
+for it was written or run. Its results are reported whatever they show.
+
+Changes made at approval (15 Nov 2026), before anything was run:
+- The secondary GeoTrackNet test needs the Python 3.7 / TensorFlow 1.15 environment of phase 3;
+  it is run only if that environment can be rebuilt, and otherwise reported as not run.
+- Order of work: the true date first (the primary test), then placebo30 and placebo60.
+- Events: the 197 events with an M4 set on the true date (the primary test cannot use others);
+  placebo dates use the events with M4 placebo sets.
 
 ## Why
 
