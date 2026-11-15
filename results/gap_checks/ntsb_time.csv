@@ -1,0 +1,41 @@
+n_sets,n_pairs,auc,p,lo,hi,label,window,detector
+16,155,0.5419354838709678,,0.39375,0.6896637931034482,"WAKE T (as analysed), all these events",main,d1_speed_drop
+16,155,0.44516129032258067,,0.3125,0.58125,"WAKE T (as analysed), all these events",main,d2_loiter_h
+16,155,0.6096774193548387,,0.490625,0.7225806451612903,"WAKE T (as analysed), all these events",main,d3_gap_ratio
+16,155,0.5741935483870968,,0.432258064516129,0.70625,"WAKE T (as analysed), all these events",main,d4_off_lane
+16,155,0.5225806451612903,,0.38064516129032255,0.6625,"WAKE T (as analysed), all these events",main,d5_iforest
+16,153,0.5294117647058824,,0.37254901960784315,0.6815068493150684,"WAKE T (as analysed), all these events",early3,d1_speed_drop
+16,153,0.5163398692810458,,0.39204979766187054,0.636986301369863,"WAKE T (as analysed), all these events",early3,d2_loiter_h
+16,153,0.5620915032679739,,0.4417657131345689,0.678082191780822,"WAKE T (as analysed), all these events",early3,d3_gap_ratio
+16,153,0.5882352941176471,,0.4444444444444444,0.7189542483660131,"WAKE T (as analysed), all these events",early3,d4_off_lane
+16,153,0.43137254901960786,,0.30718954248366015,0.5625,"WAKE T (as analysed), all these events",early3,d5_iforest
+15,150,0.6766666666666666,,0.53,0.8133333333333334,"NTSB T, all sets matched at NTSB T",main,d1_speed_drop
+15,150,0.44333333333333336,,0.29333333333333333,0.5933333333333334,"NTSB T, all sets matched at NTSB T",main,d2_loiter_h
+15,150,0.6566666666666666,,0.5066666666666667,0.7933333333333333,"NTSB T, all sets matched at NTSB T",main,d3_gap_ratio
+15,150,0.6266666666666667,,0.5133333333333333,0.74,"NTSB T, all sets matched at NTSB T",main,d4_off_lane
+15,150,0.54,,0.38,0.7,"NTSB T, all sets matched at NTSB T",main,d5_iforest
+15,150,0.47333333333333333,,0.30333333333333334,0.6434166666666654,"NTSB T, all sets matched at NTSB T",early3,d1_speed_drop
+15,150,0.49666666666666665,,0.34,0.6533333333333333,"NTSB T, all sets matched at NTSB T",early3,d2_loiter_h
+15,150,0.5733333333333334,,0.43,0.7034166666666655,"NTSB T, all sets matched at NTSB T",early3,d3_gap_ratio
+15,150,0.6466666666666666,,0.5333333333333333,0.76,"NTSB T, all sets matched at NTSB T",early3,d4_off_lane
+15,150,0.46,,0.3,0.62,"NTSB T, all sets matched at NTSB T",early3,d5_iforest
+15,150,0.5266666666666666,,0.37333333333333335,0.6766666666666666,"WAKE T, events matched at both times",main,d1_speed_drop
+15,150,0.43333333333333335,,0.30325,0.57,"WAKE T, events matched at both times",main,d2_loiter_h
+15,150,0.6166666666666667,,0.4999166666666667,0.73,"WAKE T, events matched at both times",main,d3_gap_ratio
+15,150,0.5933333333333334,,0.4533333333333333,0.7333333333333333,"WAKE T, events matched at both times",main,d4_off_lane
+15,150,0.5266666666666666,,0.38,0.6668333333333308,"WAKE T, events matched at both times",main,d5_iforest
+15,150,0.52,,0.36,0.6733333333333333,"WAKE T, events matched at both times",early3,d1_speed_drop
+15,150,0.5133333333333333,,0.38666666666666666,0.6366666666666667,"WAKE T, events matched at both times",early3,d2_loiter_h
+15,150,0.5533333333333333,,0.43,0.67,"WAKE T, events matched at both times",early3,d3_gap_ratio
+15,150,0.6,,0.46,0.74,"WAKE T, events matched at both times",early3,d4_off_lane
+15,150,0.43333333333333335,,0.30666666666666664,0.5666666666666667,"WAKE T, events matched at both times",early3,d5_iforest
+15,150,0.6766666666666666,,0.53,0.8133333333333334,"NTSB T, events matched at both times",main,d1_speed_drop
+15,150,0.44333333333333336,,0.29333333333333333,0.5933333333333334,"NTSB T, events matched at both times",main,d2_loiter_h
+15,150,0.6566666666666666,,0.5066666666666667,0.7933333333333333,"NTSB T, events matched at both times",main,d3_gap_ratio
+15,150,0.6266666666666667,,0.5133333333333333,0.74,"NTSB T, events matched at both times",main,d4_off_lane
+15,150,0.54,,0.38,0.7,"NTSB T, events matched at both times",main,d5_iforest
+15,150,0.47333333333333333,,0.30333333333333334,0.6434166666666654,"NTSB T, events matched at both times",early3,d1_speed_drop
+15,150,0.49666666666666665,,0.34,0.6533333333333333,"NTSB T, events matched at both times",early3,d2_loiter_h
+15,150,0.5733333333333334,,0.43,0.7034166666666655,"NTSB T, events matched at both times",early3,d3_gap_ratio
+15,150,0.6466666666666666,,0.5333333333333333,0.76,"NTSB T, events matched at both times",early3,d4_off_lane
+15,150,0.46,,0.3,0.62,"NTSB T, events matched at both times",early3,d5_iforest
