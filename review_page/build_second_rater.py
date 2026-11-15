@@ -90,3 +90,41 @@ for bad in ("fetch(", "window.claude", "claude_review", "janice_review"):
     assert bad not in html, bad
 open("review_page/second_rater.html", "w").write(html)
 print("wrote review_page/second_rater.html,", len(html) // 1024, "KB,", len(cases), "cases")
+
+# ---- artifact version (review_page/second_rater_artifact.html) ----
+# Same page published on claude.ai like the original review page: answers go to the
+# artifact's database, collection "answers", one document per case, with the rater's
+# opaque user id. Janice's and the model's answers are not in that database.
+a = open("review_page/review.html").read()
+a = a.replace("<title>WAKE Match Review</title>", "<title>WAKE Second Rater</title>")
+a = a.replace("<h1>WAKE Match Review</h1>", "<h1>WAKE Match Review: second rater</h1>")
+a = re.sub(r'<div class="warn" id="nodb" hidden>.*?</div>',
+           '<div class="warn" id="nodb" hidden>Answers can\'t be saved in this view. Open this page on '
+           'claude.ai while signed in; answers you give here will be lost when you close it.</div>',
+           a, flags=re.S)
+a = a.replace(
+    " Cases 1–50 are a random sample used for an early check, so please do those first.",
+    " Work alone and do not look up the vessels elsewhere; decide from what is on screen. "
+    "Answers save as you go, so you can stop and come back.")
+a = a.replace("<script>\n", "<script>\nconst CASES=" + json.dumps(cases, separators=(",", ":")) + ";\n", 1)
+a = re.sub(r"async function loadChunk\(n\)\{.*?\n\}\nasync function getCase\(i\)\{.*?\}\n",
+           "async function getCase(i){return CASES[i]}\n", a, flags=re.S)
+a = a.replace("let INDEX=null, cur=0, answers={}, db=null, chunks={}, saving={};",
+              "let INDEX=null, cur=0, answers={}, db=null, me=\"\";")
+a = a.replace("{v:a.v||\"\",note:a.note||\"\",at:new Date().toISOString(),order:INDEX.keys.indexOf(key)+1}",
+              "{v:a.v||\"\",note:a.note||\"\",at:new Date().toISOString(),order:INDEX.keys.indexOf(key)+1,by:me}")
+a = a.replace('try{INDEX=await (await fetch("index.json")).json()}catch(e){$("main").innerHTML=\'<p class="loading">The case list could not be loaded. Reload the page to try again.</p>\';return}',
+              "INDEX={keys:CASES.map(c=>c.key),n:CASES.length};")
+a = a.replace('db=window.claude?await window.claude.use("db"):null;',
+              'const useCap=n=>window.claude?window.claude.use(n).catch(()=>null):Promise.resolve(null);\n'
+              '  db=await useCap("db");\n'
+              '  const u=await useCap("user"); if(u){try{me=await u.id()}catch(e){}}\n'
+              '  const timer=setTimeout(()=>{$("nodb").hidden=false;$("nodb").textContent="Saved answers are taking long to load. Reload the page if nothing appears."},10000);')
+a = a.replace("renderStatus(); if(!snap.metadata.fromCache)firstUnanswered();",
+              "clearTimeout(timer); renderStatus(); if(!snap.metadata.fromCache)firstUnanswered();")
+a = a.replace('},()=>{$("nodb").hidden=false;', '},()=>{clearTimeout(timer);$("nodb").hidden=false;')
+a = a.replace("if this keeps happening, tell Claude.", "if this keeps happening, tell Janice.")
+for bad in ("fetch(", "claude_review", "janice_review", "chunks[", "tell Claude"):
+    assert bad not in a, bad
+open("review_page/second_rater_artifact.html", "w").write(a)
+print("wrote review_page/second_rater_artifact.html,", len(a) // 1024, "KB")
