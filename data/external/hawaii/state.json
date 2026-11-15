@@ -1,0 +1,2305 @@
+{
+ "done": {
+  "100_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/100_placebo30.csv.gz",
+   "box_vessels": 29,
+   "rows": 145,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-08-24",
+   "code_version": "dbfffae0"
+  },
+  "100_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/100_real.csv.gz",
+   "box_vessels": 126,
+   "rows": 630,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-09-23",
+   "code_version": "dbfffae0"
+  },
+  "101_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/101_placebo30.csv.gz",
+   "box_vessels": 51,
+   "rows": 255,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-08-27",
+   "code_version": "dbfffae0"
+  },
+  "101_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/101_real.csv.gz",
+   "box_vessels": 46,
+   "rows": 230,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-09-26",
+   "code_version": "dbfffae0"
+  },
+  "102_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/102_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2019-09-17",
+   "code_version": "dbfffae0"
+  },
+  "102_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/102_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2019-10-17",
+   "code_version": "dbfffae0"
+  },
+  "103_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/103_placebo30.csv.gz",
+   "box_vessels": 20,
+   "rows": 100,
+   "centre_source": "incident_span",
+   "fleet_day": "2019-09-24",
+   "code_version": "dbfffae0"
+  },
+  "103_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/103_real.csv.gz",
+   "box_vessels": 151,
+   "rows": 755,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-10-24",
+   "code_version": "dbfffae0"
+  },
+  "104_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/104_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2019-09-30",
+   "code_version": "dbfffae0"
+  },
+  "104_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/104_real.csv.gz",
+   "box_vessels": 24,
+   "rows": 120,
+   "centre_source": "incident_span",
+   "fleet_day": "2019-10-30",
+   "code_version": "dbfffae0"
+  },
+  "105_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/105_placebo30.csv.gz",
+   "box_vessels": 140,
+   "rows": 700,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-10-11",
+   "code_version": "dbfffae0"
+  },
+  "105_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/105_real.csv.gz",
+   "box_vessels": 146,
+   "rows": 730,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-11-10",
+   "code_version": "dbfffae0"
+  },
+  "106_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/106_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2019-11-07",
+   "code_version": "dbfffae0"
+  },
+  "106_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/106_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2019-12-07",
+   "code_version": "dbfffae0"
+  },
+  "107_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/107_placebo30.csv.gz",
+   "box_vessels": 162,
+   "rows": 810,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-11-13",
+   "code_version": "dbfffae0"
+  },
+  "107_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/107_real.csv.gz",
+   "box_vessels": 35,
+   "rows": 175,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-12-13",
+   "code_version": "dbfffae0"
+  },
+  "108_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/108_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2019-11-18",
+   "code_version": "dbfffae0"
+  },
+  "108_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/108_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2019-12-18",
+   "code_version": "dbfffae0"
+  },
+  "109_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/109_placebo30.csv.gz",
+   "box_vessels": 150,
+   "rows": 750,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-11-20",
+   "code_version": "dbfffae0"
+  },
+  "109_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/109_real.csv.gz",
+   "box_vessels": 123,
+   "rows": 615,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-12-20",
+   "code_version": "dbfffae0"
+  },
+  "10_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/10_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2017-02-13",
+   "code_version": "dbfffae0"
+  },
+  "10_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/10_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2017-03-15",
+   "code_version": "dbfffae0"
+  },
+  "110_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/110_placebo30.csv.gz",
+   "box_vessels": 139,
+   "rows": 695,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-12-10",
+   "code_version": "dbfffae0"
+  },
+  "110_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/110_real.csv.gz",
+   "box_vessels": 37,
+   "rows": 185,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-01-09",
+   "code_version": "dbfffae0"
+  },
+  "111_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/111_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2019-12-10",
+   "code_version": "dbfffae0"
+  },
+  "111_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/111_real.csv.gz",
+   "box_vessels": 146,
+   "rows": 730,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-01-09",
+   "code_version": "dbfffae0"
+  },
+  "112_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/112_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2019-12-16",
+   "code_version": "dbfffae0"
+  },
+  "112_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/112_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2020-01-15",
+   "code_version": "dbfffae0"
+  },
+  "113_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/113_placebo30.csv.gz",
+   "box_vessels": 123,
+   "rows": 615,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-12-17",
+   "code_version": "dbfffae0"
+  },
+  "113_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/113_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2020-01-16",
+   "code_version": "dbfffae0"
+  },
+  "114_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/114_placebo30.csv.gz",
+   "box_vessels": 129,
+   "rows": 645,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-12-18",
+   "code_version": "dbfffae0"
+  },
+  "114_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/114_real.csv.gz",
+   "box_vessels": 144,
+   "rows": 720,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-01-17",
+   "code_version": "dbfffae0"
+  },
+  "115_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/115_placebo30.csv.gz",
+   "box_vessels": 129,
+   "rows": 645,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-12-18",
+   "code_version": "dbfffae0"
+  },
+  "115_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/115_real.csv.gz",
+   "box_vessels": 51,
+   "rows": 255,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-01-17",
+   "code_version": "dbfffae0"
+  },
+  "116_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/116_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2019-12-20",
+   "code_version": "dbfffae0"
+  },
+  "116_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/116_real.csv.gz",
+   "box_vessels": 27,
+   "rows": 135,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-01-19",
+   "code_version": "dbfffae0"
+  },
+  "117_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/117_placebo30.csv.gz",
+   "box_vessels": 175,
+   "rows": 875,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-12-28",
+   "code_version": "dbfffae0"
+  },
+  "117_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/117_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2020-01-27",
+   "code_version": "dbfffae0"
+  },
+  "118_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/118_placebo30.csv.gz",
+   "box_vessels": 180,
+   "rows": 900,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-12-29",
+   "code_version": "dbfffae0"
+  },
+  "118_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/118_real.csv.gz",
+   "box_vessels": 146,
+   "rows": 730,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-01-28",
+   "code_version": "dbfffae0"
+  },
+  "119_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/119_placebo30.csv.gz",
+   "box_vessels": 146,
+   "rows": 730,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-01-12",
+   "code_version": "dbfffae0"
+  },
+  "119_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/119_real.csv.gz",
+   "box_vessels": 139,
+   "rows": 695,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-02-11",
+   "code_version": "dbfffae0"
+  },
+  "11_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/11_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2017-02-13",
+   "code_version": "dbfffae0"
+  },
+  "11_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/11_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2017-03-15",
+   "code_version": "dbfffae0"
+  },
+  "120_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/120_placebo30.csv.gz",
+   "box_vessels": 142,
+   "rows": 710,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-01-16",
+   "code_version": "dbfffae0"
+  },
+  "120_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/120_real.csv.gz",
+   "box_vessels": 141,
+   "rows": 705,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-02-15",
+   "code_version": "dbfffae0"
+  },
+  "121_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/121_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2020-01-19",
+   "code_version": "dbfffae0"
+  },
+  "121_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/121_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2020-02-18",
+   "code_version": "dbfffae0"
+  },
+  "122_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/122_placebo30.csv.gz",
+   "box_vessels": 162,
+   "rows": 810,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-01-23",
+   "code_version": "dbfffae0"
+  },
+  "122_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/122_real.csv.gz",
+   "box_vessels": 160,
+   "rows": 800,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-02-22",
+   "code_version": "dbfffae0"
+  },
+  "123_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/123_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2020-02-08",
+   "code_version": "dbfffae0"
+  },
+  "123_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/123_real.csv.gz",
+   "box_vessels": 146,
+   "rows": 730,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-03-09",
+   "code_version": "dbfffae0"
+  },
+  "124_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/124_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2020-02-08",
+   "code_version": "dbfffae0"
+  },
+  "124_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/124_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2020-03-09",
+   "code_version": "dbfffae0"
+  },
+  "125_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/125_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2020-03-14",
+   "code_version": "dbfffae0"
+  },
+  "125_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/125_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2020-04-13",
+   "code_version": "dbfffae0"
+  },
+  "126_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/126_placebo30.csv.gz",
+   "box_vessels": 150,
+   "rows": 750,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-04-10",
+   "code_version": "dbfffae0"
+  },
+  "126_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/126_real.csv.gz",
+   "box_vessels": 145,
+   "rows": 725,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-05-10",
+   "code_version": "dbfffae0"
+  },
+  "127_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/127_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2020-05-05",
+   "code_version": "dbfffae0"
+  },
+  "127_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/127_real.csv.gz",
+   "box_vessels": 164,
+   "rows": 820,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-06-04",
+   "code_version": "dbfffae0"
+  },
+  "128_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/128_placebo30.csv.gz",
+   "box_vessels": 152,
+   "rows": 760,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-05-20",
+   "code_version": "dbfffae0"
+  },
+  "128_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/128_real.csv.gz",
+   "box_vessels": 147,
+   "rows": 735,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-06-19",
+   "code_version": "dbfffae0"
+  },
+  "129_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/129_placebo30.csv.gz",
+   "box_vessels": 133,
+   "rows": 665,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-05-23",
+   "code_version": "dbfffae0"
+  },
+  "129_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/129_real.csv.gz",
+   "box_vessels": 25,
+   "rows": 125,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-06-22",
+   "code_version": "dbfffae0"
+  },
+  "12_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/12_placebo30.csv.gz",
+   "box_vessels": 141,
+   "rows": 705,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-02-15",
+   "code_version": "dbfffae0"
+  },
+  "12_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/12_real.csv.gz",
+   "box_vessels": 29,
+   "rows": 145,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-03-17",
+   "code_version": "dbfffae0"
+  },
+  "130_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/130_placebo30.csv.gz",
+   "box_vessels": 153,
+   "rows": 765,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-05-30",
+   "code_version": "dbfffae0"
+  },
+  "130_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/130_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2020-06-29",
+   "code_version": "dbfffae0"
+  },
+  "131_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/131_placebo30.csv.gz",
+   "box_vessels": 10,
+   "rows": 50,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-06-05",
+   "code_version": "dbfffae0"
+  },
+  "131_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/131_real.csv.gz",
+   "box_vessels": 134,
+   "rows": 670,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-07-05",
+   "code_version": "dbfffae0"
+  },
+  "132_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/132_placebo30.csv.gz",
+   "box_vessels": 139,
+   "rows": 695,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-06-11",
+   "code_version": "dbfffae0"
+  },
+  "132_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/132_real.csv.gz",
+   "box_vessels": 20,
+   "rows": 100,
+   "centre_source": "incident_span",
+   "fleet_day": "2020-07-11",
+   "code_version": "dbfffae0"
+  },
+  "133_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/133_placebo30.csv.gz",
+   "box_vessels": 137,
+   "rows": 685,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-06-12",
+   "code_version": "dbfffae0"
+  },
+  "133_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/133_real.csv.gz",
+   "box_vessels": 32,
+   "rows": 160,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-07-12",
+   "code_version": "dbfffae0"
+  },
+  "134_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/134_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2020-06-21",
+   "code_version": "dbfffae0"
+  },
+  "134_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/134_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2020-07-21",
+   "code_version": "dbfffae0"
+  },
+  "135_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/135_placebo30.csv.gz",
+   "box_vessels": 144,
+   "rows": 720,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-06-24",
+   "code_version": "dbfffae0"
+  },
+  "135_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/135_real.csv.gz",
+   "box_vessels": 153,
+   "rows": 765,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-07-24",
+   "code_version": "dbfffae0"
+  },
+  "136_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/136_placebo30.csv.gz",
+   "box_vessels": 62,
+   "rows": 310,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-07-09",
+   "code_version": "dbfffae0"
+  },
+  "136_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/136_real.csv.gz",
+   "box_vessels": 136,
+   "rows": 680,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-08-08",
+   "code_version": "dbfffae0"
+  },
+  "137_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/137_placebo30.csv.gz",
+   "box_vessels": 141,
+   "rows": 705,
+   "centre_source": "incident_span",
+   "fleet_day": "2020-07-28",
+   "code_version": "dbfffae0"
+  },
+  "137_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/137_real.csv.gz",
+   "box_vessels": 159,
+   "rows": 795,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-08-27",
+   "code_version": "dbfffae0"
+  },
+  "138_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/138_placebo30.csv.gz",
+   "box_vessels": 23,
+   "rows": 115,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-07-29",
+   "code_version": "dbfffae0"
+  },
+  "138_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/138_real.csv.gz",
+   "box_vessels": 148,
+   "rows": 740,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-08-28",
+   "code_version": "dbfffae0"
+  },
+  "139_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/139_placebo30.csv.gz",
+   "box_vessels": 134,
+   "rows": 670,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-09-14",
+   "code_version": "dbfffae0"
+  },
+  "139_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/139_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2020-10-14",
+   "code_version": "dbfffae0"
+  },
+  "13_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/13_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2017-02-20",
+   "code_version": "dbfffae0"
+  },
+  "13_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/13_real.csv.gz",
+   "box_vessels": 141,
+   "rows": 705,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-03-22",
+   "code_version": "dbfffae0"
+  },
+  "140_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/140_placebo30.csv.gz",
+   "box_vessels": 58,
+   "rows": 290,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-09-22",
+   "code_version": "dbfffae0"
+  },
+  "140_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/140_real.csv.gz",
+   "box_vessels": 141,
+   "rows": 705,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-10-22",
+   "code_version": "dbfffae0"
+  },
+  "141_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/141_placebo30.csv.gz",
+   "box_vessels": 131,
+   "rows": 655,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-10-05",
+   "code_version": "dbfffae0"
+  },
+  "141_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/141_real.csv.gz",
+   "box_vessels": 136,
+   "rows": 680,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-11-04",
+   "code_version": "dbfffae0"
+  },
+  "142_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/142_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2020-10-20",
+   "code_version": "dbfffae0"
+  },
+  "142_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/142_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2020-11-19",
+   "code_version": "dbfffae0"
+  },
+  "143_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/143_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2020-11-19",
+   "code_version": "dbfffae0"
+  },
+  "143_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/143_real.csv.gz",
+   "box_vessels": 136,
+   "rows": 680,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-12-19",
+   "code_version": "dbfffae0"
+  },
+  "144_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/144_placebo30.csv.gz",
+   "box_vessels": 129,
+   "rows": 645,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-11-20",
+   "code_version": "dbfffae0"
+  },
+  "144_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/144_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2020-12-20",
+   "code_version": "dbfffae0"
+  },
+  "145_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/145_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2020-11-22",
+   "code_version": "dbfffae0"
+  },
+  "145_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/145_real.csv.gz",
+   "box_vessels": 137,
+   "rows": 685,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-12-22",
+   "code_version": "dbfffae0"
+  },
+  "14_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/14_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2017-03-18",
+   "code_version": "dbfffae0"
+  },
+  "14_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/14_real.csv.gz",
+   "box_vessels": 118,
+   "rows": 590,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-04-17",
+   "code_version": "dbfffae0"
+  },
+  "15_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/15_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2017-03-31",
+   "code_version": "dbfffae0"
+  },
+  "15_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/15_real.csv.gz",
+   "box_vessels": 121,
+   "rows": 605,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-04-30",
+   "code_version": "dbfffae0"
+  },
+  "16_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/16_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2017-04-06",
+   "code_version": "dbfffae0"
+  },
+  "16_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/16_real.csv.gz",
+   "box_vessels": 68,
+   "rows": 340,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-05-06",
+   "code_version": "dbfffae0"
+  },
+  "17_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/17_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2017-04-24",
+   "code_version": "dbfffae0"
+  },
+  "17_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/17_real.csv.gz",
+   "box_vessels": 12,
+   "rows": 60,
+   "centre_source": "incident_span",
+   "fleet_day": "2017-05-24",
+   "code_version": "dbfffae0"
+  },
+  "18_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/18_placebo30.csv.gz",
+   "box_vessels": 135,
+   "rows": 675,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-05-26",
+   "code_version": "dbfffae0"
+  },
+  "18_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/18_real.csv.gz",
+   "box_vessels": 133,
+   "rows": 665,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-06-25",
+   "code_version": "dbfffae0"
+  },
+  "19_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/19_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2017-06-08",
+   "code_version": "dbfffae0"
+  },
+  "19_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/19_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2017-07-08",
+   "code_version": "dbfffae0"
+  },
+  "1_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/1_real.csv.gz",
+   "box_vessels": 103,
+   "rows": 515,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-01-08",
+   "code_version": "dbfffae0"
+  },
+  "20_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/20_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2017-06-11",
+   "code_version": "dbfffae0"
+  },
+  "20_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/20_real.csv.gz",
+   "box_vessels": 21,
+   "rows": 105,
+   "centre_source": "incident_span",
+   "fleet_day": "2017-07-11",
+   "code_version": "dbfffae0"
+  },
+  "21_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/21_placebo30.csv.gz",
+   "box_vessels": 129,
+   "rows": 645,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-06-12",
+   "code_version": "dbfffae0"
+  },
+  "21_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/21_real.csv.gz",
+   "box_vessels": 144,
+   "rows": 720,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-07-12",
+   "code_version": "dbfffae0"
+  },
+  "22_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/22_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2017-06-15",
+   "code_version": "dbfffae0"
+  },
+  "22_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/22_real.csv.gz",
+   "box_vessels": 164,
+   "rows": 820,
+   "centre_source": "incident_span",
+   "fleet_day": "2017-07-15",
+   "code_version": "dbfffae0"
+  },
+  "23_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/23_placebo30.csv.gz",
+   "box_vessels": 133,
+   "rows": 665,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-06-27",
+   "code_version": "dbfffae0"
+  },
+  "23_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/23_real.csv.gz",
+   "box_vessels": 127,
+   "rows": 635,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-07-27",
+   "code_version": "dbfffae0"
+  },
+  "24_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/24_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2017-07-04",
+   "code_version": "dbfffae0"
+  },
+  "24_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/24_real.csv.gz",
+   "box_vessels": 135,
+   "rows": 675,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-08-03",
+   "code_version": "dbfffae0"
+  },
+  "25_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/25_placebo30.csv.gz",
+   "box_vessels": 116,
+   "rows": 580,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-07-04",
+   "code_version": "dbfffae0"
+  },
+  "25_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/25_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2017-08-03",
+   "code_version": "dbfffae0"
+  },
+  "26_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/26_placebo30.csv.gz",
+   "box_vessels": 32,
+   "rows": 160,
+   "centre_source": "incident_span",
+   "fleet_day": "2017-07-06",
+   "code_version": "dbfffae0"
+  },
+  "26_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/26_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2017-08-05",
+   "code_version": "dbfffae0"
+  },
+  "27_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/27_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2017-07-11",
+   "code_version": "dbfffae0"
+  },
+  "27_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/27_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2017-08-10",
+   "code_version": "dbfffae0"
+  },
+  "28_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/28_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2017-08-04",
+   "code_version": "dbfffae0"
+  },
+  "28_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/28_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2017-09-03",
+   "code_version": "dbfffae0"
+  },
+  "29_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/29_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2017-08-13",
+   "code_version": "dbfffae0"
+  },
+  "29_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/29_real.csv.gz",
+   "box_vessels": 125,
+   "rows": 625,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-09-12",
+   "code_version": "dbfffae0"
+  },
+  "2_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/2_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2017-01-10",
+   "code_version": "dbfffae0"
+  },
+  "30_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/30_placebo30.csv.gz",
+   "box_vessels": 12,
+   "rows": 60,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-09-10",
+   "code_version": "dbfffae0"
+  },
+  "30_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/30_real.csv.gz",
+   "box_vessels": 144,
+   "rows": 720,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-10-10",
+   "code_version": "dbfffae0"
+  },
+  "31_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/31_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2017-09-15",
+   "code_version": "dbfffae0"
+  },
+  "31_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/31_real.csv.gz",
+   "box_vessels": 144,
+   "rows": 720,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-10-15",
+   "code_version": "dbfffae0"
+  },
+  "32_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/32_placebo30.csv.gz",
+   "box_vessels": 125,
+   "rows": 625,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-09-23",
+   "code_version": "dbfffae0"
+  },
+  "32_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/32_real.csv.gz",
+   "box_vessels": 126,
+   "rows": 630,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-10-23",
+   "code_version": "dbfffae0"
+  },
+  "33_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/33_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2017-10-09",
+   "code_version": "dbfffae0"
+  },
+  "33_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/33_real.csv.gz",
+   "box_vessels": 139,
+   "rows": 695,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-11-08",
+   "code_version": "dbfffae0"
+  },
+  "34_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/34_placebo30.csv.gz",
+   "box_vessels": 147,
+   "rows": 735,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-10-10",
+   "code_version": "dbfffae0"
+  },
+  "34_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/34_real.csv.gz",
+   "box_vessels": 146,
+   "rows": 730,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-11-09",
+   "code_version": "dbfffae0"
+  },
+  "35_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/35_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2017-11-04",
+   "code_version": "dbfffae0"
+  },
+  "35_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/35_real.csv.gz",
+   "box_vessels": 135,
+   "rows": 675,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-12-04",
+   "code_version": "dbfffae0"
+  },
+  "36_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/36_placebo30.csv.gz",
+   "box_vessels": 134,
+   "rows": 670,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-11-07",
+   "code_version": "dbfffae0"
+  },
+  "36_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/36_real.csv.gz",
+   "box_vessels": 132,
+   "rows": 660,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-12-07",
+   "code_version": "dbfffae0"
+  },
+  "37_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/37_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2017-11-13",
+   "code_version": "dbfffae0"
+  },
+  "37_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/37_real.csv.gz",
+   "box_vessels": 130,
+   "rows": 650,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-12-13",
+   "code_version": "dbfffae0"
+  },
+  "38_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/38_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2017-11-27",
+   "code_version": "dbfffae0"
+  },
+  "38_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/38_real.csv.gz",
+   "box_vessels": 151,
+   "rows": 755,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-12-27",
+   "code_version": "dbfffae0"
+  },
+  "39_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/39_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2017-12-29",
+   "code_version": "dbfffae0"
+  },
+  "39_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/39_real.csv.gz",
+   "box_vessels": 143,
+   "rows": 715,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-01-28",
+   "code_version": "dbfffae0"
+  },
+  "3_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/3_real.csv.gz",
+   "box_vessels": 129,
+   "rows": 645,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-01-13",
+   "code_version": "dbfffae0"
+  },
+  "40_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/40_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2017-12-30",
+   "code_version": "dbfffae0"
+  },
+  "40_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/40_real.csv.gz",
+   "box_vessels": 138,
+   "rows": 690,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-01-29",
+   "code_version": "dbfffae0"
+  },
+  "41_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/41_placebo30.csv.gz",
+   "box_vessels": 136,
+   "rows": 680,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-01-18",
+   "code_version": "dbfffae0"
+  },
+  "41_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/41_real.csv.gz",
+   "box_vessels": 138,
+   "rows": 690,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-02-17",
+   "code_version": "dbfffae0"
+  },
+  "42_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/42_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2018-01-20",
+   "code_version": "dbfffae0"
+  },
+  "42_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/42_real.csv.gz",
+   "box_vessels": 144,
+   "rows": 720,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-02-19",
+   "code_version": "dbfffae0"
+  },
+  "43_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/43_placebo30.csv.gz",
+   "box_vessels": 134,
+   "rows": 670,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-01-24",
+   "code_version": "dbfffae0"
+  },
+  "43_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/43_real.csv.gz",
+   "box_vessels": 65,
+   "rows": 325,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-02-23",
+   "code_version": "dbfffae0"
+  },
+  "44_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/44_placebo30.csv.gz",
+   "box_vessels": 128,
+   "rows": 640,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-01-24",
+   "code_version": "dbfffae0"
+  },
+  "44_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/44_real.csv.gz",
+   "box_vessels": 153,
+   "rows": 765,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-02-23",
+   "code_version": "dbfffae0"
+  },
+  "45_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/45_placebo30.csv.gz",
+   "box_vessels": 145,
+   "rows": 725,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-01-30",
+   "code_version": "dbfffae0"
+  },
+  "45_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/45_real.csv.gz",
+   "box_vessels": 140,
+   "rows": 700,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-03-01",
+   "code_version": "dbfffae0"
+  },
+  "46_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/46_placebo30.csv.gz",
+   "box_vessels": 143,
+   "rows": 715,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-03-17",
+   "code_version": "dbfffae0"
+  },
+  "46_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/46_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2018-04-16",
+   "code_version": "dbfffae0"
+  },
+  "47_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/47_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2018-03-22",
+   "code_version": "dbfffae0"
+  },
+  "47_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/47_real.csv.gz",
+   "box_vessels": 134,
+   "rows": 670,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-04-21",
+   "code_version": "dbfffae0"
+  },
+  "48_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/48_placebo30.csv.gz",
+   "box_vessels": 122,
+   "rows": 610,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-03-23",
+   "code_version": "dbfffae0"
+  },
+  "48_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/48_real.csv.gz",
+   "box_vessels": 141,
+   "rows": 705,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-04-22",
+   "code_version": "dbfffae0"
+  },
+  "49_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/49_placebo30.csv.gz",
+   "box_vessels": 28,
+   "rows": 140,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-03-23",
+   "code_version": "dbfffae0"
+  },
+  "49_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/49_real.csv.gz",
+   "box_vessels": 40,
+   "rows": 200,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-04-22",
+   "code_version": "dbfffae0"
+  },
+  "4_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/4_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2017-01-16",
+   "code_version": "dbfffae0"
+  },
+  "4_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/4_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2017-02-15",
+   "code_version": "dbfffae0"
+  },
+  "50_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/50_placebo30.csv.gz",
+   "box_vessels": 28,
+   "rows": 140,
+   "centre_source": "incident_span",
+   "fleet_day": "2018-04-10",
+   "code_version": "dbfffae0"
+  },
+  "50_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/50_real.csv.gz",
+   "box_vessels": 151,
+   "rows": 755,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-05-10",
+   "code_version": "dbfffae0"
+  },
+  "51_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/51_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2018-04-14",
+   "code_version": "dbfffae0"
+  },
+  "51_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/51_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2018-05-14",
+   "code_version": "dbfffae0"
+  },
+  "52_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/52_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2018-04-16",
+   "code_version": "dbfffae0"
+  },
+  "52_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/52_real.csv.gz",
+   "box_vessels": 44,
+   "rows": 220,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-05-16",
+   "code_version": "dbfffae0"
+  },
+  "53_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/53_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2018-05-06",
+   "code_version": "dbfffae0"
+  },
+  "53_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/53_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2018-06-05",
+   "code_version": "dbfffae0"
+  },
+  "54_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/54_placebo30.csv.gz",
+   "box_vessels": 28,
+   "rows": 140,
+   "centre_source": "incident_span",
+   "fleet_day": "2018-05-20",
+   "code_version": "dbfffae0"
+  },
+  "54_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/54_real.csv.gz",
+   "box_vessels": 143,
+   "rows": 715,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-06-19",
+   "code_version": "dbfffae0"
+  },
+  "55_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/55_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2018-05-20",
+   "code_version": "dbfffae0"
+  },
+  "55_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/55_real.csv.gz",
+   "box_vessels": 144,
+   "rows": 720,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-06-19",
+   "code_version": "dbfffae0"
+  },
+  "56_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/56_placebo30.csv.gz",
+   "box_vessels": 104,
+   "rows": 520,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-05-21",
+   "code_version": "dbfffae0"
+  },
+  "56_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/56_real.csv.gz",
+   "box_vessels": 28,
+   "rows": 140,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-06-20",
+   "code_version": "dbfffae0"
+  },
+  "57_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/57_placebo30.csv.gz",
+   "box_vessels": 58,
+   "rows": 290,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-06-04",
+   "code_version": "dbfffae0"
+  },
+  "57_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/57_real.csv.gz",
+   "box_vessels": 156,
+   "rows": 780,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-07-04",
+   "code_version": "dbfffae0"
+  },
+  "58_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/58_placebo30.csv.gz",
+   "box_vessels": 147,
+   "rows": 735,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-06-19",
+   "code_version": "dbfffae0"
+  },
+  "58_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/58_real.csv.gz",
+   "box_vessels": 162,
+   "rows": 810,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-07-19",
+   "code_version": "dbfffae0"
+  },
+  "59_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/59_placebo30.csv.gz",
+   "box_vessels": 158,
+   "rows": 790,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-06-21",
+   "code_version": "dbfffae0"
+  },
+  "59_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/59_real.csv.gz",
+   "box_vessels": 175,
+   "rows": 875,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-07-21",
+   "code_version": "dbfffae0"
+  },
+  "5_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/5_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2017-01-16",
+   "code_version": "dbfffae0"
+  },
+  "5_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/5_real.csv.gz",
+   "box_vessels": 138,
+   "rows": 690,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-02-15",
+   "code_version": "dbfffae0"
+  },
+  "60_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/60_placebo30.csv.gz",
+   "box_vessels": 81,
+   "rows": 405,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-06-25",
+   "code_version": "dbfffae0"
+  },
+  "60_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/60_real.csv.gz",
+   "box_vessels": 31,
+   "rows": 155,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-07-25",
+   "code_version": "dbfffae0"
+  },
+  "61_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/61_placebo30.csv.gz",
+   "box_vessels": 32,
+   "rows": 160,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-07-06",
+   "code_version": "dbfffae0"
+  },
+  "61_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/61_real.csv.gz",
+   "box_vessels": 146,
+   "rows": 730,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-08-05",
+   "code_version": "dbfffae0"
+  },
+  "62_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/62_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2018-07-09",
+   "code_version": "dbfffae0"
+  },
+  "62_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/62_real.csv.gz",
+   "box_vessels": 134,
+   "rows": 670,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-08-08",
+   "code_version": "dbfffae0"
+  },
+  "63_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/63_placebo30.csv.gz",
+   "box_vessels": 172,
+   "rows": 860,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-07-26",
+   "code_version": "dbfffae0"
+  },
+  "63_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/63_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2018-08-25",
+   "code_version": "dbfffae0"
+  },
+  "64_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/64_placebo30.csv.gz",
+   "box_vessels": 135,
+   "rows": 675,
+   "centre_source": "incident_span",
+   "fleet_day": "2018-08-09",
+   "code_version": "dbfffae0"
+  },
+  "64_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/64_real.csv.gz",
+   "box_vessels": 136,
+   "rows": 680,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-09-08",
+   "code_version": "dbfffae0"
+  },
+  "65_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/65_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2018-08-10",
+   "code_version": "dbfffae0"
+  },
+  "65_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/65_real.csv.gz",
+   "box_vessels": 135,
+   "rows": 675,
+   "centre_source": "incident_span",
+   "fleet_day": "2018-09-09",
+   "code_version": "dbfffae0"
+  },
+  "66_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/66_placebo30.csv.gz",
+   "box_vessels": 139,
+   "rows": 695,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-09-07",
+   "code_version": "dbfffae0"
+  },
+  "66_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/66_real.csv.gz",
+   "box_vessels": 133,
+   "rows": 665,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-10-07",
+   "code_version": "dbfffae0"
+  },
+  "67_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/67_placebo30.csv.gz",
+   "box_vessels": 153,
+   "rows": 765,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-09-10",
+   "code_version": "dbfffae0"
+  },
+  "67_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/67_real.csv.gz",
+   "box_vessels": 151,
+   "rows": 755,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-10-10",
+   "code_version": "dbfffae0"
+  },
+  "68_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/68_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2018-09-11",
+   "code_version": "dbfffae0"
+  },
+  "68_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/68_real.csv.gz",
+   "box_vessels": 155,
+   "rows": 775,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-10-11",
+   "code_version": "dbfffae0"
+  },
+  "69_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/69_placebo30.csv.gz",
+   "box_vessels": 146,
+   "rows": 730,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-10-13",
+   "code_version": "dbfffae0"
+  },
+  "69_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/69_real.csv.gz",
+   "box_vessels": 138,
+   "rows": 690,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-11-12",
+   "code_version": "dbfffae0"
+  },
+  "6_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/6_placebo30.csv.gz",
+   "box_vessels": 107,
+   "rows": 535,
+   "centre_source": "incident_span",
+   "fleet_day": "2017-01-22",
+   "code_version": "dbfffae0"
+  },
+  "6_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/6_real.csv.gz",
+   "box_vessels": 117,
+   "rows": 585,
+   "centre_source": "incident_span",
+   "fleet_day": "2017-02-21",
+   "code_version": "dbfffae0"
+  },
+  "70_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/70_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2018-11-13",
+   "code_version": "dbfffae0"
+  },
+  "70_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/70_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2018-12-13",
+   "code_version": "dbfffae0"
+  },
+  "71_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/71_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2018-11-29",
+   "code_version": "dbfffae0"
+  },
+  "71_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/71_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2018-12-29",
+   "code_version": "dbfffae0"
+  },
+  "72_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/72_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2018-12-03",
+   "code_version": "dbfffae0"
+  },
+  "72_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/72_real.csv.gz",
+   "box_vessels": 40,
+   "rows": 200,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-01-02",
+   "code_version": "dbfffae0"
+  },
+  "73_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/73_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2018-12-22",
+   "code_version": "dbfffae0"
+  },
+  "73_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/73_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2019-01-21",
+   "code_version": "dbfffae0"
+  },
+  "74_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/74_placebo30.csv.gz",
+   "box_vessels": 140,
+   "rows": 700,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-12-26",
+   "code_version": "dbfffae0"
+  },
+  "74_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/74_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2019-01-25",
+   "code_version": "dbfffae0"
+  },
+  "75_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/75_placebo30.csv.gz",
+   "box_vessels": 140,
+   "rows": 700,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-12-26",
+   "code_version": "dbfffae0"
+  },
+  "75_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/75_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2019-01-25",
+   "code_version": "dbfffae0"
+  },
+  "76_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/76_placebo30.csv.gz",
+   "box_vessels": 158,
+   "rows": 790,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-01-04",
+   "code_version": "dbfffae0"
+  },
+  "76_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/76_real.csv.gz",
+   "box_vessels": 146,
+   "rows": 730,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-02-03",
+   "code_version": "dbfffae0"
+  },
+  "77_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/77_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2019-01-04",
+   "code_version": "dbfffae0"
+  },
+  "77_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/77_real.csv.gz",
+   "box_vessels": 65,
+   "rows": 325,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-02-03",
+   "code_version": "dbfffae0"
+  },
+  "78_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/78_placebo30.csv.gz",
+   "box_vessels": 158,
+   "rows": 790,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-01-04",
+   "code_version": "dbfffae0"
+  },
+  "78_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/78_real.csv.gz",
+   "box_vessels": 146,
+   "rows": 730,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-02-03",
+   "code_version": "dbfffae0"
+  },
+  "79_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/79_placebo30.csv.gz",
+   "box_vessels": 56,
+   "rows": 280,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-01-05",
+   "code_version": "dbfffae0"
+  },
+  "79_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/79_real.csv.gz",
+   "box_vessels": 64,
+   "rows": 320,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-02-04",
+   "code_version": "dbfffae0"
+  },
+  "7_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/7_placebo30.csv.gz",
+   "box_vessels": 128,
+   "rows": 640,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-01-31",
+   "code_version": "dbfffae0"
+  },
+  "7_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/7_real.csv.gz",
+   "box_vessels": 130,
+   "rows": 650,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-03-02",
+   "code_version": "dbfffae0"
+  },
+  "80_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/80_placebo30.csv.gz",
+   "box_vessels": 152,
+   "rows": 760,
+   "centre_source": "incident_span",
+   "fleet_day": "2019-01-06",
+   "code_version": "dbfffae0"
+  },
+  "80_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/80_real.csv.gz",
+   "box_vessels": 141,
+   "rows": 705,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-02-05",
+   "code_version": "dbfffae0"
+  },
+  "81_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/81_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2019-01-10",
+   "code_version": "dbfffae0"
+  },
+  "81_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/81_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2019-02-09",
+   "code_version": "dbfffae0"
+  },
+  "82_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/82_placebo30.csv.gz",
+   "box_vessels": 145,
+   "rows": 725,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-01-13",
+   "code_version": "dbfffae0"
+  },
+  "82_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/82_real.csv.gz",
+   "box_vessels": 159,
+   "rows": 795,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-02-12",
+   "code_version": "dbfffae0"
+  },
+  "83_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/83_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2019-01-28",
+   "code_version": "dbfffae0"
+  },
+  "83_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/83_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2019-02-27",
+   "code_version": "dbfffae0"
+  },
+  "84_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/84_placebo30.csv.gz",
+   "box_vessels": 148,
+   "rows": 740,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-02-02",
+   "code_version": "dbfffae0"
+  },
+  "84_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/84_real.csv.gz",
+   "box_vessels": 152,
+   "rows": 760,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-03-04",
+   "code_version": "dbfffae0"
+  },
+  "85_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/85_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2019-03-18",
+   "code_version": "dbfffae0"
+  },
+  "85_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/85_real.csv.gz",
+   "box_vessels": 156,
+   "rows": 780,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-04-17",
+   "code_version": "dbfffae0"
+  },
+  "86_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/86_placebo30.csv.gz",
+   "box_vessels": 160,
+   "rows": 800,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-04-12",
+   "code_version": "dbfffae0"
+  },
+  "86_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/86_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2019-05-12",
+   "code_version": "dbfffae0"
+  },
+  "87_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/87_placebo30.csv.gz",
+   "box_vessels": 160,
+   "rows": 800,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-04-13",
+   "code_version": "dbfffae0"
+  },
+  "87_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/87_real.csv.gz",
+   "box_vessels": 136,
+   "rows": 680,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-05-13",
+   "code_version": "dbfffae0"
+  },
+  "88_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/88_placebo30.csv.gz",
+   "box_vessels": 157,
+   "rows": 785,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-04-21",
+   "code_version": "dbfffae0"
+  },
+  "88_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/88_real.csv.gz",
+   "box_vessels": 45,
+   "rows": 225,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-05-21",
+   "code_version": "dbfffae0"
+  },
+  "89_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/89_placebo30.csv.gz",
+   "box_vessels": 159,
+   "rows": 795,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-05-06",
+   "code_version": "dbfffae0"
+  },
+  "89_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/89_real.csv.gz",
+   "box_vessels": 29,
+   "rows": 145,
+   "centre_source": "incident_span",
+   "fleet_day": "2019-06-05",
+   "code_version": "dbfffae0"
+  },
+  "8_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/8_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2017-02-03",
+   "code_version": "dbfffae0"
+  },
+  "8_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/8_real.csv.gz",
+   "box_vessels": 108,
+   "rows": 540,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-03-05",
+   "code_version": "dbfffae0"
+  },
+  "90_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/90_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2019-06-19",
+   "code_version": "dbfffae0"
+  },
+  "90_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/90_real.csv.gz",
+   "box_vessels": 19,
+   "rows": 95,
+   "centre_source": "incident_span",
+   "fleet_day": "2019-07-19",
+   "code_version": "dbfffae0"
+  },
+  "91_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/91_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2019-07-04",
+   "code_version": "dbfffae0"
+  },
+  "91_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/91_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2019-08-03",
+   "code_version": "dbfffae0"
+  },
+  "92_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/92_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2019-07-07",
+   "code_version": "dbfffae0"
+  },
+  "92_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/92_real.csv.gz",
+   "box_vessels": 172,
+   "rows": 860,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-08-06",
+   "code_version": "dbfffae0"
+  },
+  "93_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/93_placebo30.csv.gz",
+   "box_vessels": 139,
+   "rows": 695,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-07-08",
+   "code_version": "dbfffae0"
+  },
+  "93_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/93_real.csv.gz",
+   "box_vessels": 169,
+   "rows": 845,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-08-07",
+   "code_version": "dbfffae0"
+  },
+  "94_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/94_placebo30.csv.gz",
+   "box_vessels": 153,
+   "rows": 765,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-07-09",
+   "code_version": "dbfffae0"
+  },
+  "94_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/94_real.csv.gz",
+   "box_vessels": 18,
+   "rows": 90,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-08-08",
+   "code_version": "dbfffae0"
+  },
+  "95_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/95_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2019-07-14",
+   "code_version": "dbfffae0"
+  },
+  "95_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/95_real.csv.gz",
+   "box_vessels": 160,
+   "rows": 800,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-08-13",
+   "code_version": "dbfffae0"
+  },
+  "96_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/96_placebo30.csv.gz",
+   "box_vessels": 46,
+   "rows": 230,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-07-25",
+   "code_version": "dbfffae0"
+  },
+  "96_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/96_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2019-08-24",
+   "code_version": "dbfffae0"
+  },
+  "97_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/97_placebo30.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2019-07-26",
+   "code_version": "dbfffae0"
+  },
+  "97_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/97_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2019-08-25",
+   "code_version": "dbfffae0"
+  },
+  "98_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/98_placebo30.csv.gz",
+   "box_vessels": 39,
+   "rows": 195,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-07-26",
+   "code_version": "dbfffae0"
+  },
+  "98_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/98_real.csv.gz",
+   "box_vessels": 1,
+   "rows": 5,
+   "centre_source": "reference_point",
+   "fleet_day": "2019-08-25",
+   "code_version": "dbfffae0"
+  },
+  "99_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/99_placebo30.csv.gz",
+   "box_vessels": 69,
+   "rows": 345,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-08-12",
+   "code_version": "dbfffae0"
+  },
+  "99_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/99_real.csv.gz",
+   "box_vessels": 15,
+   "rows": 75,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-09-11",
+   "code_version": "dbfffae0"
+  },
+  "9_placebo30": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/9_placebo30.csv.gz",
+   "box_vessels": 112,
+   "rows": 560,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-02-06",
+   "code_version": "dbfffae0"
+  },
+  "9_real": {
+   "file": "/home/claude/wake/data/external/hawaii/windows/9_real.csv.gz",
+   "box_vessels": 142,
+   "rows": 710,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-03-08",
+   "code_version": "dbfffae0"
+  }
+ },
+ "impossible": {
+  "1_placebo30": "AIS day(s) not available or nearly empty: 2016-12-08;2016-12-09;2016-12-10",
+  "2_placebo30": "AIS day(s) not available or nearly empty: 2016-12-09;2016-12-10;2016-12-11",
+  "3_placebo30": "AIS day(s) not available or nearly empty: 2016-12-12;2016-12-13;2016-12-14"
+ }
+}

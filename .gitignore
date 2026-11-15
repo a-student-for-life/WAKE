@@ -9,3 +9,4 @@ review_page/build/
 review_page/build_second/
 data/gtn/models/**/events.out.tfevents*
 data/gtn/models/**/graph.pbtxt
+data/external/hawaii/days/
