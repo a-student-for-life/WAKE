@@ -1,0 +1,1248 @@
+incident_id,stage,reason,source,region,vtype,years,setting,incident_type
+N1105263,A no AIS candidate,,NRC,Gulf,Tug/tow,2015-2018,inland,sinking_capsize
+N1106039,A no AIS candidate,,NRC,Gulf,Fishing,2015-2018,sea,sinking_capsize
+N1106581,A no AIS candidate,,NRC,Gulf,Other,2015-2018,sea,collision_allision
+N1107529,A no AIS candidate,,NRC,Alaska,Fishing,2015-2018,sea,grounding
+N1107886,A no AIS candidate,,NRC,Atlantic,Tug/tow,2015-2018,sea,sinking_capsize
+N1108707,F matched set (analysed),,NRC,Gulf,Tug/tow,2015-2018,sea,discharge
+N1108750,B candidates all beyond 100 km,,NRC,Atlantic,Fishing,2015-2018,sea,sinking_capsize
+N1109125,A no AIS candidate,,NRC,Atlantic,Fishing,2015-2018,sea,sinking_capsize
+N1110169,A no AIS candidate,,NRC,Gulf,Fishing,2015-2018,sea,grounding
+N1110603,A no AIS candidate,,NRC,Florida,Fishing,2015-2018,sea,grounding
+N1111237,A no AIS candidate,,NRC,Florida,Fishing,2015-2018,inland,other
+N1111603,"C reviewed, not confirmed",,NRC,Atlantic,Fishing,2015-2018,sea,sinking_capsize
+N1112736_1,"D confirmed, excluded from main",,NRC,Gulf,Cargo,2015-2018,inland,collision_allision
+N1112736_2,B candidates all beyond 100 km,,NRC,Gulf,Tanker,2015-2018,inland,collision_allision
+N1113156,F matched set (analysed),,NRC,Gulf,Tug/tow,2015-2018,sea,sinking_capsize
+N1113283,A no AIS candidate,,NRC,Hawaii/Pacific,Fishing,2015-2018,sea,grounding
+N1113893,"C reviewed, not confirmed",,NRC,Gulf,Fishing,2015-2018,inland,sinking_capsize
+N1114592,B candidates all beyond 100 km,,NRC,Atlantic,Fishing,2015-2018,sea,sinking_capsize
+N1114662,A no AIS candidate,,NRC,Gulf,Tug/tow,2015-2018,inland,grounding
+N1116592,A no AIS candidate,,NRC,Great Lakes,Tug/tow,2015-2018,inland,grounding
+N1116768,A no AIS candidate,,NRC,Atlantic,Fishing,2015-2018,sea,collision_allision
+N1117338,A no AIS candidate,,NRC,Pacific NW,Fishing,2015-2018,inland,sinking_capsize
+N1118083,F matched set (analysed),,NRC,Gulf,Tug/tow,2015-2018,inland,sinking_capsize
+N1119276,F matched set (analysed),,NRC,Gulf,Cargo,2015-2018,sea,equipment_failure
+N1119285,A no AIS candidate,,NRC,Alaska,Fishing,2015-2018,sea,sinking_capsize
+N1119509,A no AIS candidate,,NRC,Atlantic,Tug/tow,2015-2018,sea,discharge
+N1119821_1,B candidates all beyond 100 km,,NRC,Atlantic,Fishing,2015-2018,sea,collision_allision
+N1119821_2,A no AIS candidate,,NRC,Atlantic,Fishing,2015-2018,sea,collision_allision
+N1120483,A no AIS candidate,,NRC,Great Lakes,Tug/tow,2015-2018,sea,sinking_capsize
+N1121406,A no AIS candidate,,NRC,Florida,Fishing,2015-2018,sea,sinking_capsize
+N1121483,A no AIS candidate,,NRC,Pacific NW,Fishing,2015-2018,inland,sinking_capsize
+N1121805,"E main, no matched set",fewer_than_5_controls,NRC,Alaska,Cargo,2015-2018,sea,collision_allision
+N1122341,A no AIS candidate,,NRC,Pacific NW,Fishing,2015-2018,sea,grounding
+N1122709,A no AIS candidate,,NRC,Alaska,Fishing,2015-2018,sea,grounding
+N1122951,F matched set (analysed),,NRC,Gulf,Tug/tow,2015-2018,sea,sinking_capsize
+N1123270,A no AIS candidate,,NRC,Alaska,Fishing,2015-2018,sea,sinking_capsize
+N1123431,A no AIS candidate,,NRC,Pacific NW,Fishing,2015-2018,sea,grounding
+N1123469,A no AIS candidate,,NRC,Pacific NW,Fishing,2015-2018,sea,sinking_capsize
+N1123482,A no AIS candidate,,NRC,Alaska,Fishing,2015-2018,sea,grounding
+N1123895,"C reviewed, not confirmed",,NRC,Atlantic,Tug/tow,2015-2018,sea,sinking_capsize
+N1125112,F matched set (analysed),,NRC,Atlantic,Tug/tow,2015-2018,sea,collision_allision
+N1125133,A no AIS candidate,,NRC,Alaska,Fishing,2015-2018,sea,sinking_capsize
+N1125134,A no AIS candidate,,NRC,Gulf,Fishing,2015-2018,sea,sinking_capsize
+N1125472,A no AIS candidate,,NRC,Atlantic,Fishing,2015-2018,sea,grounding
+N1125478,F matched set (analysed),,NRC,Great Lakes,Tug/tow,2015-2018,sea,equipment_failure
+N1125549,A no AIS candidate,,NRC,Alaska,Fishing,2015-2018,sea,grounding
+N1126132,A no AIS candidate,,NRC,Pacific NW,Fishing,2015-2018,sea,sinking_capsize
+N1127226,A no AIS candidate,,NRC,Gulf,Fishing,2015-2018,sea,sinking_capsize
+N1127446_1,A no AIS candidate,,NRC,Inland/other,Tug/tow,2015-2018,inland,collision_allision
+N1127446_2,B candidates all beyond 100 km,,NRC,Inland/other,Tug/tow,2015-2018,inland,collision_allision
+N1127745,B candidates all beyond 100 km,,NRC,Atlantic,Fishing,2015-2018,sea,sinking_capsize
+N1127753,B candidates all beyond 100 km,,NRC,Atlantic,Fishing,2015-2018,sea,sinking_capsize
+N1127978,"E main, no matched set",fewer_than_5_controls,NRC,Great Lakes,Tug/tow,2015-2018,inland,grounding
+N1128262,A no AIS candidate,,NRC,California,Fishing,2015-2018,sea,sinking_capsize
+N1128989,A no AIS candidate,,NRC,Alaska,Fishing,2015-2018,sea,sinking_capsize
+N1129122,A no AIS candidate,,NRC,Atlantic,Fishing,2015-2018,sea,sinking_capsize
+N1129175,A no AIS candidate,,NRC,Gulf,Fishing,2015-2018,sea,sinking_capsize
+N1129411,A no AIS candidate,,NRC,Atlantic,Fishing,2015-2018,sea,sinking_capsize
+N1130038,A no AIS candidate,,NRC,Atlantic,Fishing,2015-2018,sea,sinking_capsize
+N1130507,B candidates all beyond 100 km,,NRC,Alaska,Fishing,2015-2018,sea,grounding
+N1130786,A no AIS candidate,,NRC,Great Lakes,Fishing,2015-2018,sea,sinking_capsize
+N1131574,A no AIS candidate,,NRC,Atlantic,Fishing,2015-2018,sea,sinking_capsize
+N1131907,A no AIS candidate,,NRC,Pacific NW,Fishing,2015-2018,sea,sinking_capsize
+N1132724,A no AIS candidate,,NRC,Atlantic,Fishing,2015-2018,sea,sinking_capsize
+N1132776,A no AIS candidate,,NRC,Pacific NW,Fishing,2015-2018,sea,collision_allision
+N1132984,"C reviewed, not confirmed",,NRC,Florida,Fishing,2015-2018,sea,sinking_capsize
+N1133541,A no AIS candidate,,NRC,Atlantic,Fishing,2015-2018,sea,grounding
+N1134266,A no AIS candidate,,NRC,Gulf,Fishing,2015-2018,inland,sinking_capsize
+N1135793,A no AIS candidate,,NRC,Inland/other,Tug/tow,2015-2018,sea,collision_allision
+N1137125,A no AIS candidate,,NRC,California,Fishing,2015-2018,sea,grounding
+N1137239,A no AIS candidate,,NRC,California,Fishing,2015-2018,sea,grounding
+N1137319,F matched set (analysed),,NRC,Gulf,Tug/tow,2015-2018,sea,sinking_capsize
+N1137624,A no AIS candidate,,NRC,Inland/other,Fishing,2015-2018,sea,sinking_capsize
+N1138104,F matched set (analysed),,NRC,Gulf,Tug/tow,2015-2018,sea,collision_allision
+N1138361,"C reviewed, not confirmed",,NRC,Gulf,Fishing,2015-2018,sea,grounding
+N1138625,A no AIS candidate,,NRC,Gulf,Tug/tow,2015-2018,inland,collision_allision
+N1138776,B candidates all beyond 100 km,,NRC,Hawaii/Pacific,Fishing,2015-2018,sea,grounding
+N1138837,"C reviewed, not confirmed",,NRC,Atlantic,Fishing,2015-2018,sea,sinking_capsize
+N1138905,A no AIS candidate,,NRC,Atlantic,Fishing,2015-2018,inland,sinking_capsize
+N1139709,F matched set (analysed),,NRC,Atlantic,Tanker,2015-2018,sea,discharge
+N1139807,A no AIS candidate,,NRC,Alaska,Fishing,2015-2018,sea,discharge
+N1139988,A no AIS candidate,,NRC,Hawaii/Pacific,Fishing,2015-2018,sea,grounding
+N1139992,A no AIS candidate,,NRC,Atlantic,Fishing,2015-2018,sea,grounding
+N1140094,A no AIS candidate,,NRC,Atlantic,Fishing,2015-2018,sea,grounding
+N1140479,A no AIS candidate,,NRC,Inland/other,Tug/tow,2015-2018,sea,sinking_capsize
+N1140536,"E main, no matched set",fewer_than_5_controls,NRC,Atlantic,Tug/tow,2015-2018,sea,sinking_capsize
+N1141448,A no AIS candidate,,NRC,California,Fishing,2015-2018,sea,sinking_capsize
+N1141860,"E main, no matched set",fewer_than_5_controls,NRC,Alaska,Fishing,2015-2018,sea,discharge
+N1142131,A no AIS candidate,,NRC,Florida,Fishing,2015-2018,sea,sinking_capsize
+N1142547,A no AIS candidate,,NRC,Gulf,Fishing,2015-2018,sea,collision_allision
+N1143903,A no AIS candidate,,NRC,Gulf,Fishing,2015-2018,inland,sinking_capsize
+N1144120,F matched set (analysed),,NRC,Pacific NW,Fishing,2015-2018,sea,sinking_capsize
+N1144916,"C reviewed, not confirmed",,NRC,California,Fishing,2015-2018,sea,grounding
+N1145386,A no AIS candidate,,NRC,Pacific NW,Fishing,2015-2018,sea,grounding
+N1146500,A no AIS candidate,,NRC,Atlantic,Fishing,2015-2018,sea,sinking_capsize
+N1148362,A no AIS candidate,,NRC,Atlantic,Passenger,2015-2018,sea,discharge
+N1149141,B candidates all beyond 100 km,,NRC,California,Fishing,2015-2018,inland,sinking_capsize
+N1149371,A no AIS candidate,,NRC,Alaska,Fishing,2015-2018,sea,sinking_capsize
+N1150567,A no AIS candidate,,NRC,Florida,Fishing,2015-2018,sea,sinking_capsize
+N1150592,A no AIS candidate,,NRC,Gulf,Fishing,2015-2018,sea,sinking_capsize
+N1152417,A no AIS candidate,,NRC,Hawaii/Pacific,Fishing,2015-2018,sea,sinking_capsize
+N1153021,A no AIS candidate,,NRC,Atlantic,Passenger,2015-2018,inland,discharge
+N1153629,B candidates all beyond 100 km,,NRC,Alaska,Fishing,2015-2018,sea,grounding
+N1153752,A no AIS candidate,,NRC,Pacific NW,Fishing,2015-2018,inland,equipment_failure
+N1153989,A no AIS candidate,,NRC,Atlantic,Fishing,2015-2018,sea,sinking_capsize
+N1154269,B candidates all beyond 100 km,,NRC,Alaska,Fishing,2015-2018,sea,sinking_capsize
+N1156489,A no AIS candidate,,NRC,Atlantic,Fishing,2015-2018,sea,sinking_capsize
+N1156847,A no AIS candidate,,NRC,Gulf,Fishing,2015-2018,inland,grounding
+N1156991,A no AIS candidate,,NRC,Florida,Fishing,2015-2018,sea,grounding
+N1157482,F matched set (analysed),,NRC,Atlantic,Passenger,2015-2018,sea,grounding
+N1157864,"E main, no matched set",fewer_than_5_controls,NRC,Alaska,Fishing,2015-2018,sea,grounding
+N1157868,"E main, no matched set",fewer_than_5_controls,NRC,Alaska,Fishing,2015-2018,sea,grounding
+N1158084,A no AIS candidate,,NRC,Atlantic,Fishing,2015-2018,inland,grounding
+N1158211,"C reviewed, not confirmed",,NRC,Inland/other,Passenger,2015-2018,sea,sinking_capsize
+N1158686,A no AIS candidate,,NRC,California,Fishing,2015-2018,sea,grounding
+N1158928,B candidates all beyond 100 km,,NRC,Atlantic,Fishing,2015-2018,inland,grounding
+N1160810,B candidates all beyond 100 km,,NRC,Gulf,Fishing,2015-2018,sea,sinking_capsize
+N1161077,A no AIS candidate,,NRC,Florida,Fishing,2015-2018,sea,sinking_capsize
+N1161094,A no AIS candidate,,NRC,Atlantic,Fishing,2015-2018,inland,grounding
+N1161655,A no AIS candidate,,NRC,Gulf,Fishing,2015-2018,inland,grounding
+N1162471,F matched set (analysed),,NRC,Atlantic,Tug/tow,2015-2018,sea,grounding
+N1162795,F matched set (analysed),,NRC,Florida,Tug/tow,2015-2018,inland,sinking_capsize
+N1163962,A no AIS candidate,,NRC,Atlantic,Fishing,2015-2018,sea,sinking_capsize
+N1164414,B candidates all beyond 100 km,,NRC,Atlantic,Fishing,2015-2018,sea,grounding
+N1164433,F matched set (analysed),,NRC,Atlantic,Tug/tow,2015-2018,sea,collision_allision
+N1164975,A no AIS candidate,,NRC,Atlantic,Fishing,2015-2018,sea,grounding
+N1165525,A no AIS candidate,,NRC,Gulf,Fishing,2015-2018,sea,sinking_capsize
+N1165908,A no AIS candidate,,NRC,Alaska,Fishing,2015-2018,sea,sinking_capsize
+N1166081,A no AIS candidate,,NRC,Atlantic,Fishing,2015-2018,inland,sinking_capsize
+N1167876,A no AIS candidate,,NRC,Atlantic,Fishing,2015-2018,sea,sinking_capsize
+N1168751,"E main, no matched set",fewer_than_5_controls,NRC,Atlantic,Passenger,2015-2018,sea,sinking_capsize
+N1170783,A no AIS candidate,,NRC,Atlantic,Cargo,2015-2018,sea,other
+N1170822,"E main, no matched set",fewer_than_5_controls,NRC,Alaska,Fishing,2015-2018,sea,other
+N1170899,B candidates all beyond 100 km,,NRC,Alaska,Fishing,2015-2018,sea,sinking_capsize
+N1170943,F matched set (analysed),,NRC,Alaska,Fishing,2015-2018,sea,grounding
+N1171070,A no AIS candidate,,NRC,Florida,Tug/tow,2015-2018,sea,grounding
+N1171179,A no AIS candidate,,NRC,Alaska,Tug/tow,2015-2018,sea,grounding
+N1171180,"E main, no matched set",fewer_than_5_controls,NRC,Alaska,Tug/tow,2015-2018,sea,grounding
+N1171487_1,F matched set (analysed),,NRC,Gulf,Tug/tow,2015-2018,sea,collision_allision
+N1171487_2,F matched set (analysed),,NRC,Gulf,Tug/tow,2015-2018,sea,collision_allision
+N1172271,F matched set (analysed),,NRC,Alaska,Tug/tow,2015-2018,sea,grounding
+N1174051,A no AIS candidate,,NRC,Atlantic,Fishing,2015-2018,sea,sinking_capsize
+N1174176,A no AIS candidate,,NRC,Inland/other,Passenger,2015-2018,sea,grounding
+N1174821,B candidates all beyond 100 km,,NRC,Florida,Fishing,2015-2018,sea,collision_allision
+N1175264,A no AIS candidate,,NRC,Gulf,Fishing,2015-2018,sea,sinking_capsize
+N1175938,B candidates all beyond 100 km,,NRC,Inland/other,Tug/tow,2015-2018,inland,sinking_capsize
+N1176687,A no AIS candidate,,NRC,Gulf,Fishing,2015-2018,sea,collision_allision
+N1177484,A no AIS candidate,,NRC,Gulf,Fishing,2015-2018,sea,grounding
+N1177489,A no AIS candidate,,NRC,Gulf,Fishing,2015-2018,sea,grounding
+N1178580,A no AIS candidate,,NRC,Gulf,Fishing,2015-2018,sea,sinking_capsize
+N1178669,A no AIS candidate,,NRC,Atlantic,Tug/tow,2015-2018,sea,discharge
+N1178957,A no AIS candidate,,NRC,Gulf,Tug/tow,2015-2018,sea,grounding
+N1179456,A no AIS candidate,,NRC,Atlantic,Tug/tow,2015-2018,sea,grounding
+N1179497,A no AIS candidate,,NRC,Atlantic,Fishing,2015-2018,sea,sinking_capsize
+N1180107,A no AIS candidate,,NRC,Atlantic,Fishing,2015-2018,sea,sinking_capsize
+N1180500,F matched set (analysed),,NRC,Gulf,Other,2015-2018,sea,discharge
+N1180508,B candidates all beyond 100 km,,NRC,Atlantic,Fishing,2015-2018,sea,sinking_capsize
+N1180664,A no AIS candidate,,NRC,Atlantic,Fishing,2015-2018,sea,sinking_capsize
+N1181364,B candidates all beyond 100 km,,NRC,Florida,Fishing,2015-2018,sea,sinking_capsize
+N1181542,F matched set (analysed),,NRC,Gulf,Tug/tow,2015-2018,inland,other
+N1182689,A no AIS candidate,,NRC,Alaska,Fishing,2015-2018,sea,grounding
+N1183003,A no AIS candidate,,NRC,Alaska,Fishing,2015-2018,sea,grounding
+N1183051,A no AIS candidate,,NRC,Alaska,Fishing,2015-2018,inland,grounding
+N1183469,A no AIS candidate,,NRC,Pacific NW,Fishing,2015-2018,sea,sinking_capsize
+N1183539,"E main, no matched set",fewer_than_5_controls,NRC,Florida,Other,2015-2018,sea,discharge
+N1184487,A no AIS candidate,,NRC,Pacific NW,Fishing,2015-2018,sea,discharge
+N1185128,A no AIS candidate,,NRC,Alaska,Fishing,2015-2018,sea,sinking_capsize
+N1185488,A no AIS candidate,,NRC,Alaska,Fishing,2015-2018,sea,grounding
+N1185506,B candidates all beyond 100 km,,NRC,Great Lakes,Fishing,2015-2018,sea,sinking_capsize
+N1186496,B candidates all beyond 100 km,,NRC,Alaska,Fishing,2015-2018,sea,grounding
+N1186510,"C reviewed, not confirmed",,NRC,Alaska,Fishing,2015-2018,sea,sinking_capsize
+N1186718,A no AIS candidate,,NRC,Atlantic,Fishing,2015-2018,sea,sinking_capsize
+N1187371,B candidates all beyond 100 km,,NRC,Atlantic,Fishing,2015-2018,inland,sinking_capsize
+N1188130,F matched set (analysed),,NRC,Gulf,Tug/tow,2015-2018,sea,sinking_capsize
+N1188290,A no AIS candidate,,NRC,Gulf,Fishing,2015-2018,sea,sinking_capsize
+N1188387,"C reviewed, not confirmed",,NRC,Inland/other,Fishing,2015-2018,sea,discharge
+N1188431,A no AIS candidate,,NRC,Gulf,Fishing,2015-2018,sea,sinking_capsize
+N1189085,A no AIS candidate,,NRC,Alaska,Fishing,2015-2018,sea,grounding
+N1189399_1,A no AIS candidate,,NRC,Gulf,Fishing,2015-2018,sea,sinking_capsize
+N1189399_2,A no AIS candidate,,NRC,Gulf,Fishing,2015-2018,sea,sinking_capsize
+N1189502,A no AIS candidate,,NRC,Atlantic,Tug/tow,2015-2018,inland,sinking_capsize
+N1189614,"C reviewed, not confirmed",,NRC,Atlantic,Tug/tow,2015-2018,sea,grounding
+N1189827,A no AIS candidate,,NRC,Alaska,Fishing,2015-2018,sea,sinking_capsize
+N1189982,A no AIS candidate,,NRC,Atlantic,Fishing,2015-2018,sea,sinking_capsize
+N1191379,A no AIS candidate,,NRC,Gulf,Tug/tow,2015-2018,inland,sinking_capsize
+N1191452,A no AIS candidate,,NRC,Pacific NW,Fishing,2015-2018,sea,sinking_capsize
+N1193294,A no AIS candidate,,NRC,Hawaii/Pacific,Fishing,2015-2018,sea,grounding
+N1193456,A no AIS candidate,,NRC,Atlantic,Fishing,2015-2018,sea,sinking_capsize
+N1195180,A no AIS candidate,,NRC,Pacific NW,Tug/tow,2015-2018,sea,sinking_capsize
+N1195188,A no AIS candidate,,NRC,Florida,Fishing,2015-2018,sea,sinking_capsize
+N1195201,F matched set (analysed),,NRC,California,Passenger,2015-2018,inland,discharge
+N1195904,A no AIS candidate,,NRC,Atlantic,Fishing,2015-2018,sea,grounding
+N1197044,F matched set (analysed),,NRC,Atlantic,Tug/tow,2015-2018,sea,other
+N1197752,A no AIS candidate,,NRC,Pacific NW,Fishing,2015-2018,sea,sinking_capsize
+N1198208,B candidates all beyond 100 km,,NRC,Hawaii/Pacific,Fishing,2015-2018,sea,sinking_capsize
+N1198372,A no AIS candidate,,NRC,California,Fishing,2015-2018,sea,grounding
+N1198393,"C reviewed, not confirmed",,NRC,Pacific NW,Tug/tow,2015-2018,inland,sinking_capsize
+N1199547,A no AIS candidate,,NRC,California,Fishing,2015-2018,sea,sinking_capsize
+N1199568,A no AIS candidate,,NRC,California,Fishing,2015-2018,sea,sinking_capsize
+N1199776,A no AIS candidate,,NRC,California,Fishing,2015-2018,sea,other
+N1199777,A no AIS candidate,,NRC,California,Fishing,2015-2018,sea,other
+N1200951,A no AIS candidate,,NRC,Florida,Fishing,2015-2018,sea,sinking_capsize
+N1201487,A no AIS candidate,,NRC,Inland/other,Tug/tow,2015-2018,inland,sinking_capsize
+N1201847,A no AIS candidate,,NRC,Florida,Fishing,2015-2018,inland,sinking_capsize
+N1202729,A no AIS candidate,,NRC,Atlantic,Fishing,2015-2018,sea,grounding
+N1202811,B candidates all beyond 100 km,,NRC,Pacific NW,Fishing,2015-2018,sea,sinking_capsize
+N1203521,A no AIS candidate,,NRC,Gulf,Fishing,2015-2018,sea,sinking_capsize
+N1203593,A no AIS candidate,,NRC,Florida,Tug/tow,2015-2018,sea,sinking_capsize
+N1204705,B candidates all beyond 100 km,,NRC,Atlantic,Tug/tow,2015-2018,sea,sinking_capsize
+N1205440,A no AIS candidate,,NRC,Pacific NW,Fishing,2015-2018,sea,sinking_capsize
+N1206369,A no AIS candidate,,NRC,Florida,Fishing,2015-2018,sea,sinking_capsize
+N1207141,A no AIS candidate,,NRC,Atlantic,Fishing,2015-2018,inland,sinking_capsize
+N1207315,F matched set (analysed),,NRC,Great Lakes,Tug/tow,2015-2018,inland,collision_allision
+N1207378,A no AIS candidate,,NRC,Alaska,Fishing,2015-2018,sea,grounding
+N1207593,A no AIS candidate,,NRC,Florida,Fishing,2015-2018,sea,grounding
+N1208231,A no AIS candidate,,NRC,Pacific NW,Fishing,2015-2018,sea,sinking_capsize
+N1209130,A no AIS candidate,,NRC,Great Lakes,Tug/tow,2015-2018,sea,collision_allision
+N1209312,B candidates all beyond 100 km,,NRC,Inland/other,Tug/tow,2015-2018,sea,sinking_capsize
+N1211079,A no AIS candidate,,NRC,Gulf,Fishing,2015-2018,inland,sinking_capsize
+N1212294,A no AIS candidate,,NRC,Gulf,Fishing,2015-2018,inland,sinking_capsize
+N1212709,A no AIS candidate,,NRC,Pacific NW,Fishing,2015-2018,sea,sinking_capsize
+N1212796,A no AIS candidate,,NRC,Gulf,Fishing,2015-2018,sea,sinking_capsize
+N1213267,F matched set (analysed),,NRC,Gulf,Tanker,2015-2018,inland,grounding
+N1213882,F matched set (analysed),,NRC,Atlantic,Cargo,2015-2018,sea,collision_allision
+N1214440,A no AIS candidate,,NRC,Atlantic,Fishing,2015-2018,inland,sinking_capsize
+N1215847,F matched set (analysed),,NRC,Atlantic,Tug/tow,2015-2018,inland,sinking_capsize
+N1215925,A no AIS candidate,,NRC,Gulf,Tug/tow,2015-2018,sea,grounding
+N1217100,A no AIS candidate,,NRC,Alaska,Fishing,2015-2018,sea,grounding
+N1217661,A no AIS candidate,,NRC,Gulf,Fishing,2015-2018,sea,sinking_capsize
+N1217667,A no AIS candidate,,NRC,Alaska,Fishing,2015-2018,sea,discharge
+N1218101,A no AIS candidate,,NRC,Atlantic,Tanker,2015-2018,sea,equipment_failure
+N1218602,F matched set (analysed),,NRC,Atlantic,Tug/tow,2015-2018,sea,grounding
+N1218604,F matched set (analysed),,NRC,Atlantic,Tug/tow,2015-2018,sea,grounding
+N1218632,A no AIS candidate,,NRC,Gulf,Fishing,2015-2018,sea,sinking_capsize
+N1219544,A no AIS candidate,,NRC,California,Fishing,2015-2018,sea,sinking_capsize
+N1219915,F matched set (analysed),,NRC,Alaska,Fishing,2015-2018,sea,discharge
+N1221250,A no AIS candidate,,NRC,Gulf,Fishing,2015-2018,sea,sinking_capsize
+N1222751,A no AIS candidate,,NRC,Gulf,Fishing,2015-2018,inland,sinking_capsize
+N1222932,A no AIS candidate,,NRC,California,Fishing,2015-2018,sea,sinking_capsize
+N1223301,A no AIS candidate,,NRC,Alaska,Fishing,2015-2018,sea,grounding
+N1223898,A no AIS candidate,,NRC,Gulf,Tug/tow,2015-2018,sea,sinking_capsize
+N1223903,A no AIS candidate,,NRC,California,Fishing,2015-2018,sea,sinking_capsize
+N1223968,B candidates all beyond 100 km,,NRC,Alaska,Fishing,2015-2018,sea,grounding
+N1224238,A no AIS candidate,,NRC,California,Fishing,2015-2018,sea,grounding
+N1224290,A no AIS candidate,,NRC,Gulf,Fishing,2015-2018,inland,sinking_capsize
+N1224993,A no AIS candidate,,NRC,Hawaii/Pacific,Fishing,2015-2018,sea,sinking_capsize
+N1225423,B candidates all beyond 100 km,,NRC,Alaska,Fishing,2015-2018,sea,grounding
+N1225561,A no AIS candidate,,NRC,Alaska,Fishing,2015-2018,sea,sinking_capsize
+N1225698,F matched set (analysed),,NRC,Inland/other,Tug/tow,2015-2018,inland,discharge
+N1226265,A no AIS candidate,,NRC,Florida,Fishing,2015-2018,sea,grounding
+N1227019,F matched set (analysed),,NRC,Inland/other,Tug/tow,2015-2018,sea,other
+N1227487,F matched set (analysed),,NRC,Gulf,Other,2015-2018,inland,grounding
+N1228753,A no AIS candidate,,NRC,Atlantic,Fishing,2015-2018,sea,sinking_capsize
+N1229654,B candidates all beyond 100 km,,NRC,Gulf,Fishing,2015-2018,inland,sinking_capsize
+N1231179,A no AIS candidate,,NRC,Atlantic,Fishing,2015-2018,sea,grounding
+N1231466,A no AIS candidate,,NRC,Inland/other,Tug/tow,2015-2018,inland,sinking_capsize
+N1231863,A no AIS candidate,,NRC,Gulf,Fishing,2015-2018,sea,sinking_capsize
+N1234784,A no AIS candidate,,NRC,Great Lakes,Tug/tow,2019-2021,inland,collision_allision
+N1236695,A no AIS candidate,,NRC,Caribbean,Fishing,2019-2021,sea,sinking_capsize
+N1237204,F matched set (analysed),,NRC,Great Lakes,Tug/tow,2019-2021,inland,sinking_capsize
+N1237522,B candidates all beyond 100 km,,NRC,Alaska,Fishing,2019-2021,sea,grounding
+N1237781,F matched set (analysed),,NRC,California,Passenger,2019-2021,sea,discharge
+N1237817,F matched set (analysed),,NRC,Gulf,Tanker,2019-2021,inland,grounding
+N1240427,F matched set (analysed),,NRC,Gulf,Tug/tow,2019-2021,inland,sinking_capsize
+N1242404,A no AIS candidate,,NRC,Atlantic,Tug/tow,2019-2021,sea,sinking_capsize
+N1242425,A no AIS candidate,,NRC,Atlantic,Fishing,2019-2021,sea,grounding
+N1242747,F matched set (analysed),,NRC,Gulf,Tug/tow,2019-2021,sea,collision_allision
+N1242749,A no AIS candidate,,NRC,Gulf,Tug/tow,2019-2021,sea,sinking_capsize
+N1244377,F matched set (analysed),,NRC,Gulf,Tug/tow,2019-2021,sea,sinking_capsize
+N1245641,B candidates all beyond 100 km,,NRC,Pacific NW,Fishing,2019-2021,sea,grounding
+N1246254,A no AIS candidate,,NRC,Gulf,Tug/tow,2019-2021,inland,sinking_capsize
+N1246794,A no AIS candidate,,NRC,Atlantic,Fishing,2019-2021,sea,sinking_capsize
+N1248061,F matched set (analysed),,NRC,Gulf,Fishing,2019-2021,sea,sinking_capsize
+N1248262_1,A no AIS candidate,,NRC,Gulf,Tug/tow,2019-2021,inland,grounding
+N1248262_2,A no AIS candidate,,NRC,Gulf,Cargo,2019-2021,inland,grounding
+N1248973,A no AIS candidate,,NRC,Florida,Fishing,2019-2021,inland,sinking_capsize
+N1249307,A no AIS candidate,,NRC,California,Fishing,2019-2021,sea,grounding
+N1251016_1,A no AIS candidate,,NRC,Great Lakes,Tug/tow,2019-2021,inland,sinking_capsize
+N1251016_2,"C reviewed, not confirmed",,NRC,Great Lakes,Tug/tow,2019-2021,inland,sinking_capsize
+N1252295,A no AIS candidate,,NRC,Gulf,Tug/tow,2019-2021,inland,sinking_capsize
+N1253146,F matched set (analysed),,NRC,Gulf,Tanker,2019-2021,sea,discharge
+N1253971,F matched set (analysed),,NRC,Atlantic,Fishing,2019-2021,sea,grounding
+N1254014,F matched set (analysed),,NRC,Pacific NW,Fishing,2019-2021,sea,grounding
+N1255388,A no AIS candidate,,NRC,Florida,Fishing,2019-2021,inland,sinking_capsize
+N1255451,"C reviewed, not confirmed",,NRC,Florida,Fishing,2019-2021,sea,sinking_capsize
+N1256791,A no AIS candidate,,NRC,Great Lakes,Cargo,2019-2021,sea,other
+N1257928,A no AIS candidate,,NRC,Atlantic,Fishing,2019-2021,sea,collision_allision
+N1258693,A no AIS candidate,,NRC,Gulf,Tug/tow,2019-2021,inland,sinking_capsize
+N1258744,A no AIS candidate,,NRC,Florida,Tug/tow,2019-2021,sea,discharge
+N1258756,A no AIS candidate,,NRC,Atlantic,Cargo,2019-2021,sea,sinking_capsize
+N1259367,A no AIS candidate,,NRC,Gulf,Tug/tow,2019-2021,sea,other
+N1259620,A no AIS candidate,,NRC,Gulf,Fishing,2019-2021,sea,collision_allision
+N1259743,A no AIS candidate,,NRC,Great Lakes,Tug/tow,2019-2021,sea,sinking_capsize
+N1260108,A no AIS candidate,,NRC,Atlantic,Tug/tow,2019-2021,inland,collision_allision
+N1261693_1,F matched set (analysed),,NRC,Gulf,Tug/tow,2019-2021,inland,collision_allision
+N1261693_2,"E main, no matched set",fewer_than_5_controls,NRC,Gulf,Tug/tow,2019-2021,inland,collision_allision
+N1261696,"E main, no matched set",fewer_than_5_controls,NRC,Gulf,Tug/tow,2019-2021,inland,collision_allision
+N1263879,A no AIS candidate,,NRC,Gulf,Tug/tow,2019-2021,sea,collision_allision
+N1264158,A no AIS candidate,,NRC,Atlantic,Tug/tow,2019-2021,sea,sinking_capsize
+N1264265,A no AIS candidate,,NRC,Gulf,Passenger,2019-2021,sea,sinking_capsize
+N1264320,A no AIS candidate,,NRC,Atlantic,Tug/tow,2019-2021,sea,discharge
+N1264736,B candidates all beyond 100 km,,NRC,California,Fishing,2019-2021,sea,sinking_capsize
+N1265093,B candidates all beyond 100 km,,NRC,Gulf,Fishing,2019-2021,sea,other
+N1266851,B candidates all beyond 100 km,,NRC,Atlantic,Fishing,2019-2021,sea,grounding
+N1266965,A no AIS candidate,,NRC,Florida,Fishing,2019-2021,sea,sinking_capsize
+N1267172,A no AIS candidate,,NRC,Florida,Fishing,2019-2021,sea,grounding
+N1267275,F matched set (analysed),,NRC,California,Tug/tow,2019-2021,inland,sinking_capsize
+N1268221,A no AIS candidate,,NRC,Gulf,Fishing,2019-2021,inland,sinking_capsize
+N1269885,A no AIS candidate,,NRC,Alaska,Fishing,2019-2021,sea,sinking_capsize
+N1270969_1,A no AIS candidate,,NRC,Atlantic,Fishing,2019-2021,sea,sinking_capsize
+N1270969_2,B candidates all beyond 100 km,,NRC,Atlantic,Fishing,2019-2021,sea,sinking_capsize
+N1270969_3,A no AIS candidate,,NRC,Atlantic,Fishing,2019-2021,sea,sinking_capsize
+N1271490,A no AIS candidate,,NRC,Atlantic,Fishing,2019-2021,inland,sinking_capsize
+N1271673,B candidates all beyond 100 km,,NRC,Florida,Fishing,2019-2021,sea,sinking_capsize
+N1271940,A no AIS candidate,,NRC,Pacific NW,Tug/tow,2019-2021,inland,sinking_capsize
+N1272175,B candidates all beyond 100 km,,NRC,Pacific NW,Fishing,2019-2021,sea,sinking_capsize
+N1272704,A no AIS candidate,,NRC,Atlantic,Fishing,2019-2021,sea,sinking_capsize
+N1273666,A no AIS candidate,,NRC,Gulf,Fishing,2019-2021,sea,sinking_capsize
+N1273845,A no AIS candidate,,NRC,Great Lakes,Cargo,2019-2021,inland,grounding
+N1275399,A no AIS candidate,,NRC,Alaska,Fishing,2019-2021,sea,sinking_capsize
+N1275796,A no AIS candidate,,NRC,Gulf,Tug/tow,2019-2021,sea,grounding
+N1276831,A no AIS candidate,,NRC,Atlantic,Fishing,2019-2021,sea,grounding
+N1276948,B candidates all beyond 100 km,,NRC,Inland/other,Tug/tow,2019-2021,inland,sinking_capsize
+N1277026,B candidates all beyond 100 km,,NRC,California,Fishing,2019-2021,sea,grounding
+N1277798,A no AIS candidate,,NRC,Atlantic,Fishing,2019-2021,sea,sinking_capsize
+N1278521,B candidates all beyond 100 km,,NRC,Great Lakes,Fishing,2019-2021,sea,sinking_capsize
+N1278573,F matched set (analysed),,NRC,Gulf,Tug/tow,2019-2021,sea,collision_allision
+N1278983,A no AIS candidate,,NRC,Atlantic,Cargo,2019-2021,sea,sinking_capsize
+N1279752,A no AIS candidate,,NRC,Atlantic,Fishing,2019-2021,sea,sinking_capsize
+N1280550,A no AIS candidate,,NRC,Gulf,Fishing,2019-2021,inland,sinking_capsize
+N1281028,F matched set (analysed),,NRC,Florida,Other,2019-2021,sea,other
+N1282440,A no AIS candidate,,NRC,Inland/other,Tug/tow,2019-2021,inland,grounding
+N1283756,F matched set (analysed),,NRC,Gulf,Tanker,2019-2021,inland,grounding
+N1284059,A no AIS candidate,,NRC,Florida,Fishing,2019-2021,inland,sinking_capsize
+N1284388,B candidates all beyond 100 km,,NRC,Great Lakes,Tug/tow,2019-2021,inland,sinking_capsize
+N1284851,B candidates all beyond 100 km,,NRC,Florida,Fishing,2019-2021,sea,sinking_capsize
+N1284872,F matched set (analysed),,NRC,Pacific NW,Tug/tow,2019-2021,inland,collision_allision
+N1285082,A no AIS candidate,,NRC,Atlantic,Passenger,2019-2021,inland,grounding
+N1285657,A no AIS candidate,,NRC,Atlantic,Fishing,2019-2021,sea,collision_allision
+N1285763_1,A no AIS candidate,,NRC,Alaska,Tanker,2019-2021,sea,collision_allision
+N1285763_2,A no AIS candidate,,NRC,Alaska,Tanker,2019-2021,sea,collision_allision
+N1285830,A no AIS candidate,,NRC,Great Lakes,Cargo,2019-2021,inland,collision_allision
+N1286323,A no AIS candidate,,NRC,Atlantic,Fishing,2019-2021,sea,sinking_capsize
+N1286909,A no AIS candidate,,NRC,Florida,Fishing,2019-2021,inland,grounding
+N1287369,F matched set (analysed),,NRC,Gulf,Tug/tow,2019-2021,inland,grounding
+N1287536,A no AIS candidate,,NRC,Gulf,Fishing,2019-2021,sea,sinking_capsize
+N1287720,B candidates all beyond 100 km,,NRC,Gulf,Tug/tow,2019-2021,sea,sinking_capsize
+N1287967,A no AIS candidate,,NRC,Alaska,Fishing,2019-2021,sea,grounding
+N1288224,"C reviewed, not confirmed",,NRC,Atlantic,Fishing,2019-2021,sea,sinking_capsize
+N1288645,A no AIS candidate,,NRC,Gulf,Fishing,2019-2021,inland,sinking_capsize
+N1288780,F matched set (analysed),,NRC,Pacific NW,Cargo,2019-2021,inland,grounding
+N1289306,F matched set (analysed),,NRC,Pacific NW,Cargo,2019-2021,inland,grounding
+N1289311,A no AIS candidate,,NRC,Gulf,Fishing,2019-2021,inland,collision_allision
+N1290063,A no AIS candidate,,NRC,Great Lakes,Tug/tow,2019-2021,inland,sinking_capsize
+N1290068,A no AIS candidate,,NRC,Great Lakes,Tug/tow,2019-2021,inland,sinking_capsize
+N1290976,"D confirmed, excluded from main",,NRC,Gulf,Other,2019-2021,inland,grounding
+N1291340,A no AIS candidate,,NRC,Inland/other,Fishing,2019-2021,sea,sinking_capsize
+N1292147,A no AIS candidate,,NRC,Atlantic,Fishing,2019-2021,inland,sinking_capsize
+N1293018,B candidates all beyond 100 km,,NRC,Atlantic,Tug/tow,2019-2021,sea,grounding
+N1293030,A no AIS candidate,,NRC,Pacific NW,Fishing,2019-2021,sea,sinking_capsize
+N1293138_1,"C reviewed, not confirmed",,NRC,Caribbean,Tug/tow,2019-2021,sea,sinking_capsize
+N1293138_2,A no AIS candidate,,NRC,Caribbean,Tug/tow,2019-2021,sea,sinking_capsize
+N1293355,A no AIS candidate,,NRC,Inland/other,Cargo,2019-2021,inland,grounding
+N1293448,A no AIS candidate,,NRC,Atlantic,Fishing,2019-2021,sea,grounding
+N1293774,A no AIS candidate,,NRC,Florida,Tug/tow,2019-2021,sea,grounding
+N1294292,A no AIS candidate,,NRC,Atlantic,Tug/tow,2019-2021,sea,sinking_capsize
+N1294301,A no AIS candidate,,NRC,Atlantic,Tug/tow,2019-2021,sea,sinking_capsize
+N1294634,A no AIS candidate,,NRC,Pacific NW,Fishing,2019-2021,sea,sinking_capsize
+N1294947,F matched set (analysed),,NRC,Caribbean,Tug/tow,2019-2021,sea,sinking_capsize
+N1294982,A no AIS candidate,,NRC,Atlantic,Fishing,2019-2021,sea,sinking_capsize
+N1295036,A no AIS candidate,,NRC,Inland/other,Tug/tow,2019-2021,inland,sinking_capsize
+N1295075,F matched set (analysed),,NRC,Great Lakes,Tug/tow,2019-2021,inland,sinking_capsize
+N1295268,A no AIS candidate,,NRC,Atlantic,Fishing,2019-2021,inland,grounding
+N1295510,A no AIS candidate,,NRC,Pacific NW,Fishing,2019-2021,sea,discharge
+N1295605,A no AIS candidate,,NRC,Atlantic,Fishing,2019-2021,sea,sinking_capsize
+N1295738,"E main, no matched set",fewer_than_5_controls,NRC,Florida,Fishing,2019-2021,sea,grounding
+N1295774,A no AIS candidate,,NRC,Pacific NW,Fishing,2019-2021,inland,sinking_capsize
+N1295810,A no AIS candidate,,NRC,Gulf,Fishing,2019-2021,sea,collision_allision
+N1295942,A no AIS candidate,,NRC,Pacific NW,Tug/tow,2019-2021,sea,sinking_capsize
+N1296010,A no AIS candidate,,NRC,Atlantic,Cargo,2019-2021,sea,sinking_capsize
+N1296124,A no AIS candidate,,NRC,Great Lakes,Tug/tow,2019-2021,sea,sinking_capsize
+N1296341,A no AIS candidate,,NRC,Gulf,Fishing,2019-2021,sea,grounding
+N1296500,A no AIS candidate,,NRC,Caribbean,Fishing,2019-2021,sea,sinking_capsize
+N1296932,A no AIS candidate,,NRC,Gulf,Fishing,2019-2021,sea,sinking_capsize
+N1297282,A no AIS candidate,,NRC,Atlantic,Fishing,2019-2021,sea,sinking_capsize
+N1297921,A no AIS candidate,,NRC,Pacific NW,Fishing,2019-2021,sea,sinking_capsize
+N1298547,A no AIS candidate,,NRC,Pacific NW,Fishing,2019-2021,sea,sinking_capsize
+N1299286,A no AIS candidate,,NRC,Florida,Fishing,2019-2021,inland,sinking_capsize
+N1299586,"E main, no matched set",fewer_than_5_controls,NRC,Inland/other,Tug/tow,2019-2021,inland,grounding
+N1299656,A no AIS candidate,,NRC,Atlantic,Fishing,2019-2021,sea,sinking_capsize
+N1299725,B candidates all beyond 100 km,,NRC,California,Fishing,2019-2021,sea,grounding
+N1299744,B candidates all beyond 100 km,,NRC,Pacific NW,Fishing,2019-2021,inland,sinking_capsize
+N1300322,A no AIS candidate,,NRC,Great Lakes,Tug/tow,2019-2021,inland,sinking_capsize
+N1301396,A no AIS candidate,,NRC,Atlantic,Fishing,2019-2021,sea,sinking_capsize
+N1302690,A no AIS candidate,,NRC,Atlantic,Fishing,2019-2021,sea,sinking_capsize
+N1303874,"D confirmed, excluded from main",,NRC,Gulf,Other,2019-2021,sea,sinking_capsize
+N1304308,A no AIS candidate,,NRC,Atlantic,Tug/tow,2019-2021,inland,other
+N1304549,A no AIS candidate,,NRC,Atlantic,Fishing,2019-2021,sea,sinking_capsize
+N1304975,F matched set (analysed),,NRC,Atlantic,Fishing,2019-2021,sea,grounding
+N1305177,A no AIS candidate,,NRC,California,Fishing,2019-2021,sea,sinking_capsize
+N1306164,B candidates all beyond 100 km,,NRC,Atlantic,Fishing,2019-2021,sea,sinking_capsize
+N1307034,A no AIS candidate,,NRC,Gulf,Fishing,2019-2021,inland,sinking_capsize
+N1307037,A no AIS candidate,,NRC,Gulf,Fishing,2019-2021,inland,sinking_capsize
+N1308532,A no AIS candidate,,NRC,Atlantic,Passenger,2019-2021,inland,discharge
+N1309258,A no AIS candidate,,NRC,Alaska,Fishing,2019-2021,sea,sinking_capsize
+N1309350,B candidates all beyond 100 km,,NRC,California,Fishing,2019-2021,sea,grounding
+N1309361,A no AIS candidate,,NRC,Alaska,Fishing,2019-2021,sea,sinking_capsize
+N1309620_1,"E main, no matched set",fewer_than_5_controls,NRC,Gulf,Tug/tow,2019-2021,sea,collision_allision
+N1309620_2,F matched set (analysed),,NRC,Gulf,Tug/tow,2019-2021,sea,collision_allision
+N1310081,A no AIS candidate,,NRC,Inland/other,Passenger,2019-2021,inland,sinking_capsize
+N1310105,A no AIS candidate,,NRC,Alaska,Fishing,2019-2021,sea,sinking_capsize
+N1310317,"E main, no matched set",fewer_than_5_controls,NRC,Inland/other,Passenger,2019-2021,inland,grounding
+N1310478,A no AIS candidate,,NRC,Alaska,Fishing,2019-2021,sea,sinking_capsize
+N1310555,A no AIS candidate,,NRC,Pacific NW,Fishing,2019-2021,sea,sinking_capsize
+N1310867,A no AIS candidate,,NRC,Alaska,Fishing,2019-2021,sea,grounding
+N1311113,A no AIS candidate,,NRC,Alaska,Fishing,2019-2021,inland,sinking_capsize
+N1311154,A no AIS candidate,,NRC,Atlantic,Fishing,2019-2021,sea,sinking_capsize
+N1311490,B candidates all beyond 100 km,,NRC,Alaska,Fishing,2019-2021,sea,grounding
+N1311655,B candidates all beyond 100 km,,NRC,Alaska,Fishing,2019-2021,sea,collision_allision
+N1312481,B candidates all beyond 100 km,,NRC,Atlantic,Cargo,2019-2021,sea,sinking_capsize
+N1313010,B candidates all beyond 100 km,,NRC,Atlantic,Cargo,2019-2021,inland,sinking_capsize
+N1313058,A no AIS candidate,,NRC,Gulf,Tug/tow,2019-2021,inland,sinking_capsize
+N1313060,A no AIS candidate,,NRC,Pacific NW,Fishing,2019-2021,inland,collision_allision
+N1313209,A no AIS candidate,,NRC,Atlantic,Fishing,2019-2021,inland,sinking_capsize
+N1313317,F matched set (analysed),,NRC,Great Lakes,Tug/tow,2019-2021,inland,sinking_capsize
+N1313547,B candidates all beyond 100 km,,NRC,Atlantic,Fishing,2019-2021,sea,sinking_capsize
+N1313557,A no AIS candidate,,NRC,Gulf,Tug/tow,2019-2021,inland,sinking_capsize
+N1314528,A no AIS candidate,,NRC,Atlantic,Tug/tow,2019-2021,sea,grounding
+N1314755,F matched set (analysed),,NRC,Atlantic,Passenger,2019-2021,inland,discharge
+N1314851,B candidates all beyond 100 km,,NRC,Alaska,Fishing,2019-2021,sea,grounding
+N1314882,F matched set (analysed),,NRC,Gulf,Tug/tow,2019-2021,sea,discharge
+N1314986,B candidates all beyond 100 km,,NRC,Alaska,Fishing,2019-2021,sea,grounding
+N1315080,A no AIS candidate,,NRC,Gulf,Cargo,2019-2021,inland,collision_allision
+N1315283,A no AIS candidate,,NRC,Gulf,Fishing,2019-2021,sea,sinking_capsize
+N1315384,"D confirmed, excluded from main",,NRC,Gulf,Cargo,2019-2021,sea,grounding
+N1315652,A no AIS candidate,,NRC,Atlantic,Fishing,2019-2021,sea,sinking_capsize
+N1315715,A no AIS candidate,,NRC,Gulf,Cargo,2019-2021,inland,collision_allision
+N1315822,A no AIS candidate,,NRC,Florida,Tug/tow,2019-2021,inland,sinking_capsize
+N1316728,"D confirmed, excluded from main",,NRC,Gulf,Tug/tow,2019-2021,inland,sinking_capsize
+N1316730,B candidates all beyond 100 km,,NRC,California,Fishing,2019-2021,sea,sinking_capsize
+N1317803,A no AIS candidate,,NRC,Atlantic,Fishing,2019-2021,sea,sinking_capsize
+N1317809,F matched set (analysed),,NRC,Inland/other,Tug/tow,2019-2021,inland,collision_allision
+N1318603,B candidates all beyond 100 km,,NRC,Atlantic,Fishing,2019-2021,inland,sinking_capsize
+N1318718,A no AIS candidate,,NRC,Atlantic,Fishing,2019-2021,sea,sinking_capsize
+N1319107,"C reviewed, not confirmed",,NRC,Atlantic,Fishing,2019-2021,sea,grounding
+N1320090,A no AIS candidate,,NRC,Atlantic,Fishing,2019-2021,sea,grounding
+N1320552,A no AIS candidate,,NRC,Atlantic,Fishing,2019-2021,sea,sinking_capsize
+N1320833,B candidates all beyond 100 km,,NRC,Atlantic,Fishing,2019-2021,sea,sinking_capsize
+N1320984,A no AIS candidate,,NRC,Gulf,Fishing,2019-2021,sea,grounding
+N1321103,B candidates all beyond 100 km,,NRC,Alaska,Fishing,2019-2021,sea,grounding
+N1321213,B candidates all beyond 100 km,,NRC,Gulf,Fishing,2019-2021,sea,sinking_capsize
+N1321775,A no AIS candidate,,NRC,Alaska,Fishing,2019-2021,sea,sinking_capsize
+N1322063,A no AIS candidate,,NRC,Atlantic,Tug/tow,2019-2021,inland,sinking_capsize
+N1322568,A no AIS candidate,,NRC,Florida,Fishing,2019-2021,sea,sinking_capsize
+N1322953,A no AIS candidate,,NRC,Atlantic,Fishing,2019-2021,sea,sinking_capsize
+N1323458,F matched set (analysed),,NRC,California,Tanker,2019-2021,sea,discharge
+N1324216,"E main, no matched set",fewer_than_5_controls,NRC,California,Tanker,2019-2021,sea,discharge
+N1325002,F matched set (analysed),,NRC,Inland/other,Tug/tow,2019-2021,inland,sinking_capsize
+N1325093,A no AIS candidate,,NRC,Atlantic,Fishing,2019-2021,sea,sinking_capsize
+N1325281,B candidates all beyond 100 km,,NRC,California,Fishing,2019-2021,sea,sinking_capsize
+N1325528,F matched set (analysed),,NRC,Atlantic,Tug/tow,2019-2021,sea,discharge
+N1326468,A no AIS candidate,,NRC,Gulf,Other,2022-2025,sea,collision_allision
+N1327250,F matched set (analysed),,NRC,Atlantic,Other,2022-2025,sea,grounding
+N1327862,A no AIS candidate,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1327970,A no AIS candidate,,NRC,Gulf,Fishing,2022-2025,sea,sinking_capsize
+N1328782,A no AIS candidate,,NRC,Alaska,Fishing,2022-2025,sea,grounding
+N1328787,A no AIS candidate,,NRC,Alaska,Fishing,2022-2025,sea,grounding
+N1329076,A no AIS candidate,,NRC,California,Tug/tow,2022-2025,sea,sinking_capsize
+N1329792,A no AIS candidate,,NRC,Inland/other,Tug/tow,2022-2025,sea,sinking_capsize
+N1329811,"D confirmed, excluded from main",,NRC,Pacific NW,Passenger,2022-2025,sea,discharge
+N1331411,"E main, no matched set",fewer_than_5_controls,NRC,Gulf,Cargo,2022-2025,inland,discharge
+N1331509,B candidates all beyond 100 km,,NRC,Pacific NW,Fishing,2022-2025,sea,sinking_capsize
+N1331571,A no AIS candidate,,NRC,Alaska,Tug/tow,2022-2025,sea,grounding
+N1331572,A no AIS candidate,,NRC,Alaska,Tug/tow,2022-2025,sea,discharge
+N1331796,A no AIS candidate,,NRC,California,Fishing,2022-2025,inland,grounding
+N1332003_1,F matched set (analysed),,NRC,Gulf,Tug/tow,2022-2025,sea,collision_allision
+N1332003_2,A no AIS candidate,,NRC,Gulf,Tug/tow,2022-2025,sea,collision_allision
+N1332760,A no AIS candidate,,NRC,Great Lakes,Fishing,2022-2025,sea,sinking_capsize
+N1332846,A no AIS candidate,,NRC,Atlantic,Fishing,2022-2025,sea,grounding
+N1333264,"E main, no matched set",fewer_than_5_controls,NRC,Florida,Passenger,2022-2025,sea,discharge
+N1333535,F matched set (analysed),,NRC,Gulf,Tug/tow,2022-2025,sea,collision_allision
+N1333771,A no AIS candidate,,NRC,Florida,Fishing,2022-2025,sea,sinking_capsize
+N1334294,A no AIS candidate,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1334320,A no AIS candidate,,NRC,Florida,Fishing,2022-2025,inland,sinking_capsize
+N1334817,F matched set (analysed),,NRC,Gulf,Cargo,2022-2025,inland,collision_allision
+N1334928,A no AIS candidate,,NRC,Inland/other,Fishing,2022-2025,sea,sinking_capsize
+N1335545,A no AIS candidate,,NRC,Alaska,Passenger,2022-2025,sea,collision_allision
+N1335638,A no AIS candidate,,NRC,Great Lakes,Tug/tow,2022-2025,inland,sinking_capsize
+N1335644,A no AIS candidate,,NRC,Inland/other,Tanker,2022-2025,inland,grounding
+N1335649,A no AIS candidate,,NRC,Inland/other,Tanker,2022-2025,inland,grounding
+N1336222,A no AIS candidate,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1336405,A no AIS candidate,,NRC,Great Lakes,Tug/tow,2022-2025,inland,sinking_capsize
+N1336409,A no AIS candidate,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1337033,A no AIS candidate,,NRC,Gulf,Fishing,2022-2025,inland,sinking_capsize
+N1337606,A no AIS candidate,,NRC,Gulf,Fishing,2022-2025,sea,sinking_capsize
+N1338147,A no AIS candidate,,NRC,Inland/other,Fishing,2022-2025,sea,sinking_capsize
+N1338163,"E main, no matched set",fewer_than_5_controls,NRC,Florida,Tug/tow,2022-2025,sea,grounding
+N1338717,A no AIS candidate,,NRC,Pacific NW,Fishing,2022-2025,sea,sinking_capsize
+N1338969,A no AIS candidate,,NRC,Gulf,Fishing,2022-2025,inland,sinking_capsize
+N1339097,A no AIS candidate,,NRC,Alaska,Fishing,2022-2025,sea,grounding
+N1339500,A no AIS candidate,,NRC,Pacific NW,Fishing,2022-2025,sea,other
+N1339561,F matched set (analysed),,NRC,Gulf,Tug/tow,2022-2025,inland,sinking_capsize
+N1339924,A no AIS candidate,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1340876,A no AIS candidate,,NRC,Alaska,Fishing,2022-2025,sea,sinking_capsize
+N1341066,B candidates all beyond 100 km,,NRC,Florida,Fishing,2022-2025,sea,sinking_capsize
+N1341581,F matched set (analysed),,NRC,Great Lakes,Tug/tow,2022-2025,inland,grounding
+N1341722,"E main, no matched set",fewer_than_5_controls,NRC,Inland/other,Tug/tow,2022-2025,inland,grounding
+N1342886,A no AIS candidate,,NRC,Pacific NW,Passenger,2022-2025,inland,sinking_capsize
+N1343756,B candidates all beyond 100 km,,NRC,Alaska,Cargo,2022-2025,sea,discharge
+N1343794,F matched set (analysed),,NRC,Gulf,Tug/tow,2022-2025,sea,grounding
+N1344630,A no AIS candidate,,NRC,Pacific NW,Fishing,2022-2025,inland,grounding
+N1344658,B candidates all beyond 100 km,,NRC,Alaska,Fishing,2022-2025,inland,grounding
+N1346809,A no AIS candidate,,NRC,Inland/other,Fishing,2022-2025,sea,grounding
+N1346946,B candidates all beyond 100 km,,NRC,California,Fishing,2022-2025,sea,sinking_capsize
+N1346967,B candidates all beyond 100 km,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1347538,F matched set (analysed),,NRC,Florida,Tug/tow,2022-2025,sea,grounding
+N1347801,A no AIS candidate,,NRC,California,Fishing,2022-2025,inland,sinking_capsize
+N1348604,A no AIS candidate,,NRC,Florida,Fishing,2022-2025,sea,sinking_capsize
+N1349836,A no AIS candidate,,NRC,Florida,Fishing,2022-2025,inland,sinking_capsize
+N1350173,A no AIS candidate,,NRC,Atlantic,Passenger,2022-2025,inland,discharge
+N1350347,A no AIS candidate,,NRC,California,Passenger,2022-2025,sea,other
+N1350603,A no AIS candidate,,NRC,Gulf,Fishing,2022-2025,sea,grounding
+N1350685,A no AIS candidate,,NRC,Inland/other,Tug/tow,2022-2025,inland,sinking_capsize
+N1350752,A no AIS candidate,,NRC,California,Fishing,2022-2025,sea,sinking_capsize
+N1351429,A no AIS candidate,,NRC,Gulf,Fishing,2022-2025,sea,sinking_capsize
+N1351444,A no AIS candidate,,NRC,Florida,Fishing,2022-2025,inland,sinking_capsize
+N1351624,A no AIS candidate,,NRC,California,Fishing,2022-2025,sea,sinking_capsize
+N1352613,F matched set (analysed),,NRC,California,Other,2022-2025,sea,discharge
+N1352623,F matched set (analysed),,NRC,California,Other,2022-2025,sea,discharge
+N1352745,A no AIS candidate,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1352747,A no AIS candidate,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1353057,F matched set (analysed),,NRC,Florida,Cargo,2022-2025,sea,grounding
+N1353314,"C reviewed, not confirmed",,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1353639,A no AIS candidate,,NRC,Alaska,Fishing,2022-2025,sea,grounding
+N1353660,A no AIS candidate,,NRC,Gulf,Fishing,2022-2025,sea,sinking_capsize
+N1353871,A no AIS candidate,,NRC,California,Fishing,2022-2025,sea,sinking_capsize
+N1354164,"C reviewed, not confirmed",,NRC,Gulf,Tug/tow,2022-2025,sea,sinking_capsize
+N1355028,A no AIS candidate,,NRC,California,Fishing,2022-2025,sea,sinking_capsize
+N1355274,A no AIS candidate,,NRC,Gulf,Fishing,2022-2025,sea,sinking_capsize
+N1355890,A no AIS candidate,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1358172,A no AIS candidate,,NRC,Alaska,Fishing,2022-2025,sea,sinking_capsize
+N1358876,A no AIS candidate,,NRC,Gulf,Fishing,2022-2025,sea,sinking_capsize
+N1358964,A no AIS candidate,,NRC,Gulf,Fishing,2022-2025,sea,sinking_capsize
+N1359384,A no AIS candidate,,NRC,Pacific NW,Fishing,2022-2025,sea,sinking_capsize
+N1360574,B candidates all beyond 100 km,,NRC,Great Lakes,Tug/tow,2022-2025,inland,collision_allision
+N1361432,A no AIS candidate,,NRC,Alaska,Fishing,2022-2025,sea,sinking_capsize
+N1362554,A no AIS candidate,,NRC,Alaska,Fishing,2022-2025,sea,sinking_capsize
+N1363588,F matched set (analysed),,NRC,Gulf,Tug/tow,2022-2025,sea,sinking_capsize
+N1364173,B candidates all beyond 100 km,,NRC,Inland/other,Tug/tow,2022-2025,inland,discharge
+N1364882,F matched set (analysed),,NRC,Pacific NW,Passenger,2022-2025,sea,grounding
+N1366064,A no AIS candidate,,NRC,California,Fishing,2022-2025,sea,sinking_capsize
+N1366359,A no AIS candidate,,NRC,Alaska,Fishing,2022-2025,sea,sinking_capsize
+N1367948,A no AIS candidate,,NRC,Gulf,Fishing,2022-2025,inland,sinking_capsize
+N1368297,A no AIS candidate,,NRC,Hawaii/Pacific,Fishing,2022-2025,sea,sinking_capsize
+N1368552,A no AIS candidate,,NRC,Alaska,Fishing,2022-2025,sea,sinking_capsize
+N1369559,A no AIS candidate,,NRC,Atlantic,Fishing,2022-2025,sea,collision_allision
+N1369654,A no AIS candidate,,NRC,Gulf,Tug/tow,2022-2025,sea,sinking_capsize
+N1369805,A no AIS candidate,,NRC,Gulf,Tug/tow,2022-2025,sea,discharge
+N1369980,F matched set (analysed),,NRC,California,Tug/tow,2022-2025,sea,discharge
+N1370145,B candidates all beyond 100 km,,NRC,California,Fishing,2022-2025,sea,sinking_capsize
+N1370175,B candidates all beyond 100 km,,NRC,California,Fishing,2022-2025,sea,sinking_capsize
+N1370997,B candidates all beyond 100 km,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1371162,A no AIS candidate,,NRC,Gulf,Tug/tow,2022-2025,inland,sinking_capsize
+N1372866,B candidates all beyond 100 km,,NRC,Gulf,Tug/tow,2022-2025,inland,sinking_capsize
+N1373143,A no AIS candidate,,NRC,Gulf,Fishing,2022-2025,sea,sinking_capsize
+N1373215,A no AIS candidate,,NRC,Gulf,Tug/tow,2022-2025,inland,sinking_capsize
+N1374239,B candidates all beyond 100 km,,NRC,Gulf,Fishing,2022-2025,inland,sinking_capsize
+N1374588,A no AIS candidate,,NRC,California,Fishing,2022-2025,sea,grounding
+N1375316,F matched set (analysed),,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1375732,"E main, no matched set",fewer_than_5_controls,NRC,Atlantic,Tug/tow,2022-2025,sea,sinking_capsize
+N1376087,B candidates all beyond 100 km,,NRC,Alaska,Fishing,2022-2025,sea,sinking_capsize
+N1376394,A no AIS candidate,,NRC,Gulf,Fishing,2022-2025,sea,sinking_capsize
+N1376620,A no AIS candidate,,NRC,Pacific NW,Fishing,2022-2025,sea,sinking_capsize
+N1377111,B candidates all beyond 100 km,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1377315,A no AIS candidate,,NRC,Alaska,Fishing,2022-2025,sea,grounding
+N1378035,F matched set (analysed),,NRC,Gulf,Cargo,2022-2025,sea,grounding
+N1378290,F matched set (analysed),,NRC,Atlantic,Fishing,2022-2025,sea,grounding
+N1379284,F matched set (analysed),,NRC,Gulf,Tug/tow,2022-2025,sea,discharge
+N1379366,A no AIS candidate,,NRC,Gulf,Tanker,2022-2025,sea,collision_allision
+N1379549,A no AIS candidate,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1379571,A no AIS candidate,,NRC,Pacific NW,Fishing,2022-2025,sea,grounding
+N1380204,B candidates all beyond 100 km,,NRC,California,Fishing,2022-2025,inland,sinking_capsize
+N1380352,B candidates all beyond 100 km,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1380420,A no AIS candidate,,NRC,Inland/other,Passenger,2022-2025,inland,other
+N1380652,A no AIS candidate,,NRC,Florida,Fishing,2022-2025,inland,sinking_capsize
+N1380836,"D confirmed, excluded from main",,NRC,Caribbean,Cargo,2022-2025,sea,grounding
+N1380841,A no AIS candidate,,NRC,Gulf,Fishing,2022-2025,sea,sinking_capsize
+N1380898,F matched set (analysed),,NRC,Gulf,Other,2022-2025,sea,other
+N1381463,A no AIS candidate,,NRC,Alaska,Fishing,2022-2025,sea,sinking_capsize
+N1381685,A no AIS candidate,,NRC,Atlantic,Fishing,2022-2025,sea,grounding
+N1381786,F matched set (analysed),,NRC,Gulf,Tug/tow,2022-2025,inland,collision_allision
+N1382355,A no AIS candidate,,NRC,Great Lakes,Tug/tow,2022-2025,inland,grounding
+N1382864,B candidates all beyond 100 km,,NRC,Alaska,Fishing,2022-2025,sea,sinking_capsize
+N1383223,A no AIS candidate,,NRC,Atlantic,Tug/tow,2022-2025,inland,collision_allision
+N1384591,F matched set (analysed),,NRC,Gulf,Cargo,2022-2025,sea,fire_explosion
+N1385566,"E main, no matched set",fewer_than_5_controls,NRC,California,Fishing,2022-2025,sea,grounding
+N1385585,B candidates all beyond 100 km,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1385695,A no AIS candidate,,NRC,Alaska,Fishing,2022-2025,sea,grounding
+N1385731,A no AIS candidate,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1386669,A no AIS candidate,,NRC,Hawaii/Pacific,Fishing,2022-2025,sea,grounding
+N1387424,A no AIS candidate,,NRC,Gulf,Fishing,2022-2025,sea,sinking_capsize
+N1387426,F matched set (analysed),,NRC,Great Lakes,Cargo,2022-2025,inland,grounding
+N1388282,A no AIS candidate,,NRC,Pacific NW,Tug/tow,2022-2025,sea,sinking_capsize
+N1388394,"C reviewed, not confirmed",,NRC,Alaska,Fishing,2022-2025,sea,sinking_capsize
+N1388685,A no AIS candidate,,NRC,Atlantic,Fishing,2022-2025,sea,grounding
+N1389131,A no AIS candidate,,NRC,Pacific NW,Fishing,2022-2025,sea,sinking_capsize
+N1389341,A no AIS candidate,,NRC,Gulf,Tug/tow,2022-2025,sea,sinking_capsize
+N1389818,A no AIS candidate,,NRC,Alaska,Fishing,2022-2025,sea,sinking_capsize
+N1390252,A no AIS candidate,,NRC,Inland/other,Tug/tow,2022-2025,inland,sinking_capsize
+N1390733,B candidates all beyond 100 km,,NRC,Great Lakes,Tug/tow,2022-2025,inland,sinking_capsize
+N1391423,A no AIS candidate,,NRC,California,Fishing,2022-2025,sea,grounding
+N1391869,A no AIS candidate,,NRC,Pacific NW,Tug/tow,2022-2025,sea,sinking_capsize
+N1391904,A no AIS candidate,,NRC,Atlantic,Tug/tow,2022-2025,sea,sinking_capsize
+N1393336,B candidates all beyond 100 km,,NRC,Gulf,Fishing,2022-2025,sea,sinking_capsize
+N1393832,B candidates all beyond 100 km,,NRC,Gulf,Tug/tow,2022-2025,inland,sinking_capsize
+N1394025,"E main, no matched set",fewer_than_5_controls,NRC,Atlantic,Tanker,2022-2025,inland,collision_allision
+N1394188,A no AIS candidate,,NRC,Gulf,Other,2022-2025,sea,collision_allision
+N1394232_1,F matched set (analysed),,NRC,Gulf,Tanker,2022-2025,sea,collision_allision
+N1394232_2,F matched set (analysed),,NRC,Gulf,Tanker,2022-2025,sea,collision_allision
+N1394786,A no AIS candidate,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1395049,"C reviewed, not confirmed",,NRC,California,Fishing,2022-2025,sea,grounding
+N1395185,A no AIS candidate,,NRC,California,Fishing,2022-2025,sea,sinking_capsize
+N1395444,F matched set (analysed),,NRC,Gulf,Other,2022-2025,sea,other
+N1395777,A no AIS candidate,,NRC,Florida,Tug/tow,2022-2025,sea,sinking_capsize
+N1396850,A no AIS candidate,,NRC,Pacific NW,Fishing,2022-2025,sea,sinking_capsize
+N1397870,A no AIS candidate,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1397942,A no AIS candidate,,NRC,Pacific NW,Fishing,2022-2025,sea,sinking_capsize
+N1398858,B candidates all beyond 100 km,,NRC,Alaska,Cargo,2022-2025,sea,grounding
+N1399012,A no AIS candidate,,NRC,Gulf,Tug/tow,2022-2025,sea,collision_allision
+N1399133,"E main, no matched set",incident_fewer_than_10_positions,NRC,Hawaii/Pacific,Passenger,2022-2025,sea,grounding
+N1399300,B candidates all beyond 100 km,,NRC,Atlantic,Fishing,2022-2025,sea,grounding
+N1399676,"C reviewed, not confirmed",,NRC,California,Passenger,2022-2025,sea,sinking_capsize
+N1400026,A no AIS candidate,,NRC,Atlantic,Tug/tow,2022-2025,sea,sinking_capsize
+N1400197,A no AIS candidate,,NRC,Florida,Fishing,2022-2025,sea,sinking_capsize
+N1400482,A no AIS candidate,,NRC,Alaska,Fishing,2022-2025,sea,sinking_capsize
+N1400560,A no AIS candidate,,NRC,Gulf,Fishing,2022-2025,sea,sinking_capsize
+N1401756,A no AIS candidate,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1402118,B candidates all beyond 100 km,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1402934,B candidates all beyond 100 km,,NRC,Alaska,Fishing,2022-2025,sea,sinking_capsize
+N1403406,"C reviewed, not confirmed",,NRC,Florida,Fishing,2022-2025,sea,sinking_capsize
+N1404620,"E main, no matched set",fewer_than_5_controls,NRC,Gulf,Tanker,2022-2025,sea,collision_allision
+N1405151,B candidates all beyond 100 km,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1405300,F matched set (analysed),,NRC,Gulf,Tug/tow,2022-2025,sea,sinking_capsize
+N1405689,A no AIS candidate,,NRC,California,Fishing,2022-2025,sea,grounding
+N1405692,A no AIS candidate,,NRC,Alaska,Fishing,2022-2025,sea,sinking_capsize
+N1405772,A no AIS candidate,,NRC,Florida,Fishing,2022-2025,sea,sinking_capsize
+N1406048,"E main, no matched set",fewer_than_5_controls,NRC,Hawaii/Pacific,Tanker,2022-2025,sea,discharge
+N1406646,A no AIS candidate,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1407616,B candidates all beyond 100 km,,NRC,Alaska,Fishing,2022-2025,sea,sinking_capsize
+N1407744,"C reviewed, not confirmed",,NRC,Inland/other,Fishing,2022-2025,sea,sinking_capsize
+N1407747,A no AIS candidate,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1407930,A no AIS candidate,,NRC,Caribbean,Tug/tow,2022-2025,sea,sinking_capsize
+N1407998,A no AIS candidate,,NRC,Atlantic,Fishing,2022-2025,inland,sinking_capsize
+N1408827,B candidates all beyond 100 km,,NRC,Alaska,Fishing,2022-2025,sea,sinking_capsize
+N1409049,A no AIS candidate,,NRC,Florida,Fishing,2022-2025,inland,collision_allision
+N1409590,F matched set (analysed),,NRC,California,Fishing,2022-2025,sea,sinking_capsize
+N1409867,F matched set (analysed),,NRC,Atlantic,Fishing,2022-2025,sea,grounding
+N1410334,"E main, no matched set",fewer_than_5_controls,NRC,Atlantic,Other,2022-2025,inland,equipment_failure
+N1410714,"C reviewed, not confirmed",,NRC,Gulf,Cargo,2022-2025,inland,grounding
+N1410952,A no AIS candidate,,NRC,Alaska,Fishing,2022-2025,sea,grounding
+N1410977,B candidates all beyond 100 km,,NRC,Alaska,Fishing,2022-2025,sea,sinking_capsize
+N1411666,A no AIS candidate,,NRC,Florida,Tug/tow,2022-2025,inland,collision_allision
+N1411917,A no AIS candidate,,NRC,Pacific NW,Fishing,2022-2025,sea,grounding
+N1413501,A no AIS candidate,,NRC,Alaska,Cargo,2022-2025,sea,grounding
+N1413740,F matched set (analysed),,NRC,Inland/other,Tug/tow,2022-2025,inland,sinking_capsize
+N1414144,B candidates all beyond 100 km,,NRC,Pacific NW,Fishing,2022-2025,sea,sinking_capsize
+N1414298,"E main, no matched set",incident_fewer_than_10_positions,NRC,Inland/other,Tug/tow,2022-2025,inland,collision_allision
+N1414867,F matched set (analysed),,NRC,Inland/other,Tug/tow,2022-2025,sea,grounding
+N1415096,F matched set (analysed),,NRC,Gulf,Cargo,2022-2025,inland,grounding
+N1415746,A no AIS candidate,,NRC,Gulf,Fishing,2022-2025,sea,sinking_capsize
+N1416681,F matched set (analysed),,NRC,Atlantic,Fishing,2022-2025,sea,grounding
+N1416815,"C reviewed, not confirmed",,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1417172,F matched set (analysed),,NRC,Atlantic,Cargo,2022-2025,inland,grounding
+N1417283,F matched set (analysed),,NRC,Atlantic,Cargo,2022-2025,inland,grounding
+N1417776,A no AIS candidate,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1418836,A no AIS candidate,,NRC,California,Fishing,2022-2025,sea,sinking_capsize
+N1419363,A no AIS candidate,,NRC,Florida,Fishing,2022-2025,inland,sinking_capsize
+N1420176,A no AIS candidate,,NRC,Florida,Fishing,2022-2025,sea,sinking_capsize
+N1420195,A no AIS candidate,,NRC,California,Fishing,2022-2025,sea,sinking_capsize
+N1420347,F matched set (analysed),,NRC,Atlantic,Fishing,2022-2025,sea,grounding
+N1420406,F matched set (analysed),,NRC,Gulf,Tanker,2022-2025,sea,grounding
+N1420631,"E main, no matched set",fewer_than_5_controls,NRC,Gulf,Tanker,2022-2025,sea,discharge
+N1420962,A no AIS candidate,,NRC,Great Lakes,Cargo,2022-2025,inland,grounding
+N1421150,A no AIS candidate,,NRC,Alaska,Fishing,2022-2025,sea,sinking_capsize
+N1421281,A no AIS candidate,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1421909,F matched set (analysed),,NRC,California,Cargo,2022-2025,sea,collision_allision
+N1422002,A no AIS candidate,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1422260,F matched set (analysed),,NRC,Gulf,Cargo,2022-2025,sea,grounding
+N1422589,F matched set (analysed),,NRC,Gulf,Cargo,2022-2025,inland,grounding
+N1422741,A no AIS candidate,,NRC,Atlantic,Fishing,2022-2025,inland,sinking_capsize
+N1423450,"E main, no matched set",fewer_than_5_controls,NRC,Atlantic,Fishing,2022-2025,sea,grounding
+N1423493,B candidates all beyond 100 km,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1423551,F matched set (analysed),,NRC,Gulf,Tanker,2022-2025,inland,grounding
+N1423900,A no AIS candidate,,NRC,California,Passenger,2022-2025,sea,discharge
+N1423967_1,F matched set (analysed),,NRC,Gulf,Tug/tow,2022-2025,sea,discharge
+N1423967_2,F matched set (analysed),,NRC,Gulf,Tanker,2022-2025,sea,discharge
+N1424356,A no AIS candidate,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1424603_1,B candidates all beyond 100 km,,NRC,Florida,Tug/tow,2022-2025,sea,collision_allision
+N1424603_2,F matched set (analysed),,NRC,Florida,Tug/tow,2022-2025,sea,collision_allision
+N1424636,B candidates all beyond 100 km,,NRC,Great Lakes,Fishing,2022-2025,inland,sinking_capsize
+N1425311,F matched set (analysed),,NRC,Inland/other,Fishing,2022-2025,inland,grounding
+N1425444_1,A no AIS candidate,,NRC,Florida,Cargo,2022-2025,sea,collision_allision
+N1425444_2,A no AIS candidate,,NRC,Florida,Tanker,2022-2025,sea,collision_allision
+N1425904,A no AIS candidate,,NRC,Florida,Fishing,2022-2025,sea,collision_allision
+N1425989,A no AIS candidate,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1426078,A no AIS candidate,,NRC,Gulf,Tug/tow,2022-2025,sea,sinking_capsize
+N1427033,F matched set (analysed),,NRC,Gulf,Tug/tow,2022-2025,inland,sinking_capsize
+N1427554,A no AIS candidate,,NRC,Alaska,Fishing,2022-2025,sea,grounding
+N1428107,A no AIS candidate,,NRC,Gulf,Tug/tow,2022-2025,sea,sinking_capsize
+N1428244,F matched set (analysed),,NRC,Gulf,Tanker,2022-2025,sea,grounding
+N1428300,F matched set (analysed),,NRC,Atlantic,Fishing,2022-2025,sea,grounding
+N1428339,F matched set (analysed),,NRC,Great Lakes,Cargo,2022-2025,inland,equipment_failure
+N1429977_1,A no AIS candidate,,NRC,Alaska,Fishing,2022-2025,sea,collision_allision
+N1429977_2,A no AIS candidate,,NRC,Alaska,Passenger,2022-2025,sea,collision_allision
+N1430140,F matched set (analysed),,NRC,Florida,Cargo,2022-2025,sea,collision_allision
+N1430224,F matched set (analysed),,NRC,Gulf,Tug/tow,2022-2025,inland,other
+N1430599,A no AIS candidate,,NRC,Hawaii/Pacific,Fishing,2022-2025,sea,sinking_capsize
+N1430681,F matched set (analysed),,NRC,Pacific NW,Fishing,2022-2025,sea,sinking_capsize
+N1430689,F matched set (analysed),,NRC,Pacific NW,Fishing,2022-2025,sea,sinking_capsize
+N1430692,F matched set (analysed),,NRC,Pacific NW,Fishing,2022-2025,sea,sinking_capsize
+N1431127,A no AIS candidate,,NRC,California,Fishing,2022-2025,sea,grounding
+N1431207,F matched set (analysed),,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1431426_1,F matched set (analysed),,NRC,Gulf,Tanker,2022-2025,sea,collision_allision
+N1431426_2,F matched set (analysed),,NRC,Gulf,Tanker,2022-2025,sea,collision_allision
+N1431434,F matched set (analysed),,NRC,Gulf,Tanker,2022-2025,sea,collision_allision
+N1431590,"C reviewed, not confirmed",,NRC,Inland/other,Tug/tow,2022-2025,inland,sinking_capsize
+N1431913,A no AIS candidate,,NRC,Alaska,Fishing,2022-2025,sea,discharge
+N1432546,A no AIS candidate,,NRC,Atlantic,Fishing,2022-2025,sea,grounding
+N1433879,B candidates all beyond 100 km,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1433942,B candidates all beyond 100 km,,NRC,Alaska,Fishing,2022-2025,sea,other
+N1434382,B candidates all beyond 100 km,,NRC,Gulf,Fishing,2022-2025,inland,grounding
+N1434608,B candidates all beyond 100 km,,NRC,Atlantic,Fishing,2022-2025,inland,collision_allision
+N1435566,A no AIS candidate,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1435772,A no AIS candidate,,NRC,Florida,Tug/tow,2022-2025,sea,collision_allision
+N1435964,F matched set (analysed),,NRC,Florida,Cargo,2022-2025,sea,collision_allision
+N1436414,A no AIS candidate,,NRC,Alaska,Fishing,2022-2025,inland,grounding
+N1436766,A no AIS candidate,,NRC,Alaska,Fishing,2022-2025,sea,sinking_capsize
+N1437385,A no AIS candidate,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1437834,A no AIS candidate,,NRC,Gulf,Fishing,2022-2025,sea,sinking_capsize
+N1437896,A no AIS candidate,,NRC,California,Fishing,2022-2025,sea,grounding
+N1437903,A no AIS candidate,,NRC,Alaska,Fishing,2022-2025,sea,grounding
+N1438744,B candidates all beyond 100 km,,NRC,Alaska,Fishing,2022-2025,sea,sinking_capsize
+N1438829,A no AIS candidate,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1439195,B candidates all beyond 100 km,,NRC,Pacific NW,Fishing,2022-2025,sea,sinking_capsize
+N1439199,A no AIS candidate,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1439374,A no AIS candidate,,NRC,Gulf,Fishing,2022-2025,inland,sinking_capsize
+N1439777,A no AIS candidate,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1440359,A no AIS candidate,,NRC,Great Lakes,Tug/tow,2022-2025,inland,collision_allision
+N1440614,A no AIS candidate,,NRC,Gulf,Fishing,2022-2025,inland,sinking_capsize
+N1441185,B candidates all beyond 100 km,,NRC,Alaska,Fishing,2022-2025,sea,sinking_capsize
+N1441197,A no AIS candidate,,NRC,Gulf,Tug/tow,2022-2025,sea,discharge
+N1441499,A no AIS candidate,,NRC,Alaska,Fishing,2022-2025,sea,grounding
+N1441837,B candidates all beyond 100 km,,NRC,Atlantic,Fishing,2022-2025,sea,fire_explosion
+N1442226,A no AIS candidate,,NRC,Alaska,Fishing,2022-2025,sea,grounding
+N1442391,F matched set (analysed),,NRC,Pacific NW,Fishing,2022-2025,sea,sinking_capsize
+N1442438,F matched set (analysed),,NRC,Atlantic,Cargo,2022-2025,inland,other
+N1442630,"C reviewed, not confirmed",,NRC,Atlantic,Tug/tow,2022-2025,sea,sinking_capsize
+N1442991,A no AIS candidate,,NRC,Alaska,Tug/tow,2022-2025,sea,grounding
+N1443121,"C reviewed, not confirmed",,NRC,Pacific NW,Fishing,2022-2025,sea,sinking_capsize
+N1443468,A no AIS candidate,,NRC,Great Lakes,Tug/tow,2022-2025,inland,sinking_capsize
+N1443614,A no AIS candidate,,NRC,Gulf,Fishing,2022-2025,sea,sinking_capsize
+N1443791,F matched set (analysed),,NRC,Pacific NW,Cargo,2022-2025,sea,grounding
+N1443936,F matched set (analysed),,NRC,Gulf,Tug/tow,2022-2025,inland,grounding
+N1444790,F matched set (analysed),,NRC,Gulf,Fishing,2022-2025,sea,sinking_capsize
+N1444812,A no AIS candidate,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1444979,A no AIS candidate,,NRC,Gulf,Fishing,2022-2025,sea,sinking_capsize
+N1445505,A no AIS candidate,,NRC,Florida,Tug/tow,2022-2025,sea,collision_allision
+N1445633,B candidates all beyond 100 km,,NRC,Florida,Fishing,2022-2025,sea,sinking_capsize
+N1445670,A no AIS candidate,,NRC,Inland/other,Tug/tow,2022-2025,inland,grounding
+N1446072,A no AIS candidate,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1446135,A no AIS candidate,,NRC,Pacific NW,Fishing,2022-2025,sea,sinking_capsize
+N1446260,A no AIS candidate,,NRC,Gulf,Fishing,2022-2025,sea,sinking_capsize
+N1446762,"C reviewed, not confirmed",,NRC,Inland/other,Tug/tow,2022-2025,inland,discharge
+N1446984,A no AIS candidate,,NRC,Atlantic,Cargo,2022-2025,inland,other
+N1447272,A no AIS candidate,,NRC,Pacific NW,Tug/tow,2022-2025,sea,collision_allision
+N1447469,A no AIS candidate,,NRC,Gulf,Fishing,2022-2025,inland,sinking_capsize
+N1447509,B candidates all beyond 100 km,,NRC,Atlantic,Fishing,2022-2025,sea,sinking_capsize
+N1447830,A no AIS candidate,,NRC,Pacific NW,Fishing,2022-2025,sea,sinking_capsize
+N1447940,B candidates all beyond 100 km,,NRC,Inland/other,Tug/tow,2022-2025,sea,grounding
+N1448153,A no AIS candidate,,NRC,Pacific NW,Fishing,2022-2025,sea,sinking_capsize
+N1448505,A no AIS candidate,,NRC,Alaska,Fishing,2022-2025,sea,sinking_capsize
+N1448775,"E main, no matched set",fewer_than_5_controls,NRC,Atlantic,Cargo,2022-2025,inland,equipment_failure
+N1448973_1,B candidates all beyond 100 km,,NRC,Florida,Fishing,2022-2025,inland,sinking_capsize
+N1448973_2,A no AIS candidate,,NRC,Florida,Fishing,2022-2025,inland,sinking_capsize
+N1448973_3,A no AIS candidate,,NRC,Florida,Fishing,2022-2025,inland,sinking_capsize
+N1449356,A no AIS candidate,,NRC,Great Lakes,Tug/tow,2022-2025,sea,sinking_capsize
+N1449489,A no AIS candidate,,NRC,Alaska,Fishing,2022-2025,inland,sinking_capsize
+N1449748,A no AIS candidate,,NRC,Alaska,Fishing,2022-2025,sea,sinking_capsize
+N1449934,A no AIS candidate,,NRC,Gulf,Fishing,2022-2025,sea,grounding
+N1450215,A no AIS candidate,,NRC,California,Fishing,2022-2025,sea,sinking_capsize
+N1450385,A no AIS candidate,,NRC,Pacific NW,Fishing,2022-2025,sea,sinking_capsize
+N1450625,A no AIS candidate,,NRC,Alaska,Fishing,2022-2025,sea,grounding
+N1450867,A no AIS candidate,,NRC,Pacific NW,Fishing,2022-2025,sea,sinking_capsize
+N1451149,A no AIS candidate,,NRC,Gulf,Fishing,2022-2025,sea,equipment_failure
+N1451207,A no AIS candidate,,NRC,California,Fishing,2022-2025,sea,grounding
+N1451651,A no AIS candidate,,NRC,Alaska,Fishing,2022-2025,sea,sinking_capsize
+N1451737,B candidates all beyond 100 km,,NRC,Florida,Fishing,2022-2025,sea,collision_allision
+I11087,"D confirmed, excluded from main",,IncidentNews,California,Not given (IncidentNews has no type field),2022-2025,sea,fire_explosion
+I11078,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2022-2025,sea,discharge
+I11079,A no AIS candidate,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2022-2025,sea,grounding
+I11070,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2022-2025,sea,grounding
+I11067,B candidates all beyond 100 km,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2022-2025,sea,sinking_capsize
+I11063,"D confirmed, excluded from main",,IncidentNews,Gulf,Not given (IncidentNews has no type field),2022-2025,sea,discharge
+I11052_1,F matched set (analysed),,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2022-2025,inland,fire_explosion
+I11052_2,F matched set (analysed),,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2022-2025,inland,fire_explosion
+I11053_1,A no AIS candidate,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2022-2025,inland,grounding
+I11053_2,B candidates all beyond 100 km,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2022-2025,inland,grounding
+I11044,B candidates all beyond 100 km,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2022-2025,sea,sinking_capsize
+I10999,B candidates all beyond 100 km,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2022-2025,sea,grounding
+I10983,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2022-2025,sea,sinking_capsize
+I10979,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2022-2025,sea,grounding
+I10974,A no AIS candidate,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2022-2025,sea,sinking_capsize
+I10962,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2022-2025,sea,equipment_failure
+I10957,A no AIS candidate,,IncidentNews,Florida,Not given (IncidentNews has no type field),2022-2025,sea,equipment_failure
+I10928,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2022-2025,sea,equipment_failure
+I10917_1,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2022-2025,sea,grounding
+I10917_2,"E main, no matched set",fewer_than_5_controls,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2022-2025,sea,grounding
+I10899,B candidates all beyond 100 km,,IncidentNews,Caribbean,Not given (IncidentNews has no type field),2022-2025,sea,grounding
+I10916,"E main, no matched set",incident_fewer_than_10_positions,IncidentNews,Gulf,Not given (IncidentNews has no type field),2022-2025,inland,collision_allision
+I10888_1,A no AIS candidate,,IncidentNews,Gulf,Not given (IncidentNews has no type field),2022-2025,inland,discharge
+I10888_2,F matched set (analysed),,IncidentNews,Gulf,Not given (IncidentNews has no type field),2022-2025,inland,discharge
+I10879,B candidates all beyond 100 km,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2022-2025,sea,sinking_capsize
+I10878,B candidates all beyond 100 km,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2022-2025,sea,sinking_capsize
+I10877_1,A no AIS candidate,,IncidentNews,Caribbean,Not given (IncidentNews has no type field),2022-2025,sea,other
+I10877_2,"D confirmed, excluded from main",,IncidentNews,Caribbean,Not given (IncidentNews has no type field),2022-2025,sea,other
+I10874,F matched set (analysed),,IncidentNews,Gulf,Not given (IncidentNews has no type field),2022-2025,sea,collision_allision
+I10865,A no AIS candidate,,IncidentNews,Gulf,Not given (IncidentNews has no type field),2022-2025,inland,collision_allision
+I10857,F matched set (analysed),,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2022-2025,sea,discharge
+I10849,"C reviewed, not confirmed",,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2022-2025,sea,fire_explosion
+I10845,A no AIS candidate,,IncidentNews,California,Not given (IncidentNews has no type field),2022-2025,sea,sinking_capsize
+I10839,A no AIS candidate,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2022-2025,sea,sinking_capsize
+I10835,B candidates all beyond 100 km,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2022-2025,sea,grounding
+I10834_1,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2022-2025,sea,sinking_capsize
+I10834_2,B candidates all beyond 100 km,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2022-2025,sea,sinking_capsize
+I10828,"C reviewed, not confirmed",,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2022-2025,sea,sinking_capsize
+I10827,"E main, no matched set",fewer_than_5_controls,IncidentNews,Gulf,Not given (IncidentNews has no type field),2022-2025,sea,sinking_capsize
+I10824,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2022-2025,sea,grounding
+I10823_1,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2022-2025,sea,sinking_capsize
+I10823_2,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2022-2025,sea,sinking_capsize
+I10818,A no AIS candidate,,IncidentNews,Gulf,Not given (IncidentNews has no type field),2022-2025,sea,discharge
+I10814,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2022-2025,sea,sinking_capsize
+I10806,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2022-2025,sea,sinking_capsize
+I10799_1,F matched set (analysed),,IncidentNews,Great Lakes,Not given (IncidentNews has no type field),2022-2025,inland,other
+I10799_2,"D confirmed, excluded from main",,IncidentNews,Great Lakes,Not given (IncidentNews has no type field),2022-2025,inland,other
+I10796,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2022-2025,sea,discharge
+I10797,A no AIS candidate,,IncidentNews,Great Lakes,Not given (IncidentNews has no type field),2022-2025,inland,grounding
+I10794,F matched set (analysed),,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2022-2025,sea,discharge
+I10785,F matched set (analysed),,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2022-2025,inland,sinking_capsize
+I10771,F matched set (analysed),,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2022-2025,sea,grounding
+I10764_1,A no AIS candidate,,IncidentNews,Great Lakes,Not given (IncidentNews has no type field),2022-2025,inland,collision_allision
+I10764_2,F matched set (analysed),,IncidentNews,Great Lakes,Not given (IncidentNews has no type field),2022-2025,inland,collision_allision
+I10762_1,"D confirmed, excluded from main",,IncidentNews,Great Lakes,Not given (IncidentNews has no type field),2022-2025,inland,grounding
+I10762_2,A no AIS candidate,,IncidentNews,Great Lakes,Not given (IncidentNews has no type field),2022-2025,inland,grounding
+I10763_1,A no AIS candidate,,IncidentNews,Great Lakes,Not given (IncidentNews has no type field),2022-2025,inland,grounding
+I10763_2,B candidates all beyond 100 km,,IncidentNews,Great Lakes,Not given (IncidentNews has no type field),2022-2025,inland,grounding
+I10757,"D confirmed, excluded from main",,IncidentNews,Great Lakes,Not given (IncidentNews has no type field),2022-2025,sea,fire_explosion
+I10740,F matched set (analysed),,IncidentNews,California,Not given (IncidentNews has no type field),2022-2025,sea,other
+I10732,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2022-2025,inland,sinking_capsize
+I10733,A no AIS candidate,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2022-2025,sea,grounding
+I10734,A no AIS candidate,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2022-2025,sea,grounding
+I10712,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2022-2025,sea,fire_explosion
+I10710,A no AIS candidate,,IncidentNews,Florida,Not given (IncidentNews has no type field),2022-2025,sea,sinking_capsize
+I10707,A no AIS candidate,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2022-2025,inland,sinking_capsize
+I10694,A no AIS candidate,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2022-2025,sea,sinking_capsize
+I10693,F matched set (analysed),,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2022-2025,sea,grounding
+I10690,F matched set (analysed),,IncidentNews,Great Lakes,Not given (IncidentNews has no type field),2022-2025,inland,grounding
+I10685_2,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2022-2025,sea,sinking_capsize
+I10669,A no AIS candidate,,IncidentNews,California,Not given (IncidentNews has no type field),2022-2025,inland,sinking_capsize
+I10666,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2022-2025,sea,grounding
+I10655,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2022-2025,sea,other
+I10654,A no AIS candidate,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2022-2025,sea,other
+I10651,A no AIS candidate,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2022-2025,sea,equipment_failure
+I10637,B candidates all beyond 100 km,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2022-2025,sea,other
+I10622,A no AIS candidate,,IncidentNews,Gulf,Not given (IncidentNews has no type field),2022-2025,sea,grounding
+I10620,A no AIS candidate,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2022-2025,inland,discharge
+I10609,F matched set (analysed),,IncidentNews,Great Lakes,Not given (IncidentNews has no type field),2022-2025,inland,grounding
+I10604,F matched set (analysed),,IncidentNews,Great Lakes,Not given (IncidentNews has no type field),2022-2025,inland,collision_allision
+I10601,A no AIS candidate,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2022-2025,inland,sinking_capsize
+I10598,"D confirmed, excluded from main",,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2022-2025,sea,fire_explosion
+I10587,B candidates all beyond 100 km,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2022-2025,sea,discharge
+I10586,A no AIS candidate,,IncidentNews,Gulf,Not given (IncidentNews has no type field),2022-2025,sea,sinking_capsize
+I10578,A no AIS candidate,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2022-2025,sea,sinking_capsize
+I10573,A no AIS candidate,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2022-2025,sea,grounding
+I10574,"E main, no matched set",fewer_than_5_controls,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2022-2025,sea,other
+I10569,F matched set (analysed),,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2022-2025,inland,discharge
+I10567,A no AIS candidate,,IncidentNews,California,Not given (IncidentNews has no type field),2022-2025,sea,sinking_capsize
+I10551,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2022-2025,sea,sinking_capsize
+I10542,A no AIS candidate,,IncidentNews,Gulf,Not given (IncidentNews has no type field),2022-2025,sea,sinking_capsize
+I10538,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2022-2025,sea,sinking_capsize
+I10530,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2022-2025,sea,sinking_capsize
+I10529,"C reviewed, not confirmed",,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2022-2025,sea,collision_allision
+I10505,A no AIS candidate,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2022-2025,sea,sinking_capsize
+I10500,B candidates all beyond 100 km,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2022-2025,sea,sinking_capsize
+I10496,A no AIS candidate,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2022-2025,inland,sinking_capsize
+I10491,A no AIS candidate,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2022-2025,sea,sinking_capsize
+I10487,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2022-2025,sea,sinking_capsize
+I10479_1,B candidates all beyond 100 km,,IncidentNews,California,Not given (IncidentNews has no type field),2022-2025,sea,discharge
+I10479_2,F matched set (analysed),,IncidentNews,California,Not given (IncidentNews has no type field),2022-2025,sea,discharge
+I10476,A no AIS candidate,,IncidentNews,Gulf,Not given (IncidentNews has no type field),2022-2025,inland,sinking_capsize
+I10471,B candidates all beyond 100 km,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2022-2025,inland,grounding
+I10467,"C reviewed, not confirmed",,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2022-2025,sea,sinking_capsize
+I10424,A no AIS candidate,,IncidentNews,Gulf,Not given (IncidentNews has no type field),2022-2025,sea,discharge
+I10421,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2022-2025,sea,sinking_capsize
+I10413,"D confirmed, excluded from main",,IncidentNews,Florida,Not given (IncidentNews has no type field),2022-2025,sea,grounding
+I10412,B candidates all beyond 100 km,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2022-2025,inland,fire_explosion
+I10397,A no AIS candidate,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2019-2021,sea,discharge
+I10384,F matched set (analysed),,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2019-2021,sea,sinking_capsize
+I10380,A no AIS candidate,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2019-2021,inland,sinking_capsize
+I10378,B candidates all beyond 100 km,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2019-2021,sea,sinking_capsize
+I10375,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2019-2021,sea,discharge
+I10372,F matched set (analysed),,IncidentNews,Great Lakes,Not given (IncidentNews has no type field),2019-2021,inland,grounding
+I10371_1,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2019-2021,sea,grounding
+I10371_2,"E main, no matched set",incident_fewer_than_10_positions,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2019-2021,sea,grounding
+I10355,A no AIS candidate,,IncidentNews,California,Not given (IncidentNews has no type field),2019-2021,sea,discharge
+I10345,B candidates all beyond 100 km,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2019-2021,sea,sinking_capsize
+I10335,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2019-2021,sea,grounding
+I10334,B candidates all beyond 100 km,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2019-2021,sea,sinking_capsize
+I10326,B candidates all beyond 100 km,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2019-2021,sea,grounding
+I10322_1,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2019-2021,sea,sinking_capsize
+I10298,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2019-2021,sea,sinking_capsize
+I10291,B candidates all beyond 100 km,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2019-2021,sea,fire_explosion
+I10290,A no AIS candidate,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2019-2021,sea,sinking_capsize
+I10286,F matched set (analysed),,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2019-2021,sea,grounding
+I10281,F matched set (analysed),,IncidentNews,California,Not given (IncidentNews has no type field),2019-2021,sea,fire_explosion
+I10280_1,A no AIS candidate,,IncidentNews,Gulf,Not given (IncidentNews has no type field),2019-2021,sea,collision_allision
+I10280_2,A no AIS candidate,,IncidentNews,Gulf,Not given (IncidentNews has no type field),2019-2021,sea,collision_allision
+I10278,F matched set (analysed),,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2019-2021,inland,discharge
+I10274,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2019-2021,sea,fire_explosion
+I10271,B candidates all beyond 100 km,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2019-2021,inland,other
+I10270,F matched set (analysed),,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2019-2021,sea,grounding
+I10269,F matched set (analysed),,IncidentNews,Florida,Not given (IncidentNews has no type field),2019-2021,sea,other
+I10267,A no AIS candidate,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2019-2021,inland,fire_explosion
+I10266,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2019-2021,sea,sinking_capsize
+I10264,A no AIS candidate,,IncidentNews,Gulf,Not given (IncidentNews has no type field),2019-2021,sea,grounding
+I10259,F matched set (analysed),,IncidentNews,Gulf,Not given (IncidentNews has no type field),2019-2021,inland,grounding
+I10251,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2019-2021,sea,discharge
+I10248_1,"E main, no matched set",fewer_than_5_controls,IncidentNews,California,Not given (IncidentNews has no type field),2019-2021,sea,grounding
+I10244,F matched set (analysed),,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2019-2021,inland,collision_allision
+I10240,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2019-2021,sea,sinking_capsize
+I10239,B candidates all beyond 100 km,,IncidentNews,California,Not given (IncidentNews has no type field),2019-2021,sea,other
+I10234,"D confirmed, excluded from main",,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2019-2021,sea,fire_explosion
+I10226,"D confirmed, excluded from main",,IncidentNews,Alaska,Not given (IncidentNews has no type field),2019-2021,sea,discharge
+I10224,A no AIS candidate,,IncidentNews,Great Lakes,Not given (IncidentNews has no type field),2019-2021,sea,fire_explosion
+I10223,A no AIS candidate,,IncidentNews,California,Not given (IncidentNews has no type field),2019-2021,sea,grounding
+I10221,A no AIS candidate,,IncidentNews,Hawaii/Pacific,Not given (IncidentNews has no type field),2019-2021,sea,other
+I10219,A no AIS candidate,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2019-2021,sea,equipment_failure
+I10208,A no AIS candidate,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2019-2021,sea,other
+I10203,A no AIS candidate,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2019-2021,sea,other
+I10202,A no AIS candidate,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2019-2021,sea,sinking_capsize
+I10198,B candidates all beyond 100 km,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2019-2021,inland,grounding
+I10199,A no AIS candidate,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2019-2021,sea,fire_explosion
+I10197,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2019-2021,sea,equipment_failure
+I10191,A no AIS candidate,,IncidentNews,California,Not given (IncidentNews has no type field),2019-2021,sea,grounding
+I10185,A no AIS candidate,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2019-2021,inland,discharge
+I10178,A no AIS candidate,,IncidentNews,Gulf,Not given (IncidentNews has no type field),2019-2021,sea,collision_allision
+I10174,A no AIS candidate,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2019-2021,sea,sinking_capsize
+I10168,F matched set (analysed),,IncidentNews,Florida,Not given (IncidentNews has no type field),2019-2021,sea,other
+I10167,A no AIS candidate,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2019-2021,inland,grounding
+I10162,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2019-2021,sea,grounding
+I10163,B candidates all beyond 100 km,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2019-2021,inland,grounding
+I10158,B candidates all beyond 100 km,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2019-2021,sea,grounding
+I10157,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2019-2021,sea,sinking_capsize
+I10153,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2019-2021,sea,grounding
+I10142,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2019-2021,sea,sinking_capsize
+I10139,A no AIS candidate,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2019-2021,sea,grounding
+I10136,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2019-2021,sea,grounding
+I10135,B candidates all beyond 100 km,,IncidentNews,California,Not given (IncidentNews has no type field),2019-2021,sea,sinking_capsize
+I10128,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2019-2021,sea,sinking_capsize
+I10126,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2019-2021,inland,other
+I10124,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2019-2021,sea,other
+I10116,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2019-2021,sea,grounding
+I10113,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2019-2021,sea,grounding
+I10108_1,A no AIS candidate,,IncidentNews,Gulf,Not given (IncidentNews has no type field),2019-2021,inland,discharge
+I10108_2,F matched set (analysed),,IncidentNews,Gulf,Not given (IncidentNews has no type field),2019-2021,inland,discharge
+I10107,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2019-2021,sea,grounding
+I10100,"E main, no matched set",fewer_than_5_controls,IncidentNews,Great Lakes,Not given (IncidentNews has no type field),2019-2021,sea,grounding
+I10099,A no AIS candidate,,IncidentNews,Gulf,Not given (IncidentNews has no type field),2019-2021,sea,collision_allision
+I10097,"D confirmed, excluded from main",,IncidentNews,Florida,Not given (IncidentNews has no type field),2019-2021,sea,fire_explosion
+I10102,A no AIS candidate,,IncidentNews,Gulf,Not given (IncidentNews has no type field),2019-2021,inland,discharge
+I10089,"C reviewed, not confirmed",,IncidentNews,California,Not given (IncidentNews has no type field),2019-2021,sea,other
+I10086,F matched set (analysed),,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2019-2021,inland,discharge
+I10085,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2019-2021,sea,grounding
+I10083,F matched set (analysed),,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2019-2021,sea,grounding
+I10079,F matched set (analysed),,IncidentNews,Gulf,Not given (IncidentNews has no type field),2019-2021,inland,collision_allision
+I10072,B candidates all beyond 100 km,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2019-2021,sea,collision_allision
+I10070_1,A no AIS candidate,,IncidentNews,Great Lakes,Not given (IncidentNews has no type field),2019-2021,sea,grounding
+I10070_2,B candidates all beyond 100 km,,IncidentNews,Great Lakes,Not given (IncidentNews has no type field),2019-2021,sea,grounding
+I10067,"C reviewed, not confirmed",,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2019-2021,sea,grounding
+I10066,B candidates all beyond 100 km,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2019-2021,sea,grounding
+I10064,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2019-2021,inland,sinking_capsize
+I10057,A no AIS candidate,,IncidentNews,Great Lakes,Not given (IncidentNews has no type field),2019-2021,inland,grounding
+I10058,A no AIS candidate,,IncidentNews,Great Lakes,Not given (IncidentNews has no type field),2019-2021,sea,discharge
+I10056,A no AIS candidate,,IncidentNews,California,Not given (IncidentNews has no type field),2019-2021,sea,grounding
+I10059,B candidates all beyond 100 km,,IncidentNews,Great Lakes,Not given (IncidentNews has no type field),2019-2021,inland,sinking_capsize
+I10061,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2019-2021,sea,grounding
+I10043,F matched set (analysed),,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2019-2021,sea,other
+I10029,"E main, no matched set",incident_fewer_than_10_positions,IncidentNews,Gulf,Not given (IncidentNews has no type field),2019-2021,sea,collision_allision
+I10028,B candidates all beyond 100 km,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2019-2021,sea,sinking_capsize
+I10026,A no AIS candidate,,IncidentNews,California,Not given (IncidentNews has no type field),2019-2021,sea,sinking_capsize
+I10022,"E main, no matched set",fewer_than_5_controls,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2019-2021,sea,collision_allision
+I10023,F matched set (analysed),,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2019-2021,sea,fire_explosion
+I10021,F matched set (analysed),,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2019-2021,inland,grounding
+I10019,"E main, no matched set",fewer_than_5_controls,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2019-2021,sea,grounding
+I10006,B candidates all beyond 100 km,,IncidentNews,California,Not given (IncidentNews has no type field),2019-2021,sea,sinking_capsize
+I10003,A no AIS candidate,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2019-2021,sea,sinking_capsize
+I9996,"E main, no matched set",fewer_than_5_controls,IncidentNews,Gulf,Not given (IncidentNews has no type field),2019-2021,sea,fire_explosion
+I9995_1,A no AIS candidate,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2019-2021,sea,sinking_capsize
+I9995_2,B candidates all beyond 100 km,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2019-2021,sea,sinking_capsize
+I9990,A no AIS candidate,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2019-2021,inland,sinking_capsize
+I9972,A no AIS candidate,,IncidentNews,Gulf,Not given (IncidentNews has no type field),2019-2021,inland,sinking_capsize
+I9970,F matched set (analysed),,IncidentNews,Gulf,Not given (IncidentNews has no type field),2019-2021,inland,sinking_capsize
+I9965,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2019-2021,sea,sinking_capsize
+I9964,F matched set (analysed),,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2019-2021,sea,discharge
+I9963,"E main, no matched set",fewer_than_5_controls,IncidentNews,Gulf,Not given (IncidentNews has no type field),2019-2021,inland,discharge
+I9959,A no AIS candidate,,IncidentNews,Great Lakes,Not given (IncidentNews has no type field),2019-2021,sea,grounding
+I9942,A no AIS candidate,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2019-2021,sea,sinking_capsize
+I9940,B candidates all beyond 100 km,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2019-2021,sea,grounding
+I9939,"C reviewed, not confirmed",,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2019-2021,inland,sinking_capsize
+I9932,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2019-2021,sea,sinking_capsize
+I9933_2,A no AIS candidate,,IncidentNews,Great Lakes,Not given (IncidentNews has no type field),2019-2021,inland,sinking_capsize
+I9933_3,A no AIS candidate,,IncidentNews,Great Lakes,Not given (IncidentNews has no type field),2019-2021,inland,sinking_capsize
+I9931_1,A no AIS candidate,,IncidentNews,Gulf,Not given (IncidentNews has no type field),2019-2021,sea,other
+I9931_2,F matched set (analysed),,IncidentNews,Gulf,Not given (IncidentNews has no type field),2019-2021,sea,other
+I9919,F matched set (analysed),,IncidentNews,Gulf,Not given (IncidentNews has no type field),2019-2021,inland,grounding
+I9918,"D confirmed, excluded from main",,IncidentNews,California,Not given (IncidentNews has no type field),2019-2021,sea,other
+I9915,F matched set (analysed),,IncidentNews,Gulf,Not given (IncidentNews has no type field),2019-2021,sea,discharge
+I9925_1,A no AIS candidate,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2019-2021,sea,fire_explosion
+I9925_2,"D confirmed, excluded from main",,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2019-2021,sea,fire_explosion
+I9914,F matched set (analysed),,IncidentNews,Gulf,Not given (IncidentNews has no type field),2019-2021,inland,collision_allision
+I9900,A no AIS candidate,,IncidentNews,Gulf,Not given (IncidentNews has no type field),2019-2021,inland,collision_allision
+I9896,B candidates all beyond 100 km,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2019-2021,sea,grounding
+I9894,A no AIS candidate,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2019-2021,inland,grounding
+I9886,B candidates all beyond 100 km,,IncidentNews,California,Not given (IncidentNews has no type field),2019-2021,sea,sinking_capsize
+I9882,A no AIS candidate,,IncidentNews,Caribbean,Not given (IncidentNews has no type field),2019-2021,sea,grounding
+I9868,A no AIS candidate,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2019-2021,sea,equipment_failure
+I9863,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2019-2021,sea,grounding
+I9862,A no AIS candidate,,IncidentNews,Gulf,Not given (IncidentNews has no type field),2019-2021,inland,sinking_capsize
+I9859,"E main, no matched set",incident_fewer_than_10_positions,IncidentNews,Alaska,Not given (IncidentNews has no type field),2019-2021,sea,equipment_failure
+I9855,F matched set (analysed),,IncidentNews,Alaska,Not given (IncidentNews has no type field),2019-2021,sea,grounding
+I9854,A no AIS candidate,,IncidentNews,Great Lakes,Not given (IncidentNews has no type field),2019-2021,inland,fire_explosion
+I9852_1,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2019-2021,sea,sinking_capsize
+I9852_2,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2019-2021,sea,sinking_capsize
+I9847,B candidates all beyond 100 km,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2019-2021,sea,grounding
+I9838,A no AIS candidate,,IncidentNews,Great Lakes,Not given (IncidentNews has no type field),2019-2021,sea,sinking_capsize
+I9846_1,B candidates all beyond 100 km,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2019-2021,sea,sinking_capsize
+I9846_2,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2019-2021,sea,sinking_capsize
+I9834,A no AIS candidate,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9832,B candidates all beyond 100 km,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9830,A no AIS candidate,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9829,A no AIS candidate,,IncidentNews,Hawaii/Pacific,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9820,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9814,A no AIS candidate,,IncidentNews,Hawaii/Pacific,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9808,"E main, no matched set",fewer_than_5_controls,IncidentNews,Gulf,Not given (IncidentNews has no type field),2015-2018,sea,fire_explosion
+I9801,"E main, no matched set",incident_fewer_than_10_positions,IncidentNews,Gulf,Not given (IncidentNews has no type field),2015-2018,inland,sinking_capsize
+I9795,A no AIS candidate,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2015-2018,sea,collision_allision
+I9794,F matched set (analysed),,IncidentNews,Gulf,Not given (IncidentNews has no type field),2015-2018,inland,fire_explosion
+I9785,"C reviewed, not confirmed",,IncidentNews,Gulf,Not given (IncidentNews has no type field),2015-2018,sea,fire_explosion
+I9782,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2015-2018,inland,sinking_capsize
+I9772,A no AIS candidate,,IncidentNews,California,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9767,A no AIS candidate,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9762,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9761,"E main, no matched set",fewer_than_5_controls,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9759,F matched set (analysed),,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9751,B candidates all beyond 100 km,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9740,F matched set (analysed),,IncidentNews,Great Lakes,Not given (IncidentNews has no type field),2015-2018,sea,fire_explosion
+I9739,F matched set (analysed),,IncidentNews,Great Lakes,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9734,F matched set (analysed),,IncidentNews,Gulf,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9733,A no AIS candidate,,IncidentNews,Gulf,Not given (IncidentNews has no type field),2015-2018,sea,collision_allision
+I9726,"E main, no matched set",fewer_than_5_controls,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9724,B candidates all beyond 100 km,,IncidentNews,Gulf,Not given (IncidentNews has no type field),2015-2018,sea,discharge
+I9713,"D confirmed, excluded from main",,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2015-2018,inland,discharge
+I9706,F matched set (analysed),,IncidentNews,Gulf,Not given (IncidentNews has no type field),2015-2018,inland,discharge
+I9696,B candidates all beyond 100 km,,IncidentNews,California,Not given (IncidentNews has no type field),2015-2018,inland,grounding
+I9691,A no AIS candidate,,IncidentNews,California,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9688,F matched set (analysed),,IncidentNews,Florida,Not given (IncidentNews has no type field),2015-2018,sea,discharge
+I9685,F matched set (analysed),,IncidentNews,Florida,Not given (IncidentNews has no type field),2015-2018,sea,fire_explosion
+I9682,B candidates all beyond 100 km,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9684,"C reviewed, not confirmed",,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2015-2018,inland,sinking_capsize
+I9679,A no AIS candidate,,IncidentNews,Caribbean,Not given (IncidentNews has no type field),2015-2018,sea,other
+I9676_1,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9676_2,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9675,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9673,A no AIS candidate,,IncidentNews,California,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9670,B candidates all beyond 100 km,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9662,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2015-2018,sea,discharge
+I9659,F matched set (analysed),,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9657,A no AIS candidate,,IncidentNews,Great Lakes,Not given (IncidentNews has no type field),2015-2018,inland,equipment_failure
+I9647_1,A no AIS candidate,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2015-2018,inland,sinking_capsize
+I9647_2,A no AIS candidate,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2015-2018,inland,sinking_capsize
+I9646,A no AIS candidate,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2015-2018,sea,collision_allision
+I9643,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,discharge
+I9637,F matched set (analysed),,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2015-2018,inland,grounding
+I9635,A no AIS candidate,,IncidentNews,Gulf,Not given (IncidentNews has no type field),2015-2018,inland,grounding
+I9632,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9628,A no AIS candidate,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2015-2018,sea,other
+I9617,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9613,A no AIS candidate,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9609,A no AIS candidate,,IncidentNews,Gulf,Not given (IncidentNews has no type field),2015-2018,inland,grounding
+I9608,"C reviewed, not confirmed",,IncidentNews,California,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9599,F matched set (analysed),,IncidentNews,Hawaii/Pacific,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9598,"E main, no matched set",incident_fewer_than_10_positions,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2015-2018,sea,other
+I9595,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,other
+I9590_1,B candidates all beyond 100 km,,IncidentNews,Florida,Not given (IncidentNews has no type field),2015-2018,inland,discharge
+I9590_2,A no AIS candidate,,IncidentNews,Florida,Not given (IncidentNews has no type field),2015-2018,inland,discharge
+I9580,"D confirmed, excluded from main",,IncidentNews,California,Not given (IncidentNews has no type field),2015-2018,sea,discharge
+I9671,"D confirmed, excluded from main",,IncidentNews,Caribbean,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9574_1,"C reviewed, not confirmed",,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2015-2018,sea,collision_allision
+I9574_2,"C reviewed, not confirmed",,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2015-2018,sea,collision_allision
+I9569,B candidates all beyond 100 km,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,other
+I9565,A no AIS candidate,,IncidentNews,Gulf,Not given (IncidentNews has no type field),2015-2018,inland,discharge
+I9553,F matched set (analysed),,IncidentNews,Gulf,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9548,"E main, no matched set",fewer_than_5_controls,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,other
+I9547,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,collision_allision
+I9546,F matched set (analysed),,IncidentNews,Great Lakes,Not given (IncidentNews has no type field),2015-2018,inland,grounding
+I9544,B candidates all beyond 100 km,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9542,"D confirmed, excluded from main",,IncidentNews,California,Not given (IncidentNews has no type field),2015-2018,sea,fire_explosion
+I9528,B candidates all beyond 100 km,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2015-2018,inland,sinking_capsize
+I9525,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9527,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9523,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9522,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9518,A no AIS candidate,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9511,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9491,"E main, no matched set",fewer_than_5_controls,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,inland,grounding
+I9483,A no AIS candidate,,IncidentNews,Gulf,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9480,F matched set (analysed),,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2015-2018,sea,discharge
+I9476,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9474,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9469_1,A no AIS candidate,,IncidentNews,Gulf,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9469_2,A no AIS candidate,,IncidentNews,Gulf,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9462,B candidates all beyond 100 km,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2015-2018,inland,sinking_capsize
+I9454,F matched set (analysed),,IncidentNews,Gulf,Not given (IncidentNews has no type field),2015-2018,inland,grounding
+I9451,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9448,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9432,A no AIS candidate,,IncidentNews,Florida,Not given (IncidentNews has no type field),2015-2018,inland,discharge
+I9429,F matched set (analysed),,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,other
+I9421_1,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9421_2,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9418,A no AIS candidate,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2015-2018,inland,sinking_capsize
+I9417,"D confirmed, excluded from main",,IncidentNews,Gulf,Not given (IncidentNews has no type field),2015-2018,inland,discharge
+I9413,"C reviewed, not confirmed",,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9410,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9411,F matched set (analysed),,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9401_1,"E main, no matched set",incident_fewer_than_10_positions,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2015-2018,sea,other
+I9401_2,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2015-2018,sea,other
+I9400,F matched set (analysed),,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2015-2018,inland,grounding
+I9399,B candidates all beyond 100 km,,IncidentNews,Florida,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9397,"E main, no matched set",fewer_than_5_controls,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9394,B candidates all beyond 100 km,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9390,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2015-2018,sea,other
+I9383,A no AIS candidate,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2015-2018,inland,grounding
+I9381,A no AIS candidate,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2015-2018,sea,other
+I9376,A no AIS candidate,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9365,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2015-2018,sea,discharge
+I9362,F matched set (analysed),,IncidentNews,Gulf,Not given (IncidentNews has no type field),2015-2018,sea,collision_allision
+I9360,"E main, no matched set",incident_fewer_than_10_positions,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2015-2018,inland,grounding
+I9359,F matched set (analysed),,IncidentNews,Gulf,Not given (IncidentNews has no type field),2015-2018,inland,fire_explosion
+I9358,A no AIS candidate,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2015-2018,inland,discharge
+I9352,A no AIS candidate,,IncidentNews,Gulf,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9346,A no AIS candidate,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9344_1,F matched set (analysed),,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9344_2,F matched set (analysed),,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9337,A no AIS candidate,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2015-2018,sea,other
+I9326,"E main, no matched set",fewer_than_5_controls,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9324,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9320,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9316,A no AIS candidate,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2015-2018,inland,grounding
+I9315,A no AIS candidate,,IncidentNews,Gulf,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9310,B candidates all beyond 100 km,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9309,"E main, no matched set",fewer_than_5_controls,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2015-2018,inland,grounding
+I9302,B candidates all beyond 100 km,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9290,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9286,"E main, no matched set",fewer_than_5_controls,IncidentNews,Great Lakes,Not given (IncidentNews has no type field),2015-2018,inland,grounding
+I9282,F matched set (analysed),,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9280_1,F matched set (analysed),,IncidentNews,California,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9280_2,A no AIS candidate,,IncidentNews,California,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9275,F matched set (analysed),,IncidentNews,California,Not given (IncidentNews has no type field),2015-2018,sea,other
+I9270,A no AIS candidate,,IncidentNews,California,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9269,A no AIS candidate,,IncidentNews,Gulf,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9266,B candidates all beyond 100 km,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9263,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9253,A no AIS candidate,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9247,A no AIS candidate,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9241,"E main, no matched set",fewer_than_5_controls,IncidentNews,Gulf,Not given (IncidentNews has no type field),2015-2018,inland,collision_allision
+I9237,B candidates all beyond 100 km,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9234,"E main, no matched set",incident_fewer_than_10_positions,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9233_1,"E main, no matched set",fewer_than_5_controls,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9246,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,other
+I9229,F matched set (analysed),,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2015-2018,inland,grounding
+I9227,F matched set (analysed),,IncidentNews,Florida,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9216,B candidates all beyond 100 km,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9212,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9206,B candidates all beyond 100 km,,IncidentNews,California,Not given (IncidentNews has no type field),2015-2018,sea,discharge
+I9205_1,A no AIS candidate,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2015-2018,inland,collision_allision
+I9205_2,B candidates all beyond 100 km,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2015-2018,inland,collision_allision
+I9203,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9198,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9193,B candidates all beyond 100 km,,IncidentNews,Florida,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9188,B candidates all beyond 100 km,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9184,A no AIS candidate,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2015-2018,sea,collision_allision
+I9183,F matched set (analysed),,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2015-2018,inland,grounding
+I9182,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,discharge
+I9178,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9177,B candidates all beyond 100 km,,IncidentNews,Great Lakes,Not given (IncidentNews has no type field),2015-2018,inland,sinking_capsize
+I9174,B candidates all beyond 100 km,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,other
+I9170,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9171,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9168,B candidates all beyond 100 km,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,inland,grounding
+I9166,F matched set (analysed),,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2015-2018,sea,discharge
+I9167,A no AIS candidate,,IncidentNews,Gulf,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9164,A no AIS candidate,,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I9156,F matched set (analysed),,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I9155_1,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,inland,sinking_capsize
+I9155_2,B candidates all beyond 100 km,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,inland,sinking_capsize
+I8972,F matched set (analysed),,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I8965,B candidates all beyond 100 km,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I8964,B candidates all beyond 100 km,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I8962,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I8963,"E main, no matched set",fewer_than_5_controls,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I8954,B candidates all beyond 100 km,,IncidentNews,Gulf,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I8948,F matched set (analysed),,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I8945_1,A no AIS candidate,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2015-2018,inland,discharge
+I8945_2,A no AIS candidate,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2015-2018,inland,discharge
+I8938,A no AIS candidate,,IncidentNews,Gulf,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I8932,F matched set (analysed),,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2015-2018,inland,grounding
+I8930,F matched set (analysed),,IncidentNews,Caribbean,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I8928_1,A no AIS candidate,,IncidentNews,California,Not given (IncidentNews has no type field),2015-2018,sea,discharge
+I8928_2,A no AIS candidate,,IncidentNews,California,Not given (IncidentNews has no type field),2015-2018,sea,discharge
+I8922,F matched set (analysed),,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2015-2018,sea,fire_explosion
+I8921,A no AIS candidate,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I8916,F matched set (analysed),,IncidentNews,Great Lakes,Not given (IncidentNews has no type field),2015-2018,inland,grounding
+I8915_1,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I8915_2,B candidates all beyond 100 km,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I8913,A no AIS candidate,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2015-2018,inland,sinking_capsize
+I8900,"E main, no matched set",fewer_than_5_controls,IncidentNews,Great Lakes,Not given (IncidentNews has no type field),2015-2018,inland,collision_allision
+I8897,A no AIS candidate,,IncidentNews,Pacific NW,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I8895,A no AIS candidate,,IncidentNews,Great Lakes,Not given (IncidentNews has no type field),2015-2018,inland,sinking_capsize
+I8892,B candidates all beyond 100 km,,IncidentNews,Inland/other,Not given (IncidentNews has no type field),2015-2018,sea,fire_explosion
+I8891,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I8890,F matched set (analysed),,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I8888,"D confirmed, excluded from main",,IncidentNews,Atlantic,Not given (IncidentNews has no type field),2015-2018,inland,discharge
+I8886_1,F matched set (analysed),,IncidentNews,Gulf,Not given (IncidentNews has no type field),2015-2018,sea,collision_allision
+I8886_2,F matched set (analysed),,IncidentNews,Gulf,Not given (IncidentNews has no type field),2015-2018,sea,collision_allision
+I8880,"E main, no matched set",fewer_than_5_controls,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,grounding
+I8877,A no AIS candidate,,IncidentNews,Florida,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I8871,"C reviewed, not confirmed",,IncidentNews,Hawaii/Pacific,Not given (IncidentNews has no type field),2015-2018,sea,sinking_capsize
+I8873,A no AIS candidate,,IncidentNews,Alaska,Not given (IncidentNews has no type field),2015-2018,sea,grounding

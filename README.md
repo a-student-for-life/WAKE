@@ -28,10 +28,10 @@ Every departure from them is listed with its date in `DEVIATIONS.md`.
 | `PROGRESS.md` | Stage-by-stage working log |
 | `pilot/` | 21 Oct 2026 feasibility pilot: incident counts, NRC filters, AIS name matching, power analysis |
 | `stage_a/` | Incident table, AIS name matching, report-time check; `REVIEW_RULES.md` are the written review rules both raters followed |
-| `review_page/` | The blind review page and second-look page, and the scripts that build them |
+| `review_page/` | The blind review page, the second-look page and the second-rater page, and the scripts that build them |
 | `stage_b/` | Vessel events, window scores for the five simple detectors, matching (M1-M4) and the main tests |
 | `gtn/` | GeoTrackNet: region and training-day selection, preprocessing, training with the stop rule, scoring and tests; `PATCHES.md` lists the one change to the authors' code |
-| `gap_checks/` | Checks added after the main results (see `DEVIATIONS.md` 6 and 9) |
+| `gap_checks/` | Checks added after the main results (see `DEVIATIONS.md` 6, 9 and 10) |
 | `paper/make_figures.py` | Draws the three figures of the paper from the files in this repository |
 | `data/incidents.csv` | Combined incident table (1,247 incidents) |
 | `data/candidates.csv` | AIS name candidates for each incident |

@@ -150,3 +150,30 @@ not used by the reading rules.
    real-date fleet reference days (15,507 vessels with at least 10 positions); incidents per
    year = 1,247 / 11; the matched-set incident flag rates are assumed to apply to all incidents;
    GeoTrackNet's control flag rate stands in for its fleet-wide flag rate.
+
+## 10. Checks added in response to the supervisor's review, 15 Nov 2026
+
+Added after all results were known, in answer to the critical review of 15 Nov 2026; all
+exploratory and descriptive, labelled as such in the paper and not used by the reading rules.
+
+1. **Matching diagnostics**: `gap_checks/matching_diagnostics.py` →
+   `results/gap_checks/matching_diagnostics.md`, `matching_auc_checks.csv`. Matching distances,
+   reuse of control vessels across sets, a bootstrap over clusters of sets that share a vessel,
+   each vessel used once, the five sets with a control distance above 10 dropped, and the 50 km /
+   150 km radius split with M3 on the same events.
+2. **Selection of events**: `gap_checks/selection.py` → `results/gap_checks/selection.md`,
+   `selection_stages.csv`. Furthest stage reached by each of the 1,247 records and retention by
+   source, setting, incident type, reported vessel type, region and years.
+3. **Alarm burden as a scenario**: `gap_checks/alarm_scenarios.py` →
+   `results/gap_checks/alarm_scenarios.md`, `.csv`. Extends item 9.2: fleet at its 10th and 90th
+   percentiles, incident flag rate at its Wilson upper bound, and 4,170 incidents a year (all
+   45,865 NRC vessel reports / 11) as a deliberately generous count; lift = incident / control
+   flag rate.
+4. **IncidentNews time at local noon**: `gap_checks/incidentnews_time.py` → windows rebuilt with
+   the unchanged `stage_b/windows.py` for the 108 IncidentNews main-sample events with T moved
+   from local midnight to local noon (real date only, in `data/gap_checks/in_noon/`), rematched with
+   the unchanged M4 rule; results in `results/gap_checks/incidentnews_time.md`.
+5. **GeoTrackNet by region**: `gap_checks/gtn_by_region.py` → `results/gap_checks/gtn_by_region.md`.
+6. **Human second rater** (in progress): 100 of the 410 reviewed cases
+   (`stage_a/second_rater_sample.csv`) on a blind page (`review_page/build_second_rater.py`);
+   agreement computed by `gap_checks/second_rater_agreement.py` once all answers are in.

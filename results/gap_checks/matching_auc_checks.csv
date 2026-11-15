@@ -1,0 +1,36 @@
+n_sets,n_pairs,auc,p,lo,hi,detector,label
+197,1854,0.6097626752966558,,0.5668298330887748,0.6532857738463972,d1_speed_drop,"Main (M4), set bootstrap as reported"
+197,1854,0.49325782092772386,,0.4527249923824091,0.5356014815827443,d2_loiter_h,"Main (M4), set bootstrap as reported"
+197,1854,0.5862998921251349,,0.5463742900338211,0.6271012974182204,d3_gap_ratio,"Main (M4), set bootstrap as reported"
+197,1854,0.587378640776699,,0.5458963282937365,0.6287124323355876,d4_off_lane,"Main (M4), set bootstrap as reported"
+197,1854,0.5744336569579288,,0.5322227797312029,0.6168974478040603,d5_iforest,"Main (M4), set bootstrap as reported"
+197,1854,0.6097626752966558,,0.564174058545169,0.657246799751875,d1_speed_drop,"Main (M4), cluster bootstrap (sets sharing a vessel resampled together)"
+197,1854,0.49325782092772386,,0.45047324875896305,0.5392893441214341,d2_loiter_h,"Main (M4), cluster bootstrap (sets sharing a vessel resampled together)"
+197,1854,0.5862998921251349,,0.5437275837781674,0.6289405101047093,d3_gap_ratio,"Main (M4), cluster bootstrap (sets sharing a vessel resampled together)"
+197,1854,0.587378640776699,,0.5402274824126398,0.6336701495659763,d4_off_lane,"Main (M4), cluster bootstrap (sets sharing a vessel resampled together)"
+197,1854,0.5744336569579288,,0.52860164268044,0.6183801707755188,d5_iforest,"Main (M4), cluster bootstrap (sets sharing a vessel resampled together)"
+197,1679,0.615842763549732,,0.571468621459631,0.6597515659671432,d1_speed_drop,Each vessel used once (later reuse and incident vessels dropped as controls)
+197,1679,0.4994044073853484,,0.45811047693110213,0.542462096268196,d2_loiter_h,Each vessel used once (later reuse and incident vessels dropped as controls)
+197,1679,0.5839785586658726,,0.5425048761916682,0.6253749799868358,d3_gap_ratio,Each vessel used once (later reuse and incident vessels dropped as controls)
+197,1679,0.5854675402025015,,0.5419130847934658,0.6282765253199897,d4_off_lane,Each vessel used once (later reuse and incident vessels dropped as controls)
+197,1679,0.5723645026801668,,0.5273782467532467,0.615527714624915,d5_iforest,Each vessel used once (later reuse and incident vessels dropped as controls)
+192,1813,0.6047986762272477,,0.560954155999802,0.6487242123422134,d1_speed_drop,Sets with a control farther than 10 dropped
+192,1813,0.49062327633756203,,0.44743721077364745,0.533279702970297,d2_loiter_h,Sets with a control farther than 10 dropped
+192,1813,0.580253723110866,,0.5405171567960309,0.620950719361081,d3_gap_ratio,Sets with a control farther than 10 dropped
+192,1813,0.5846662989520133,,0.5435612031435605,0.6252109838428346,d4_off_lane,Sets with a control farther than 10 dropped
+192,1813,0.5697738554881412,,0.5270926630840425,0.6143725496018141,d5_iforest,Sets with a control farther than 10 dropped
+80,800,0.59125,,0.529375,0.655625,d1_speed_drop,Radius 50 km only (sets not widened)
+80,800,0.48625,,0.41875,0.553125,d2_loiter_h,Radius 50 km only (sets not widened)
+80,800,0.616875,,0.5525,0.68,d3_gap_ratio,Radius 50 km only (sets not widened)
+80,800,0.549375,,0.4875,0.61125,d4_off_lane,Radius 50 km only (sets not widened)
+80,800,0.585,,0.5175,0.65,d5_iforest,Radius 50 km only (sets not widened)
+117,1054,0.6238140417457305,,0.5633459058671825,0.6850832612736697,d1_speed_drop,Widened to 150 km only
+117,1054,0.4985768500948767,,0.44517316139678437,0.5510150963994752,d2_loiter_h,Widened to 150 km only
+117,1054,0.5630929791271347,,0.509708502443664,0.6163718682638188,d3_gap_ratio,Widened to 150 km only
+117,1054,0.6162239089184061,,0.5620192307692308,0.6699970550531822,d4_off_lane,Widened to 150 km only
+117,1054,0.5664136622390892,,0.5101215153288441,0.6228434441962178,d5_iforest,Widened to 150 km only
+197,1854,0.5973570658036678,,0.552317399070907,0.6422908640023001,d1_speed_drop,M3: every set on the whole 150 km box
+197,1854,0.5099784250269687,,0.46955881698127316,0.5509334584450403,d2_loiter_h,M3: every set on the whole 150 km box
+197,1854,0.5666127292340885,,0.527538417464888,0.6059102006825063,d3_gap_ratio,M3: every set on the whole 150 km box
+197,1854,0.575512405609493,,0.5319775838333464,0.6198925087704287,d4_off_lane,M3: every set on the whole 150 km box
+197,1854,0.54638619201726,,0.5027286961840913,0.5898995096758677,d5_iforest,M3: every set on the whole 150 km box
