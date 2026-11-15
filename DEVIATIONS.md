@@ -197,3 +197,9 @@ Added after all results were known, at Janice's request ("go ahead and try them"
 3. **External check on HawaiiCoast_GT**: plan `external/HAWAII_PLAN.md`, committed (90a9a23)
    before any Hawaii score was computed; code `external/hawaii.py`; results in
    `results/external/`. The rebuilt day files are not kept (re-created from the Zenodo record).
+4. **Addendum 3 (six-hour slices)**: `ANALYSIS_PLAN_ADDENDUM_3.md`, drafted and approved 15 Nov 2026,
+   committed (b3b2fd9e draft, 0880d2fa approval, unchanged) before any code; runner and analysis
+   script committed before any result. 120 NRC-timed events. Recomputed main window reproduces the
+   published scores exactly (6,238 vessel rows). Primary: off-lane AUC in [T-24 h, T-18 h) 0.560
+   (0.502-0.618), permutation p 0.064, 102 sets: inconclusive; reproduced independently. The
+   conditional placebo30 run is not triggered (primary not "useful"). Results in `results/stage_b3/`.

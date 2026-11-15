@@ -1,0 +1,965 @@
+{
+ "done": {
+  "101_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/101_real.csv.gz",
+   "box_vessels": 1572,
+   "rows": 7860,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-05-25",
+   "code_version": "dbfffae0"
+  },
+  "113_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/113_real.csv.gz",
+   "box_vessels": 1225,
+   "rows": 6125,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-07-25",
+   "code_version": "dbfffae0"
+  },
+  "114_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/114_real.csv.gz",
+   "box_vessels": 865,
+   "rows": 4325,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2025-01-26",
+   "code_version": "dbfffae0"
+  },
+  "116_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/116_real.csv.gz",
+   "box_vessels": 900,
+   "rows": 4500,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-05-31",
+   "code_version": "dbfffae0"
+  },
+  "119_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/119_real.csv.gz",
+   "box_vessels": 669,
+   "rows": 3345,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-08-05",
+   "code_version": "dbfffae0"
+  },
+  "128_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/128_real.csv.gz",
+   "box_vessels": 1021,
+   "rows": 5105,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2015-02-21",
+   "code_version": "dbfffae0"
+  },
+  "130_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/130_real.csv.gz",
+   "box_vessels": 1119,
+   "rows": 5595,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2024-03-19",
+   "code_version": "dbfffae0"
+  },
+  "133_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/133_real.csv.gz",
+   "box_vessels": 1275,
+   "rows": 6375,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2023-11-17",
+   "code_version": "dbfffae0"
+  },
+  "135_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/135_real.csv.gz",
+   "box_vessels": 109,
+   "rows": 545,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2024-04-02",
+   "code_version": "dbfffae0"
+  },
+  "136_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/136_real.csv.gz",
+   "box_vessels": 140,
+   "rows": 700,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2023-10-04",
+   "code_version": "dbfffae0"
+  },
+  "142_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/142_real.csv.gz",
+   "box_vessels": 973,
+   "rows": 4865,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2023-09-03",
+   "code_version": "dbfffae0"
+  },
+  "143_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/143_real.csv.gz",
+   "box_vessels": 280,
+   "rows": 1400,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-09-30",
+   "code_version": "dbfffae0"
+  },
+  "145_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/145_real.csv.gz",
+   "box_vessels": 701,
+   "rows": 3505,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2025-09-11",
+   "code_version": "dbfffae0"
+  },
+  "146_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/146_real.csv.gz",
+   "box_vessels": 272,
+   "rows": 1360,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-10-07",
+   "code_version": "dbfffae0"
+  },
+  "149_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/149_real.csv.gz",
+   "box_vessels": 1599,
+   "rows": 7995,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2022-04-29",
+   "code_version": "dbfffae0"
+  },
+  "14_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/14_real.csv.gz",
+   "box_vessels": 47,
+   "rows": 235,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2024-11-23",
+   "code_version": "dbfffae0"
+  },
+  "152_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/152_real.csv.gz",
+   "box_vessels": 1265,
+   "rows": 6325,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2025-01-29",
+   "code_version": "dbfffae0"
+  },
+  "153_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/153_real.csv.gz",
+   "box_vessels": 1216,
+   "rows": 6080,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2025-02-19",
+   "code_version": "dbfffae0"
+  },
+  "154_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/154_real.csv.gz",
+   "box_vessels": 122,
+   "rows": 610,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-06-06",
+   "code_version": "dbfffae0"
+  },
+  "155_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/155_real.csv.gz",
+   "box_vessels": 27,
+   "rows": 135,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2023-12-23",
+   "code_version": "dbfffae0"
+  },
+  "156_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/156_real.csv.gz",
+   "box_vessels": 2705,
+   "rows": 13525,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2024-10-26",
+   "code_version": "dbfffae0"
+  },
+  "161_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/161_real.csv.gz",
+   "box_vessels": 2053,
+   "rows": 10265,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2025-05-03",
+   "code_version": "dbfffae0"
+  },
+  "162_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/162_real.csv.gz",
+   "box_vessels": 1260,
+   "rows": 6300,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-02-15",
+   "code_version": "dbfffae0"
+  },
+  "163_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/163_real.csv.gz",
+   "box_vessels": 248,
+   "rows": 1240,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-06-01",
+   "code_version": "dbfffae0"
+  },
+  "167_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/167_real.csv.gz",
+   "box_vessels": 1430,
+   "rows": 7150,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2025-05-17",
+   "code_version": "dbfffae0"
+  },
+  "168_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/168_real.csv.gz",
+   "box_vessels": 1116,
+   "rows": 5580,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2021-12-02",
+   "code_version": "dbfffae0"
+  },
+  "169_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/169_real.csv.gz",
+   "box_vessels": 1525,
+   "rows": 7625,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2025-01-31",
+   "code_version": "dbfffae0"
+  },
+  "173_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/173_real.csv.gz",
+   "box_vessels": 1555,
+   "rows": 7775,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2024-10-29",
+   "code_version": "dbfffae0"
+  },
+  "176_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/176_real.csv.gz",
+   "box_vessels": 1360,
+   "rows": 6800,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2025-05-17",
+   "code_version": "dbfffae0"
+  },
+  "177_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/177_real.csv.gz",
+   "box_vessels": 1347,
+   "rows": 6735,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2025-01-04",
+   "code_version": "dbfffae0"
+  },
+  "178_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/178_real.csv.gz",
+   "box_vessels": 361,
+   "rows": 1805,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2022-08-07",
+   "code_version": "dbfffae0"
+  },
+  "179_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/179_real.csv.gz",
+   "box_vessels": 414,
+   "rows": 2070,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2022-11-20",
+   "code_version": "dbfffae0"
+  },
+  "17_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/17_real.csv.gz",
+   "box_vessels": 74,
+   "rows": 370,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-03-01",
+   "code_version": "dbfffae0"
+  },
+  "181_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/181_real.csv.gz",
+   "box_vessels": 1149,
+   "rows": 5745,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2022-04-13",
+   "code_version": "dbfffae0"
+  },
+  "182_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/182_real.csv.gz",
+   "box_vessels": 1123,
+   "rows": 5615,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2024-03-19",
+   "code_version": "dbfffae0"
+  },
+  "183_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/183_real.csv.gz",
+   "box_vessels": 198,
+   "rows": 990,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2025-09-25",
+   "code_version": "dbfffae0"
+  },
+  "185_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/185_real.csv.gz",
+   "box_vessels": 350,
+   "rows": 1750,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2025-07-03",
+   "code_version": "dbfffae0"
+  },
+  "189_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/189_real.csv.gz",
+   "box_vessels": 1725,
+   "rows": 8625,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-08-01",
+   "code_version": "dbfffae0"
+  },
+  "191_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/191_real.csv.gz",
+   "box_vessels": 218,
+   "rows": 1090,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2021-05-13",
+   "code_version": "dbfffae0"
+  },
+  "193_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/193_real.csv.gz",
+   "box_vessels": 235,
+   "rows": 1175,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2023-09-06",
+   "code_version": "dbfffae0"
+  },
+  "196_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/196_real.csv.gz",
+   "box_vessels": 1321,
+   "rows": 6605,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2024-07-19",
+   "code_version": "dbfffae0"
+  },
+  "197_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/197_real.csv.gz",
+   "box_vessels": 1251,
+   "rows": 6255,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2022-09-17",
+   "code_version": "dbfffae0"
+  },
+  "199_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/199_real.csv.gz",
+   "box_vessels": 50,
+   "rows": 250,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2022-07-15",
+   "code_version": "dbfffae0"
+  },
+  "1_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/1_real.csv.gz",
+   "box_vessels": 457,
+   "rows": 2285,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2025-02-23",
+   "code_version": "dbfffae0"
+  },
+  "200_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/200_real.csv.gz",
+   "box_vessels": 1356,
+   "rows": 6780,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-04-14",
+   "code_version": "dbfffae0"
+  },
+  "202_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/202_real.csv.gz",
+   "box_vessels": 639,
+   "rows": 3195,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-09-14",
+   "code_version": "dbfffae0"
+  },
+  "204_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/204_real.csv.gz",
+   "box_vessels": 291,
+   "rows": 1455,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-12-25",
+   "code_version": "dbfffae0"
+  },
+  "205_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/205_real.csv.gz",
+   "box_vessels": 252,
+   "rows": 1260,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2021-07-03",
+   "code_version": "dbfffae0"
+  },
+  "207_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/207_real.csv.gz",
+   "box_vessels": 1086,
+   "rows": 5430,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-02-20",
+   "code_version": "dbfffae0"
+  },
+  "208_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/208_real.csv.gz",
+   "box_vessels": 1443,
+   "rows": 7215,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2025-09-27",
+   "code_version": "dbfffae0"
+  },
+  "20_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/20_real.csv.gz",
+   "box_vessels": 2157,
+   "rows": 10785,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2021-08-26",
+   "code_version": "dbfffae0"
+  },
+  "210_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/210_real.csv.gz",
+   "box_vessels": 958,
+   "rows": 4790,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-02-20",
+   "code_version": "dbfffae0"
+  },
+  "212_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/212_real.csv.gz",
+   "box_vessels": 106,
+   "rows": 530,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2021-12-21",
+   "code_version": "dbfffae0"
+  },
+  "213_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/213_real.csv.gz",
+   "box_vessels": 1646,
+   "rows": 8230,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-06-18",
+   "code_version": "dbfffae0"
+  },
+  "214_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/214_real.csv.gz",
+   "box_vessels": 348,
+   "rows": 1740,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2016-08-27",
+   "code_version": "dbfffae0"
+  },
+  "215_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/215_real.csv.gz",
+   "box_vessels": 1347,
+   "rows": 6735,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2024-08-31",
+   "code_version": "dbfffae0"
+  },
+  "216_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/216_real.csv.gz",
+   "box_vessels": 213,
+   "rows": 1065,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2022-01-05",
+   "code_version": "dbfffae0"
+  },
+  "217_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/217_real.csv.gz",
+   "box_vessels": 141,
+   "rows": 705,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2025-09-10",
+   "code_version": "dbfffae0"
+  },
+  "218_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/218_real.csv.gz",
+   "box_vessels": 857,
+   "rows": 4285,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2015-08-08",
+   "code_version": "dbfffae0"
+  },
+  "21_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/21_real.csv.gz",
+   "box_vessels": 228,
+   "rows": 1140,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2016-10-28",
+   "code_version": "dbfffae0"
+  },
+  "222_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/222_real.csv.gz",
+   "box_vessels": 76,
+   "rows": 380,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-03-20",
+   "code_version": "dbfffae0"
+  },
+  "223_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/223_real.csv.gz",
+   "box_vessels": 1533,
+   "rows": 7665,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2015-05-30",
+   "code_version": "dbfffae0"
+  },
+  "224_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/224_real.csv.gz",
+   "box_vessels": 45,
+   "rows": 225,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2016-03-23",
+   "code_version": "dbfffae0"
+  },
+  "226_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/226_real.csv.gz",
+   "box_vessels": 707,
+   "rows": 3535,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2016-10-25",
+   "code_version": "dbfffae0"
+  },
+  "228_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/228_real.csv.gz",
+   "box_vessels": 1348,
+   "rows": 6740,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2016-01-05",
+   "code_version": "dbfffae0"
+  },
+  "231_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/231_real.csv.gz",
+   "box_vessels": 510,
+   "rows": 2550,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-08-18",
+   "code_version": "dbfffae0"
+  },
+  "236_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/236_real.csv.gz",
+   "box_vessels": 1723,
+   "rows": 8615,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-03-18",
+   "code_version": "dbfffae0"
+  },
+  "237_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/237_real.csv.gz",
+   "box_vessels": 791,
+   "rows": 3955,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2025-03-27",
+   "code_version": "dbfffae0"
+  },
+  "238_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/238_real.csv.gz",
+   "box_vessels": 1699,
+   "rows": 8495,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-05-01",
+   "code_version": "dbfffae0"
+  },
+  "23_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/23_real.csv.gz",
+   "box_vessels": 351,
+   "rows": 1755,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2021-12-29",
+   "code_version": "dbfffae0"
+  },
+  "241_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/241_real.csv.gz",
+   "box_vessels": 95,
+   "rows": 475,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2021-09-24",
+   "code_version": "dbfffae0"
+  },
+  "242_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/242_real.csv.gz",
+   "box_vessels": 326,
+   "rows": 1630,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-11-04",
+   "code_version": "dbfffae0"
+  },
+  "243_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/243_real.csv.gz",
+   "box_vessels": 306,
+   "rows": 1530,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2021-08-10",
+   "code_version": "dbfffae0"
+  },
+  "246_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/246_real.csv.gz",
+   "box_vessels": 387,
+   "rows": 1935,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-10-09",
+   "code_version": "dbfffae0"
+  },
+  "248_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/248_real.csv.gz",
+   "box_vessels": 423,
+   "rows": 2115,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2023-10-14",
+   "code_version": "dbfffae0"
+  },
+  "250_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/250_real.csv.gz",
+   "box_vessels": 965,
+   "rows": 4825,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2021-08-27",
+   "code_version": "dbfffae0"
+  },
+  "251_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/251_real.csv.gz",
+   "box_vessels": 1701,
+   "rows": 8505,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2016-01-14",
+   "code_version": "dbfffae0"
+  },
+  "254_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/254_real.csv.gz",
+   "box_vessels": 1779,
+   "rows": 8895,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2015-04-09",
+   "code_version": "dbfffae0"
+  },
+  "255_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/255_real.csv.gz",
+   "box_vessels": 224,
+   "rows": 1120,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-08-01",
+   "code_version": "dbfffae0"
+  },
+  "256_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/256_real.csv.gz",
+   "box_vessels": 1195,
+   "rows": 5975,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2022-06-23",
+   "code_version": "dbfffae0"
+  },
+  "258_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/258_real.csv.gz",
+   "box_vessels": 1272,
+   "rows": 6360,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2023-03-30",
+   "code_version": "dbfffae0"
+  },
+  "259_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/259_real.csv.gz",
+   "box_vessels": 107,
+   "rows": 535,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2025-03-06",
+   "code_version": "dbfffae0"
+  },
+  "262_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/262_real.csv.gz",
+   "box_vessels": 129,
+   "rows": 645,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-06-19",
+   "code_version": "dbfffae0"
+  },
+  "263_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/263_real.csv.gz",
+   "box_vessels": 876,
+   "rows": 4380,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2015-07-15",
+   "code_version": "dbfffae0"
+  },
+  "265_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/265_real.csv.gz",
+   "box_vessels": 112,
+   "rows": 560,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-02-08",
+   "code_version": "dbfffae0"
+  },
+  "266_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/266_real.csv.gz",
+   "box_vessels": 2010,
+   "rows": 10050,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2023-08-05",
+   "code_version": "dbfffae0"
+  },
+  "267_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/267_real.csv.gz",
+   "box_vessels": 370,
+   "rows": 1850,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-09-25",
+   "code_version": "dbfffae0"
+  },
+  "268_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/268_real.csv.gz",
+   "box_vessels": 315,
+   "rows": 1575,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2024-10-14",
+   "code_version": "dbfffae0"
+  },
+  "269_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/269_real.csv.gz",
+   "box_vessels": 1541,
+   "rows": 7705,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2025-05-04",
+   "code_version": "dbfffae0"
+  },
+  "26_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/26_real.csv.gz",
+   "box_vessels": 1955,
+   "rows": 9775,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2023-04-15",
+   "code_version": "dbfffae0"
+  },
+  "272_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/272_real.csv.gz",
+   "box_vessels": 277,
+   "rows": 1385,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-12-27",
+   "code_version": "dbfffae0"
+  },
+  "276_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/276_real.csv.gz",
+   "box_vessels": 937,
+   "rows": 4685,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-06-05",
+   "code_version": "dbfffae0"
+  },
+  "277_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/277_real.csv.gz",
+   "box_vessels": 591,
+   "rows": 2955,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2024-09-03",
+   "code_version": "dbfffae0"
+  },
+  "278_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/278_real.csv.gz",
+   "box_vessels": 884,
+   "rows": 4420,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2023-09-15",
+   "code_version": "dbfffae0"
+  },
+  "280_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/280_real.csv.gz",
+   "box_vessels": 612,
+   "rows": 3060,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2025-04-10",
+   "code_version": "dbfffae0"
+  },
+  "281_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/281_real.csv.gz",
+   "box_vessels": 520,
+   "rows": 2600,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2023-06-13",
+   "code_version": "dbfffae0"
+  },
+  "282_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/282_real.csv.gz",
+   "box_vessels": 1147,
+   "rows": 5735,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2025-05-15",
+   "code_version": "dbfffae0"
+  },
+  "29_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/29_real.csv.gz",
+   "box_vessels": 157,
+   "rows": 785,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-02-12",
+   "code_version": "dbfffae0"
+  },
+  "47_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/47_real.csv.gz",
+   "box_vessels": 314,
+   "rows": 1570,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2025-05-09",
+   "code_version": "dbfffae0"
+  },
+  "48_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/48_real.csv.gz",
+   "box_vessels": 186,
+   "rows": 930,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-07-30",
+   "code_version": "dbfffae0"
+  },
+  "4_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/4_real.csv.gz",
+   "box_vessels": 1068,
+   "rows": 5340,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2022-03-25",
+   "code_version": "dbfffae0"
+  },
+  "53_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/53_real.csv.gz",
+   "box_vessels": 38,
+   "rows": 190,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2025-04-11",
+   "code_version": "dbfffae0"
+  },
+  "55_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/55_real.csv.gz",
+   "box_vessels": 79,
+   "rows": 395,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2016-02-03",
+   "code_version": "dbfffae0"
+  },
+  "59_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/59_real.csv.gz",
+   "box_vessels": 312,
+   "rows": 1560,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-02-15",
+   "code_version": "dbfffae0"
+  },
+  "60_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/60_real.csv.gz",
+   "box_vessels": 287,
+   "rows": 1435,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-12-24",
+   "code_version": "dbfffae0"
+  },
+  "61_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/61_real.csv.gz",
+   "box_vessels": 116,
+   "rows": 580,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2019-10-20",
+   "code_version": "dbfffae0"
+  },
+  "62_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/62_real.csv.gz",
+   "box_vessels": 358,
+   "rows": 1790,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2025-01-03",
+   "code_version": "dbfffae0"
+  },
+  "64_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/64_real.csv.gz",
+   "box_vessels": 600,
+   "rows": 3000,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2024-11-17",
+   "code_version": "dbfffae0"
+  },
+  "67_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/67_real.csv.gz",
+   "box_vessels": 983,
+   "rows": 4915,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-07-17",
+   "code_version": "dbfffae0"
+  },
+  "73_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/73_real.csv.gz",
+   "box_vessels": 1270,
+   "rows": 6350,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2025-10-03",
+   "code_version": "dbfffae0"
+  },
+  "74_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/74_real.csv.gz",
+   "box_vessels": 104,
+   "rows": 520,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2015-08-12",
+   "code_version": "dbfffae0"
+  },
+  "75_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/75_real.csv.gz",
+   "box_vessels": 1215,
+   "rows": 6075,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2020-07-03",
+   "code_version": "dbfffae0"
+  },
+  "76_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/76_real.csv.gz",
+   "box_vessels": 365,
+   "rows": 1825,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2017-11-10",
+   "code_version": "dbfffae0"
+  },
+  "77_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/77_real.csv.gz",
+   "box_vessels": 235,
+   "rows": 1175,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2022-11-15",
+   "code_version": "dbfffae0"
+  },
+  "78_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/78_real.csv.gz",
+   "box_vessels": 328,
+   "rows": 1640,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2016-11-18",
+   "code_version": "dbfffae0"
+  },
+  "80_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/80_real.csv.gz",
+   "box_vessels": 737,
+   "rows": 3685,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2018-10-14",
+   "code_version": "dbfffae0"
+  },
+  "86_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/86_real.csv.gz",
+   "box_vessels": 1210,
+   "rows": 6050,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2025-02-19",
+   "code_version": "dbfffae0"
+  },
+  "90_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/90_real.csv.gz",
+   "box_vessels": 1298,
+   "rows": 6490,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2025-02-14",
+   "code_version": "dbfffae0"
+  },
+  "96_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/96_real.csv.gz",
+   "box_vessels": 1394,
+   "rows": 6970,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2025-04-09",
+   "code_version": "dbfffae0"
+  },
+  "99_real": {
+   "file": "/home/claude/wake/data/stage_b3/slices/windows/99_real.csv.gz",
+   "box_vessels": 1764,
+   "rows": 8820,
+   "centre_source": "incident_main_window",
+   "fleet_day": "2015-06-09",
+   "code_version": "dbfffae0"
+  }
+ },
+ "impossible": {}
+}
