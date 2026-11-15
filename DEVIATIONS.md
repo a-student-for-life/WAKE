@@ -177,3 +177,19 @@ exploratory and descriptive, labelled as such in the paper and not used by the r
 6. **Human second rater** (in progress): 100 of the 410 reviewed cases
    (`stage_a/second_rater_sample.csv`) on a blind page (`review_page/build_second_rater.py`);
    agreement computed by `gap_checks/second_rater_agreement.py` once all answers are in.
+
+## 11. Follow-up tests added for novelty, 15 Nov 2026
+
+Added after all results were known, at Janice's request ("go ahead and try them").
+
+1. **Addendum 2 (prior24)**: `ANALYSIS_PLAN_ADDENDUM_2.md`, drafted 3 Nov 2026 and approved 15 Nov
+   2026, committed (59bbbaa) before any code for it was written. Code in `stage_b2/`. The
+   GeoTrackNet secondary test is not run (environment not available in this container).
+2. **NTSB-timed incidents**: the 197 matched events searched in the NTSB Safer Seas Digests
+   2015-2025 and the marine accident reports they cite; 16 events found with a stated accident
+   time (`data/gap_checks/ntsb_times.csv`, with report numbers). `gap_checks/ntsb_time.py`
+   compares WAKE's T with the NTSB time and rebuilds the windows at the NTSB time (descriptive,
+   fewer than 40 events as FOLLOWUP_PLAN_DRAFT.md section 2 foresaw).
+3. **External check on HawaiiCoast_GT**: plan `external/HAWAII_PLAN.md`, committed (90a9a23)
+   before any Hawaii score was computed; code `external/hawaii.py`; results in
+   `results/external/`. The rebuilt day files are not kept (re-created from the Zenodo record).
