@@ -9,9 +9,11 @@ authors:
     affiliation: "Department of Computer Engineering, Don Bosco Institute of Technology, Mumbai, India"
   - family-names: Miranda
     given-names: Jordan
+    orcid: "https://orcid.org/0009-0004-4572-2434"
     affiliation: "Department of Computer Engineering, Don Bosco Institute of Technology, Mumbai, India"
   - family-names: Tripathy
-    given-names: Amiya
+    given-names: Amiya Kumar
+    orcid: "https://orcid.org/0000-0002-0688-4092"
     affiliation: "Department of Computer Engineering, Don Bosco Institute of Technology, Mumbai, India"
 version: "1.0.0"
 date-released: "2026-11-09"
