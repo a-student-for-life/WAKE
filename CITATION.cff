@@ -15,8 +15,8 @@ authors:
     given-names: Amiya Kumar
     orcid: "https://orcid.org/0000-0002-0688-4092"
     affiliation: "Department of Computer Engineering, Don Bosco Institute of Technology, Mumbai, India"
-version: "1.0.0"
-date-released: "2026-11-09"
+version: "1.1.0"
+date-released: "2026-11-22"
 repository-code: "https://github.com/a-student-for-life/WAKE"
 license:
   - MIT
